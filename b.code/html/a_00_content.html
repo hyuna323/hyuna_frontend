@@ -1,32 +1,52 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ko-KR">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>
-            <!-- style -->
-            <style>
-              div {width: 500px;}
-              .ex_part {background-color: #fcf;}
-              
-            </style>
-          </head>
-        <body>
-            <!-- layout -->
-            <h1>웹기초</h1>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>웹기초</title>
+    <link rel="shortcut icon" href="../favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="../favicon.png">
+    <!-- style -->
+    <style>
 
-            <div class=="ex_part">
-                <h2>기초내용</h2>
-                <ul>
-                    <li><a target="_blank" href="./a_01_basic.html">제목 및 내용</a></li>
-                    <li><a target="_blank" href="./a_02_basic_list.html">리스트</a></li>
-                </ul>
-            </div>
+     #wrap { 
+        width:800px; 
+        border-radius:8px; 
+        margin:auto; padding:20px; 
+        box-shadow:5px 5px 5px rgba(0,0,0,0.3);
+        background-color:#dcf; 
+      }
 
-        <!-- script -->
-        <script></script>    
-        </body>
+      div { width:500px; }
+      .ex_part { background-color:#fff; }
+      .other_part { border-radius:5px; }
+ 
 
-    </head>
+    </style>
+  </head>
+  <body>
+    <!-- layout -->
+    <div id="wrap">
+      <h1 class="ex_part">웹기초</h1>
+
+      <div class="ex_part other_part">
+        <h2>html 기초 내용</h2>
+        <ul>
+          <li><a target="_blank" href="./a_01_basic.html">제목 및 내용</a></li>
+          <li><a target="_blank" href="./a_02_basic_list.html">리스트</a></li>
+        </ul>
+      </div>
+
+      <div class="ex_part">
+        <h2>css 기초 내용</h2>
+        <ul>
+          <li><a target="_blank" href="./b_01_selector.html">css 선택자</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- script -->
+    <script></script>
+  </body>
 </html>
