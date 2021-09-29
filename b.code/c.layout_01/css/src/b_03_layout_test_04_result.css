@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* b_03_layout_test_02_result.css */
+
+/* reset.css */
+html, body {font-family: sans-serif;}
+h1,h2,h3,h4,h5,h6,p,pre,div,ul,ol,dl,dt,dd {
+  margin: 0; padding: 0;
+}
+
+ul,ol {list-style: none;}
+a {color: inherit; text-decoration: none;}
+
+header,nav,article,section,aside,menu,footer,figure,figcaption {display: block; margin: 0; padding: 0;}
+
+/* common.css */
+.blind {width: 0; height: 0; overflow: hidden;}
+.clearfix {height: auto;}
+.clearfix:after,
+.clearfix::after {
+  content: ""; display: block; clear: both;
+}
+
+/* design */
+#wrap{
+  width: 700px; height: auto; min-height: 500px;
+  margin: auto;
+  background-color: #ccc;
+}
+
+/* headbox */
+#headbox {
+  width: 100%; height: 80px; background-color: #5a9;
+  box-sizing: border-box; padding: 15px 20px;
+}
+h1 {
+  float: left;
+  width: 100px; height: 50px;
+  background-color: #fff;
+}
+#navigation {
+  float: right;
+  width: auto; height: 30px;
+  margin-top: 20px;
+}
+.gnb {
+  width: auto; height: 30px;
+}
+.gnb a {
+  display: inline-block;
+  width: 100px; height: 100%;
+  margin-right: 5px;
+  background-color: #fff;
+}
+.gnb a:last-of-type {margin: 0;}
+#viewbox {
+  width: 100%; height: 250px; background-color: #fc6;
+}
+#subadbox {
+  width: 100%; height: 35px; background-color: #337;
+}
+.content_wrap {width: 100%; height: 300px; background-color: #eee;}
+  .con_area {
+    float: left; width: 50%; height: 300px;
+  }
+  #contentbox {
+    box-sizing: border-box; padding: 30px; background-color: #faa;}
+    #contentbox div {
+      float: left; width: 140px; height: 120px;
+      margin-right: 10px; margin-bottom: 10px;
+      background-color: #fff;
+    }
+    #contentbox div:nth-of-type(2n){float: right; margin-right: 0;}
+    #contentbox div:nth-last-of-type(-n+2){
+      margin-bottom: 0; background-color: #fd0;
+    }
+
+  #infobox {
+    box-sizing: border-box; padding: 30px;
+    background-color: #a7a;
+  }
+    #infobox div {
+      width: 258px; height: 50px; margin-bottom: 20px;
+      background-color: #fff;
+    }
+#footbox {width: 100%; height: 80px; background-color: #f70;}
