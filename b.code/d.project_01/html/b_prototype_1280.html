@@ -25,9 +25,9 @@
 <body>
   <!-- layout -->
   <div id="wrap">
-    <header id="headbox">
+    <header id="headBox">
       <div class="head_inner">
-        <h1><img src="../img/ohoulogo.png" alt="오늘의 집 로고"><a target="_blank" href="https://ohou.se/"></a></h1>
+        <h1>오늘의 집</a></h1>
         <nav class="unb">
           <h2 class="blind">unility navigation</h2>
           <ul class="clearfix">
@@ -35,9 +35,11 @@
             <li>장바구니</li>
             <li>로그인</li>
             <li>회원가입</li>
-            <li>글쓰기</li>
+            <li><button>글쓰기</button></li>
           </ul>
         </nav>
+      </div>
+      <div class="head_inner02">
         <nav class="gnb">
           <h2 class="blind">global navigation</h2>
           <ul class="clearfix">
@@ -51,46 +53,66 @@
             <li>질문과 답변</li>
             <li>이벤트</li>
           </ul>
-        <nav id="navigation">
-          <h2 class="blind">웹페이지 네비게이션2</h2>
         </nav>
       </div>
     </header><!-- // #headBox -->
 
-    <section id="viewbox">
+    <section id="adViewBox">
       <h2 class="blind">광고영역</h2>
-      <div class="view_inner">
-        <dl>
-          <dt>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, quaerat.</dt>
-          <dd>ID:lorem</dd>
-          <dd><a href="#">보러가기</a></dd>
-        </dl>
-      </div>
+      <article class="view_outer">
+        <h3>view_outer</h3>
+        <div class="view_indicator">
+          <ul class="clearfix">
+            <li>01</li>
+            <li>02</li>
+            <li>03</li>
+            <li>04</li>
+            <li>05</li>
+            <li>06</li>
+          </ul>
+        </div>      
+      </article>
     </section> <!-- // #viewbox -->
-    <aside id="shortcut">
-      <div class="short_inner">
+    <nav id="shortcutBox">
         <h2 class="blind">shortcut</h2>
-      </div>
-    </aside>
-    <section id="communitybox">
-      <div class="commuity_inner">
-        <div class="bestpicture">
-          <h2>오늘의 인기사진</h2>
+        <div class="shortcut_outer">
+          <ul class="clearfix">
+            <li>lnb_01</li>
+            <li>lnb_02</li>
+            <li>lnb_03</li>
+            <li>lnb_04</li>
+            <li>lnb_05</li>
+            <li>lnb_06</li>
+            <li>lnb_07</li>
+            <li>lnb_08</li>
+            <li>lnb_09</li>
+            <li>lnb_10</li>
+          </ul>
         </div>
-        <div class="story">
-          <h2>오늘의 스토리</h2>
+    </nav>
+    <!-- // #shortcutBox -->
+    <main class="content_box_wrap">
+      <h2 class="blind">주요 내용</h2>
+      <article id="communityBox">
+        <div class="commuity_inner">
+          <div class="bestpicture">
+            <h2>오늘의 인기사진</h2>
+          </div>
+          <div class="story">
+            <h2>오늘의 스토리</h2>
+          </div>
+          <div class="review">
+            <h2>오늘의 시공리뷰</h2>
+          </div>
         </div>
-        <div class="review">
-          <h2>오늘의 시공리뷰</h2>
+      </article>
+      <section id="bestBox">
+        <div class="best_inner">
+          <h2>베스트 상품</h2>
         </div>
-      </div>
-    </section>
-    <section id="bestbox">
-      <div class="best_inner">
-        <h2>베스트 상품</h2>
-      </div>
-    </section>
-    <aside id="planingbox">
+      </section>
+    </main>
+    <aside id="miniAdBox">
       <div class="planing_inner">
         <div class="deal">
           <h2>오늘의 딜</h2>
@@ -100,7 +122,7 @@
         </div>
       </div>
     </aside>
-    <footer id="footbox">
+    <footer id="footBox">
       <div class="foot_inner">
         <h2><span class="blind"></span>site information</h2>
       </div>
