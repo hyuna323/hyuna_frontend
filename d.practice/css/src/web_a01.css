@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* web_a01.css */
+
+#wrap {
+  width: 1200px; height: auto;
+  margin: auto;
+}
+#headBox {
+  width: 100%; height: 100px;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  background-color: #fee;
+}
+  h1 {
+    float: left;
+    width: 200px; height: 40px;
+    background-color: #dff;
+  }
+  
+#navigation {
+  float: right;
+  width: 600px; height: 40px;
+  background-color: #ddd;
+}
+
+.gnb {width: 100%; height: 100%;}
+.gnb li {
+  float: left;
+  width: 25%; height: 100%;
+  box-sizing: border-box;
+  padding: 0 5px;
+  text-align: center;
+  background-color: #555;
+  line-height: 40px;
+}
+.gnb a {
+  display: block;
+  width: 100%; height: 100%;
+  background-color: #dff;
+}
+
+/* #headBox=================================== */
+#viewBox {
+  width: 1200px; height: 300px;
+  background-color: #eee;
+}
+
+/* #section=================================== */
+#conBox {
+  width: 1200px; height: 200px;
+}
+  .con_inner_01 {
+    float: left;
+    width: 400px; height: 200px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    background-color: #dff;
+  }
+  .tab_title_area {
+    width: 100%; height: 30px;
+    background-color: #999;
+  }
+  .tab_title_area ul {
+    width: 100%; height: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #333;
+  }
+  .tab_title_area li {
+    float: left;
+    width: 100px; height: 100%;
+    box-sizing: border-box;
+    padding: 0 5px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .tab_title_area li.action {
+    border: 1px solid #333;
+    border-bottom: 0;
+  }
+  .tab_title_area button {
+    width: 100%; height: 100%;
+  }
+  .tab_cotent_area {
+    width: 360px; height: 150px;
+  }
+  .tab_cotent_area > div.action {display: block;}
+  .tab_detail_01 {
+    display: none;
+    width: 100%; height: 100%;
+    background-color: #eef;
+  }
+  .tab_detail_02 {
+    display: none;
+    width: 100%; height: 100%;
+    background-color: #79f;
+  }
+
+  .con_inner_02 {
+    float: left;
+    width: 400px; height: 200px;
+    background-color: #dcf;
+  }
+  .con_inner_03 {
+    float: right;
+    width: 400px; height: 200px;
+    box-sizing: border-box;
+    background-color: #acf;
+    padding: 20px;
+  }
+  .con_inner_03 .btn {
+    width: 100%; height: 30px;
+    background-color: #fee;
+  }
+  .con_inner_03 button {
+    width: 100%; height: 100%;
+    background-color: #38d;
+  }
+
+  /* #footBox================================= */
+  #footBox {
+    width: 1200px; height: 100px;
+    box-sizing: border-box;
+    padding: 25px 20px;
+    background-color: #aaa;
+  }
+    #footBox > h2 {
+      float: left;
+      margin-right: 100px;
+      width: 200px; height: 40px;
+      background-color: #fee;
+    }
+    address {
+      float: left;
+      width: 550px; height: 40px;
+      margin-left:100px;
+      background-color: #fee;
+    }
+    .social {
+      float: right;
+      width: 250px; height: 40px;
+      background-color: #fad;
+    }
