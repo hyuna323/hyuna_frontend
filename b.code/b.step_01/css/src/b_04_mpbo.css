@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* b_04_mpbo.css */
+
+#wrap {
+  width: 900px; height:auto;
+  margin: auto; padding-bottom:500px;
+  background-color: #eee;
+}
+
+.ex_part {
+  margin-bottom: 50px;
+  background-color: #ddd;
+}
+
+.ex {
+  width: 95%; height: auto;
+  border-width: 1px; border-style: solid;
+  margin: auto;
+  border-color: #777;
+}
+
+.ex > div {
+  width: 150px; height: 150px;
+  border-radius: 5px;
+  background-color: #07a;
+  color: #fff; font-weight: 900;
+  background-image: linear-gradient(45deg, #07a, #5a7);
+}
+
+/* ------------------------------------------------------ */
+/* margin: 외북여백 - 요소와 요소사이의 공백 */
+.m_base {
+  border: 0;
+  background-color: #fda; 
+}
+.m_base:after {
+  content: ""; display: block; clear: both;}
+
+.m_base > div {
+  float: left;
+}
+.margin_01 {
+  margin-left: 50px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-right: 100px;
+}
+
+.margin_02 {
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-bottom: 100px;
+}
+
+/* -------------------------------------------------------- */
+.m_base2 {margin-top: 50px;}
+.m_base:after {
+  content: ""; display: block; clear: both;
+}
+.m_base2 > div {float: left;}
+
+.m_01 {margin: 50px;}
+.m_02 {margin: 10px 30px;}
+.m_03 {margin: 10px 50px 30px;}
+.m_04 {margin: 10px 50px 40px 70px;}
+.m_07 {margin-top: -400px;}
+
+.m_base2 {overflow: hidden;}
+
+/* ------------------------------------ */
+
+.float_area {
+  list-style: none;
+  width: 500px;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #333;
+  background-color: #fff;}
+  
+  .float_area:after {
+    content: ""; display: block;
+    width: 100px; height: 100px;
+    background-color: #fff;
+    clear: both;
+  }
+
+  .float_area > li {
+    float: left;
+    width: 100px; height: 100px;
+    background-image: linear-gradient(60deg, #adf, #f7a);
+  }
+
+  .p_base {
+    padding: 0; list-style: none;
+    width: 600px; height: auto;
+  }
+  .p.base::after {
+    content: ""; display: block; clear: both;
+  }
+
+  .p_base > li {
+    float: left;
+    width: 100px; height: 100px;
+    background-color: #dfa;
+    background-image: linear-gradient(45deg, #dfa, #7c8);
+  }
