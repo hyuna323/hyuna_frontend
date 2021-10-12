@@ -35,12 +35,14 @@
   a:hover / a:focus {display:block;}
 
 <br />
+
 ---
 ## 다음시간 Q&A❓
 - [ ] z-index
 - [ ] 기능사 A-01번에 .modal.action {dispaly:block;} 주셨는데 여기서 action이 뭔지?
 
 <br />
+
 ----
 ## 더 공부해야 할 사항
 - [ ] nav 구분자
