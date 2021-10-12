@@ -1,6 +1,6 @@
 # DATE 2021.10.12
 ## ✏️TIL
-  > position
+  > ## <b>position</b>
 
   - ### <b>fixed</b> 
     - position에 fixed를 주면 기준이 부모가 아닌 브라우징 크기 기준이 됨
@@ -43,7 +43,7 @@
 <br />
 ----
 ## 더 공부해야 할 사항
-[ ] nav 구분자
-[ ] prototype 피드백 바탕으로 수정
+- [ ] nav 구분자
+- [ ] prototype 피드백 바탕으로 수정
 
 
