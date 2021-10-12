@@ -23,13 +23,13 @@
   <br />
 ---
 ## 다음시간 Q&A❓
-- [ ] box-sizing
+- [o] box-sizing
 - [ ] z-index
 - [ ] 기능사 A-01번에 .modal.action {dispaly:block;} 주셨는데 여기서 action이 뭔지??
-- [ ] hover와 focus가 내가 이해한 내용이 맞는지 확인!
+- [o] hover와 focus가 내가 이해한 내용이 맞는지 확인!
 
 <br />
 
 ---
 ## 📝더 공부해야 할 사항
-[ ] position을 아직 잘 모르겠음
+[o] position을 아직 잘 모르겠음
