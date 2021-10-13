@@ -39,6 +39,28 @@
       background-color: #dff;
     }
 
+    .nav_title { width: 100%; height: 30px; }
+    .nav_title a { display: block;
+    width: 100%; height: 100%;
+    text-align: center; line-height: 30px;}
+    
+    .nav_list {
+      display: none;
+      width: 100%; height: auto;
+      background-color: #dff;
+    }
+    .nav_list li {
+      width: 100%; height: 40px; margin-top: 10px;
+    }
+    .nav_list a {
+      display: block; width: 100%; height: 100%;
+      text-align: center; line-height: 40px;
+    }
+
+    .nav_title:hover {background-color: #c4c4c4; color: #F97;}
+    .gnb > li:hover .nav_list{display: block;}
+
+
 /* #headBox=================================== */
 #viewBox {
   width: 1200px; height: 300px;
