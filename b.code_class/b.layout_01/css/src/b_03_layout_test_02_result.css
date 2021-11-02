@@ -1,15 +1,15 @@
 @charset "UTF-8";
 /* b_03_layout_test_02_result.css */
-/* �Ӽ��ۼ����: 
-  ������{
-    ��������/���� -> display, overflow
-    ��ġ -> position
-    ũ�� -> width -> height 
-    ���� -> margin -> box-sizing -> padding -> border
-    ��ü -> font-weight, font-style, font-size, line-height, family..... 
-    ���ó�� -> image, repeat, position, size, clip ...
-    ��Ÿȿ�� -> shadow, ...
-    �ִϸ��̼� 
+/* 속성작성요령: 
+  선택자{
+    존재유무/형태 -> display, overflow
+    위치 -> position
+    크기 -> width -> height 
+    공간 -> margin -> box-sizing -> padding -> border
+    서체 -> font-weight, font-style, font-size, line-height, family..... 
+    배경처리 -> image, repeat, position, size, clip ...
+    기타효과 -> shadow, ...
+    애니메이션 
   }
 */
 /* react.css ============================================*/

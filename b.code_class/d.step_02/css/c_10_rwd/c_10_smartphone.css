@@ -1,0 +1,16 @@
+/* c_10_smartphone.css */
+
+/* (디자인기준: 320px) ~ 767px */
+@media all and (max-width:767px) {
+  
+  #wrap { width:320px; min-width: 320px; min-height:600px;}
+  /* 
+  min-width:500px;등등을 줄 수 없음 
+  why? 애플기기가 320px이 있기 때문에 최소 320px은 줘야 함
+  */
+  #headBox{ height:100px; }
+  #viewBox{ width:154px; height:400px; background-color: #0af;}
+  #conBox { display:none; }
+  #footBox{ width:320px; height:140px; background-color: #afa;}
+
+} /* (max-width:767px) =================================== */

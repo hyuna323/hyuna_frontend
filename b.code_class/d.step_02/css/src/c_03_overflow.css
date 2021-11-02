@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/*  */
+
+#wrap {
+  width: 600px; height: auto;
+  background-color: #ddd;
+  margin: auto;
+}
+
+.part {
+  width: 90%; height: auto;
+  padding: 1rem;
+  margin: auto; border: 1px solid #555;
+}
+
+.over_01 {
+  width: 100%; height: 200px;
+  background-color: #caa;
+  padding: 0.5rem;
+  overflow-x: hidden;
+  overflow-y: visible;
+  /* overflow:hidden;은 숨겨라
+    overflow-X,Y 따로 사용 가능 
+    scoll은 스크롤 나옴
+    visible은 넘치는 것을 처리
+    auto는 스크롤이 똑같이 나오지만 html의 dl에 hidden을 주면 스크롤이 사라지지만 scoll을 주면 무조건 스크롤바가 생김
+    auto는 내용이 넘칠때만 스크롤이 나옴 */
+  /* overflow: visible, auto, hidden, scroll */
+}
+
+h3 {
+  height: 50px; margin-bottom: 0.3rem;
+}
+p {
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  background-color: #dff;
+}
+
+dl {
+  width: 100%; height: auto;
+  background-color: #fa0;
+}
+
+dt {
+  background-color: #0aa; color: #fff;
+}
+
+dd {
+  background-color: #fff;
+}
+li {
+  border-bottom: 1px solid #000;
+  margin-bottom: 1rem;
+}
+
+.over_02 {
+  width: 100%; height: 200px;
+  margin-top: 4rem;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  background-color: #5df;
+  overflow: hidden;;
+}
+
+.con_wrap {
+  width: 100%; height: 100%;
+  padding-right: 1.2rem;
+  /*
+  스크롤바 감추기
+  padding-right를 줘서 스크롤을 숨킨 뒤 border를 지워주기
+  부모와 자식 모두에게 overflow:hidden을 줘야 완전히 감춰줌 */
+  box-sizing: content-box;
+  border: 2px solid #f06;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

@@ -1,0 +1,9 @@
+/* c_10_base */
+
+#wrap {
+  width: 960px; height:auto; min-height:500px; background-color: #ddd;
+}
+#headBox { width: 100%; background-color: #ccc;
+} /* height: 80px;를 적어주어 묶어 줄 수 있음 */
+#viewBox { margin: auto; }
+#footBox { width: 100%;}

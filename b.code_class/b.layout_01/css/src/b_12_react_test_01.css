@@ -1,0 +1,23 @@
+#wrap {
+  width: 960px; height: auto; min-height: 1300px; background-color: #ddd;
+}
+#headBox {
+  width: 100%; background-color: #cfa;
+}
+#viewBox {
+  width: 100%; background-color: #f7a;
+}
+#conBox {
+  float: left; width: 100%;
+}
+#footBox {
+  width: 100%; height: 100px;
+}
+
+/* 320px ~ 480px */
+@media all and (max-width:480px) {
+  #wrap {width: 320px; min-width: 320px; min-height: 1200px;}
+  #headBox {height: 100px;}
+  #viewBox { height: 400px;}
+  #conBox { height: 400px;}
+}
