@@ -29,10 +29,10 @@
   - document.write (''); = 브라우저에 글씨를 입력하여 결과를 확인하는 기능
   - alert (''); = 메세지 결과를 확인하는 기능
   - prompt ('누구신가요?'); <br />
-   ➡️ <img src="./img/javascript_prompt.png" width="150px">
+   ➡️ <img src="./img/javascript_prompt.png" width="300px">
   - var who = prompt ('누구신가요?'); <br />
   alert(who + '님 어서오세요!!'); <br />
-  ➡️ <img src="./img/javascript_alert.png" width="150px"> <br />
+  ➡️ <img src="./img/javascript_alert.png" width="300px"> <br />
 
 ✋🏻 who는 변수
 
@@ -45,7 +45,7 @@
   - console.error(''); = 개발시 또는 사용시 문제가 되는 부분을 강제로 에러표시하여 처리하는 기능
   - console.clear(); = 콘솔 내용 삭제 <br />
   전체 결과
-  <img src="./img/javascript_console.png" width="300px">
+  <img src="./img/javascript_console.png" width="400px">
 
 📌 <b>정리</b>
   - script는 `</body>` 바로 전에 src속성으로 불러오기
