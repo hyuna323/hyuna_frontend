@@ -150,6 +150,7 @@ obj2[2] = '텀블러';
 console.log( obj2 );
 
 console.clear();
+
 // ------------------------------------------------------------------------------------------
 // function
 var fn = function(a){
@@ -225,3 +226,13 @@ console.log( joker ); // '호아킨 피닉스'
 
 // (function(){})() // 즉시실행함수: 익명함수의 기다림없이 바로 실행
 // (function(){}()) // 즉시실행함수: 익명함수의 기다림없이 바로 실행
+
+obj.apple = 'iphone';
+obj.samsung = 'galaxy';
+obj.google = 'pixel';
+obj['농심'] = '너구리';
+obj['오뚜기'] = '진라면';
+obj['한국 야쿠르트'] = '건국우유';
+
+console.log( obj );
+console.log( obj.google );
