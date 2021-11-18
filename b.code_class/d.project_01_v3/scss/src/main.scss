@@ -1,0 +1,109 @@
+/* main.css */
+// main.scss
+
+// $yellow: #fa0;
+
+// $blue: (#00f, #0af, #0df, #7af, #adf); //list
+// // list를 사용하는 방법 1 - nth(리스트명, 몇번째인지 -> 1부터 시작) 함수 사용 
+// // 식별자 {
+// //   속성명: nth(리스트명, 순서 -> 1부터 ~번째 사이에서);
+// // }
+
+// $psuedoCode: (
+//   "hover": #87f,
+//   "focus": #af3,
+//   "active": #fda,
+//   "selected": #dfd
+// ); //dic(map)
+
+// #wrap{
+//   width:100%; height:auto;
+//   background-color: nth($blue,5);
+// }
+// #headBox{
+//   width:100%; height:100px;
+//   background-color: nth($blue,2);
+// }
+// #viewBox{
+//   width:100%; height:400px;
+//   background-color: nth($blue,3);
+// }
+// #contentBox{
+//   width:100%; height:200px;
+//   background-color: nth($blue,4);
+// }
+// #asideBox{
+//   width:100%; height:100px;
+//   background-color: nth($blue,5);
+// }
+// #footBox{
+//   width: 100%; height: 100px;
+//   background-color: map-get($map:$psuedoCode , $key:active);
+//   &:hover{
+//     background-color: map-get($psuedoCode, hover);
+//     // $psuedoCode: :, ::처럼 있는 것들을 대신하는 것
+//     &:active{
+//       background-color: map-get($psuedoCode, active);
+//     }
+//   }
+// }
+// $coffee: ("esspress","latte","choco","vanila","other");
+// $blue: (#00f, #0af, #0df, #7af, #adf);
+
+// .coffee_#{nth($coffee,1)} { width:100%; }
+// .coffee_#{2} {width: 100%;}    length($coffee)
+
+// 변수값이 들어올 수 있게 해주는 아이가 보관문
+// @for $key from 1 through 5{
+//   // 1에서 5까지의 값을 @key에 넣어줘서 밑에 nth($blue, $key)에 $key를 넣어준 것
+//   .area_#{ nth($coffee, $key) } {
+//     width:$key * 10%; height:100%;
+//     background-color: nth($blue, $key);
+//     margin:auto; padding:0; box-sizing:border-box;
+//   }
+// }
+// ------------------------------------------------
+
+@import "../common/reset","../common/mixin";
+
+
+// #{변수명/숫자} 인터폴레이션기법으로 내용을 담을 수 있게 처리하는 
+
+// for(변수명 in 배열){}
+// @for $i from 시작숫자 through 마지막숫자 {}
+
+// 숫자 1부터 5까지 5번 반복수행하면서 해당 숫자는 매개변수 $key에 임의 할당
+// .area_esspress{}  .area_latte{}  .area_choco{} ...의 형태로 .area_ 의 글자에
+// $coffee변수 내부에있는 이름을 각각 할당하기위해 보간법인 #{} 를 사용.
+// list형식을 사용하기 위해서는 nth(변수명, 순번)
+
+
+// .coffee_#{nth($coffee,1)} { width:100%; }
+// .coffee_#{2} {width: 100%;}    length($coffee)
+
+
+$coffee: ("espresso","latte","choco","vanilla","other");
+$blue: (#00f, #0af, #0df, #7af, #adf);
+
+@for $key from 1 through 5{
+  .li_#{ nth($coffee, $key) } {
+    width:$key * 10%; height:100%;
+    background-color: nth($blue, $key);
+    margin:auto; padding:0; box-sizing:border-box;
+  }
+}
+
+$pink : #fad;
+
+.mixin_test{
+  @include clearfix();
+  & > li {
+    float: left;
+    width: 300px; height: 50px;
+    margin-bottom: 20px;
+    background-color: $pink;
+    @at-root .blind{
+      @include full();
+    }
+  }
+}

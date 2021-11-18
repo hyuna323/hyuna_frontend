@@ -1,0 +1,80 @@
+/* main.css */
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.li_espresso {
+  width: 10%;
+  height: 100%;
+  background-color: #00f;
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.li_latte {
+  width: 20%;
+  height: 100%;
+  background-color: #0af;
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.li_choco {
+  width: 30%;
+  height: 100%;
+  background-color: #0df;
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.li_vanilla {
+  width: 40%;
+  height: 100%;
+  background-color: #7af;
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.li_other {
+  width: 50%;
+  height: 100%;
+  background-color: #adf;
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mixin_test:after, .mixin_test::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.mixin_test > li {
+  float: left;
+  width: 300px;
+  height: 50px;
+  margin-bottom: 20px;
+  background-color: #fad;
+}
+.mixin_test > li > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.mixin_test > li > a > span {
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  z-index: -1;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=main.css.map */
