@@ -1,40 +1,5 @@
+@use "sass:math";
 
-// @mixin blind(){
-//   display:block; width: 0; height: 0;
-//   position:absolute; z-index:-1; clip:rect(0 0 0 0); overflow: hidden;
-// }// @mixin blind();
-
-// @mixin bar(){
-//   &:after, &::after{
-//     content:""; display: block; clear: both;
-//   }
-// }// @mixin bar();
-
-// @mixin full(){
-//   display: block; width: 100%; height: 100%;
-//   & > span{ @include blind(); }
-// }// @mixin full();
-
-// @mixin MakeCard(){
-//   li{
-//     float:left; width:100%; height:200px;
-//     margin:10px; background-color: $yellow;
-//     > a { 
-//       @include full; 
-//       @content;
-//     }
-//   }
-// }// @mixin MakeCard();
-
-// .nav_area {
-//   width: 960px; height:auto;
-//   li {
-//     float:left; width: auto; height:30px;
-//   }
-//   a { @include full; background-color: $yellow; }
-//   // span { @include blind(); }
-//   @include bar();
-// }// .nav_area
 @mixin blind(){
   display: block; width: 0; height: 0;
   position: absolute; z-index: -1; clip: rect(0 0 0 0); 
@@ -51,3 +16,19 @@
   display: block; width: 100%; height: 100%;
   & > span{ @include blind(); }
 }// @mixin full();
+
+
+
+$base : 16;
+@mixin unit($attr, $unit){
+  #{$attr} : $unit + px;
+  // 변수 안에 값이 들어가는 것
+  // unit은 숫자가 들어가는 것
+  #{$attr} : math.div($unit,$base)+rem;
+  // div: 디바이스
+  // drr: 나누다
+  // #{}: 문자보관
+  // @if vW{}
+}
+
+p{@include unit(width, 30);}

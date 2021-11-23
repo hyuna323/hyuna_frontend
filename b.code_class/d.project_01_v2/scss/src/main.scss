@@ -1,0 +1,36 @@
+// main.scss
+/* main.css */
+
+@import "../common/variable";
+@import "../common/mixin";
+// --------------------------------
+  $headH:0;
+  $headH2:0;
+// --------------------------------
+
+#wrap {
+  width:100%;  
+  height:auto; min-height:800px;
+  background-color: #ddd;
+  @include mobile{ min-width:320px;  background-color: #fda; }
+  @include tablet{ background-color: #adf;  }
+  @include laptop{ background-color: #fdf;  }
+  @include pc{ background-color: #dfd; }
+}// #wrap
+
+// -------------------------------------------
+  @import "../page/base/headBox";
+
+  @import "../page/main/slideBox";
+  @import "../page/main/newBox";
+  @import "../page/main/commercialBox";
+  @import "../page/main/bestBox";
+  @import "../page/main/galleryBox";
+  @import "../page/main/sponsorBox";
+
+  @import "../page/base/footBox";
+// -------------------------------------------
+// 반응형 작업이 개념정리방법
+// 모바일 따로, 고정 width:calc(100% - 20px); min-width:320px;
+// 태블릿 따로. width:600px
+// 노트북 따로 ...
