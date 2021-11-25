@@ -13,6 +13,22 @@ var UserSetting = function(){};
 
 // 이렇게 하면 번거로우니
 
+// step - 1: 변수를 선언한다 + 함수를 생성한다.(이때, 생성자 함수를 생성하는 것이므로 PascalCase)
+// step - 2:this를 왜 사용할까요?
+// 객체를 생성할 생성자 함수로 만들어질 객체가 정해지지 않았음에도 그 객체를 위해 this라는 키워드로 여러가지 설정을 하고싶어서 사용
+
+var person2={}; //1. 객체리터럴
+// 생성자 함수를 사용하는 이유 -> 재사용, 불필요한 중복 코드를 없애기 위해 -> 유지보수에 중요!
+// + 기타 다른 방식으로도 객체를 생성 할 수 있다.
+// 생성자함수에는 this를 써야 함 문법이 그렇게 정해진 것
+
+// 메서드:프로포티 값으로 함수가 있으면 프로포티라고 불르지 않고 메소드라고 부름
+// 메서드는 ()와 함께 나옴 
+// 일반 프로포티는 Object.create;이런 식으로 나옴
+var testObj=Object.create(null)
+
+// 일반함수에서 this는 window를 나타냄
+
 var UserSetting = function(userName, userAge, userEmail){
   // this: 생성자 함수로 만들어질 아직은 안만들어졌지만 미래에 만들어질 모든 객체의 자기 자신을 가리킴
   this.name=userName;
@@ -38,6 +54,7 @@ console.log( user2.email );
 UserSetting.prototype.group = '가족 명단 체크';
 // 별도에 제목은 완전히 따로 작성해야 함
 // prototype: 생성자(꼭 생성자일 필요는 없음)에 담길 내용에 대한 별도의 처리되는 기본 객체
+// prototype: 유전자 (상속) 생성자 함수보다 상위의 개념 //21.11.23
 
 console.log( user1 );
 
@@ -116,6 +133,8 @@ listArr.forEach(function(data, index){
 
 // -----------------------------------------------------
 // 배열 형식을 가진 기능이 실제 배열이 아닌 형태는 유사배열로 불리고
+// 유사배열 형식은 var arr = [];처럼 배열과 똑같이 써서 유사배열이라고 한다.
+// 유사배열 객체는 length를 가진다
 // 이는 배열의 고유 가능을 처리하지 못한다.(배열 메소드 기능)
 // 그렇기에 강제로 배열로 처리하기 위해서는 배열의 고유기능을 처리해주어야 하는데
 // 이때 필요한 형식이 prototype이다.(고유기능을 이용하요 강제 수행)
@@ -256,6 +275,15 @@ br1.set.call(this, 's21', 2021); // call은 value담기
 br1.set.apply(this, ['s21', 2021]); // apply는 array담기
 var reset = br1.set.bind(this, 's21', 2021) // bind
 reset();
+// slice 사용방법은 복사하고 싶은 배열 이름.slice(시작점인덱스,끝점인덱스+1);
+// 복사하고 싶은 배열겡서 원하는 시작점부터 끝점 인덱스+1 바로 직전까지 복사를 한 새로운 배열이 생성됨
+var arguments=[1,2,3];
+var arr = arguments.slice(0,3);
+var arr2=arguments.slice(1,2);
+
+// Array.prototype.slice();에서 메서드 apply/bind/call 이 뒤에 하나씩 더 추가된 문법 형태
+
+
 
 
 // ----------------------------------------------------------
