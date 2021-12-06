@@ -46,11 +46,26 @@ $imgPath:'../img/';
   }
 }
 
+// blind
+@mixin blind(){
+  display: block; width: 0; height: 0;
+  position: absolute; z-index:-1;
+  clip:rect(0,0,0,0);
+  overflow: hidden;
+}
+
+
+
 // unit
 $baseSize: 16;
 @mixin remUnit($name, $unit){
   #{$name}: #{$unit} + px;
   #{$name}: math.div($unit , $baseSize) + rem;
+}
+
+$deviceBase : 400;
+@function makeVw($size, $deviceWidth:$deviceBase){
+    @return ( math.div($size,$deviceWidth) * 100 ) + vw;
 }
 
 // @media query --------------------------------------

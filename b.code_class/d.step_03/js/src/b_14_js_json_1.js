@@ -63,6 +63,7 @@ var UlList = document.querySelector('.list');
 /*
   var makeLi = document.createElement('li');
   // creat를 썼기때문에 생성은 됐으나 삽입이 된건 아님
+  // 자바스크립트는 한번 만들고 처리했으면 다시 만들어야 함 수동적으로 가공해줘야 함
   var title = dataList[0].title;
   var link =  dataList[0].link;
   var makeA = '<a class="link"></a>';
@@ -75,10 +76,15 @@ var UlList = document.querySelector('.list');
   // append는 요소로 만들어진 createElement만 들어갈 수 있음
 */
 
-// step2 : li 요소를 ul에 각각 여러개 삽입 // for(){}
+// step2 - for문 : li 요소를 ul에 각각 여러개 삽입 // for(){}, forEach
+// for문과 forEach의 근거는 var originData의 배열을 반복
+// for문과 forEach문을 사용해도 관계는 없다
+// for문은 문법적인 표현 forEach는 메서드
+// 
 /*
 var i=0; 
 var len = dataList.length; // 10
+length는 갯수만큼 (n번째부터 n번째까지)
 var makeLi, makeA, findA, title, link;
 
 for(; i<len; i+=1){
@@ -91,9 +97,15 @@ for(; i<len; i+=1){
   link =  dataList[i].link;
   findA.href = link;
   findA.innerText = title;
-  UlList.append(makeLi); // UlList.내부의뒤에삽입(생성된li)
+  // 여기서 title과 link는 ar originData에서의 배열안에 프로퍼티에서 가져온 것 거기에 써 있는 대로 쓰면 됨
+  UlList.append(makeLi); // append=UlList.내부의뒤에삽입(생성된li)
+  // makeLi = document.createElement('li');
+  // lList.append(makeLi); // 위에 것과 같이 있으면 생성한 것을 집어넣겠다는 의미
+  // for문 안에 makeLi를 넣으면 안된다 why? 이미 존재하기 때문에 var는 for문 밖에 따로 선언해주고 for문 안엔 var를 지워야 함
 }
 */
+
+// for문은 함수가 아니기 때문에 for문이 끝나더라도 외부에서 변수값을 체크할 수 있다
 
 
 // step3 : forEach()
@@ -110,6 +122,8 @@ dataList.forEach(function(content){
 });
 */
 // for문과 forEach의 차이는 전체를 순환한다는 의미(0~9)/각각 처리(값자체)
+// forEach는 내부에 함수가 들어있기 때문에 var로 선언을 하면 forEach가 끝났을때 var의 값은 모르는 아이임
+
 
 // --------------------------------------------
 // 함수화처리
@@ -126,6 +140,7 @@ var loopFn1 = function(content){
 };
 
 dataList.forEach( loopFn1 );
+// 에초에 함수를 바로 수행한다는 뜻을 지니고 있기때문에 ( loopFn1() )처럼 ()를 쓰지 않는다
 */
 // ---------------------------------------------
 // for문을 함수화 처리
@@ -143,6 +158,7 @@ var loopFn2 = function(i){
   UlList.append(makeLi); // UlList.내부의뒤에삽입(생성된li)
 };
 
+
 var i=0; 
 var len = dataList.length; // 10
 for(; i<len; i+=1){
@@ -155,7 +171,12 @@ for(; i<len; i+=1){
 
 (function($){
   // console.log( $.fn );
+  // 여기서 $는 제이쿼리 그 자체를 말함
+  // $=jQuery
+  // unction($) 이렇게 쓰는 경우가 더 많음
   var ul = $('.list');
+  // jQuery에서는 document.querySelector를 다 생략하고 $로 씀
+  // .list에서 .은 class라는 뜻
   // li생성/삽입 
   
   // jQuery에서는 if, for, forEach 등등 문법 그대로 활용이 가능
@@ -163,11 +184,14 @@ for(; i<len; i+=1){
   dataList.forEach(function(content, index){
     // ul.append('<li><a class="link" href="'+ content.link +'">' + content.title + '</a></li>');
     ul.append('<li><a class="link" href=""></a></li>');
+    // append는 내부에 추가하는 기능
     var list = ul.children('li').eq(index).children('a');
+    // 자식일경우 children을 씀 
+    // eq는 순서 값을 할당 하는 것(순서를 가르키는 것) 제이쿼리에서 쓰는 것
     list.text(content.title);         // 선택자.innerText = '값';
     list.attr('href', content.link);  // 선택자.setAttribute('속성명', '값');
   });
-})(jQuery);
+})(jQuery); // 위에 $에서 jQuery를 읽어줌
 
 
 // var box = document.querySelector('#box');
