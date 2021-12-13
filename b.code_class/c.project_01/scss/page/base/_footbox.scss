@@ -1,0 +1,10 @@
+// footBox
+
+#footBox {
+  height: 360px; 
+  box-sizing: border-box; padding: 5px 100px;
+  background-color: $color_backgray;
+
+  @include mobile{height: 78px;}
+  @include tablet{height:220px} 
+}
