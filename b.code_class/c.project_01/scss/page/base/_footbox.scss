@@ -6,5 +6,7 @@
   background-color: $color_backgray;
 
   @include mobile{height: 78px;}
-  @include tablet{height:220px} 
+  @include tablet{height:220px;}
+  @include laptop {height:360px;}
+  @include pc {height:430px;}
 }

@@ -344,7 +344,7 @@
           /* #footbox============================= */
           #footBox {
             height: 360px; 
-            box-sizing: border-box; padding: 5px 100px;
+            box-sizing: border-box; paddin      g: 5px 100px;
             background-color: #999;
           }
           .foot_inner {
