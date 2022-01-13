@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko-KR" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../fonts/fontAwesome/css/all.min.css">
+  <link rel="stylesheet" href="../fonts/ibm_Plex/IBMPlex.css">
+  <link rel="stylesheet" href="../css/common/reset.css">
+  <link rel="stylesheet" href="../css/common/common.css">
+  <link rel="stylesheet" href="../css/src/02_prototype_1280_loginPage.css">
+  <script src="../js/common/modernizr-custom.js"></script>
+  <title>오늘의 집_login</title>
+  <link rel="shortcut icon" href="../img/carrot.png" type="image/png">
+  <link rel="apple-touch-icon" href="../img/carrot.png">
+</head>
+<body>
+  <!-- layout -->
+  <div id="wrap">
+    <header id="headBox">
+      <div class="head_inner">
+        <h1><a href="./01_prototype_1280_main.html">오늘의 집</a></h1>
+        <nav class="unb">
+          <h2 class="blind">사용자 개인 메뉴</h2>
+          <ul class="clearfix">
+            <li><a href="#">검색</a></li>
+            <li><a href="#">장바구니</a></li>
+            <li><a href="./02_prototype_1280_loginPage.html">로그인</a></li>
+            <li><a href="#">회원가입</a></li>
+            <li><button>글쓰기</button></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="head_inner02">
+        <nav class="gnb">
+          <h2 class="blind">사용메뉴</h2>
+          <ul class="clearfix">
+            <li><a href="#">홈</a></li>
+            <li><a href="#">팔로잉</a></li>
+            <li><a href="#">사진</a></li>
+            <li><a href="#">집들이</a></li>
+            <li><a href="#">노하우</a></li>
+            <li><a href="#">전문가 집들이</a></li>
+            <li><a href="#">셀프 가이드</a></li>
+            <li><a href="#">질문과 답변</a></li>
+            <li><a href="#">이벤트</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+      <!-- // #headBox -->
+
+        <section id="loginBox">
+          <h2 class="logintxet">login</h2>
+          <div class="login_area">
+            <form action="#" method="POST">
+              <fieldset class="privite">
+                <legend class="blind">개인 로그인정보 입력창</legend>
+                <ul>
+                  <li>
+                    <button type="button" title="로그인" class="login_content">로그인</button>
+                    <button type="button" title="비회원 주문조회" class="nonmember_content">비회원 주문조회</button>
+                  </li>
+                  <li>
+                    <input type="text" id="userId" name="user__Id" value="" placeholder="이메일">
+                  </li>
+                  <li>
+                    <input type="password" id="userPw" name="user__Pw" value="" placeholder="비밀번호">
+                  </li>
+                </ul>
+              </fieldset>
+            </form>
+              <fieldset class="check">
+                <input class="blind" type="checkbox" name="login__check" id="idcheck" value="logincheck-true">
+                <label for="idcheck">
+                  <i></i><span>아이디 저장</span>
+                </label>
+                <input class="blind" type="checkbox" name="login__check" id="logincheck" value="logincheck-true">
+                <label for="logincheck">
+                  <i></i><span>자동로그인</span>
+                </label>
+              </fieldset>
+            <!-- <div class="emailBox"></div>
+            <div class="pwBox"></div> -->
+            <!-- <div class="check">아이디저장</div> -->
+            <fieldset class="login_btn">
+              <legend class="blind">로그인처리</legend>
+              <div class="login">
+                <button type="submit">로그인</button>
+              </div>
+            </fieldset>
+            <!-- // 로그인컨텐츠 -->
+
+          <div class="nonMember_area">
+            <form action="#" method="POST">
+              <fieldset class="privite">
+                <legend class="blind">개인 로그인정보 입력창</legend>
+                <ul>
+                  <li>
+                    <button type="button" title="로그인" class="login_content">로그인</button>
+                    <button type="button" title="비회원 주문조회" class="nonmember_content">비회원 주문조회</button>
+                  </li>
+                  <li>
+                    <input type="text" id="userNumber" name="user__Number" value="" placeholder="주문번호">
+                  </li>
+                  <li>
+                    <input type="text" id="userEmail" name="user__Email" value="" placeholder="이메일">
+                  </li>
+                </ul>
+              </fieldset>
+            </form>
+          
+
+            <fieldset class="login_btn">
+              <legend class="blind">확인처리</legend>
+              <div class="login">
+                <button type="submit">확인</button>
+              </div>
+            </fieldset>
+          </div>
+          <!-- // 비회원주문조회컨텐츠 -->
+          
+            <div class="etcBox">
+              <ul>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">아이디찾기</a></li>
+                <li><a href="#">비밀번호찾기</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="snsLogin_area">
+            <div class="snsLogin_content">sns 계정으로 간편로그인</div>
+            <div class="facebook"><a href="#"></a></div>
+            <div class="naver"><a href="#"></a></div>
+            <div class="kakaotalk"><a href="#"></a></div>
+          </div>
+        </section>
+        <!-- // #loginBox -->
+
+        <footer id="footBox">
+          <h2 class="blind">오늘의 집 info</h2>
+          <address>
+            <p class="blind">주소</p>
+            <p class="blind">연락처</p>
+            <p>©  bucketplace, Co., Ltd.. All Rights Reserved</p>
+          </address>
+        </footer>
+
+
+  </div>
+
+    <!-- script -->
+    <script></script>
+    
+  </body>
+  </html>

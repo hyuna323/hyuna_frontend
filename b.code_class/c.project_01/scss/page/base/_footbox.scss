@@ -3,10 +3,15 @@
 #footBox {
   height: 360px; 
   box-sizing: border-box; padding: 5px 100px;
-  background-color: $color_backgray;
-
+  background-color: $color_back_gray;
+    @at-root .foot_inner {
+      width: 1080px; height: 350px;
+      margin:auto;
+      background-color: #9cf;
+    }
   @include mobile{height: 78px;}
   @include tablet{height:220px;}
   @include laptop {height:360px;}
   @include pc {height:430px;}
+  @include pcFull{height: 430px;}
 }

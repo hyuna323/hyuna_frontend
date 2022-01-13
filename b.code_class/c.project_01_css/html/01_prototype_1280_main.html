@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<!-- main_v1.html -->
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;500;700&display=swap" rel="stylesheet"> 
+
+  <link rel="stylesheet" href="../css/common/reset.css">
+  <link rel="stylesheet" href="../css/common/common.css">
+  <link rel="stylesheet" href="../css/src/01_prototype_1280_main.css">
+
+  <script src="../js/common/modernizr-custom.js"></script>
+  
+  <title>오늘의 집_main</title>
+  <link rel="shortcut icon" href="../img/carrot.png" type="image/png">
+  <link rel="apple-touch-icon" href="../img/carrot.png">
+</head>
+<body>
+  <!-- layout -->
+  <div id="wrap">
+    <header id="headBox">
+      <div class="head_inner">
+        <h1>
+          <a href="./a_content.html" class="blind">오늘의집</a>
+          <button onclick="home()"><img src="../img/base/ohoulogo.png" alt="오늘의집로고" width= "100%" height="50px"></button>
+        </h1>
+        <nav class="unb">
+          <h2 class="blind">유틸리티네비게이션</h2>
+          <ul class="login" class="clearfix">
+            <li>검색</li>
+            <li>장바구니</li>
+            <li onclick="login()"><a href="../html/02_prototype_1280_loginPage.html">로그인</a>
+            </li>
+            <li>회원가입</li>
+            <li><button>글쓰기</button></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="head_inner02">
+        <nav class="gnb">
+          <h2 class="blind">글로벌네비게이션</h2>
+          <ul class="clearfix">
+            <li><a href="#">홈</a></li>
+            <li><a href="#">팔로잉</a></li>
+            <li><a href="#">사진</a></li>
+            <li><a href="#">집들이</a></li>
+            <li><a href="#">노하우</a></li>
+            <li><a href="#">전문가 집들이</a></li>
+            <li><a href="#">셀프 가이드</a></li>
+            <li><a href="#">질문과 답변</a></li>
+            <li><a href="#">이벤트</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header><!-- // #headBox -->
+    <section id="adViewBox" class="full">
+      <h2 class="blind">광고영역</h2>
+      <article class="view_outer">
+
+        <div class="viewport">
+          <img src="../img/picture/view01.png" style="width:100%">
+          <div class="text"> 깔끔 모던한 House </div>
+        </div>
+  
+        <div class="viewport">
+          <img src="../img/picture/view02.png" style="width:100%">
+          <div class="text"> 깔끔한 스튜디오 같은 House </div>
+        </div>
+  
+        <div class="viewport">
+          <img src="../img/picture/view03.png" style="width:100%">
+          <div class="text"> 화이트 & 그레이로 이루어진 House </div>
+        </div>
+  
+        <div class="viewport">
+          <img src="../img/picture/view04.png" style="width:100%">
+          <div class="text"> 포인트 컬러가 돋보이는 House </div>
+        </div>
+  
+        <div class="viewport">
+          <img src="../img/picture/view05.png" style="width:100%">
+          <div class="text"> 휴향지 호텔 느낌의 House </div>
+        </div>
+  
+        <div class="viewport">
+          <img src="../img/picture/view06.png" style="width:100%">
+          <div class="text"> 우드톤으로 안정적인 느낌의 House </div>
+        </div>
+  
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(0)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+    </article>
+
+
+        <!-- <h3 class="blind">추천게시글 및 광고</h3>
+        <div class="view_indicator">
+          <ul class="clearfix">
+            <li>01</li>
+            <li>02</li>
+            <li>03</li>
+            <li>04</li>
+            <li>05</li>
+            <li>06</li>
+          </ul>
+        </div>
+      </article>
+    </section> // #adviewbox -->
+  </div>
+    <nav id="shortcutBox">
+        <h2 class="blind">쇼트컷</h2>
+        <div class="shortcut_outer">
+          <div class="scimg">
+            <div class="sctext">배송</div>
+            <img src="../img/picture/shortcut01.png" style="width: 200px" height="200px">
+          </div>
+
+          <div class="scimg">
+            <div class="sctext">평수&공간별</div>
+            <img src="../img/picture/shortcut02.png" style="width: 200px" height="200px">
+          </div>
+          
+          <div class="scimg">
+            <div class="sctext">시공상담</div>
+            <img src="../img/picture/shortcut03.png" style="width: 200px" height="200px">
+          </div>
+
+          <div class="scimg">
+            <div class="sctext">Q&A</div>
+            <img src="../img/picture/shortcut04.png" style="width: 200px" height="200px">
+          </div>
+
+          <div class="scimg">
+            <div class="sctext">혼자있을때</div>
+            <img src="../img/picture/shortcut05.png" style="width: 200px" height="200px">
+          </div>
+
+          <div class="scimg">
+            <div class="sctext">가구</div>
+            <img src="../img/picture/shortcut06.png" style="width: 200px" height="200px">
+          </div>
+
+          <div class="scimg">
+            <div class="sctext">패브릭</div>
+            <img src="../img/picture/shortcut07.png" style="width: 200px" height="200px">
+          </div>
+
+          <div class="scimg">
+            <div class="sctext">조명</div>
+            <img src="../img/picture/shortcut08.png" style="width: 200px" height="200px">
+          </div>
+
+          <div class="scimg">
+            <div class="sctext">그릇</div>
+            <img src="../img/picture/shortcut09.png" style="width: 200px" height="200px">
+          </div>
+
+          <div class="scimg">
+            <div class="sctext">장식/소품</div>
+            <img src="../img/picture/shortcut10.png" style="width: 200px" height="200px">
+          </div>
+        </div>
+    </nav>
+      <!-- // #shortcutBox -->
+      <main class="content_box_wrap">
+        <h2 class="blind">주요 내용</h2>
+        <article id="communityBox">
+          <div class="commuity_inner">
+            <div class="bestpicture">
+              <h2>오늘의 인기사진
+                <div class="moretx"><button>more</button></div>
+              </h2>
+              <!-- <div class="h2title">오늘의 인기사진</div> -->
+              <div class="bestpicture1">
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/164180958739200150.jpeg?gif=1&w=640&h=640&c=c" alt="오늘의 인기사진" width="100%" height="100%">
+              </div>
+              <div class="bestpicture2">
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/164179291280787688.jpeg?gif=1&w=640&h=640&c=c" alt="오늘의 인기사진" width="100%" height="100%">
+              </div>
+              <div class="bestpicture3">
+                <img src="https://image.ohou.se/i/video-service-prd-s3-bucket-thumbnail/61dbb45526e55c13ef8584d7/61dbb45526e55c13ef8584d7.0000001.jpg?gif=1&w=640&h=640&c=c" alt="오늘의 인기사진" width="100%" height="100%">
+              </div>
+              <div class="bestpicture4">
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/164179076333675468.jpeg?gif=1&w=640&h=640&c=c" alt="오늘의 인기사진" width="100%" height="100%">
+              </div>
+            </div>
+            <div class="story">
+              <h2>오늘의 스토리
+                <div class="moretx"><button>more</button></div>
+              </h2>
+              <div class="storyimg">
+                <img src="../img/picture/storypicture_1-1.png" alt="오늘의 스토리" width="100%" height="100%">
+              </div>
+              <div class="storytext">휴식이 필요한 코지한 디자이너의 방</div>
+              <div class="storytextid">@oouhouse</div>
+              <div class="storyimg_02">
+                <img src="../img/picture/storypicture_1-2.png" alt="오늘의 스토리" width="100%" height="100%">
+              </div>
+              <div class="storytext_02">스토리텍스트</div>
+              <div class="storyimg_03">
+                <img src="../img/picture/storypicture_1-3.png" alt="오늘의 스토리" width="100%" height="100%">
+              </div>
+              <div class="storytext_03">스토리텍스트</div>
+              <div class="storyimg_04">
+                <img src="../img/picture/storypicture_1.png" alt="오늘의 스토리" width="100%" height="100%">
+              </div>
+              <div class="storytext_04">스토리텍스트</div>
+            </div>
+            <div class="review">
+              <h2>오늘의 시공리뷰
+                <div class="moretx"><button>more</button></div>
+              </h2>
+                <ul>
+                  <li>
+                    <div class="reviewimg">
+                      <img src="../img/picture/reviewpictire_1.png" alt="리뷰이미지" width="100%" height="100%">
+                    </div>
+                    <div class="reviewtext">오래된 화장실을 클래식하게 시공</div>
+                    <div class="storytextid">진인테리어</div>
+                    <div class="reviewimg_02">
+                      <img src="../img/picture/reviewpictire_2.png" alt="리뷰이미지" width="100%" height="100%">
+                    </div>
+                    <div class="reviewtext_02">스토리텍스트</div>
+                  </li>
+                </ul>
+            </div>
+          </div>
+        </article>
+        <section id="bestBox">
+            <div class="area_title">
+            <h2>베스트 상품</h2>
+            <article class="best_scroll">
+              <h3 class="blind">베스트상품메뉴</h3>
+              <div class="best_inner">
+                <ul class="clearfix">
+                  <li><button>전체</button></li>
+                  <li><button>가구</button></li>
+                  <li><button>패브릭</button></li>
+                  <li><button>조명</button></li>
+                  <li><button>가전</button></li>
+                  <li><button>주방용품</button></li>
+                  <li><button>장식/소품</button></li>
+                  <li><button>수납/정리</button></li>
+                  <li><button>생활용품</button></li>
+                  <li><button>공구/DIY</button></li>
+                  <li><button>인테리어시공</button></li>
+                </ul>
+              </div>
+              <div class="bestimg1"><button>
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/1554432441250_K6wX5dopzz.jpg?gif=1&w=640" alt="베스트상품" width="100%" height="100%">
+              </button></div>
+              <div class="bestimg2"><button>
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/162813001662993357.gif?gif=1&w=640" alt="베스트상품" width="100%" height="100%">
+              </button></div>
+              <div class="bestimg3"><button>
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/163997985235838465.jpg?gif=1&w=640" alt="베스트 상품" width="100%" height="100%">
+              </button></div>
+              <div class="besttext1">Q4 유로탑 롤팩 매트리스 2size</div>
+              <div class="besttext2">LG트롬 워시타워 3color 세탁24kg건조17kg 화이트/실버/블랙</div>
+              <div class="besttext3">[오딜/5천원쿠폰] 편안한 제주 필로우탑 본넬스프링 침대 매트리스 (싱글/슈퍼싱글/퀸/킹)</div>
+            </article>
+          </div>
+        </section>
+      </main>
+      <aside id="miniAdBox">
+        <div class="mini_inner">
+          <div class="deal">
+            <h2>오늘의 딜</h2>
+              <div class="dealimg">
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/163903725136035647.jpg?gif=1&w=1280&h=1280&c=c" alt="" width="100%" height="100%">
+              </div>
+              <div class="dealimg_02">
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/deals/164188913968041207.jpg?gif=1&w=1280&h=1280&c=c" alt="" width="100%" height="100%">
+              </div>
+              <div class="dealimg_03">
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/deals/164188913968041207.jpg?gif=1&w=1280&h=1280&c=c" alt="" width="100%" height="100%">
+              </div>
+              <!-- <div class="dealtext_01">딜 텍스트</div>
+              <div class="dealtext_02">딜 텍스트</div>
+              <div class="dealtext_03">딜 텍스트</div> -->
+          </div>
+          <div class="planing">
+            <h2>오늘의 기획전</h2>
+              <div class="planingimg">
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/exhibitions/cover_image/164153308831547514.png?gif=1&w=850&h=567&c=c" alt="" width="100%" height="100%">
+              </div>
+              <div class="planingimg_02">
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/exhibitions/cover_image/164155099059333166.png?gif=1&w=850&h=567&c=c" alt="" width="100%" height="100%">
+              </div>
+              <div class="planingimg_03">
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/exhibitions/cover_image/164147531594404790.jpg?gif=1&w=850&h=567&c=c" alt="" width="100%" height="100%">
+              </div>
+              <!-- <div class="planingtext">기획전 텍스트</div>
+              <div class="planingtext_02">기획전 텍스트</div>
+              <div class="planingtext_03">기획전 텍스트</div> -->
+          </div>
+        </div>
+      </aside>
+      <footer id="footBox">
+        <div class="foot_inner">
+          <h2>사이트정보</h2>
+          <ul>
+            <li>
+              1670-0876 <br />
+              평일 09:00 ~ 18:00 (주말 & 공휴일 제외) <br />
+              브랜드스토리   회사소개   채용정보   이용약관  개인정보처리방침   공지사항  고객센터  고객의 소리   전문가 등록   사업자 구매   회원제휴/광고 문의  입점신청 문의 <br />
+              상호명: (주)버킷플레이스  이메일: (고객문의) cs@bucketplace.net (제휴문의) contact@bucketplace.net  대표이사: 이승재  사업자등록번호: 119-86-91245  통신판매업: 신고번호제2018-서울서초-0580호 사업자정보확인 <br />
+              주소: 서울 서초구 서초대로74길 4 삼성생명서초타워 25, 27층  우리은행 채무지급보증안내: (주)버킷플레이스는 고객님이 현금결제한  금액에 대해 우리은행과 채무지급보증 계약을 체결하여 안전거래를 보장하고 있습니다. 서비스가입사실 확인 <br />
+              오늘의집은 개별 판매자가 상품을 판매하는 오픈마켓이며 (주)버킷플레이스는 통신판매중개자로 거래 당사자가 아니므로, 판매자가 등록한 상품정보 및 거래 등에 대해 일체 책임을 지지 않습니다. <br />
+              단 ㈜버킷플레이스가 판매자로 등록 판매한 상품의 경우는 판매자로서 책임을 부담합니다. <br />
+              Copyright 2014. bucketplace, Co., Ltd. All rights reserved <br />
+
+              오늘의집 서비스 운영 <br />
+              2021. 09. 08 ~ 2024. 09. 07
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <!-- script -->
+    <script src="../js/src/01_prototype_1280_main.js"></script>
+
+  </body>
+</html>

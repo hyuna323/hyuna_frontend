@@ -1,0 +1,46 @@
+// bestBox
+#bestBox {
+  height: 603px;
+  box-sizing: border-box;
+  background-color: #ffd;
+  padding: 50px 100px;
+  @at-root .area_title {
+    width: 1080px; height: 20px;
+    margin: auto;
+    text-align: center;
+  }
+  @at-root .best_inner {
+    float: left;
+    width: 1040px; height: 35px;
+    padding: 0 20px;
+    background-color: #eee;
+  }
+    @at-root ul {
+      width: 1040px; height: auto;
+      padding: 10px 0 10px 25px;
+    }
+    @at-root li {
+      float: left;
+      width: 87px;
+      text-align: center;
+    }
+  @at-root .bestimg1, .bestimg2, .bestimg3 {
+    float: left;
+    width: 300px; height: 300px;
+    margin: 30px 20px 10px 20px;
+    border-radius: 10px;
+    background-color: #aaa;
+  }
+  @at-root .besttext1, .besttext2, .besttext3 {
+    float: left;
+    width: 300px; height: 100px;
+    margin: 10px 20px 10px 20px;
+    border-radius: 10px;
+    background-color: #aaa;
+  }
+  @include mobile { min-height: 255px; }
+  @include tablet{ min-height: 388px; }
+  @include laptop{ height:602px; }
+  @include pc{ height:722px; }
+  @include pcFull{height: 722px;}
+}

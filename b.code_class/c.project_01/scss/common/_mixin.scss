@@ -20,7 +20,7 @@
 }
 
 // image
-$imgPath:'../img/';
+$imgPath:'../img';
 
 @mixin img($file, $repeat:no-repeat, $position:50% 50%, $size:initial){
   background: {
@@ -58,7 +58,7 @@ $mobile : 320px;
 $tablet : 600px;
 $laptop : 1024px;
 $pc:1440px;
-// $pcfull : 1920px;
+$pcFull : 1920px;
 
 
 @mixin mobile(){
@@ -80,10 +80,18 @@ $pc:1440px;
 }
 
 @mixin pc(){
+  @media all and (min-width:$pc) and (max-width:#{$pcFull - 1}) {
+    @content;
+  }
+}
+
+@mixin pcFull(){
   @media all and (min-width:$pc) {
     @content;
   }
 }
+
+
 
 
 

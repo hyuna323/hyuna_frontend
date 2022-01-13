@@ -1,0 +1,31 @@
+// shortcutBox
+#shortcutBox {
+  height: 410px;
+  box-sizing: border-box;
+  padding: 30px 100px;
+  @at-root .shortcut_outer {
+    width: 1080px; height: 356px;
+    margin: auto;
+    background-color: #9cf;
+  }
+    @at-root ul {
+      width: 1080px; height: auto;
+      box-sizing: border-box;
+      margin: 0 40px;
+    }
+    @at-root li {
+      float: left;
+      width: 173px; height: 173px;
+      margin-right: 35px; margin-bottom: 10px;
+      background-color: #eee;
+    }
+    @at-root li:nth-last-of-type(-n+5){margin-bottom: 0;
+    }
+    @at-root li:nth-last-child(1){margin-bottom: 0; margin-right: 0;
+    }
+  @include mobile { min-height: 236px; }
+  @include tablet{ min-height: 408px; }
+  @include laptop{ height: 406px; }
+  @include pc{ height:490px; }
+  @include pcFull{height: 490px;}
+}

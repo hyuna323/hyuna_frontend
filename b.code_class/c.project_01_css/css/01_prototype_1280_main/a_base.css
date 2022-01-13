@@ -1,0 +1,43 @@
+/* base.css */
+
+#wrap {
+  width: 100%; height: auto; min-height: 500px;
+  background-color: #fff;
+}
+
+#wrap > div { width:100%; }
+#headBox { 
+  width:100%; height: auto; 
+  box-sizing:border-box;
+}
+#adViewBox {
+  width: 100%; height: 662px;
+  margin: auto;
+  box-sizing: border-box;
+  /* padding: 28px 100px; */
+}
+#shortcutBox {
+  width: 100%; height: 500px;
+  box-sizing: border-box;
+  /* padding: 30px 100px; */
+}
+#communityBox {
+  width: 100%; height: 685px;
+  /* padding: 65px 100px; */
+}
+#bestBox {
+  width: 100%; height: 603px;
+  box-sizing: border-box;
+  /* padding: 50px 100px; */
+}
+#miniAdBox {
+  width: 100%; height: 285px; 
+  box-sizing: border-box;
+  /* padding: 28px 100px; */
+}
+#footBox {
+  width: 100%; height: 360px; 
+  box-sizing: border-box;
+  /* padding: 5px 100px; */
+  background-color: #999;
+}

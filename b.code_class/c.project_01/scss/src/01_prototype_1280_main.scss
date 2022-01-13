@@ -1,0 +1,31 @@
+// main.scss
+/* main.css */
+
+@import "../common/variable";
+@import "../common/mixin";
+// -----------------------------
+$headH:0;
+$headH2:0;
+// -----------------------------
+
+#wrap {
+  width: 100%;
+  height: auto; min-height: 800px;
+  background-color: #eee;
+  @include mobile{ min-width:320px;}
+  @include tablet{}
+  @include laptop{}
+  @include pc{}
+}
+// #wrap
+
+@import "../page/base/headBox";
+
+@import "../page/main/adviewBox";
+@import "../page/main/bestBox";
+@import "../page/main/communityBox";
+@import "../page/main/contentBox";
+@import "../page/main/miniBox";
+@import "../page/main/shortcutBox";
+
+@import "../page/base/footBox";

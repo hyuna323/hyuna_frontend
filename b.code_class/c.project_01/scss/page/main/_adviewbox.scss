@@ -1,0 +1,36 @@
+// adviewBox
+
+#adViewBox {
+  height: 622px;
+  box-sizing: border-box;
+  padding: 28px 100px;
+  background-color: #ffe;
+  @at-root .view_outer {
+    width: 1080px; height: 622px;
+    margin: auto;
+    background-color: #9cf;
+  }
+  @at-root .view_indicator {
+    float: right;
+    margin: auto;
+    margin-top: 500px; margin-right: 30px;
+    @at-root ul {
+      width: 100%; height: auto;
+      padding: 10px 15px;
+    }
+    @at-root li {
+      float: left;
+      width: 20px;
+      margin-right: 5px;
+      background-color: #333; color: #fff;
+      border-radius: 50px;
+      text-align: center;
+    }
+    @at-root .view_indicator li:last-child{ margin-right: 0;}
+  }
+  @include mobile { min-height: 252px; }
+  @include tablet{ min-height: 516px; }
+  @include laptop{ height:624px; }
+  @include pc{ height:740px; }
+  @include pcFull{height: 740px;}
+}

@@ -1,0 +1,61 @@
+// communityBox
+#communityBox {
+  height: 685px;
+  background-color: #ffa;
+  padding: 65px 100px;
+  @at-root .commuity_inner {
+    width: 1080px; height: 570px;
+    background-color: #9cf;
+  }
+  @at-root .bestpicture {
+    float: left;
+    width: 540px; height: 570px;
+    background-color: #ffd;
+  }
+  @at-root .bestpicture1, .bestpicture2, .bestpicture3, .bestpicture4 {
+    float: left;
+    width: 245px; height: 240px;
+    margin:25px 15px 0px 10px;
+    border-radius: 10px;
+    background-color: #aaa;
+  }
+  @at-root .story {
+    float: left;
+    width: 540px; height: 285px;
+    background-color: #eee;
+  }
+  @at-root .storyimg {
+    width: 450px; height: 150px;
+    margin: 25px 20px 5px 40px;
+    border-radius: 10px;
+    background-color: #aaa;
+  }
+  @at-root .storytext {
+    width: 450px; height: 45px;
+    margin: 10px 40px 0;
+    border-radius: 10px;
+    background-color: #aaa;
+  }
+  @at-root .review {
+    float: left;
+    width: 540px; height: 285px;
+    background-color: #9cf;
+  }
+  @at-root .reviewimg {
+    width: 450px; height: 150px;
+    margin: 25px 20px 5px 40px;
+    border-radius: 10px;
+    background-color: #aaa;
+  }
+  @at-root .reviewtext {
+    width: 450px; height: 45px;
+    margin: 10px 40px 0;
+    border-radius: 10px;
+    background-color: #aaa;
+  }
+  @include mobile { min-height: 534px; }
+  @include tablet{ min-height: 904px; }
+  @include laptop{ height:684px; }
+  @include pc{ height:822px; }
+  @include pcFull{height: 822px;}
+}

@@ -1,0 +1,40 @@
+// miniAdBox
+#miniAdBox {
+  height: 285px; 
+  box-sizing: border-box; padding: 28px 100px;
+  background-color: #aaa;
+  @at-root .mini_inner{
+    width: 1080px; height:230px;
+    margin:auto;
+    background-color: #9cf;
+  }
+  @at-root .deal {
+    float: left;
+    width: 540px; height: 230px;
+    background-color: #ffd;
+  }
+  @at-root .dealimg {
+    float: left;
+    width: 400px; height: 150px;
+    margin: 30px 70px 30px 70px;
+    border-radius: 10px;
+    background-color: #aaa;
+  }
+  @at-root .planning {
+    float: left;
+    width: 540px; height: 230px;
+    background-color: #9cf;
+  }
+  @at-root .planingimg {
+    float: left;
+    width: 400px; height: 150px;
+    margin: 30px 70px 30px 70px;
+    border-radius: 10px;
+    background-color: #aaa;
+  }
+  @include mobile { min-height: 236px; }
+  @include tablet{ min-height: 408px; }
+  @include laptop{ height: 406px; }
+  @include pc{ height:490px; }
+  @include pcFull{height: 490px;}
+}
