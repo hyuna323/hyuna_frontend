@@ -10,7 +10,7 @@ function login(){
   window.location = url;
 }
 
-// 슬라이드
+// 
 var slideIndex = 0;
 
 // html 끝난 후 동작
