@@ -11,8 +11,8 @@
   .head_inner {
     max-width: 1920px; min-width:1280px;
     width: 100%; height: 50%;
-    background-color: #EAE1D8;
-    background-color: rgba( 234, 225, 216, 0.5 );
+    /* background-color: #EAE1D8; */
+    /* background-color: rgba( 234, 225, 216, 0.5 ); */
     padding: 10px; box-sizing: border-box;
   }
   h1 {
@@ -44,8 +44,8 @@
   .unb button {
     width:100%; height: 25px; 
     border: 0; margin: 0; 
-    background-color: #213C5D;
-    color: #fff;
+    background-color: #3BB9DE;
+    color: #000;
     cursor: pointer;
     border-radius:10%;
   }
@@ -53,8 +53,8 @@
   /* ---------------------------------- */
   .head_inner02 {
     width: 100%; height: 50%;
-    background-color: #EAE1D8;
-    background-color: rgba( 234, 225, 216, 0.5 );
+    /* background-color: #EAE1D8; */
+    /* background-color: rgba( 234, 225, 216, 0.5 ); */
     margin: auto; padding-top: 20px; box-sizing: border-box;
     border-top: 2px solid #333;
   }
@@ -158,7 +158,7 @@
     background-color: #fff;
   }
   .shortcut_outer {
-    width: 1200px; height: 356px;
+    width: 1280px; height: 356px;
     margin: auto;
   }
   .shortcut_outer ul {
@@ -170,29 +170,32 @@
     float: left;
     width: 200px; height: 200px;
     margin-right: 55px; margin-top: 10px;
-    background-color: #eee;
-    /* background-image: url(../../img/picture/shortcut_1.png);
-    background-image: url(../../img/picture/shortcut_2.png);
-    background-image: url(../../img/picture/shortcut_2-1.png);
-    background-image: url(../../img/picture/shortcut_3.png);
-    background-image: url(../../img/picture/shortcut_3-1.png);
-    background-image: url(../../img/picture/shortcut_4.png);
-    background-image: url(../../img/picture/shortcut_4-1.png);
+    /* background-color: #eee; */
     background-repeat: no-repeat;
-    background-size: 220px;
-    background-position: 50% 50%; */
+    background-size: 100% 100%;
     border-radius: 10px;
-    text-align: center;
+    /* text-align: center; */
   }
+  .scimg1 {background-image: url(../../img/picture/shortcut01.png);}
+  .scimg2 {background-image: url(../../img/picture/shortcut02.png);}
+  .scimg3 {background-image: url(../../img/picture/shortcut03.png);}
+  .scimg4 {background-image: url(../../img/picture/shortcut04.png);}
+  .scimg5 {background-image: url(../../img/picture/shortcut05.png);}
+  .scimg6 {background-image: url(../../img/picture/shortcut06.png);}
+  .scimg7 {background-image: url(../../img/picture/shortcut07.png);}
+  .scimg8 {background-image: url(../../img/picture/shortcut08.png);}
+  .scimg9 {background-image: url(../../img/picture/shortcut09.png);}
+  .scimg10 {background-image: url(../../img/picture/shortcut10.png);}
+  
   .sctext {
+    width: 100px;
     color: #f2f2f2;
     font-weight: 700;
     font-size: 30px;
     text-shadow: 2px 2px 2px gray;
-    position: absolute;
     width: 100%;
-    margin-top: 70px;
-    margin-left: -610px;
+    text-align: center;
+    margin-top: 40%;
   }
 
   /* .shortcut_outer li {
@@ -209,9 +212,10 @@
 }
 
   #communityBox {
-    height: 685px;
+    height: 695px;
     background-color: #fff;
     padding: 65px 145px;
+    margin: auto;
   }
 
   .commuity_inner {
@@ -224,6 +228,7 @@
   }
 
   .bestpicture > h2 {
+    font-size: 20px;
     margin-left: 10px;
   }
 
@@ -251,43 +256,45 @@
   }
   .bestpicture3 {
     float: left;
-    width: 245px; height: 230px;
-    margin:20px 15px 0px 10px;
+    width: 245px; height: 240px;
+    margin:20px 5px 0px 10px;
     border-radius: 10px;
   }
   .bestpicture4 {
     float: left;
-    width: 245px; height: 230px;
+    width: 245px; height: 240px;
     margin:20px 15px 0px 10px;
     border-radius: 10px;
   }
   .story {
     float: right;
     width: 540px; height: 285px;
+    margin-bottom: 25px;
   }
   .story > h2 {
+    font-size: 20px;
     margin-left: 35px;
     margin-right: 30px;
   }
 
   .storyimg {
     width: 450px; height: 150px;
-    margin: 25px 20px 5px 40px;
+    margin: 25px 0px 5px 45px;
     border-radius: 10px;
   }
   .storytext {
     width: 450px; height: 45px;
     margin: 10px 40px 0;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 18px;
   }
   .storytextid {
-    width: 100px; height: 5px;
+    width: 100px; height: 10px;
     margin-left: 40px;
-    margin-top: -20px;
-    font-size: 14px;
+    margin-top: -15px;
+    font-size: 15px;
   }
-  /* .storyimg_02 {
+  .storyimg_02 {
     display: none;
   }
   .storytext_02 {
@@ -304,32 +311,33 @@
   }
   .storytext_04 {
     display: none;
-  } */
+  }
   .review {
     float: right;
     width: 540px; height: 285px;
   }
   .review > h2 {
-    margin-left: 35px;
-    margin-right: 30px;
+    font-size: 20px;
+    margin-left: 45px;
+    margin-right: 20px;
   }
   .reviewimg {
     width: 450px; height: 150px;
-    margin: 25px 20px 5px 40px;
+    margin: 15px 0px 5px 45px;
     border-radius: 10px;
-    background-color: #aaa;
   }
   .reviewtext {
+    font-size: 18px;
     width: 450px; height: 45px;
     margin: 10px 40px 0;
     border-radius: 10px;
   }
-  /* .reviewimg_02 {
+  .reviewimg_02 {
     display: none;
   }
   .reviewtext_02 {
     display: none;
-  } */
+  }
 
   /* #bestBox============================== */
   #bestBox {
@@ -345,6 +353,7 @@
       text-align: center;
     }
     .area_title > h2 {
+      margin: auto;
       font-size: 24px;
       text-align: center;
     }
@@ -355,7 +364,7 @@
       margin: auto;
     }
     .best_inner ul {
-      width: 950px; height: auto;
+      width: 1000px; height: auto;
       padding: 10px 5px 10px 50px;
     }
     .best_inner li {
@@ -409,60 +418,60 @@
     box-sizing: border-box; padding: 28px 100px;
     background-color: #fff;
   }
-  .mini_inner{
-    width: 1080px; height:230px;
-    margin:auto;
-  }
-  .deal {
-    float: left;
-    width: 540px; height: 230px;
-  }
-  .dealimg {
-    float: left;
-    width: 400px; height: 150px;
-    margin: 30px 70px 30px 70px;
-    border-radius: 10px;
-  }
-  .dealimg_02 {
-    display: none;
-  }
-  .dealimg_03 {
-    display: none;
-  }
-  /* .dealtext_01 {
-    display: none;
-  }
-  .dealtext_02 {
-    display: none;
-  }
-  .dealtext_03 {
-    display: none;
-  } */
-  .planning {
-    float: left;
-    width: 540px; height: 230px;
-  }
-  .planingimg {
-    float: left;
-    width: 400px; height: 150px;
-    margin: 30px 70px 30px 70px;
-    border-radius: 10px;
-  }
-  .planingimg_02 {
-    display: none;
-  }
-  .planingimg_03 {
-    display: none;
-  }
-  .planingtext {
-    display: none;
-  }
-  .planingtext_02 {
-    display: none;
-  }
-  .planingtext_03 {
-    display: none;
-  }
+    .mini_inner{
+      width: 1080px; height:230px;
+      margin:auto;
+    }
+    .deal {
+      float: left;
+      width: 540px; height: 230px;
+    }
+    .dealimg {
+      float: left;
+      width: 400px; height: 150px;
+      margin: 30px 70px 30px 70px;
+      border-radius: 10px;
+    }
+    .dealimg_02 {
+      display: none;
+    }
+    .dealimg_03 {
+      display: none;
+    }
+    /* .dealtext_01 {
+      display: none;
+    }
+    .dealtext_02 {
+      display: none;
+    }
+    .dealtext_03 {
+      display: none;
+    } */
+    .planning {
+      float: left;
+      width: 540px; height: 230px;
+    }
+    .planingimg {
+      float: left;
+      width: 400px; height: 150px;
+      margin: 30px 70px 30px 70px;
+      border-radius: 10px;
+    }
+    .planingimg_02 {
+      display: none;
+    }
+    .planingimg_03 {
+      display: none;
+    }
+    .planingtext {
+      display: none;
+    }
+    .planingtext_02 {
+      display: none;
+    }
+    .planingtext_03 {
+      display: none;
+    }
 
   #footBox {
     width: 100%; height: 360px; 
