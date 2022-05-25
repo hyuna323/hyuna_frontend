@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="ko-KR">
+<html lang="ko-KR" class="no-js">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;500;700&display=swap" rel="stylesheet"> 
 
   <link rel="stylesheet" href="../css/common/reset.css">
@@ -15,9 +15,9 @@
 
   <script src="../js/common/modernizr-custom.js"></script>
 
-<title>EDIYA main</title>
-<link rel="shortcut icon" href="../img/ediyamark.png" type="image/png">
-<link rel="apple-touch-icon" href="../img/ediyamark.png">
+  <title>EDIYA main</title>
+  <link rel="shortcut icon" href="../img/ediyamark.png" type="image/png">
+  <link rel="apple-touch-icon" href="../img/ediyamark.png">
 </head>
 
 <body>
@@ -31,7 +31,7 @@
         </h1>
         <nav class="gnb">
           <h2 class="blind">글로벌네비게이션</h2>
-          <ul class="clearfix">
+          <ul>
             <li><a href="#">기업소개</a></li>
             <li><a href="#">메뉴</a></li>
             <li><a href="#">공지사항</a></li>
@@ -43,51 +43,45 @@
           </ul>
         </nav>
       </div>
-    </header><!-- #headBox -->
+    </header>
+    <!-- #headBox -->
+
     <section id="viewBox" class="full">
       <h2 class="blind">광고영역</h2>
-      <article class="view_outer">
-        <h3 class="blind">광고</h3>
 
-        <div class="viewport">
-          <img src="../img/viewport_01.jpeg" alt="이디야 빙'수요일'광고" style="width:100%">
-        </div>
-        
-        <div class="viewport">
-          <img src="../img/viewport_02.jpeg" alt="빙수먹기 좋은 날 광고" style="width:100%">
-        </div>
-
-        <div class="viewport">
-          <img src="../img/viewport_03.jpeg" alt="여름사냥 음료 광고" style="width:100%">
-        </div>
-
-        <div class="viewport">
-          <img src="../img/viewport_04.jpeg" alt="와플메이커광고" style="width:100%">
-        </div>
-
-        <div class="viewport">
-          <img src="../img/viewport_05.jpeg" alt="페이코인 결제 시 전메뉴 50%할인 이벤트" style="width:100%">
-        </div>
-
-        <div class="viewport">
-          <img src="../img/viewport_06.jpeg" alt="매일 오전 10시 선착순 400명 이디야오더로 8,000원이상 결제 시 3,000원 즉시할인" style="width:100%">
-        </div>
-
-        <div class="viewport">
-          <img src="../img/viewport_07.jpeg" alt="음식점 위생등급제 국내최다 인증브랜드" style="width:100%">
-        </div>
-
-        <!-- The dots/circles -->
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(0)"></span>
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
-          <span class="dot" onclick="currentSlide(4)"></span>
-          <span class="dot" onclick="currentSlide(5)"></span>
-          <span class="dot" onclick="currentSlide(6)"></span>
-        </div>
-      </article>
+      <div class="viewport">
+        <img src="../img/viewport_01.jpeg" alt="이디야 빙'수요일'광고" style="width:100%">
+      </div>
+      
+      <div class="viewport">
+        <img src="../img/viewport_02.jpeg" alt="빙수먹기 좋은 날 광고" style="width:100%">
+      </div>
+      <div class="viewport">
+        <img src="../img/viewport_03.jpeg" alt="여름사냥 음료 광고" style="width:100%">
+      </div>
+      <div class="viewport">
+        <img src="../img/viewport_04.jpeg" alt="와플메이커광고" style="width:100%">
+      </div>
+      <div class="viewport">
+        <img src="../img/viewport_05.jpeg" alt="페이코인 결제 시 전메뉴 50%할인 이벤트" style="width:100%">
+      </div>
+      <div class="viewport">
+        <img src="../img/viewport_06.jpeg" alt="매일 오전 10시 선착순 400명 이디야오더로 8,000원이상 결제 시 3,000원 즉시할인" style="width:100%">
+      </div>
+      <div class="viewport">
+        <img src="../img/viewport_07.jpeg" alt="음식점 위생등급제 국내최다 인증브랜드" style="width:100%">
+      </div>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(0)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+      </div>
     </section>
 
     <!-- #storefindBox -->
@@ -98,7 +92,7 @@
           <h2>매장찾기</h2>
           <div class="search">
             <input type="text" placeholder="매장 위치 입력">
-            <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png">
+            <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png" alt="매장위치 검색 창">
           </div>
         </div>
         <div class="noticeBox">
@@ -164,8 +158,8 @@
     </footer>
   </div>
 
-      <!-- script -->
-      <script src="../js/src/01_ediya_main.js"></script>
+    <!-- script -->
+    <script src="../js/src/01_ediya_main.js"></script>
 
 </body>
 </html>
