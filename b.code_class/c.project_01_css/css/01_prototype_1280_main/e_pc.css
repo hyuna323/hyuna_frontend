@@ -110,10 +110,10 @@
     from {opacity: .4}
     to {opacity: 1}
   }
-  /* .view_outer {
+  .view_outer {
     width: 100%; height: 740px;
     margin: auto;
-  } */
+  }
   #viewImage {
     width: 100%; height: 740px;
     margin: auto;
