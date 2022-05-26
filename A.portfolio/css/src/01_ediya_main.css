@@ -58,7 +58,7 @@
 #viewBox {
   height: 713px;
   box-sizing: border-box;
-  background-coslor: #ccc;
+  /* background-color: #ccc; */
 }
 .view_outer {
   width: 100%; height: 740px;
@@ -132,7 +132,7 @@
   float: left;
   /* position: relative; */
   height: 348px;
-  background-color: #ddd;
+  /* background-color: #ddd; */
   /* padding: 58px; */
 }
 
@@ -142,8 +142,9 @@
   margin: 58px;
 }
 
-h2 {
+.storefind_TX {
   margin-left: 38px;
+  font-weight: 500;
 }
 
 .search {
@@ -174,15 +175,114 @@ input {
   margin: 58px;
 }
 
+.notice_TX {
+  margin-left: 38px;
+  font-weight: 500;
+}
+
 
 /* #storyBox ========================= */
-#storyBox{}
+#storyBox {
+  float: left;
+  height: 538px;
+  /* background-color: #aaa; */
+}
+
+.menu_inner {
+  float: left;
+  height: 422px; width: 524px;
+  margin: 58px;
+}
+
+.menu {
+  float: left;
+  width: 524px; height: 422px;
+  background-image: url(../../img/menu_intro.jpeg);
+  background-repeat: no-repeat;
+  background-size: 524px 422px;
+  background-position: 50% 50%;
+}
+
+.menu_TX {
+  width: 524px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.menu_p {
+  margin: 270px 76px 0 0;
+  /* height: 524px; */
+  text-align: right;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+
+.blandStory_inner {
+  height: 422px; width: 524px;
+  margin: 58px;
+  float: left;
+}
+
+.blandStory {
+  float: left;
+  width: 524px; height: 422px;
+  background-image: url(../../img/blandStory.jpeg);
+  background-repeat: no-repeat;
+  background-size: 524px 422px;
+  background-position: 50% 50%;
+}
+
+.blandStory_TX {
+  width: 524px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
 
 /* #membershipBox ========================= */
-#membershipBox{}
+#deamfactoryBox {
+  float: left;
+  width: 100%;
+  height: 412px;
+  background-color: #243c84;
+}
+
+.deamfactory_inner {}
+
+.deamfactory {}
+
+.deamfactory > img {
+  
+}
 
 /* #companyaboutBox ========================= */
-#companyaboutBox{}
+#companyaboutBox {
+  float: left;
+  width: 100%; height: 448px;
+  background-color: #aaa;
+}
+
+.franchise_inner {}
+
+.franchise {}
+
+.franchise_TX {}
+
+.sns_inner {}
+
+.sns {}
 
 /* #footBox ========================= */
-#footBox{}
+#footBox {
+  float: left;
+  width: 100%; height: 244px;
+  background-color: #243c84;
+}
+
+.foot_inner {}
+
+.foot_inner > ul {}
+
+.foot_inner > ul > li {}
