@@ -14,7 +14,7 @@
   /* background-color: #ddd; */
 }
 
-#wrap > div { width:100%; }
+#wrap > div { width:100%;}
 
 /* #headBox ========================= */
 #headBox {
@@ -60,10 +60,10 @@
   box-sizing: border-box;
   /* background-color: #ccc; */
 }
-.view_outer {
-  width: 100%; height: 740px;
-  margin-top: -60px;
-}
+  .view_outer {
+    width: 100%; height: 740px;
+    margin-top: -60px;
+  }
   .viewport {
     height: 673px;
   }
@@ -122,9 +122,9 @@
 } */
 
 /* #storefindBox ========================= */
-.content_box_wrap{
-  width: 100%; height: auto;
-}
+  .content_box_wrap{
+    width: 100%; height: auto;
+  }
 
 #storefindBox {
   /* ????? */
@@ -136,49 +136,49 @@
   /* padding: 58px; */
 }
 
-.find_inner {
-  float: left;
-  width: 524px; height: 232px;
-  margin: 58px;
-}
+  .find_inner {
+    float: left;
+    width: 524px; height: 232px;
+    margin: 58px;
+  }
 
-.storefind_TX {
-  margin-left: 38px;
-  font-weight: 500;
-}
+  .storefind_TX {
+    margin-left: 38px;
+    font-weight: 500;
+  }
 
-.search {
-  position: relative;
-  width: 432px;
-}
+  .search {
+    position: relative;
+    width: 432px;
+  }
 
-input {
-  margin-top: 70px; margin-left: 48px;
-  width: 432px; height: 82px;
-  border: 1px solid #bbb;
-  border-radius: 8px;
-  padding: 10px 12px;
-  font-size: 25px;
-}
+  input {
+    margin-top: 70px; margin-left: 48px;
+    width: 432px; height: 82px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 25px;
+  }
 
-.search > img {
-  position: absolute;
-  width: 40px; height: 40px;
-  top: 90px;
-  right: -20px;
-  margin: 0;
-}
+  .search > img {
+    position: absolute;
+    width: 40px; height: 40px;
+    top: 90px;
+    right: -20px;
+    margin: 0;
+  }
 
-.noticeBox {
-  float: left;
-  width: 524px; height: 232px;
-  margin: 58px;
-}
+  .noticeBox {
+    float: left;
+    width: 524px; height: 232px;
+    margin: 58px;
+  }
 
-.notice_TX {
-  margin-left: 38px;
-  font-weight: 500;
-}
+  .notice_TX {
+    margin-left: 38px;
+    font-weight: 500;
+  }
 
 
 /* #storyBox ========================= */
@@ -188,91 +188,115 @@ input {
   /* background-color: #aaa; */
 }
 
-.menu_inner {
-  float: left;
-  height: 422px; width: 524px;
-  margin: 58px;
-}
+  .menu_inner {
+    float: left;
+    height: 422px; width: 524px;
+    margin: 58px;
+  }
 
-.menu {
-  float: left;
-  width: 524px; height: 422px;
-  background-image: url(../../img/menu_intro.jpeg);
-  background-repeat: no-repeat;
-  background-size: 524px 422px;
-  background-position: 50% 50%;
-}
+  .menu {
+    float: left;
+    width: 524px; height: 422px;
+    background-image: url(../../img/menu_intro.jpeg);
+    background-repeat: no-repeat;
+    background-size: 524px 422px;
+    background-position: 50% 50%;
+  }
 
-.menu_TX {
-  width: 524px;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 500;
-}
+  .menu_TX {
+    width: 524px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
 
-.menu_p {
-  margin: 270px 76px 0 0;
-  /* height: 524px; */
-  text-align: right;
-  font-size: 20px;
-  font-weight: 400;
-  color: white;
-}
+  .menu_p {
+    margin: 270px 76px 0 0;
+    /* height: 524px; */
+    text-align: right;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+  }
 
-.blandStory_inner {
-  height: 422px; width: 524px;
-  margin: 58px;
-  float: left;
-}
+  .brandStory_inner {
+    height: 422px; width: 524px;
+    margin: 58px;
+    float: left;
+  }
 
-.blandStory {
-  float: left;
-  width: 524px; height: 422px;
-  background-image: url(../../img/blandStory.jpeg);
-  background-repeat: no-repeat;
-  background-size: 524px 422px;
-  background-position: 50% 50%;
-}
+  .brandStory {
+    float: left;
+    width: 524px; height: 422px;
+    background-image: url(../../img/brandStory.png);
+    background-repeat: no-repeat;
+    background-size: 524px 422px;
+    background-position: 50% 50%;
+  }
 
-.blandStory_TX {
-  width: 524px;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 500;
-}
+  .brandStory_TX {
+    width: 524px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
 
 /* #membershipBox ========================= */
-#deamfactoryBox {
+#dreamfactoryBox {
   float: left;
   width: 100%;
   height: 412px;
   background-color: #243c84;
 }
 
-.deamfactory_inner {}
+  .dreamfactory_inner {
+    padding-top: 40px;
+  }
 
-.deamfactory {}
+  .dreamfactory {
+    padding-top: 40px;
 
-.deamfactory > img {
-  
-}
+  }
+
+  .dreamImg {
+    float: right;
+    margin-top: 25px;
+  }
 
 /* #companyaboutBox ========================= */
 #companyaboutBox {
   float: left;
-  width: 100%; height: 448px;
+  height: 447px;
+  width: 100%;
   background-color: #aaa;
 }
 
-.franchise_inner {}
+  /* .franchise_inner {
+    float: left;
+    height: 386px; width: 50%;
+    margin: 58px;
+  }
 
-.franchise {}
+  .franchise {
+    float: left;
+    width: 524px; height: 422px;
+    background-image: url(../../img/franchise.png);
+    background-repeat: no-repeat;
+    background-size: 524px 422px;
+    background-position: 50% 50%;
+  }
 
-.franchise_TX {}
+  .franchise_TX {
+    width: 524px;
+    text-align: right;
+    font-weight: 500;
+    padding-right: 100px;
+    padding-top: 30px;
+  } */
 
-.sns_inner {}
+  .sns_inner {}
 
-.sns {}
+  .sns {}
 
 /* #footBox ========================= */
 #footBox {
@@ -281,8 +305,10 @@ input {
   background-color: #243c84;
 }
 
-.foot_inner {}
+  .foot_inner {
+    
+  }
 
-.foot_inner > ul {}
+  .foot_inner > ul {}
 
-.foot_inner > ul > li {}
+  .foot_inner > ul > li {}
