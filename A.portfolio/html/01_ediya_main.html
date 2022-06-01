@@ -96,17 +96,28 @@
             <div class="storefind_TX">매장찾기</div>
             <div class="search">
               <input type="text" placeholder="매장 위치 입력">
-              <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png" alt="매장위치 검색 창">
+              <button><img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png" alt="매장위치 검색 창"></button>
             </div>
           </div>
         </div>
         <div class="noticeBox">
-          <div class="notice_inner">
-            <div class="notice">
-              <h2 class="blind">이디야 소식</h2>
-              <div class="notice_TX">이디야 소식</div>
+          <!-- <div class="notice_inner"> -->
+          <div class="notice">
+            <h2 class="blind">이디야 소식</h2>
+            <div class="notice_TX">
+              <ul>
+                <li class="notice_h2">이디야 소식</li>
+                <li class="notice_more"><a href="#">more</a></li>
+              </ul>
             </div>
+              <ul class="notice_letter">
+                <li><a href="#">이디야 6월 소식</a><span>20-05-18</span></li> <br />
+                <li><a href="#">이디야 6월 이벤트 공지</a><span>20-05-17</span></li> <br />
+                <li><a href="#">이디야 6월 변경사항</a><span>20-05-16</span></li> <br />
+                <li><a href="#">멤버십 혜택 안내</a><span>20-05-15</span></li> <br />
+              </ul>
           </div>
+          <!-- </div> -->
         </div>
       </article>
     <!-- </main> -->
@@ -135,8 +146,14 @@
         <div class="dreamfactory">
           <h2 class="blind">드림팩토리</h2>
           <img src="../img/dream_factory_txt.png" alt="드림팩토리" style="width: 838px; height:80px;">
+          <img class="dreamImg" src="../img/dream_factory.png" alt="드림팩토리 전경" style="width: 640px; height:262px;">
+          <ul>
+            <li>
+              최첨단 시설에서 탄생하는 고품질의 원두로 <br />
+              최고의 커피맛을 고객들에게 제공합니다.
+            </li>
+          </ul>
           <!-- <div class="dreamImg"> -->
-            <img class="dreamImg" src="../img/dream_factory.png" alt="드림팩토리 전경" style="width: 640px; height:262px;">
           </div>
         <!-- </div> -->
       </aside>
@@ -157,9 +174,9 @@
               <button onclick="sns()"><img class="snscoffee" src="../img/snscoffee.jpg" alt="이디야로고"></button>
               <button onclick="sns()"><img class="snssoftkit" src="../img/snssoftkit.jpg" alt="이디야로고"></button>
               <div class="snsmark">
-                <button onclick="sns()"><img class="Fmark" src="../img/f_logo_RGB-Black_58_1.png" alt="facebook"><span>facebook</span></button>
-                <button onclick="sns()"><img class="Imark" src="../img/glyph-logo_May2016_1.png" alt="instargram"><span>instargram</span></button>
-                <button onclick="sns()"><img class="NBmark" src="../img/NAVER_blog_icon_1.png" alt="naverblog"><span>naverblog</span></button>
+                <button onclick="sns_F()"><img class="Fmark" src="../img/facebooklogo_color.png" alt="facebook"><span>facebook</span></button>
+                <button onclick="sns_I()"><img class="Imark" src="../img/instagramlogo_color.png" alt="instargram"><span>instagram</span></button>
+                <button onclick="sns_N()"><img class="NBmark" src="../img/NAVER_blog_icon_1.png" alt="naverblog"><span>naverblog</span></button>
               </div>
           </div>
         </div>
@@ -168,9 +185,9 @@
 
     <!-- #footBox -->
     <footer id="footBox">
-      <!-- <div class="foot_inner"> -->
+      <div class="foot_inner">
         <h2>
-          <a href="./01_ediya_main.html" class="blind">EDIYA</a>
+          <!-- <a href="./01_ediya_main.html" class="blind">EDIYA</a> -->
           <button onclick="home()"><img src="../img/ediyagray.png" alt="이디야로고" style="width:280px; height:28px;"></button>
         </h2>
         <ul>
@@ -180,7 +197,7 @@
             COPYRIGHTⓒ 2018 THEBORN KOREA INC. ALL RIGHTS RESERVED
           </li>
         </ul>
-      <!-- </div> -->
+      </div>
     </footer>
   </div>
 

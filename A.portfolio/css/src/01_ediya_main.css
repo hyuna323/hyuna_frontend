@@ -161,7 +161,10 @@
     font-size: 25px;
   }
 
-  .search > img {
+  .search > button {
+    cursor: pointer;
+  }
+  .search > button > img {
     position: absolute;
     width: 40px; height: 40px;
     top: 90px;
@@ -175,9 +178,56 @@
     margin: 58px;
   }
 
+  /* .notice_inner {
+    float: left;
+    width: 524px; height: 232px;
+    margin: 58px;
+  } */
+
+  .notice {
+    width: 545px;
+  }
+
   .notice_TX {
+    width: 545px; height: 50px;
     margin-left: 38px;
     font-weight: 500;
+  }
+
+  .notice_TX > li.notice_h2 {}
+  .notice_more {
+    margin-top: -25PX;
+    margin-right: 80PX;
+    float: right;
+    font-weight: normal;
+    font-size: 18px;
+  }
+
+  /* .tab_title{
+    position: absolute;
+    width: 100%;
+    font-size: 0;
+    z-index: 2;
+    cursor: pointer;
+} */
+
+  .notice_letter{
+    display: block;
+    /* position: fixed; */
+    /* padding: 10px; */
+    margin-top: 20px;
+    Padding-left: 50px;
+    width: 490px; height: 220px;
+  }
+  .notice_letter > li{
+    font-size: 20px;
+    font-weight: normal;
+  }
+  .notice_letter > li > a {
+    float: left;
+  }
+  .notice_letter > li > span {
+    float: right;
   }
 
 
@@ -249,13 +299,18 @@
   background-color: #243c84;
 }
 
-  .dreamfactory_inner {
-    /* padding-top: 40px; */
-  }
+  /* .dreamfactory_inner {} */
 
   .dreamfactory {
     padding-top: 40px;
+    padding-left: 70px;
+  }
 
+  .dreamfactory > ul > li {
+    /* text-align: left; */
+    margin-top: 50px;
+    font-size: 18px;
+    color: #ffffff;
   }
 
   .dreamImg {
@@ -330,16 +385,23 @@
   }
 
   .snsmark {
-    width: 158px;
     float: right;
-    margin-top: -115px;
+    width: 158px; height: 384px;
+    margin-top: -195px;
+    /* background-color: #243c84; */
   }
   .snsmark > button > span {
     float: left;
     margin: 5px;
     font-size: 25px;
     line-height: 10px;
+    margin-top: 45px;
     margin-bottom: 80px;
+    /* color: #ffffff; */
+  }
+
+  .snsmark > button > img {
+    margin-top: 40px;
   }
 
   .snsmark > button:last-child {
@@ -365,10 +427,21 @@
   float: left;
   width: 100%; height: 244px;
   background-color: #243c84;
+  /* padding: 20px; */
 }
 
-  .foot_inner {}
+  .foot_inner {
+    width: 1166px; height: 197px;
+    margin: 50px 0 0 70px;
+  }
+
+  .foot_inner > h2 {
+    margin-bottom: 29px;
+  }
 
   .foot_inner > ul {}
 
-  .foot_inner > ul > li {}
+  .foot_inner > ul > li {
+    font-size: 20px;
+    color: #ffffff;
+  }
