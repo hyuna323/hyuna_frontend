@@ -1,0 +1,55 @@
+#wrap {
+  width: 1280px; height: auto; min-height: 500px;
+  /* margin: auto; */
+  /* background-color: #ddd; */
+}
+
+#wrap > div { width:100%;}
+#headBox {
+  width: 100%; height: 120px;
+  box-sizing: border-box;
+  padding: 46px 18px 46px 24px;
+  /* background-color: #ddd; */
+}
+
+#viewBox {
+  height: 713px;
+  box-sizing: border-box;
+  /* background-color: #ccc; */
+}
+
+#storefindBox {
+  /* margin-top: 180px; */
+  float: left;
+  /* position: relative; */
+  height: 348px;
+  /* background-color: #ddd; */
+  /* padding: 58px; */
+}
+
+#storyBox {
+  float: left;
+  height: 538px;
+  /* background-color: #aaa; */
+}
+
+#dreamfactoryBox {
+  float: left;
+  width: 100%;
+  height: 412px;
+  background-color: #243c84;
+}
+
+#companyabBox {
+  float: left;
+  width: 100%;
+  height: 500px;
+  /* background-color: #aaa; */
+}
+
+#footBox {
+  float: left;
+  width: 100%; height: 244px;
+  background-color: #243c84;
+  /* padding: 20px; */
+}
