@@ -563,6 +563,7 @@
       float: left;
       width: 23px; height: 23px;
       /* margin: -0px; */
+      target: _blank;
     }
     .Imark {
       float: left;

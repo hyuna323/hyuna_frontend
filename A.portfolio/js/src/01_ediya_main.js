@@ -50,29 +50,26 @@ function home(){
 
 // SNS Facebook
 function sns_F(){
-  let url = "https://www.facebook.com/iEDIYA";
-  window.location = url;
+  let url = window.open("https://www.facebook.com/iEDIYA");
 }
 
 // SNS Instargram
 function sns_I(){
-  let url = "https://www.instagram.com/ediya.coffee/";
-  window.location = url;
+  let url = window.open("https://www.instagram.com/ediya.coffee/");
 }
 
 // SNS Naver blog
-function sns_I(){
-  let url = "https://blog.naver.com/ediya-coffee";
-  window.location = url;
+function sns_NB(){
+  let url = window.open("https://blog.naver.com/ediya-coffee");
 }
 
 // --------------------------
 // 이디야 소식 버튼
 
 //공지사항 버튼 클릭
-$('.notice_on').click(function(){
-  $('.notice_letter').show(); //공지사항 내용 나타내기
-  $('.gallery_img').hide(); //갤러리 내용 숨기기
-  $(this).attr('class','notice_on'); //공지사항 버튼 CSS변경
-  $('.gallery_on').attr('class','gallery_off'); //갤러리 버튼 CSS 변경
-});
+// $('.notice_on').click(function(){
+//   $('.notice_letter').show(); //공지사항 내용 나타내기
+//   $('.gallery_img').hide(); //갤러리 내용 숨기기
+//   $(this).attr('class','notice_on'); //공지사항 버튼 CSS변경
+//   $('.gallery_on').attr('class','gallery_off'); //갤러리 버튼 CSS 변경
+// });
