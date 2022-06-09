@@ -68,3 +68,6 @@
 
 //==================================================================
 
+const title = document.getElementById("title");
+
+console.dir(title); // console.dir이 element를 좀 더 자세히 보여줌
