@@ -1,2 +1,66 @@
 // 01_ediya_main.scss
 /* 01_ediya_main.css */
+
+$width : 100%;
+$box-sizing : border-box;
+$float_l : left;
+$width_a : auto;
+
+.blind { 
+  overflow:hidden; width: 0; height: 0; 
+  margin: 0; padding: 0;
+}
+
+#wrap {
+  width: 1280px; height: auto; min-height: 500px;
+  /* margin: auto; */
+  /* background-color: #ddd; */
+}
+
+#wrap > div { width:100%;}
+
+// #headBox ========================= 
+/* #headBox ========================= */
+
+#headBox {
+  width: $width; height: 120px;
+  box-sizing: $box-sizing;
+  padding: 46px 18px 46px 24px;
+  /* background-color: #ddd; */
+}
+  .head_inner {
+    width: $width; max-width: 1600px; min-width: 1280px;
+    margin: auto; box-sizing: $box-sizing;
+    /* background-color: #ccc; */
+  }
+    h1 {
+      float: $float_l;
+      width: 280px; height: 28px;
+    }
+    .gnb {
+      float: $float_l;
+      width: $width_a; height: 55px;
+    }
+    .gnb > ul {
+      width: $width_a; height: 54px;
+      text-align: center;
+      margin-left: 55px; 
+    }
+    .gnb > ul > li {
+      display: inline-block; width: $width_a; height: auto;
+      margin-left: 10px;
+    }
+    .gnb li:first-child {
+      margin-left: 0;
+    }
+    .gnb li a {
+      padding: 5px;
+    }
+
+// #viewBox =========================
+/* #viewBox ========================= */
+#viewBox {
+  height: 713px;
+  box-sizing: $box-sizing;
+  /* background-color: #ccc; */
+}
