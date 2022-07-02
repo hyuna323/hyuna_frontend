@@ -1,0 +1,17 @@
+/* variable.css */
+
+/* color ========================= */
+:root{
+--color-mainbule:#243c84;
+--color-black:#151515;
+--color-white:#ffffff;
+--color-light-gray:#dddddd;
+}
+/* ================================ */
+
+.active, .dot:hover {
+  background-color: #ffffff;
+}
+/* .fade {
+  
+} */
