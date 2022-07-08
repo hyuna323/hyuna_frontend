@@ -589,6 +589,7 @@
         float: left;
         width: 23px; height: 23px;
       }
+    .ediyastory_inner {display: none;}
     
   /* #footBox ========================= */
   #footBox {

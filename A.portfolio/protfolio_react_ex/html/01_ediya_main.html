@@ -32,7 +32,6 @@
         <nav class="gnb">
           <h2 class="blind">글로벌네비게이션</h2>
           <ul>
-            <li><a href="#">로그인</a></li>
             <li><a href="#">메뉴</a></li>
             <li><a href="#">공지사항</a></li>
             <li><a href="#">상품권</a></li>
@@ -40,6 +39,7 @@
             <li><a href="#">유통제품</a></li>
             <li><a href="#">사회공헌</a></li>
             <li><a href="#">고객소리</a></li>
+            <li><button><a href="#" style="font-weight: 700; color: #243c84; outline: solid 1.5px; border-radius: 10%;">로그인</button></a></li>
           </ul>
         </nav>
       </div>
@@ -122,6 +122,31 @@
       </article>
     <!-- </main> -->
 
+    <aside id="shortcutBox">
+      <div class="shortcut">
+        <h2 class="blind">MENU</h2>
+        <div class="sc_title">menu</div>
+        <div class="shortcut_inner">
+          <div class="drinkInner">
+            <div class="drink_TX">drink</div>
+            <button><span class="left_more">자세히보기</span></button>
+          </div>
+          <div class="bakeryInner">
+            <div class="bk_TX">bakery</div>
+            <button><span class="right_more">자세히보기</span></button>
+          </div>
+          <div class="mdInner">
+            <div class="md_TX">md</div>
+            <button><span class="left_more">자세히보기</span></button>
+          </div>
+          <div class="bistroInner">
+            <div class="bst_TX">bistro</div>
+            <button><span class="right_more">자세히보기</span></button>
+          </div>
+        </div>
+      </div>
+    </aside>
+
     <!-- #storyBox -->
       <section id="storyBox">
         <div class="menu_inner">
@@ -189,15 +214,22 @@
         <div class="sns_inner">
           <div class="sns">
             <h2 class="blind">sns</h2>
-              <button onclick="sns()"><img class="snslatte" src="../img/snslatte.jpg" alt="이디야로고"></button>
-              <button onclick="sns()"><img class="snsthree" src="../img/snsthree.jpg" alt="이디야로고"></button>
-              <button onclick="sns()"><img class="snscoffee" src="../img/snscoffee.jpg" alt="이디야로고"></button>
-              <button onclick="sns()"><img class="snssoftkit" src="../img/snssoftkit.jpg" alt="이디야로고"></button>
-              <div class="snsmark">
-                <button onclick="sns_F()"><img class="Fmark" src="../img/facebooklogo_color.png" alt="facebook"><span>facebook</span></button>
-                <button onclick="sns_I()"><img class="Imark" src="../img/instagramlogo_color.png" alt="instargram"><span>instagram</span></button>
-                <button onclick="sns_N()"><img class="NBmark" src="../img/NAVER_blog_icon_1.png" alt="naverblog"><span>naverblog</span></button>
-              </div>
+            <button onclick="sns()"><img class="snslatte" src="../img/snslatte.jpg" alt="이디야로고"></button>
+            <button onclick="sns()"><img class="snsthree" src="../img/snsthree.jpg" alt="이디야로고"></button>
+            <button onclick="sns()"><img class="snscoffee" src="../img/snscoffee.jpg" alt="이디야로고"></button>
+            <button onclick="sns()"><img class="snssoftkit" src="../img/snssoftkit.jpg" alt="이디야로고"></button>
+            <div class="snsmark">
+              <button onclick="sns_F()"><img class="Fmark" src="../img/facebooklogo_color.png" alt="facebook"><span>facebook</span></button>
+              <button onclick="sns_I()"><img class="Imark" src="../img/instagramlogo_color.png" alt="instargram"><span>instagram</span></button>
+              <button onclick="sns_N()"><img class="NBmark" src="../img/NAVER_blog_icon_1.png" alt="naverblog"><span>naverblog</span></button>
+            </div>
+          </div>
+        </div>
+        <div class="ediyastory_inner">
+          <div class="ediyastory">
+            <h2 class="blind">ediyastory</h2>
+            <div class="ediyastory_TX">브랜드 스토리</div>
+            <button><span class="right_more">자세히보기</span></button>
           </div>
         </div>
       </section>
