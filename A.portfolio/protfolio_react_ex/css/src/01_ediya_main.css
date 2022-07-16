@@ -465,7 +465,7 @@
 
     .franchise_inner {
       float: left;
-      height: 264px; width: 768px;
+      height: 264px; width: 770px;
       margin: 30px;
     }
 
@@ -478,30 +478,31 @@
       background-position: 50% 50%;
       color: #ffffff;
     }
-/* ----------------------------------- */
+
     .franchise_TX {
       float: right;
       width: 130px;
       font-size: 16px;
       text-align: right;
       font-weight: 400;
-      padding-right: 10px;
-      padding-top: 10px;
+      margin-right: 80px;
+      padding-top: 30px;
     }
 
     .franchise_btn {
-      width: 110px;
-      height: 12px;
+      width: 132px;
+      height: 78px;
       float: right;
-      margin-top: 30px;
-      margin-right: -40px;
+      margin-top: 40px;
+      margin-right: 40px;
     }
 
     .franchise_gd{
       float: right;
-      font-size: 12px;
-      width: 60px; height: 16px;
-      line-height: 16px;
+      font-size: 16px;
+      color: #000000;
+      width: 132px; height: 32px;
+      line-height: 32px;
       /* margin-bottom: 5px; */
       text-transform: uppercase;
       border: 1px solid #151515;
@@ -511,10 +512,11 @@
     }
     .franchise_pt{
       float: right;
-      font-size: 12px;
-      width: 60px; height: 16px;
-      line-height: 16px;
-      margin-top: -30px;
+      font-size: 16px;
+      color: #000000;
+      width: 132px; height: 32px;
+      line-height: 32px;
+      /* margin-bottom: 5px; */
       text-transform: uppercase;
       border: 1px solid #151515;
       background-color: #dddddd;
@@ -527,29 +529,29 @@
   /* #footBox ========================= */
   #footBox {
     float: left;
-    width: 100%; height: 78px;
+    width: 100%; height: 217px;
     background-color: #243c84;
     /* padding: 20px; */
   }
   .foot_inner {display: none;}
 
   .footInner_m {
-      width: 100%; height: 78px;
-      margin-left: 25px;
-      margin-top: -5px;
+      width: 100%; height: 217px;
+      margin-left: 35px;
+      margin-top: 20px;
     }
 
     .footInner_m > h2 {
       /* width: 85px; height: 10px; */
-      margin-bottom: 1px;
+      margin-bottom: 20px;
     }
     
     .footInner_m > h2 > button > img {
-      width: 83px; height: 10px;
+      width: 152px; height: 20px;
     }
 
     .footInner_m > ul > li {
-      font-size: 6px;
+      font-size: 16px;
       color: #ffffff;
     }
 } /* 768px ~ 1279px ================================================= */
