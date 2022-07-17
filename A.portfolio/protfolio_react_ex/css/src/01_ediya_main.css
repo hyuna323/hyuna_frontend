@@ -17,7 +17,7 @@
     /* background-color: #ddd; */
   }
     .head_inner {
-      width: 100%; max-width: 1600px; min-width: 1280px;
+      width: 100%; max-width: 767px; min-width: 320px;
       margin: auto; box-sizing: border-box;
       /* background-color: #ccc; */
     }
@@ -126,7 +126,7 @@
     }
 
     .dreamfactory > ul > li {
-      width: 126px;
+      width: 177px;
       text-align: left;
       margin-top: 1px;
       font-size: 7px;
@@ -134,16 +134,16 @@
     }
 
     .dreamImg {
-      width: 168px; height: 55px;
+      width: 128px; height: 55px;
       float: right;
-      margin-top: 1px;
+      margin-top: 35px;
     }
 
     .dreamfactory_btn {
-      width: 449px;
-      height: 70px;
+      width: 120px;
+      height: 12px;
       /* float: right; */
-      margin-top: -7px;
+      margin-top: -10px;
       /* margin-right: 80px; */
     }
     
@@ -242,28 +242,29 @@
   /* #footBox ========================= */
   #footBox {
     float: left;
-    width: 100%; height: 78px;
+    width: 100%; height: 110px;
     background-color: #243c84;
     /* padding: 20px; */
   }
   .foot_inner {display: none;}
 
   .footInner_m {
-      width: 100%; height: 78px;
-      margin-left: 25px;
-      margin-top: -5px;
+      width: 100%; height: 118px;
+      padding-left: 10px;
+      /* padding-top: 0; */
     }
 
     .footInner_m > h2 {
-      /* width: 85px; height: 10px; */
+      /* width: 100%; height: 32px; */
       margin-bottom: 1px;
     }
     
     .footInner_m > h2 > button > img {
-      width: 83px; height: 10px;
+      width: 80px; height: 10px;
     }
 
     .footInner_m > ul > li {
+      /* width: 100%; */
       font-size: 6px;
       color: #ffffff;
     }
@@ -279,7 +280,7 @@
     /* background-color: #ddd; */
   }
     .head_inner {
-      width: 100%; max-width: 1600px; min-width: 1280px;
+      width: 100%; max-width: 1279px; min-width: 768px;
       margin: auto; box-sizing: border-box;
       /* background-color: #ccc; */
     }
@@ -425,7 +426,7 @@
     }
 
     .dreamfactory_btn {
-      width: 898px;
+      width: 266px;
       height: 140px;
       /* float: right; */
       margin-top: 15px;
@@ -948,6 +949,7 @@
     .dreamTxt {
       width: 838px; height:80px;
     }
+    
   
     .dreamfactory > ul > li {
       /* text-align: left; */
