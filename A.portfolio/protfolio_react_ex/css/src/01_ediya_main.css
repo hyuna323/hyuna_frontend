@@ -581,12 +581,12 @@
 
       .gnb {
         float: left;
-        width: 1000px; height: 55px;
+        width: 950px; height: 55px;
       }
       .gnb > ul {
-        width: 1000px; height: 54px;
+        width: 920px; height: 54px;
         text-align: center;
-        margin-left: 100px; 
+        margin-left: 50px; 
       }
       .gnb > ul > li {
         display: inline-block; width: auto; height: auto;
@@ -784,30 +784,30 @@
   /* #storyBox ========================= */
   #storyBox {
     float: left;
-    padding: 10px 80px 0;
+    padding: 10px 10px 0;
     width: 100%; height: 558px;
     /* background-color: #aaa; */
     }
   
     .menu_inner {
       float: left;
-      height: 422px; width: 524px;
+      height: 422px; width: 514px;
       margin: 58px;
     }
   
     .menu {
       float: left;
       padding: 20px 0;
-      width: 524px; height: 422px;
+      width: 514px; height: 422px;
       background-image: url(../../img/menu_intro.png);
       background-repeat: no-repeat;
-      background-size: 524px 422px;
+      background-size: 514px 422px;
       background-position: 50% 50%;
       color: #ffffff;
     }
   
     .menu_TX {
-      width: 524px;
+      width: 504px;
       text-align: center;
       text-transform: uppercase;
       font-weight: 500;
@@ -857,22 +857,22 @@
   
     .brandStory_inner {
       float: left;
-      height: 422px; width: 524px;
+      height: 422px; width: 514px;
       margin: 58px;
     }
   
     .brandStory {
       float: left;
       padding: 20px 0;
-      width: 524px; height: 422px;
+      width: 514px; height: 422px;
       background-image: url(../../img/brandStory.png);
       background-repeat: no-repeat;
-      background-size: 524px 422px;
+      background-size: 514px 422px;
       background-position: 50% 50%;
     }
   
     .brandStory_TX {
-      width: 524px;
+      width: 504px;
       text-align: center;
       text-transform: uppercase;
       font-weight: 500;
@@ -999,28 +999,28 @@
     float: left;
     width: 100%;
     height: 500px;
-    padding: 0 80px;
+    padding: 10px 10px 0;
     /* background-color: #aaa; */
   }
   
     .franchise_inner {
       float: left;
-      height: 384px; width: 524px;
-      margin: 58px;
+      height: 384px; width: 516px;
+      margin: 56px;
     }
   
     .franchise {
       float: left;
-      width: 524px; height: 384px;
+      width: 516px; height: 384px;
       background-image: url(../../img/franchise.png);
       background-repeat: no-repeat;
-      background-size: 524px 422px;
+      background-size: 516px 422px;
       background-position: 50% 50%;
       color: #ffffff;
     }
   
     .franchise_TX {
-      width: 524px;
+      width: 504px;
       text-align: right;
       font-weight: 500;
       padding-right: 110px;
@@ -1059,13 +1059,13 @@
   
     .sns_inner {
       float: right;
-      height: 384px; width: 524px;
-      margin: 58px;
+      height: 384px; width: 516px;
+      margin: 56px;
     }
   
     .sns {
       float: right;
-      width: 524px; height: 384px;
+      width: 516px; height: 384px;
       /* margin-left: 40px; */
       /* background-repeat: no-repeat; */
       /* background-size: 524px 422px; */
@@ -1136,7 +1136,7 @@
   #footBox {
     float: left;
     width: 100%; height: 244px;
-    background-color: #243c84;
+    background-color: #555555;
     /* padding: 20px; */
   }
   
@@ -1173,8 +1173,8 @@
     /* background-color: #ddd; */
   }
     .head_inner {
-      width: 100%; max-width: 1600px; min-width: 1280px;
-      margin: auto; box-sizing: border-box;
+      width: 100%; max-width: 1919px; min-width: 1440px;
+      margin-left: 30px; box-sizing: border-box;
       /* background-color: #ccc; */
     }
       h1 {
@@ -1186,12 +1186,12 @@
 
       .gnb {
         float: left;
-        width: 1000px; height: 55px;
+        width: 900px; height: 55px;
       }
       .gnb > ul {
-        width: 1000px; height: 54px;
+        width: 900px; height: 54px;
         text-align: center;
-        margin-left: 100px; 
+        margin-left: 190px; 
       }
       .gnb > ul > li {
         display: inline-block; width: auto; height: auto;
@@ -1274,7 +1274,7 @@
   
   /* #storefindBox ========================= */
     .content_box_wrap{
-      width: 100%; height: 370px;
+      width: 100%; height: 1830px;
     }
   
   #storefindBox {
@@ -1282,14 +1282,14 @@
     /* margin-top: 45px; */
     /* float: left; */
     /* position: relative; */
-    height: 348px;
+    height: 370px;
     /* background-color: #ddd; */
     /* padding: 58px; */
   }
   
     .find_inner {
       float: left;
-      width: 524px; height: 232px;
+      width: 604px; height: 254px;
       margin: 58px;
     }
   
@@ -1325,7 +1325,7 @@
   
     .noticeBox {
       float: left;
-      width: 524px; height: 232px;
+      width: 604px; height: 254px;
       margin: 58px;
     }
   
