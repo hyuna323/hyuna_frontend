@@ -1558,14 +1558,14 @@
     .dreamfactory > ul > li {
       /* text-align: left; */
       margin-top: 50px;
-      font-size: 18px;
+      font-size: 20px;
       color: #ffffff;
     }
   
     .dreamImg {
       width: 840px; height:262px;
       float: right;
-      margin-top: 3px;
+      margin-top: 10px;
     }
   
     .dreamfactory_btn {
@@ -1740,7 +1740,7 @@
   #footBox {
     float: left;
     width: 100%; height: 244px;
-    background-color: #243c84;
+    background-color: #555555;
     /* padding: 20px; */
   }
   
