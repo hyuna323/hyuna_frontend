@@ -1969,7 +1969,7 @@
   
     .find_inner {
       float: left;
-      width: 692px; height: 224px;
+      width: 596px; height: 224px;
       margin: 0 38px;
     }
   
@@ -1980,7 +1980,7 @@
   
     .search {
       position: relative;
-      width: 432px;
+      width: 400px;
     }
   
     input {
@@ -2004,8 +2004,8 @@
     }
     .noticeBox_full {
       float: right;
-      width: 604px; height: 308px;
-      margin: 78px;
+      width: 504px; height: 208px;
+      margin: 78px 78px 0 0;
     }
   
     .noticeBox {display: none;}
@@ -2077,34 +2077,34 @@
   
     .menu_inner {
       float: left;
-      height: 422px; width: 524px;
+      width: 760px; height: 477px;
       margin: 58px;
     }
   
     .menu {
       float: left;
       padding: 20px 0;
-      width: 524px; height: 422px;
+      width: 760px; height: 477px;
       background-image: url(../../img/menu_intro.png);
       background-repeat: no-repeat;
-      background-size: 524px 422px;
+      background-size: 760px 477px;
       background-position: 50% 50%;
       color: #ffffff;
     }
   
     .menu_TX {
-      width: 524px;
+      width: 816px;
       text-align: center;
       text-transform: uppercase;
       font-weight: 500;
     }
   
     .menu_btn {
-      width: 150px;
-      height: 196px;
+      width: 165px;
+      height: 200px;
       float: right;
-      margin-top: 50px;
-      margin-right: 80px;
+      margin-top: 80px;
+      margin-right: 150px;
     }
     
     .menu_dk {
@@ -2133,9 +2133,9 @@
     }
   
     .menu_p {
-      margin: 270px 76px 0 0;
+      margin: 300px 0 0 0;
       /* height: 524px; */
-      text-align: right;
+      text-align: center;
       font-size: 20px;
       font-weight: 400;
       color: white;
@@ -2143,18 +2143,19 @@
   
     .brandStory_inner {
       float: left;
-      height: 422px; width: 524px;
+      width: 760px; height: 477px;
       margin: 58px;
     }
   
     .brandStory {
       float: left;
       padding: 20px 0;
-      width: 524px; height: 422px;
+      width: 760px; height: 477px;
       background-image: url(../../img/brandStory.png);
       background-repeat: no-repeat;
-      background-size: 524px 422px;
+      background-size: 760px 477px;
       background-position: 50% 50%;
+      color: #ffffff;
     }
   
     .brandStory_TX {
@@ -2231,16 +2232,16 @@
   
     .franchise_inner {
       float: left;
-      height: 384px; width: 524px;
+      width: 760px; height: 384px;
       margin: 58px;
     }
   
     .franchise {
       float: left;
-      width: 524px; height: 384px;
+      width: 760px; height: 384px;
       background-image: url(../../img/franchise.png);
       background-repeat: no-repeat;
-      background-size: 524px 422px;
+      background-size: 760px 477px;
       background-position: 50% 50%;
       color: #ffffff;
     }
@@ -2284,14 +2285,14 @@
     }
   
     .sns_inner {
-      float: right;
-      height: 384px; width: 524px;
+      float: left;
+      width: 760px; height: 384px;
       margin: 58px;
     }
   
     .sns {
       float: right;
-      width: 524px; height: 384px;
+      width: 760px; height: 384px;
       /* margin-left: 40px; */
       /* background-repeat: no-repeat; */
       /* background-size: 524px 422px; */
@@ -2300,28 +2301,28 @@
   
     .snslatte {
       float: left;
-      width: 180px; height: 189px;
+      width: 250px; height: 190px;
     }
   
     .snsthree {
       float: left;
-      width: 180px; height: 189px;
+      width: 250px; height: 190px;
     }
   
     .snscoffee {
       float: left;
-      width: 180px; height: 189px;
+      width: 250px; height: 190px;
     }
   
     .snssoftkit {
       float: left;
-      width: 180px; height: 189px;
+      width: 250px; height: 190px;
     }
   
     .snsmark {
       float: right;
-      width: 158px; height: 384px;
-      margin-top: -390px;
+      width: 178px; height: 384px;
+      margin-top: -200px;
       /* background-color: #243c84; */
     }
     .snsmark > button > span {
