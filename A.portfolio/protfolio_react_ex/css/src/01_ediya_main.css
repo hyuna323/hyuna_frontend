@@ -4,12 +4,6 @@
   width: 1280px; height: auto; min-height: 500px;
   /* margin: auto; */
   /* background-color: #ddd; */
-  @font-face {
-    font-family: 'SUIT-Medium';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Medium.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
 }
 
 
@@ -55,7 +49,7 @@
     } */
 
     /* * {box-sizing: border-box;}
-    body {font-family: Verdana, sans-serif;}
+    body {font-family: 'Noto Sans KR', sans-serif;}
     .mySlides {display: none;}
     img {vertical-align: middle;} */
 
@@ -342,7 +336,7 @@
     } */
 
     /* * {box-sizing: border-box;}
-    body {font-family: Verdana, sans-serif;}
+    body {font-family: 'Noto Sans KR', sans-serif;}
     .mySlides {display: none;}
     img {vertical-align: middle;} */
 
@@ -631,7 +625,7 @@
     } */
   
     * {box-sizing: border-box;}
-    body {font-family: Verdana, sans-serif;}
+    body {font-family: 'Noto Sans KR', sans-serif;}
     .mySlides {display: none;}
     img {vertical-align: middle;}
   
@@ -1238,7 +1232,7 @@
     } */
   
     * {box-sizing: border-box;}
-    body {font-family: Verdana, sans-serif;}
+    body {font-family: 'Noto Sans KR', sans-serif;}
     .mySlides {display: none;}
     img {vertical-align: middle;}
   
@@ -1845,7 +1839,7 @@
     } */
   
     * {box-sizing: border-box;}
-    body {font-family: Verdana, sans-serif;}
+    body {font-family: 'Noto Sans KR', sans-serif;}
     .mySlides {display: none;}
     img {vertical-align: middle;}
   
