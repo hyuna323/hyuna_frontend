@@ -44,7 +44,8 @@ function showSlides(n) {
 
 // mainpage
 function home(){
-  let url = "http://127.0.0.1:5500/html/01_ediya_main.html";
+  // let url = "http://127.0.0.1:5500/html/01_ediya_main.html";
+  let url = ".";
   window.location = url;
 }
 
@@ -61,7 +62,7 @@ function sns_I(){
 }
 
 // SNS Naver blog
-function sns_I(){
+function sns_N(){
   let url = "https://blog.naver.com/ediya-coffee";
   window.location = url;
 }
