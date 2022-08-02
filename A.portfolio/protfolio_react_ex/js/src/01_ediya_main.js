@@ -44,8 +44,8 @@ function showSlides(n) {
 
 // mainpage
 function home(){
-  // let url = "http://127.0.0.1:5500/html/01_ediya_main.html";
-  let url = ".";
+  // 베르첼 배포시 url 바꾸기
+  let url = "http://127.0.0.1:5500/html/01_ediya_main.html";
   window.location = url;
 }
 
