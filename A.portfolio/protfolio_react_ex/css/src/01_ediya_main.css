@@ -1285,6 +1285,7 @@
   #dreamfactoryBox_full {display: none;}
   #storefindBox {
     /* ????? */
+    /* margin-top: 30px; */
     /* margin-top: 45px; */
     /* float: left; */
     /* position: relative; */
@@ -1297,6 +1298,7 @@
       float: left;
       width: 604px; height: 254px;
       margin: 58px;
+      padding:30px 50px;
     }
   
     .storefind_TX {
@@ -1334,6 +1336,7 @@
       float: left;
       width: 604px; height: 254px;
       margin: 58px;
+      padding: 30px;
     }
   
     /* .notice_inner {
