@@ -723,6 +723,7 @@
     box-sizing: border-box;
     padding: 46px 18px 46px 24px;
     position: fixed;
+    z-index: 99;
     background-color: #fff;
   }
     .head_inner {
@@ -769,7 +770,7 @@
       /* margin-top: -30px; */
     }
     .viewport {
-      height: 720px;
+      height: 630px;
     }
   
     /* .view_outer {
