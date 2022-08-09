@@ -40,6 +40,19 @@ function showSlides(n) {
   dots[n].className += " active";
 }
 
+// header fixed
+// let header = document.querySelector(".header");
+// let headerHeight = header.offsetHeight;
+
+// window.onscroll = function () {
+//   let windowTop = window.scrollY;
+//   if (windowTop >= headerHeight) {
+//     header.classList.add("drop");
+//   } else {
+//     header.classList.remove("drop");
+//   }
+// };
+
 // ---------------------------------------------
 
 // mainpage
@@ -77,3 +90,4 @@ $('.notice_on').click(function(){
   $(this).attr('class','notice_on'); //공지사항 버튼 CSS변경
   $('.gallery_on').attr('class','gallery_off'); //갤러리 버튼 CSS 변경
 });
+
