@@ -46,6 +46,8 @@
       height: 130px;
     }
 
+    .viewport > img {width: 100%;}
+
     /* .view_outer {
       background-color: #ddd;
       width: 100%; height: 525px;
@@ -448,17 +450,18 @@
 
       .gnb {
         float: left;
-        width: 515px; height: 30px;
+        width: 550px; height: 30px;
       }
       .gnb > ul {
-        width: 515px; height: 30px;
+        width: 520px; height: 30px;
         text-align: center;
-        margin-left: 55px; 
+        margin-top: -10px;
+        margin-left: 25px; 
       }
       .gnb > ul > li {
         display: inline-block; width: auto; height: auto;
         font-size: 13px;
-        margin-left: 5px;
+        margin-left: 3px;
       }
       .gnb li:first-child {
         margin-left: 0;
@@ -471,16 +474,17 @@
 
   /* #viewBox ========================= */
   #viewBox {
-    height: 390px;
+    height: 403px;
     box-sizing: border-box;
     /* background-color: #ccc; */
   }
     .view_outer {
-      width: 100%; height: 390px;
+      width: 100%; height: 403px;
     }
     .viewport {
       height: 373px;
     }
+    .viewport > img {width: 100%;}
 
     /* .view_outer {
       background-color: #ddd;
@@ -542,7 +546,113 @@
   #dreamfactoryBox_full {display: none;}
   #storefindBox {display: none;}
 
-
+/* shortcutBox */
+  #shortcutBox {
+    width: 100%; height: 434px;
+    box-sizing: border-box;
+    /* float: left; */
+  }
+    .shortcut {
+      width: 100%; height: 434px;
+      max-width: 767px; min-width: 320px;
+      margin: auto; box-sizing: border-box;
+    }
+    .sc_title {
+      text-align: center;
+      /* width: 50px; height: 28px; */
+      padding: 10px;
+      font-size: 22px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: #243c84;
+    }
+    .shortcut_inner {
+      width: 100%; height: 380px;
+      padding: 2px 14px 14px;
+    }
+    .drinkInner {
+      float: left;
+      width: 364px; height: 180px;
+      background-color: #ddd;
+      background-image: url(../../img/drink.svg);
+      background-size: 364px;
+      background-repeat: no-repeat;
+    }
+      .drink_TX {
+        width: 364px;
+        padding: 5px 10px;
+        font-size: 24px;
+        font-weight: 400;
+        float: left;
+        text-transform: capitalize;
+      }
+      .left_more {
+        width: 142px;
+        padding: 2px;
+        margin: 0 10px;
+        font-size: 18px;
+        float: left;
+        outline: solid 1px;
+      }
+    .bakeryInner {
+      float: left;
+      width: 364px; height: 180px;
+      background-color: #aaa;
+      background-image: url(../../img/bakery.svg);
+      background-size: 364px;
+      background-repeat: no-repeat;
+    }
+      .bk_TX {
+        width: 364px;
+        padding: 5px 10px 0;
+        font-size: 24px;
+        font-weight: 400;
+        float: right;
+        text-align: right;
+        text-transform: capitalize;
+      }
+      .right_more {
+        width: 142px;
+        padding: 2px;
+        margin: 6px 0 0 208px;
+        font-size: 18px;
+        float: right;
+        outline: solid 1px;
+      }
+    .mdInner {
+      float: left;
+      width: 364px; height: 180px;
+      background-color: #aaa;
+      background-image: url(../../img/md.svg);
+      background-size: 364px;
+      background-repeat: no-repeat;
+    }
+      .md_TX {
+        width: 364px;
+        padding: 5px 10px 0;
+        font-size: 24px;
+        font-weight: 400;
+        float: left;
+        text-align: left;
+        text-transform: uppercase;
+      }
+    .bistroInner {
+      float: left;
+      width: 364px; height: 180px;
+      background-color: #ddd;
+      background-image: url(../../img/bistro.svg);
+      background-size: 364px;
+      background-repeat: no-repeat;
+    }
+      .bst_TX {
+        width: 364px;
+        padding: 5px 10px 0;
+        font-size: 24px;
+        font-weight: 400;
+        float: right;
+        text-align: right;
+        text-transform: capitalize;
+      }
 
   /* #storyBox ========================= */
   #storyBox {display: none;}
@@ -559,6 +669,7 @@
     /* .dreamfactory_inner {} */
 
     .dreamfactory {
+      height: 230px;
       padding-top: 35px;
       padding-left: 54px;
     }
@@ -623,16 +734,16 @@
 
     .franchise_inner {
       float: left;
-      height: 264px; width: 770px;
-      margin: 30px;
+      width: 344px; height: 264px;
+      margin: 30px 30px 30px 15px;
     }
 
     .franchise {
       float: left;
-      width: 316px; height: 264px;
+      width: 334px; height: 264px;
       background-image: url(../../img/franchise.png);
       background-repeat: no-repeat;
-      background-size: 264px 316px;
+      background-size: 334px 264px;
       background-position: 50% 50%;
       color: #ffffff;
     }
@@ -684,17 +795,63 @@
 
     .sns_inner {display: none;}
 
+    .ediyastory_inner {
+      float: left;
+      width: 334px; height: 264px;
+      margin: 30px 30px 30px 15px;
+      background-color: #ddd;
+    }
+    .ediyastory {
+      float: left;
+      width: 334px; height: 264px;
+      background-image: url(../../img/ediyastory.png);
+      background-repeat: no-repeat;
+      background-size: 334px 264px;
+      background-position: 50% 50%;
+      color: #ffffff;
+    }
+    .ediyastory_TX {
+      float: right;
+      width: 130px;
+      font-size: 16px;
+      text-align: right;
+      font-weight: 400;
+      margin-right: 80px;
+      padding-top: 30px;
+    }
+    .ediyastory_btn {
+      width: 132px;
+      height: 78px;
+      float: right;
+      margin-top: 40px;
+      margin-right: 40px;
+    }
+    .ediyastory_more {
+      float: right;
+      font-size: 16px;
+      color: #000000;
+      width: 132px; height: 32px;
+      line-height: 32px;
+      /* margin-bottom: 5px; */
+      text-transform: uppercase;
+      border: 1px solid #151515;
+      background-color: #dddddd;
+      opacity: 0.6;
+      cursor: pointer;
+    }
+
+
   /* #footBox ========================= */
   #footBox {
     float: left;
     width: 100%; height: 217px;
-    background-color: #243c84;
+    background-color: #555;
     /* padding: 20px; */
   }
   .foot_inner {display: none;}
 
   .footInner_m {
-      width: 100%; height: 217px;
+      width: 90%; height: 197px;
       margin-left: 35px;
       margin-top: 20px;
     }
@@ -709,6 +866,7 @@
     }
 
     .footInner_m > ul > li {
+      /* width: 90%; */
       font-size: 16px;
       color: #ffffff;
     }
