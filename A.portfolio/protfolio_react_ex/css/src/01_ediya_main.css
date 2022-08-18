@@ -64,7 +64,7 @@
       width: 100%; min-width: 320px; height: 172px;
     }
 
-    .viewport > img {width: 100%; min-width: 320px;}
+    .viewport > img {max-width: 100%;}
     /* .view_outer {
       background-color: #ddd;
       width: 100%; height: 525px;
