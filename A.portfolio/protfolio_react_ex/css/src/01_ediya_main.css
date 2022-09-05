@@ -761,30 +761,30 @@
   /* #companyaboutBox ========================= */
   #companyabBox {
     float: left;
-    width: 100%;
+    width: 100%; min-width: 768px;
     height: 324px;
     /* background-color: #aaa; */
   }
 
     .franchise_inner {
       float: left;
-      width: 344px; height: 264px;
-      margin: 30px 30px 30px 15px;
+      width: 43.75%; min-width: 336px; height: 264px;
+      margin: 3.72093023% 1.72093023% 3.72093023% 4.36046512%;
     }
 
     .franchise {
       float: left;
-      width: 334px; height: 264px;
+      width: 100%; min-width: 336px; height: 264px;
       background-image: url(../../img/franchise.png);
       background-repeat: no-repeat;
-      background-size: 334px 264px;
+      background-size: 100% 264px;
       background-position: 50% 50%;
       color: #ffffff;
     }
 
     .franchise_TX {
       float: right;
-      width: 130px;
+      width: 16.9271%; min-width: 130px;
       font-size: 16px;
       text-align: right;
       font-weight: 400;
@@ -793,18 +793,17 @@
     }
 
     .franchise_btn {
-      width: 132px;
+      width: 17.1875%; min-width: 132px;
       height: 78px;
       float: right;
-      margin-top: 40px;
-      margin-right: 40px;
+      margin-top: 95px;
+      margin-right: -170px;
     }
 
     .franchise_gd{
       float: right;
       font-size: 16px;
-      color: #000000;
-      width: 132px; height: 32px;
+      width: 17.1875%; min-width: 132px; height: 32px;
       line-height: 32px;
       /* margin-bottom: 5px; */
       text-transform: uppercase;
@@ -812,49 +811,50 @@
       background-color: #dddddd;
       opacity: 0.6;
       cursor: pointer;
+      /* color: #000000; */
     }
     .franchise_pt{
       float: right;
       font-size: 16px;
-      color: #000000;
-      width: 132px; height: 32px;
+      width: 17.1875%; min-width: 132px; height: 32px;
       line-height: 32px;
-      /* margin-bottom: 5px; */
       text-transform: uppercase;
       border: 1px solid #151515;
       background-color: #dddddd;
       opacity: 0.6;
       cursor: pointer;
+      /* margin-bottom: 5px; */
+      /* color: #000000; */
     }
 
     .sns_inner {display: none;}
 
     .ediyastory_inner {
       float: left;
-      width: 334px; height: 264px;
-      margin: 30px 30px 30px 15px;
+      width: 43.75%; min-width: 336px; height: 264px;
+      margin: 3.72093023% 4.36046512% 3.72093023% 1.72093023%;
       background-color: #ddd;
     }
     .ediyastory {
       float: left;
-      width: 334px; height: 264px;
+      width: 100%; min-width: 336px; height: 264px;
       background-image: url(../../img/ediyastory.png);
       background-repeat: no-repeat;
-      background-size: 334px 264px;
+      background-size: 100% 264px;
       background-position: 50% 50%;
       color: #ffffff;
     }
     .ediyastory_TX {
       float: right;
-      width: 130px;
+      width: 100%; min-width: 130px;
       font-size: 16px;
       text-align: right;
       font-weight: 400;
-      margin-right: 80px;
+      margin-right: 15.5384615%;
       padding-top: 30px;
     }
     .ediyastory_btn {
-      width: 132px;
+      width: 17.1875%; min-width: 132px;
       height: 78px;
       float: right;
       margin-top: 40px;
@@ -863,8 +863,8 @@
     .ediyastory_more {
       float: right;
       font-size: 16px;
-      color: #000000;
-      width: 132px; height: 32px;
+      width: 100%; min-width: 132px; height: 32px;
+      /* color: #000000; */
       line-height: 32px;
       /* margin-bottom: 5px; */
       text-transform: uppercase;
@@ -877,17 +877,19 @@
 
   /* #footBox ========================= */
   #footBox {
+    width: 100%; min-width: 768px;
+    height: 217px;
     float: left;
-    width: 100%; height: 217px;
     background-color: #555;
     /* padding: 20px; */
   }
   .foot_inner {display: none;}
 
   .footInner_m {
-      width: 90%; height: 197px;
-      margin-left: 35px;
-      margin-top: 20px;
+      width: 90%; min-width: 700px;
+      height: 197px;
+      margin-left: 4.55729167%;
+      margin-top: 2.60416667%;
     }
 
     .footInner_m > h2 {
@@ -896,11 +898,12 @@
     }
     
     .footInner_m > h2 > button > img {
-      width: 152px; height: 20px;
+      width: 100%; min-width: 152px; 
+      height: 20px;
     }
 
     .footInner_m > ul > li {
-      /* width: 90%; */
+      width: 90%; min-width: 700px;
       font-size: 16px;
       color: #ffffff;
     }
