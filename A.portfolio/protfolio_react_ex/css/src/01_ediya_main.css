@@ -919,7 +919,7 @@
     padding: 46px 18px 46px 24px;
     /* position: fixed;
     z-index: 99; */
-    background-color: #fff;
+    /* background-color: #fff; */
   }
     .head_inner {
       width: 100%; max-width: 1439px; min-width: 1280px;
@@ -928,17 +928,18 @@
     }
       h1 {
         float: left;
-        width: 280px; height: 28px;
+        width: 21.875%; min-width: 280px; height: auto;
       }
       
-      h1 > button > img { width: 280px; height: 28px;}
+      h1 > button > img {
+        width: 100%; min-width: 280px; height: 28px;}
 
       .gnb {
         float: left;
-        width: 950px; height: 55px;
+        width: 74.2188%; min-width: 950px; height: 55px;
       }
       .gnb > ul {
-        width: 920px; height: 54px;
+        width: 71.875%; min-width: 920px; height: 54px;
         text-align: center;
         margin-left: 50px; 
       }
@@ -956,19 +957,20 @@
     
   /* #viewBox ========================= */
   #viewBox {
-    height: 755px;
+    width: 100%; min-width: 1280px;
+    height: 720px;
     box-sizing: border-box;
     /* background-color: #ccc; */
   }
     .view_outer {
-      width: 100%; height: 740px;
+      width: 100%; min-width: 1280px; height: 740px;
       /* margin-top: -30px; */
     }
     .viewport {
-      height: 630px;
+      width: 100%; min-width: 1280px;height: 630px;
     }
     .viewport > img {
-      width: 100%; height: 720px;
+      width: 100%; min-width: 1280px; height: 720px;
     }
   
     /* .view_outer {
@@ -977,10 +979,10 @@
       margin: auto;
     } */
   
-    * {box-sizing: border-box;}
+    /* * {box-sizing: border-box;}
     body {font-family: 'Noto Sans KR', sans-serif;}
     .mySlides {display: none;}
-    img {vertical-align: middle;}
+    img {vertical-align: middle;} */
   
     /* Slideshow container */
     /* The dots/bullets/indicators */
@@ -1026,25 +1028,26 @@
   
   /* #storefindBox ========================= */
   .content_box_wrap {
-    width: 100%; height: 484px;
+    width: 100%; min-width: 1280px; height: 484px;
   }
     .storefactory {display: none;}
     #dreamfactoryBox_full {display: none;}
   
     #storefindBox {
+      width: 100%; min-width: 1280px;
+      height: 328px;
       /* ????? */
       /* margin-top: 45px; */
       /* float: left; */
       /* position: relative; */
-      height: 348px;
       /* background-color: #ddd; */
       /* padding: 58px; */
     }
     
       .find_inner {
         float: left;
-        width: 524px; height: 232px;
-        margin: 58px;
+        width: 40.9375%; min-width: 524px; height: 232px;
+        margin: 2.969% 4.098% 4.031% 4.988%;
       }
     
       .storefind_TX {
@@ -1054,7 +1057,7 @@
     
       .search {
         position: relative;
-        width: 432px;
+        width: 33.75%; min-width: 430px;
       }
     
       input {
@@ -1079,8 +1082,8 @@
       .noticeBox_full {display: none;}
       .noticeBox {
         float: left;
-        width: 524px; height: 232px;
-        margin: 58px;
+        width: 40.9375%; min-width: 524px; height: 232px;
+        margin: 2.969% 4.831% 4.031% 4.098%;
       }
     
       /* .notice_inner {
@@ -1090,12 +1093,12 @@
       } */
     
       .notice {
-        width: 545px; height: 232px;
+        width: 42.5781%; min-width: 524px; height: 232px;
       }
     
       .notice_TX {
-        width: 545px; height: 50px;
-        margin-left: 38px;
+        width: 42.5781%; min-width: 545px; height: 50px;
+        margin-left: 18px;
         font-weight: 500;
       }
     
@@ -1117,12 +1120,12 @@
     } */
     
       .notice_letter{
+        width: 38.28125%; min-width: 490px; height: 220px;
         display: block;
         /* position: fixed; */
         /* padding: 10px; */
         margin-top: 20px;
-        Padding-left: 50px;
-        width: 490px; height: 220px;
+        Padding-left: 10px;
       }
       .notice_letter > li{
         font-weight: normal;
@@ -1130,7 +1133,8 @@
       .notice_letter > li > a {
         font-size: 20px;
         float: left;
-        width: 330px;
+        width: 25.7813%; min-width: 330px;
+        height: auto;
       }
       .notice_letter > li > span {
         float: right;
@@ -1143,37 +1147,37 @@
     /* #storyBox ========================= */
     #storyBox {
       float: left;
-      padding: 10px 10px 0;
-      width: 100%; height: 558px;
+      /* padding: 10px 10px 0; */
+      width: 100%; min-width: 1280px; height: 518px;
       /* background-color: #aaa; */
       }
     
       .menu_inner {
         float: left;
-        height: 422px; width: 514px;
-        margin: 58px;
+        width: 40.156%; min-width: 522px; height: 422px; 
+        margin: 3.469% 4.191% 4.031% 4.988%;
       }
     
       .menu {
         float: left;
+        width: 100%; min-width: 522px; height: 422px;
         padding: 20px 0;
-        width: 514px; height: 422px;
         background-image: url(../../img/menu_intro.png);
         background-repeat: no-repeat;
-        background-size: 514px 422px;
+        background-size: 100% 422px;
         background-position: 50% 50%;
         color: #ffffff;
       }
     
       .menu_TX {
-        width: 504px;
+        width: 100%; min-width: 504px;
         text-align: center;
         text-transform: uppercase;
         font-weight: 500;
       }
     
       .menu_btn {
-        width: 150px;
+        width: 11.719%; min-width: 150px;
         height: 196px;
         float: right;
         margin-top: 50px;
@@ -1182,7 +1186,7 @@
       
       .menu_dk {
         float: right;
-        width: 142px;
+        width: 94.667%; min-width: 142px;
         line-height: 45px;
         margin-bottom: 10px;
         border: 1px solid #cccccc;
@@ -1190,7 +1194,7 @@
       }
       .menu_fd{
         float: right;
-        width: 142px;
+        width: 94.667%; min-width: 142px;
         line-height: 45px;
         margin-bottom: 10px;
         border: 1px solid #cccccc;
@@ -1198,7 +1202,7 @@
       }
       .menu_md{
         float: right;
-        width: 142px;
+        width: 94.667%; min-width: 142px;
         line-height: 45px;
         text-transform: uppercase;
         border: 1px solid #cccccc;
@@ -1216,29 +1220,29 @@
     
       .brandStory_inner {
         float: left;
-        height: 422px; width: 514px;
-        margin: 58px;
+        width: 40.156%; min-width: 522px; height: 422px;
+        margin: 3.469% 4.988% 4.031% 4.191%;
       }
     
       .brandStory {
         float: left;
+        width: 100%; min-width: 522px; height: 422px;
         padding: 20px 0;
-        width: 514px; height: 422px;
         background-image: url(../../img/brandStory.png);
         background-repeat: no-repeat;
-        background-size: 514px 422px;
+        background-size: 100% 422px;
         background-position: 50% 50%;
       }
     
       .brandStory_TX {
-        width: 504px;
+        width: 100%; min-width: 504px;
         text-align: center;
         text-transform: uppercase;
         font-weight: 500;
       }
     
       .brandStory_btn {
-        width: 150px;
+        width: 11.719%; min-width: 150px;
         height: 307px;
         float: right;
         margin-top: 50px;
@@ -1247,7 +1251,7 @@
       
       .brandStory_ey {
         float: right;
-        width: 142px;
+        width: 94.667%; min-width: 142px;
         line-height: 45px;
         margin-bottom: 5px;
         border: 1px solid #151515;
@@ -1255,7 +1259,7 @@
       }
       .brandStory_ci{
         float: right;
-        width: 142px;
+        width: 94.667%; min-width: 142px;
         line-height: 45px;
         margin-bottom: 5px;
         text-transform: uppercase;
@@ -1264,7 +1268,7 @@
       }
       .brandStory_ht{
         float: right;
-        width: 142px;
+        width: 94.667%; min-width: 142px;
         line-height: 45px;
         margin-bottom: 5px;
         border: 1px solid #151515;
@@ -1273,7 +1277,7 @@
     
       .brandStory_m{
         float: right;
-        width: 142px;
+        width: 94.667%; min-width: 142px;
         line-height: 45px;
         margin-bottom: 5px;
         text-transform: uppercase;
@@ -1282,7 +1286,7 @@
       }
       .brandStory_aw{
         float: right;
-        width: 142px;
+        width: 94.667%; min-width: 142px;
         line-height: 45px;
         text-transform: uppercase;
         border: 1px solid #151515;
