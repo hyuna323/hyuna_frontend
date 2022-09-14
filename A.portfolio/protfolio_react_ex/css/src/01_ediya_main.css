@@ -1559,7 +1559,7 @@
         width: 63.5%; min-width: 900px; height: 55px;
       }
       .gnb > ul {
-        width: 62.5%; min-width: 900px; height: 54px;
+        width: 63.5%; min-width: 900px; height: 54px;
         text-align: center;
         margin-left: 190px; 
       }
@@ -2132,7 +2132,7 @@
   }
   
     .foot_inner {
-    width: 80.9722%; min-width: 1166px; height: 197px;
+      width: 80.9722%; min-width: 1166px; height: 197px;
       margin: 50px 0 0 70px;
     }
   
@@ -2141,7 +2141,7 @@
     }
 
     .foot_inner > h2 > img {
-      width: 100%; min-width: 280px; height:28px;
+      width: 100%; min-width: 280px; height: 28px;
     }
   
     .foot_inner > ul > li {
@@ -2169,17 +2169,18 @@
     }
       h1 {
         float: left;
-        width: 409px; height: 47px;
+        width: 21.302%; min-width: 409px; height: 47px;
       }
       
-      h1 > button > img { width: 309px; height: 37px;}
+      h1 > button > img { 
+        width: 100%; min-width: 409px; height: 37px;}
 
       .gnb {
         float: left;
-        width: 1450px; height: 45px;
+        width: 75.521%; min-width: 1450px; height: 45px;
       }
       .gnb > ul {
-        width: 1450px; height: 45px;
+        width: 75.521%; min-width: 1450px; height: 45px;
         text-align: center;
         margin-left: 106px; 
       }
@@ -2198,19 +2199,20 @@
     
   /* #viewBox ========================= */
   #viewBox {
+    width: 100%; min-width: 1920px;
     height: 720PX;
     box-sizing: border-box;
     /* background-color: #ccc; */
   }
     .view_outer {
-      width: 100%; height: 720px;
+      width: 100%; min-width: 1920px; height: 720px;
       /* margin-top: -30px; */
     }
     .viewport {
-      height: 680px;
+      width: 100%; min-width: 1920px; height: 680px;
     }
     .viewport > img {
-      width: 100%; height: 720px;
+      width: 100%; min-width: 1920px; height: 720px;
     }
   
     /* .view_outer {
@@ -2219,10 +2221,10 @@
       margin: auto;
     } */
   
-    * {box-sizing: border-box;}
+    /* * {box-sizing: border-box;}
     body {font-family: 'Noto Sans KR', sans-serif;}
     .mySlides {display: none;}
-    img {vertical-align: middle;}
+    img {vertical-align: middle;} */
   
     /* Slideshow container */
     /* The dots/bullets/indicators */
@@ -2268,41 +2270,43 @@
   
   /* #storefindBox ========================= */
   .content_box_wrap{
-    width: 100%; height: 1600px;
+    width: 100%; min-width: 1920px; height: 1600px;
   }
 
   /* .storefactory{width: 1230px; height: 580px;} */
   #dreamfactoryBox_full {
     float: left;
-    width: 1230px;
+    width: 64.0625%; min-width: 1230px;
     height: 580px;
-    padding: 50px 35px;
+    padding: 4.065% 4.845%;
   }
   
   .dreamfactory_inner {
-    width: 1160px; 
+    width: 60.416%; min-width: 1160px; 
     height: 486px;
     background-color: #243c84;
   }
   
     .dreamfactory {
-      padding-top: 50px;
-      padding-left: 90px;
+      height: 488px;
+      padding-top: 4.31%;
+      padding-left: 7.758%;
       }
 
       .dreamTxt {
-        width: 838px; height:80px;
+        width: 43.6458%; min-width: 838px; height:80px;
       }
     
       .dreamfactory > ul > li {
-        /* text-align: left; */
+        width: 24.479%; min-width: 470px;
+        text-align: left;
         margin-top: 50px;
         font-size: 20px;
         color: #ffffff;
       }
     
       .dreamImg {
-        width: 690px; height: 310px;
+        width: 35.9375%; min-width: 690px; height: 305px;
         float: right;
         margin-top: 45px;
       }
@@ -2338,20 +2342,21 @@
       }
   
   #storefindBox {
+    float: left;
+    width: 35.9375%; min-width: 690px;
+    height: 580px;
     /* ????? */
     /* margin-top: 45px; */
-    float: left;
     /* position: relative; */
-    width: 690px; height: 580px;
     /* margin: 0 0px; */
     /* background-color: #ddd; */
-    padding: 68px 0;
+    padding: 3.855% 0;
   }
   
     .find_inner {
       float: left;
-      width: 596px; height: 224px;
-      margin: 0 38px;
+      width: 31.042%; min-width: 596px; height: 224px;
+      margin: 0 6.3758%;
     }
   
     .storefind_TX {
@@ -2361,7 +2366,7 @@
   
     .search {
       position: relative;
-      width: 400px;
+      width: 27.777%; min-width: 400px;
     }
   
     input {
@@ -2385,8 +2390,8 @@
     }
     .noticeBox_full {
       float: right;
-      width: 504px; height: 208px;
-      margin: 78px 78px 0 0;
+      width: 26.25%; min-width: 504px; height: 208px;
+      margin: 15.476% 15.476% 0 0;
     }
   
     .noticeBox {display: none;}
@@ -2398,11 +2403,11 @@
     } */
   
     .notice {
-      width: 545px;
+      width: 28.385%; min-width: 545px; height: 290px;
     }
   
     .notice_TX {
-      width: 545px; height: 50px;
+      width: 28.385%; min-width: 545px; height: 50px;
       margin-left: 38px;
       font-weight: 500;
     }
@@ -2425,20 +2430,20 @@
   } */
   
     .notice_letter{
+      width: 25.521%; min-width: 490px; height: 220px;
       display: block;
       /* position: fixed; */
       /* padding: 10px; */
       margin-top: 20px;
       Padding-left: 50px;
-      width: 490px; height: 220px;
     }
     .notice_letter > li{
       font-weight: normal;
     }
     .notice_letter > li > a {
       font-size: 20px;
+      width: 17.1875%; min-width: 330px;
       float: left;
-      width: 330px;
     }
     .notice_letter > li > span {
       float: right;
@@ -2451,37 +2456,37 @@
   /* #storyBox ========================= */
   #storyBox {
     float: left;
-    padding: 10px 80px 0;
-    width: 100%; height: 558px;
+    width: 100%; min-width: 1920px; height: 600px;
+    /* padding: 0.521% 4.1666%; */
     /* background-color: #aaa; */
     }
   
     .menu_inner {
       float: left;
-      width: 760px; height: 477px;
-      margin: 58px;
+      width: 39.583%; min-width: 778px; height: 477px;
+      margin: 2.969% 2.331% 3.331% 6.8%;
     }
   
     .menu {
       float: left;
+      width: 100%; min-width: 778px; height: 477px;
       padding: 20px 0;
-      width: 760px; height: 477px;
       background-image: url(../../img/menu_intro.png);
       background-repeat: no-repeat;
-      background-size: 760px 477px;
+      background-size: 100% 477px;
       background-position: 50% 50%;
       color: #ffffff;
     }
   
     .menu_TX {
-      width: 816px;
+      width: 100%; min-width: 816px;
       text-align: center;
       text-transform: uppercase;
       font-weight: 500;
     }
   
     .menu_btn {
-      width: 165px;
+      width: 8.5938%; min-width: 165px;
       height: 200px;
       float: right;
       margin-top: 80px;
@@ -2490,7 +2495,7 @@
     
     .menu_dk {
       float: right;
-      width: 142px;
+      width: 86.061%; min-width: 142px;
       line-height: 45px;
       margin-bottom: 10px;
       border: 1px solid #cccccc;
@@ -2498,7 +2503,7 @@
     }
     .menu_fd{
       float: right;
-      width: 142px;
+      width: 86.061%; min-width: 142px;
       line-height: 45px;
       margin-bottom: 10px;
       border: 1px solid #cccccc;
@@ -2506,7 +2511,7 @@
     }
     .menu_md{
       float: right;
-      width: 142px;
+      width: 86.061%; min-width: 142px;
       line-height: 45px;
       text-transform: uppercase;
       border: 1px solid #cccccc;
@@ -2524,30 +2529,29 @@
   
     .brandStory_inner {
       float: left;
-      width: 760px; height: 477px;
-      margin: 58px;
+      width: 39.583%; min-width: 778px; height: 477px;
+      margin: 2.969% 6.8% 3.331% 2.331%;
     }
   
     .brandStory {
       float: left;
+      width: 100%; min-width: 778px; height: 477px;
       padding: 20px 0;
-      width: 760px; height: 477px;
       background-image: url(../../img/brandStory.png);
       background-repeat: no-repeat;
-      background-size: 760px 477px;
+      background-size: 100% 477px;
       background-position: 50% 50%;
-      color: #ffffff;
     }
   
     .brandStory_TX {
-      width: 524px;
+      width: 100%; min-width: 524px;
       text-align: center;
       text-transform: uppercase;
       font-weight: 500;
     }
   
     .brandStory_btn {
-      width: 150px;
+      width: 7.8125%; min-width: 150px;
       height: 307px;
       float: right;
       margin-top: 50px;
@@ -2556,7 +2560,7 @@
     
     .brandStory_ey {
       float: right;
-      width: 142px;
+      width: 94.667%; min-width: 142px;
       line-height: 45px;
       margin-bottom: 5px;
       border: 1px solid #151515;
@@ -2564,7 +2568,7 @@
     }
     .brandStory_ci{
       float: right;
-      width: 142px;
+      width: 94.667%; min-width: 142px;
       line-height: 45px;
       margin-bottom: 5px;
       text-transform: uppercase;
@@ -2573,7 +2577,7 @@
     }
     .brandStory_ht{
       float: right;
-      width: 142px;
+      width: 94.667%; min-width: 142px;
       line-height: 45px;
       margin-bottom: 5px;
       border: 1px solid #151515;
@@ -2582,7 +2586,7 @@
   
     .brandStory_m{
       float: right;
-      width: 142px;
+      width: 94.667%; min-width: 142px;
       line-height: 45px;
       margin-bottom: 5px;
       text-transform: uppercase;
@@ -2591,7 +2595,7 @@
     }
     .brandStory_aw{
       float: right;
-      width: 142px;
+      width: 94.667%; min-width: 142px;
       line-height: 45px;
       text-transform: uppercase;
       border: 1px solid #151515;
@@ -2605,30 +2609,31 @@
   /* #companyaboutBox ========================= */
   #companyabBox {
     float: left;
-    width: 100%;
-    height: 500px;
-    padding: 0 80px;
+    width: 100%; min-width: 1920px;
+    height: 530px;
+    padding: 0 4.166%;
     /* background-color: #aaa; */
   }
   
     .franchise_inner {
       float: left;
-      width: 760px; height: 384px;
-      margin: 58px;
+      width: 39.583%; min-width: 760px; height: 384px;
+      margin: 3.021%;
     }
   
     .franchise {
       float: left;
-      width: 760px; height: 384px;
+      width: 100%; min-width: 760px; height: 384px;
       background-image: url(../../img/franchise.png);
       background-repeat: no-repeat;
-      background-size: 760px 477px;
+      background-size: 100% 477px;
       background-position: 50% 50%;
       color: #ffffff;
     }
   
     .franchise_TX {
-      width: 524px;
+      width: 27.2916%; min-width: 524px;
+      /* font-size: 20px; */
       text-align: right;
       font-weight: 500;
       padding-right: 110px;
@@ -2636,7 +2641,7 @@
     }
   
     .franchise_btn {
-      width: 198px;
+      width: 10.3125%; min-width: 198px;
       height: 121px;
       float: right;
       margin-top: 80px;
@@ -2645,7 +2650,7 @@
   
     .franchise_gd{
       float: right;
-      width: 192px;
+      width: 10%; min-width: 192px;
       line-height: 45px;
       margin-bottom: 5px;
       text-transform: uppercase;
@@ -2656,7 +2661,7 @@
     }
     .franchise_pt{
       float: right;
-      width: 192px;
+      width: 10%; min-width: 192px;
       line-height: 45px;
       text-transform: uppercase;
       border: 1px solid #151515;
@@ -2667,13 +2672,13 @@
   
     .sns_inner {
       float: left;
-      width: 760px; height: 384px;
-      margin: 58px;
+      width: 39.583%; min-width: 760px; height: 384px;
+      margin: 3.021%;
     }
   
     .sns {
       float: right;
-      width: 760px; height: 384px;
+      width: 39.583%; min-width: 760px; height: 384px;
       /* margin-left: 40px; */
       /* background-repeat: no-repeat; */
       /* background-size: 524px 422px; */
@@ -2682,27 +2687,27 @@
   
     .snslatte {
       float: left;
-      width: 250px; height: 190px;
+      width: 100%; min-width: 250px; height: 190px;
     }
   
     .snsthree {
       float: left;
-      width: 250px; height: 190px;
+      width: 100%; min-width: 250px; height: 190px;
     }
   
     .snscoffee {
       float: left;
-      width: 250px; height: 190px;
+      width: 100%; min-width: 250px; height: 190px;
     }
   
     .snssoftkit {
       float: left;
-      width: 250px; height: 190px;
+      width: 100%; min-width: 250px; height: 190px;
     }
   
     .snsmark {
       float: right;
-      width: 178px; height: 384px;
+      width: 9.271%; min-width: 178px; height: 384px;
       margin-top: -200px;
       /* background-color: #243c84; */
     }
@@ -2717,7 +2722,7 @@
     }
   
     .snsmark > button > img {
-      margin-top: 40px;
+      margin-top: 22.4712%;
       margin-left: 10px;
     }
   
@@ -2743,13 +2748,14 @@
   /* #footBox ========================= */
   #footBox {
     float: left;
-    width: 100%; height: 244px;
+    width: 100%; min-width: 1920px;
+    height: 244px;
     background-color: #555555;
     /* padding: 20px; */
   }
   
     .foot_inner {
-      width: 1166px; height: 197px;
+      width: 60.7292%; min-width: 1166px; height: 197px;
       margin: 50px 0 0 70px;
     }
   
@@ -2758,7 +2764,7 @@
     }
 
     .foot_inner > h2 > img {
-      width:280px; height:28px;
+      width: 100%; width: 280px; height: 28px;
     }
   
     .foot_inner > ul > li {
