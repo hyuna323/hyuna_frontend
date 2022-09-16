@@ -1,0 +1,623 @@
+/* d_main_laptop.css */
+
+/* 1280px ~ 1439px */
+@media all and (min-width:1280px) and (max-width:1439px) {
+  #wrap {width: 100%; min-width: 1280px;}
+    /* #headBox ========================= */
+  #headBox {
+    width: 100%; height: 120px;
+    box-sizing: border-box;
+    padding: 46px 18px 46px 24px;
+    /* position: fixed;
+    z-index: 99; */
+    /* background-color: #fff; */
+  }
+    .head_inner {
+      width: 100%; max-width: 1439px; min-width: 1280px;
+      margin: auto; box-sizing: border-box;
+      /* background-color: #ccc; */
+    }
+      h1 {
+        float: left;
+        width: 21.875%; min-width: 280px; height: auto;
+      }
+      
+      h1 > button > img {
+        width: 100%; min-width: 280px; height: 28px;}
+
+      .gnb {
+        float: left;
+        width: 74.2188%; min-width: 950px; height: 55px;
+      }
+      .gnb > ul {
+        width: 71.875%; min-width: 920px; height: 54px;
+        text-align: center;
+        margin-left: 50px; 
+      }
+      .gnb > ul > li {
+        display: inline-block; width: auto; height: auto;
+        margin-left: 10px;
+      }
+      .gnb li:first-child {
+        margin-left: 0;
+      }
+      .gnb li a {
+        padding: 5px;
+      }
+      /* background-color: #cca; */
+    
+  /* #viewBox ========================= */
+  #viewBox {
+    width: 100%; min-width: 1280px;
+    height: 720px;
+    box-sizing: border-box;
+    /* background-color: #ccc; */
+  }
+    .view_outer {
+      width: 100%; min-width: 1280px; height: 740px;
+      /* margin-top: -30px; */
+    }
+    .viewport {
+      width: 100%; min-width: 1280px;height: 630px;
+    }
+    .viewport > img {
+      width: 100%; min-width: 1280px; height: 720px;
+    }
+  
+    /* .view_outer {
+      background-color: #ddd;
+      width: 100%; height: 525px;
+      margin: auto;
+    } */
+  
+    /* * {box-sizing: border-box;}
+    body {font-family: 'Noto Sans KR', sans-serif;}
+    .mySlides {display: none;}
+    img {vertical-align: middle;} */
+  
+    /* Slideshow container */
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0px 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: 0.6s ease;
+    }
+  
+    @-webkit-keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+  
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+  
+    .active {
+      background-color: #717171;
+    }
+  
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+  
+  
+  
+  /* On smaller screens, decrease text size
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  } */
+  
+  /* #storefindBox ========================= */
+  .content_box_wrap {
+    width: 100%; min-width: 1280px; height: 484px;
+  }
+    .storefactory {display: none;}
+    #dreamfactoryBox_full {display: none;}
+  
+    #storefindBox {
+      width: 100%; min-width: 1280px;
+      height: 328px;
+      /* ????? */
+      /* margin-top: 45px; */
+      /* float: left; */
+      /* position: relative; */
+      /* background-color: #ddd; */
+      /* padding: 58px; */
+    }
+    
+      .find_inner {
+        float: left;
+        width: 40.9375%; min-width: 524px; height: 232px;
+        margin: 2.969% 4.098% 4.031% 4.988%;
+      }
+    
+      .storefind_TX {
+        margin-left: 38px;
+        font-weight: 500;
+      }
+    
+      .search {
+        position: relative;
+        width: 33.75%; min-width: 430px;
+      }
+    
+      input {
+        margin-top: 70px; margin-left: 48px;
+        width: 432px; height: 82px;
+        border: 1px solid #bbb;
+        border-radius: 8px;
+        padding: 10px 12px;
+        font-size: 25px;
+      }
+    
+      .search > button {
+        cursor: pointer;
+      }
+      .search > button > img {
+        position: absolute;
+        width: 40px; height: 40px;
+        top: 90px;
+        right: -20px;
+        margin: 0;
+      }
+      .noticeBox_full {display: none;}
+      .noticeBox {
+        float: left;
+        width: 40.9375%; min-width: 524px; height: 232px;
+        margin: 2.969% 4.831% 4.031% 4.098%;
+      }
+    
+      /* .notice_inner {
+        float: left;
+        width: 524px; height: 232px;
+        margin: 58px;
+      } */
+    
+      .notice {
+        width: 42.5781%; min-width: 524px; height: 232px;
+      }
+    
+      .notice_TX {
+        width: 42.5781%; min-width: 545px; height: 50px;
+        margin-left: 18px;
+        font-weight: 500;
+      }
+    
+    
+      .notice_more {
+        margin-top: -25PX;
+        margin-right: 80PX;
+        float: right;
+        font-weight: normal;
+        font-size: 18px;
+      }
+    
+      /* .tab_title{
+        position: absolute;
+        width: 100%;
+        font-size: 0;
+        z-index: 2;
+        cursor: pointer;
+    } */
+    
+      .notice_letter{
+        width: 38.28125%; min-width: 490px; height: 220px;
+        display: block;
+        /* position: fixed; */
+        /* padding: 10px; */
+        margin-top: 20px;
+        Padding-left: 10px;
+      }
+      .notice_letter > li{
+        font-weight: normal;
+      }
+      .notice_letter > li > a {
+        font-size: 20px;
+        float: left;
+        width: 25.7813%; min-width: 330px;
+        height: auto;
+      }
+      .notice_letter > li > span {
+        float: right;
+        font-size: 17px;
+      }
+    
+    /* #shortcutBox ====================== */
+    #shortcutBox {display: none;}
+    
+    /* #storyBox ========================= */
+    #storyBox {
+      float: left;
+      /* padding: 10px 10px 0; */
+      width: 100%; min-width: 1280px; height: 518px;
+      /* background-color: #aaa; */
+      }
+    
+      .menu_inner {
+        float: left;
+        width: 40.156%; min-width: 522px; height: 422px; 
+        margin: 3.469% 4.191% 4.031% 4.988%;
+      }
+    
+      .menu {
+        float: left;
+        width: 100%; min-width: 522px; height: 422px;
+        padding: 20px 0;
+        background-image: url(../../img/menu_intro.png);
+        background-repeat: no-repeat;
+        background-size: 100% 422px;
+        background-position: 50% 50%;
+        color: #ffffff;
+      }
+    
+      .menu_TX {
+        width: 100%; min-width: 504px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 500;
+      }
+    
+      .menu_btn {
+        width: 11.719%; min-width: 150px;
+        height: 196px;
+        float: right;
+        margin-top: 50px;
+        margin-right: 80px;
+      }
+      
+      .menu_dk {
+        float: right;
+        width: 94.667%; min-width: 142px;
+        line-height: 45px;
+        margin-bottom: 10px;
+        border: 1px solid #cccccc;
+        cursor: pointer;
+      }
+      .menu_fd{
+        float: right;
+        width: 94.667%; min-width: 142px;
+        line-height: 45px;
+        margin-bottom: 10px;
+        border: 1px solid #cccccc;
+        cursor: pointer;
+      }
+      .menu_md{
+        float: right;
+        width: 94.667%; min-width: 142px;
+        line-height: 45px;
+        text-transform: uppercase;
+        border: 1px solid #cccccc;
+        cursor: pointer;
+      }
+    
+      .menu_p {
+        margin: 270px 76px 0 0;
+        /* height: 524px; */
+        text-align: right;
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+      }
+    
+      .brandStory_inner {
+        float: left;
+        width: 40.156%; min-width: 522px; height: 422px;
+        margin: 3.469% 4.988% 4.031% 4.191%;
+      }
+    
+      .brandStory {
+        float: left;
+        width: 100%; min-width: 522px; height: 422px;
+        padding: 20px 0;
+        background-image: url(../../img/brandStory.png);
+        background-repeat: no-repeat;
+        background-size: 100% 422px;
+        background-position: 50% 50%;
+      }
+    
+      .brandStory_TX {
+        width: 100%; min-width: 504px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 500;
+      }
+    
+      .brandStory_btn {
+        width: 11.719%; min-width: 150px;
+        height: 307px;
+        float: right;
+        margin-top: 50px;
+        margin-right: 80px;
+      }
+      
+      .brandStory_ey {
+        float: right;
+        width: 94.667%; min-width: 142px;
+        line-height: 45px;
+        margin-bottom: 5px;
+        border: 1px solid #151515;
+        cursor: pointer;
+      }
+      .brandStory_ci{
+        float: right;
+        width: 94.667%; min-width: 142px;
+        line-height: 45px;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        border: 1px solid #151515;
+        cursor: pointer;
+      }
+      .brandStory_ht{
+        float: right;
+        width: 94.667%; min-width: 142px;
+        line-height: 45px;
+        margin-bottom: 5px;
+        border: 1px solid #151515;
+        cursor: pointer;
+      }
+    
+      .brandStory_m{
+        float: right;
+        width: 94.667%; min-width: 142px;
+        line-height: 45px;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        border: 1px solid #151515;
+        cursor: pointer;
+      }
+      .brandStory_aw{
+        float: right;
+        width: 94.667%; min-width: 142px;
+        line-height: 45px;
+        text-transform: uppercase;
+        border: 1px solid #151515;
+        cursor: pointer;
+      }
+    
+    
+    /* #membershipBox ========================= */
+    #dreamfactoryBox {
+      float: left;
+      width: 100%; min-width: 1280px;
+      height: auto;
+      background-color: #243c84;
+    }
+    
+      /* .dreamfactory_inner {} */
+    
+      .dreamfactory {
+        height: 412px;
+        padding-top: 4.6875%;
+        padding-left: 7.03125%;
+      }
+    
+      .dreamTxt {
+        width: 65.4688%; min-width: 838px; height: auto;
+      }
+      
+    
+      .dreamfactory > ul > li {
+        width: 36.7188%; min-width: 470px;
+        text-align: left;
+        margin-top: 50px;
+        font-size: 18px;
+        color: #ffffff;
+      }
+    
+      .dreamImg {
+        width: 64.8438%; min-width: 830px; height:262px;
+        float: right;
+        margin-top: 12px;
+      }
+    
+      .dreamfactory_btn {
+        width: 449px;
+        height: 70px;
+        /* float: right; */
+        margin-top: 50px;
+        /* margin-right: 80px; */
+      }
+    
+      .dream_fc{
+        float: right;
+        width: 170px;
+        margin-right: 10px;
+        line-height: 45px;
+        text-transform: uppercase;
+        border: 1px solid #151515;
+        background-color: #dddddd;
+        opacity: 0.6;
+        cursor: pointer;
+      }
+      .dream_lc{
+        float: right;
+        width: 170px;
+        line-height: 45px;
+        text-transform: uppercase;
+        border: 1px solid #151515;
+        background-color: #dddddd;
+        opacity: 0.6;
+        cursor: pointer;
+      }
+    
+    /* #companyaboutBox ========================= */
+    #companyabBox {
+      float: left;
+      width: 100%; min-width: 1280px;
+      height: 496px;
+      /* padding: 10px 10px 0; */
+      /* background-color: #aaa; */
+    }
+    
+      .franchise_inner {
+        float: left;
+        width: 40.3125%; min-width: 516px; height: 384px;
+        margin: 4.375%;
+      }
+    
+      .franchise {
+        float: left;
+        width: 100%; min-width: 516px; height: 384px;
+        background-image: url(../../img/franchise.png);
+        background-repeat: no-repeat;
+        background-size: 100% 422px;
+        background-position: 50% 50%;
+        color: #ffffff;
+      }
+    
+      .franchise_TX {
+        width: 39.375%; min-width: 504px;
+        font-size: 18px;
+        text-align: right;
+        font-weight: 500;
+        padding-right: 110px;
+        padding-top: 30px;
+      }
+    
+      .franchise_btn {
+        width: 15.4688%; min-width: 198px;
+        height: 121px;
+        float: right;
+        margin-top: 80px;
+        margin-right: 40px;
+      }
+    
+      .franchise_gd{
+        float: right;
+        width: 15%; min-width: 192px;
+        height: 45px;
+        line-height: 45px;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        border: 1px solid #151515;
+        background-color: #dddddd;
+        opacity: 0.6;
+        cursor: pointer;
+      }
+      .franchise_pt{
+        float: right;
+        width: 15%; min-width: 192px;
+        height: 45px;
+        line-height: 45px;
+        text-transform: uppercase;
+        border: 1px solid #151515;
+        background-color: #dddddd;
+        opacity: 0.6;
+        cursor: pointer;
+      }
+    
+      .sns_inner {
+        float: right;
+        width: 42.1875%; min-width: 540px; height: 375px;
+        margin: 4.375%;
+      }
+    
+      .sns {
+        float: left;
+        width: 42.1875%; min-width: 540px; height: 384px;
+        /* margin-left: 40px; */
+        /* background-repeat: no-repeat; */
+        /* background-size: 524px 422px; */
+        /* background-position: 50% 50%; */
+      }
+    
+      .snslatte {
+        float: left;
+        width: 100%; min-width: 180px; height: 189px;
+      }
+    
+      .snsthree {
+        float: left;
+        width: 100%; min-width: 180px; height: 189px;
+      }
+    
+      .snscoffee {
+        float: left;
+        width: 100%; min-width: 180px; height: 189px;
+      }
+    
+      .snssoftkit {
+        float: left;
+        width: 100%; min-width: 180px; height: 189px;
+      }
+    
+      .snsmark {
+        float: right;
+        width: 12.3438%; min-width: 158px; height: 384px;
+        margin-top: -390px;
+        /* background-color: #243c84; */
+      }
+      .snsmark > button > span {
+        float: left;
+        margin: 5px;
+        font-size: 25px;
+        line-height: 10px;
+        margin-top: 45px;
+        margin-bottom: 80px;
+        /* color: #ffffff; */
+      }
+    
+      .snsmark > button > img {
+        margin-top: 25.3165%;
+        margin-left: 10px;
+      }
+    
+      .snsmark > button:last-child {
+        margin-bottom: -80px;
+      }
+    
+        .Fmark {
+          float: left;
+          width: 23px; height: 23px;
+          /* margin: -0px; */
+        }
+        .Imark {
+          float: left;
+          width: 23px; height: 23px;
+        }
+        .NBmark {
+          float: left;
+          width: 23px; height: 23px;
+        }
+      .ediyastory_inner {display: none;}
+    
+  /* #footBox ========================= */
+  #footBox {
+    float: left;
+    width: 100%; min-width: 1280px;
+    height: 244px;
+    background-color: #555555;
+    /* padding: 20px; */
+  }
+  
+    .foot_inner {
+      width: 91.0938%; min-width: 1166px; height: 197px;
+      margin: 50px 0 0 70px;
+    }
+  
+    .foot_inner > h2 {
+      margin-bottom: 29px;
+    }
+
+    .foot_inner > h2 > img {
+      width: 100%; min-width: 280px; height:28px;
+    }
+  
+    .foot_inner > ul > li {
+      font-size: 20px;
+      color: #ffffff;
+    }
+
+    .footInner_m {display: none;}
+
+} /* 1280px ~ 1439px ============================================== */
