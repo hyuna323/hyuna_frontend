@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- 02_ediya_login.html -->
+<html lang="ko-KR" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="../css/common/reset.css">
+  <link rel="stylesheet" href="../css/common/common.css">
+  <link rel="stylesheet" href="../css/src/02_ediya_login.css">
+
+  <script src="../js/common/modernizr-custom.js"></script>
+
+  <title>Document</title>
+  <link rel="shortcut icon" href="../img/ediyamark.png" type="image/png">
+  <link rel="apple-touch-icon" href="../img/ediyamark.png">
+</head>
+<body>
+  <!-- layout -->
+  <div id="wrap">
+    <header id="headBox">
+      <div class="head_inner">
+        <h1>
+          <a href="./01_ediya_main.html" class="blind">EDIYA</a>
+          <button onclick="home()"><img src="../img/ediyalogo.jpg" alt="이디야로고"></button>
+        </h1>
+        <nav class="gnb">
+          <h2 class="blind">글로벌네비게이션</h2>
+          <ul>
+            <li><a href="#">메뉴</a></li>
+            <li><a href="#">공지사항</a></li>
+            <li><a href="#">상품권</a></li>
+            <li><a href="#">이디야멤버스</a></li>
+            <li><a href="#">유통제품</a></li>
+            <li><a href="#">사회공헌</a></li>
+            <li><a href="#">고객소리</a></li>
+            <!-- <li><a href="../html/02_ediya_login.html" style="font-weight: 700; color: #243c84; outline: solid 1.5px; border-radius: 10%;">로그인</a></li> -->
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- #headBox -->
+
+    <section id="loginBox">
+      <h2 class="logintext">로그인</h2>
+      <div class="login_area">
+        <form action="#" method="POST">
+          <fieldset class="privite">
+            <legend class="blind">개인정보 입력창</legend>
+            <ul>
+              <li>
+                <input type="text" id="userId" name="user__Id" value="" placeholder="이메일">
+              </li>
+              <li>
+                <input type="password" id="userPw" name="user__Pw" placeholder="비밀번호">
+              </li>
+            </ul>
+          </fieldset>
+        </form>
+          <fieldset class="check">
+            <input class="blind" type="checkbox" name="login__check" id="idcheck" value="logincheck-true">
+            <label for="idcheck">
+              <i><span>이메일 저장</span></i>
+            </label>
+          </fieldset>
+          
+      </div>
+    </section>
+
+    <footer id="companyinfo"></footer>
+  </div>
+
+  <!-- script -->
+    <script src="../js/src/01_ediya_main.js"></script>
+  
+</body>
+</html>
