@@ -3,7 +3,7 @@
 
 /* (디자인기준: 320px) ~ 767px */
 @media all and (max-width:767px) {
-  #wrap { width: 100%; min-width: 320px; min-height: 600px; background: #ddd;}
+  #wrap { width: 100%; min-width: 320px; min-height: 600px;}
   #headBox {
     width: 100%; height: 60px;
     box-sizing: border-box;
@@ -27,7 +27,7 @@
       .gnb {display: none;}
       /* background-color: #cca; */
   #loginBox {
-    width: 100%; height: 630px;
+    width: 100%; height: 570px;
     max-width: 767px; min-width: 320px;
     padding: 0;
     margin: auto;
@@ -36,8 +36,8 @@
     background-repeat: no-repeat;
   }
   .login_area {
-    width: 320px; height: 630px;
-    padding: 75px 23px 90px 23px;
+    width: 320px; height: 570px;
+    padding: 75px 23px 50px 23px;
   }
   .logintext {
     width: 148px; height: 50px;
@@ -89,13 +89,44 @@
     padding: 12px 8px;
     font-size: 18px;
   } */
-    .check > input {
-      width: 80px; height: 20px;
 
+    .check {
+      width: 150px; height: 50px;
+      margin-left: 35px;
+      padding-top: 5px;
+      border: none;
     }
-    .check > label > i {
-      font-size: 16px;
+    .check > label span {
+      width: 150px; height: 20px;
+      line-height: 35px;
+      /* padding: 5px; */
+      margin: auto;
+      margin-left: 15px;
+      margin-top: -20px;
+      float:left;
+      cursor: pointer;
       color: #fff;
+      font-size: 16px;
+    }
+    .check label i { 
+      width: 15px; height: 15px;
+      margin-right: 0.3rem; margin-top:0.35rem;
+      float:left;
+      border:1px solid #777; 
+    }
+    #idcheck:checked + label > i { 
+      position: relative; 
+      background-color: #24305A;
+      border-color:transparent;
+    }
+    #logincheck:checked + label > i { 
+      position: relative; 
+      background-color: #24305A;
+      border-color:transparent;
+    }
+    .check span {
+      width: 100px;
+      padding: 10px;
     }
     .login_btn {
       width: 204px; height: 40px;
@@ -104,7 +135,9 @@
       text-align: center;
       margin: auto;
     }
-    .login {}
+    .login {
+      width: 100%; height: 40px;
+    }
     .login > button {
       color: #fff;
       font-size: 20px;
@@ -134,7 +167,17 @@
       /* background-color: #ddd; */
     }
     .membership_area > i {display: none;}
-    .membership_content {}
+    .membership_content {
+      width: 168px; height: 40px;
+      margin: auto;
+      margin-top: 50px;
+      font-size: 12px;
+      color: #fff;
+      text-align: center;
+      line-height: 40px;
+      background-color: rgba(36, 48, 90, 86%);
+      border-radius: 7px;
+    }
     
 /* ===================================================== */
 #footBox {
