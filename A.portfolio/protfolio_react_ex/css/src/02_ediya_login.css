@@ -1,8 +1,12 @@
 @charset "UTF-8";
 /* 02_ediya_login.css */
+#wrap {width: 960px; height: auto; min-height: 500px;}
+#headBox {width: 100%;}
+#viewBox {margin: auto;}
+#footBox {width: 100%;}
 
 /* (디자인기준: 320px) ~ 767px */
-@media all and (max-width:767px) {
+@media all and (max-width: 767px) {
   #wrap { width: 100%; min-width: 320px; min-height: 600px;}
   #headBox {
     width: 100%; height: 60px;
@@ -26,12 +30,14 @@
 
       .gnb {display: none;}
       /* background-color: #cca; */
+
+/* #loginBox ============================ */
   #loginBox {
     width: 100%; height: 570px;
     max-width: 767px; min-width: 320px;
     padding: 0;
     margin: auto;
-    background-image: url(../../img/loginbackground.svg);
+    background-image: url(../../img/loginbackground320.svg);
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -101,8 +107,8 @@
       line-height: 35px;
       /* padding: 5px; */
       margin: auto;
-      margin-left: 15px;
-      margin-top: -20px;
+      margin-left: 25px;
+      margin-top: -10px;
       float:left;
       cursor: pointer;
       color: #fff;
@@ -112,7 +118,7 @@
       width: 15px; height: 15px;
       margin-right: 0.3rem; margin-top:0.35rem;
       float:left;
-      border:1px solid #777; 
+      border:1px solid #fff; 
     }
     #idcheck:checked + label > i { 
       position: relative; 
@@ -124,10 +130,10 @@
       background-color: #24305A;
       border-color:transparent;
     }
-    .check span {
+    /* .check span {
       width: 100px;
       padding: 10px;
-    }
+    } */
     .login_btn {
       width: 204px; height: 40px;
       border-radius: 5px;
@@ -212,3 +218,253 @@
     color: #ffffff;
   }
 }
+/* 768px ~ 1279px */
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  #wrap {width: 100%; min-width: 768px; min-height: 600px; }
+  #headBox {
+    width: 100%;
+    height: 90px;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    /* background-color: #ddd; */
+  }
+    .head_inner {
+      width: 100%; min-width: 768px; max-width: 1279px;
+      margin: auto; box-sizing: border-box;
+      /* background-color: #ccc; */
+    }
+      h1 {
+        float: left;
+        width: 13.4375%; min-width: 180px; height: auto;
+      }
+
+      h1 > button > img {
+        width: 23.4375%; min-width: 180px;
+        height: 20px;
+        margin-bottom: 1.111px;
+      }
+
+      .gnb {
+        float: left;
+        width: 71.6145833%; min-width: 550px;
+        height: auto;
+      }
+      .gnb > ul {
+        width: 100%; min-width: 550px;
+        height: auto;
+        text-align: right;
+        margin-top: -0.50208333%;
+        margin-left: 1.255208333%; 
+      }
+      .gnb > ul > li {
+        width: auto; height: auto;
+        display: inline-block;
+        font-size: 2vw;
+        margin-left: 1.40625%;
+      }
+      .gnb li:first-child {
+        margin-left: 0;
+      }
+      /* .gnb li a {padding: auto;} */
+      .gnb li button a {font-size: 2vw;}
+      /* background-color: #cca; */
+
+/* #loginBox ============================ */
+  #loginBox {
+    width: 100%; height: 1000px;
+    max-width: 1279px; min-width: 768px;
+    padding: 0;
+    margin: auto;
+    background-image: url(../../img/loginbackground768.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .login_area {
+    width: 768px; height: 1000px;
+    padding: 140px 120px 100px 120px;
+  }
+  .logintext {
+    width: 354px; height: 98px;
+    margin: auto;
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+  }
+  .welcometext li {
+    width: 466px; height: 60px;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    padding: 15px 0;
+    color: #fff;
+  }
+  .privite {
+    width: 500px; height: 174px;
+    border: none;
+    padding: 0;
+    margin: auto;
+    margin-top: 30px;
+  }
+  /* .login_area button {
+    width: 204px; height: 40px;
+    text-align: center; line-height: 130px;
+    font-size: 20px; font-weight: 500;
+  } */
+  #userId {
+    float: left;
+    width: 498px; height: 80px;
+    border-radius: 5px;
+    font-size: 18px;
+    /* padding: 12px 8px; */
+    /* width: calc(100% - 19px); height: 42px; */
+  }
+  #userPw {
+    float: left;
+    width: 498px; height: 80px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  /* .privite ul > li > input {
+    /* width: 206px; height: 42px; */
+    /* float: left;
+    width:calc(100% - 19px); height: 42px;
+    padding: 12px 8px;
+    font-size: 18px;
+  } */
+
+    .check {
+      width: 200px; height: 65px;
+      margin-left: 15px;
+      padding-top: 15px;
+      border: none;
+    }
+    .check > label span {
+      width: 200px; height: 46px;
+      line-height: 35px;
+      /* padding: 5px; */
+      margin: auto;
+      margin-left: 30px;
+      margin-top: -10px;
+      float:left;
+      cursor: pointer;
+      color: #fff;
+      font-size: 16px;
+    }
+    .check label i { 
+      width: 17px; height: 17px;
+      margin-right: 0.3rem; margin-top:0.35rem;
+      float:left;
+      border:1px solid #fff;
+    }
+    #idcheck:checked + label > i { 
+      position: relative; 
+      background-color: #24305A;
+      border-color:transparent;
+    }
+    #logincheck:checked + label > i { 
+      position: relative; 
+      background-color: #24305A;
+      border-color:transparent;
+    }
+    /* .check span {
+      width: 100px;
+      padding: 10px;
+    } */
+    .login_btn {
+      width: 494px; height: 60px;
+      border-radius: 5px;
+      background-color: #24305A;
+      text-align: center;
+      margin: auto;
+    }
+    .login {
+      width: 100%; height: 60px;
+    }
+    .login > button {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 55px;
+    }
+    .etc_area {
+      width: 498px; height: 60px;
+      padding: 20px;
+      margin: auto;
+      /* line-height: 1px; */
+      /* float: left; */
+      /* margin-top: 22px; */
+    }
+    .etc_area ul {
+      width: 100%; height: 60px;
+      margin: auto;
+      text-align: center;
+    }
+    .etc_area li {
+      display: inline-block;
+      width: 144px; height: 40px;
+      line-height: 40px;
+      font-size: 16px;
+      text-align: center;
+      background-color: #eee;
+      margin-right: 5px;
+      border-radius: 5px;
+      /* background-color: #ddd; */
+    }
+    .membership_area > i {display: none;}
+    .membership_content {
+      width: 450px; height: 50px;
+      margin: auto;
+      margin-top: 80px;
+      font-size: 16px;
+      font-weight: 400;
+      color: #fff;
+      text-align: center;
+      line-height: 50px;
+      background-color: rgba(36, 48, 90, 86%);
+      border-radius: 7px;
+    }
+    
+/* ===================================================== */
+#footBox {
+  width: 100%; min-width: 768px;
+  height: 160px;
+  float: left;
+  background-color: #777;
+  /* padding: 20px; */
+}
+.foot_inner {display: none;}
+
+.footInner_m {
+    width: 90%; min-width: 700px;
+    height: 140px;
+    margin-left: 4.55729167%;
+    margin-top: 2.60416667%;
+  }
+
+  .footInner_m > h2 {
+    /* width: 85px; height: 10px; */
+    margin-bottom: 10px;
+  }
+  
+  .footInner_m > h2 > button > img {
+    width: 100%; min-width: 152px; 
+    height: 20px;
+  }
+
+  .footInner_m > ul > li {
+    width: 90%; min-width: 700px;
+    height: 90px;
+    font-size: 14px;
+    color: #ffffff;
+  }
+
+/* 1280px ~ 1439px */
+@media all and (min-width:1280px) and (max-width:1439px) {}
+
+/* 1440px ~ 1919px */
+@media all and (min-width:1440px) and (max-width:1919px) {}
+
+/* 1920px ~ */
+@media all and (min-width:1920px) {}
