@@ -9,7 +9,8 @@
 @media all and (max-width: 767px) {
   #wrap { width: 100%; min-width: 320px; min-height: 600px;}
   #headBox {
-    width: 100%; height: 60px;
+    width: 100%; min-width: 320px;
+    height: 60px;
     box-sizing: border-box;
     padding: 10px 12px 18px 12px;
     /* background-color: #ddd; */
@@ -33,8 +34,9 @@
 
 /* #loginBox ============================ */
   #loginBox {
-    width: 100%; height: 570px;
-    max-width: 767px; min-width: 320px;
+    width: 100%; min-width: 320px;
+    max-width: 767px;
+    height: 570px;
     padding: 0;
     margin: auto;
     background-image: url(../../img/loginbackground320.svg);
@@ -42,11 +44,13 @@
     background-repeat: no-repeat;
   }
   .login_area {
-    width: 320px; height: 570px;
+    width: 100%; min-width: 320px;
+    height: 570px;
     padding: 75px 23px 50px 23px;
   }
   .logintext {
-    width: 148px; height: 50px;
+    width: 46.25%; min-width: 148px; 
+    height: 50px;
     margin: auto;
     padding: 10px;
     color: #fff;
@@ -54,7 +58,8 @@
     font-size: 20px;
   }
   .welcometext li {
-    width: 195px; height: 30px;
+    width: 60.9375%; min-width: 195px;
+    height: 30px;
     font-size: 12px;
     text-align: center;
     margin: auto;
@@ -62,7 +67,8 @@
     color: #fff;
   }
   .privite {
-    width: 208px; height: 100px;
+    width: 65%; min-width: 208px;
+    height: 100px;
     border: none;
     padding: 0;
     margin: auto;
@@ -75,7 +81,8 @@
   } */
   #userId {
     float: left;
-    width: 206px; height: 42px;
+    width: 100%; min-width: 206px;
+    height: 42px;
     border-radius: 5px;
     font-size: 18px;
     /* padding: 12px 8px; */
@@ -83,7 +90,8 @@
   }
   #userPw {
     float: left;
-    width: 206px; height: 42px;
+    width: 100%; min-width: 206px;
+    height: 42px;
     border-radius: 5px;
     font-size: 18px;
     margin-top: 10px;
@@ -97,13 +105,15 @@
   } */
 
     .check {
-      width: 150px; height: 50px;
-      margin-left: 35px;
+      width: 65%; min-width: 208px;
+      height: 50px;
+      margin: auto;
+      margin-left: 20.1923%;
       padding-top: 5px;
       border: none;
     }
-    .check > label span {
-      width: 150px; height: 20px;
+    .check label span {
+      width: 65%; min-width: 208px; height: 20px;
       line-height: 35px;
       /* padding: 5px; */
       margin: auto;
@@ -135,7 +145,7 @@
       padding: 10px;
     } */
     .login_btn {
-      width: 204px; height: 40px;
+      width: 63.75%; min-width: 204px; height: 40px;
       border-radius: 5px;
       background-color: #24305A;
       text-align: center;
@@ -150,7 +160,7 @@
       font-weight: 500;
     }
     .etc_area {
-      width: 270px; height: 40px;
+      width: 84.375%; min-width: 255px; height: 40px;
       padding: 2px;
       margin: auto;
       /* line-height: 1px; */
@@ -158,23 +168,29 @@
       /* margin-top: 46px; */
     }
     .etc_area ul {
-      width: 100%; height: 40px;
+      width: 100%; min-width: 255px; height: 40px;
       margin: auto;
       text-align: center;
     }
     .etc_area li {
       display: inline-block;
-      width: 80px; height: 20px;
+      width: 29.411%; min-width: 75px; height: 25px;
+      line-height: 25px;
       font-size: 12px;
       text-align: center;
       background-color: #eee;
-      margin-right: 5px;
+      margin-right: 3px;
       border-radius: 5px;
       /* background-color: #ddd; */
     }
+
+    .membership_area {
+      width: 52.5%; min-width: 168px; height: 40px;
+      margin: auto;
+    }
     .membership_area i {display: none;}
     .membership_content button {
-      width: 168px; height: 40px;
+      width: 100%; min-width: 168px; height: 40px;
       margin: auto;
       margin-top: 50px;
       font-size: 12px;
