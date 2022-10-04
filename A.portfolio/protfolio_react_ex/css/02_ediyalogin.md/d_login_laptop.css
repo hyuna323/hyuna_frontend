@@ -1,0 +1,253 @@
+/* d_login_laptop.cs */
+
+/* 1280px ~ 1439px */
+@media all and (min-width:1280px) and (max-width:1439px) {
+  #wrap {width: 100%; min-width: 1280px; min-height: 600px; }
+  #headBox {
+    width: 100%; height: 120px;
+    box-sizing: border-box;
+    padding: 46px 18px 46px 24px;
+    /* position: fixed;
+    z-index: 99; */
+    /* background-color: #fff; */
+  }
+    .head_inner {
+      width: 100%; max-width: 1439px; min-width: 1280px;
+      margin: auto; box-sizing: border-box;
+      /* background-color: #ccc; */
+    }
+      h1 {
+        float: left;
+        width: 21.875%; min-width: 280px; height: auto;
+      }
+      
+      h1 > button > img {
+        width: 100%; min-width: 280px; height: 28px;}
+
+      .gnb {
+        float: left;
+        width: 74.2188%; min-width: 950px; height: 55px;
+      }
+      .gnb > ul {
+        width: 71.875%; min-width: 920px; height: 54px;
+        text-align: center;
+        margin-left: 50px; 
+      }
+      .gnb > ul > li {
+        display: inline-block; width: auto; height: auto;
+        margin-left: 10px;
+      }
+      .gnb li:first-child {
+        margin-left: 0;
+      }
+      .gnb li a {
+        padding: 5px;
+      }
+      /* background-color: #cca; */
+/* #loginBox ============================ */
+  #loginBox {
+    width: 100%; min-width: 1280px;
+    max-width: 1439px;
+    height: 1300px;
+    padding: 0;
+    margin: auto;
+    background-image: url(../../img/loginbackground768.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .login_area {
+    width: 100%; min-width: 1280px;
+    height: 1300px;
+    padding: 160px 120px 80px 120px;
+  }
+  .logintext {
+    width: 46.094%; min-width: 590px;
+    height: 104px;
+    margin: auto;
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+  }
+  .welcometext li {
+    width: 60.781%; min-width: 778px;
+    height: 72px;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    padding: 20px 0;
+    color: #fff;
+  }
+  .privite {
+    width: 38.906%; min-width: 498px;
+    height: 186px;
+    border: none;
+    padding: 0;
+    margin: auto;
+    margin-top: 50px;
+  }
+  /* .login_area button {
+    width: 204px; height: 40px;
+    text-align: center; line-height: 130px;
+    font-size: 20px; font-weight: 500;
+  } */
+  #userId {
+    float: left;
+    width: 100%; min-width: 498px;
+    height: 80px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 12px;
+    /* width: calc(100% - 19px); height: 42px; */
+  }
+  #userPw {
+    float: left;
+    width: 100%; min-width: 498px;
+    height: 80px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 12px;
+    margin-top: 10px;
+  }
+  /* .privite ul > li > input {
+    /* width: 206px; height: 42px; */
+    /* float: left;
+    width:calc(100% - 19px); height: 42px;
+    padding: 12px 8px;
+    font-size: 18px;
+  } */
+
+    .check {
+      width: 15.625%; min-width: 200px;
+      height: 65px;
+      margin-left: 29%;
+      padding-top: 5px;
+      border: none;
+    }
+    .check label span {
+      width: 15.625%; min-width: 200px; height: 46px;
+      line-height: 35px;
+      /* padding: 5px; */
+      margin: auto;
+      margin-left: 30px;
+      margin-top: -10px;
+      float:left;
+      cursor: pointer;
+      color: #fff;
+      font-size: 18px;
+    }
+    .check label i { 
+      width: 18px; height: 18px;
+      margin-right: 0.3rem; margin-top:0.35rem;
+      float:left;
+      border:1px solid #fff;
+    }
+    #idcheck:checked + label > i { 
+      position: relative; 
+      background-color: #24305A;
+      border-color:transparent;
+    }
+    #logincheck:checked + label > i { 
+      position: relative; 
+      background-color: #24305A;
+      border-color:transparent;
+    }
+    /* .check span {
+      width: 100px;
+      padding: 10px;
+    } */
+    .login_btn {
+      width: 38.594%; min-width: 494px; height: 65px;
+      border-radius: 5px;
+      background-color: #24305A;
+      text-align: center;
+      margin: auto;
+    }
+    .login {
+      width: 100%; height: 65px;
+    }
+    .login > button {
+      color: #fff;
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 65px;
+    }
+    .etc_area {
+      width: 38.906%; min-width: 498px; height: 60px;
+      padding: 20px;
+      margin: auto;
+      /* line-height: 1px; */
+      /* float: left; */
+      /* margin-top: 22px; */
+    }
+    .etc_area ul {
+      width: 100%; height: 60px;
+      margin: auto;
+      text-align: center;
+    }
+    .etc_area li {
+      display: inline-block;
+      width: 28.916%; min-width: 144px; height: 40px;
+      line-height: 40px;
+      font-size: 16px;
+      font-weight: 400;
+      text-align: center;
+      background-color: #eee;
+      margin-right: 5px;
+      border-radius: 5px;
+      /* background-color: #ddd; */
+    }
+    .membership_area {
+      width: 42.969%; min-width: 550px; height: 250px;
+      margin: auto;
+      margin-top: 120px;
+      padding-top: 10px;
+      text-align: center;
+      background-color:  rgba(238, 238, 238, 75%);
+      border-radius: 5px;
+    }
+    .membership_area > i {
+      width: 46.094%; min-width: 590px; height: 226px;
+      font-size: 16px;
+    }
+    .membership_content button {
+      width: 81.818%; min-width: 450px; height: 50px;
+      margin: auto;
+      margin-top: 30px;
+      font-size: 16px;
+      font-weight: 400;
+      color: #fff;
+      text-align: center;
+      line-height: 50px;
+      background-color: rgba(36, 48, 90, 94%);
+      border-radius: 7px;
+    }
+    
+/* ===================================================== */
+#footBox {
+  width: 100%; min-width: 1280px;
+  height: 195px;
+  float: left;
+  background-color: #777;
+  /* padding: 20px; */
+}
+.foot_inner {
+  width: 91.0938%; min-width: 1166px; height: 155px;
+  margin: 30px 0 0 70px;
+}
+
+.foot_inner > h2 {
+  margin-bottom: 17px;
+}
+
+.foot_inner > h2 > img {
+  width: 100%; min-width: 280px; height:28px;
+}
+
+.foot_inner > ul > li {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.footInner_m {display: none;}
+}

@@ -1,0 +1,255 @@
+/* f_login_pcfull.css */
+
+/* 1920px ~ */
+@media all and (min-width:1920px) {
+  #wrap {width: 100%; min-width: 1920px; }
+  /* #headBox ========================= */
+  #headBox {
+    width: 100%; min-width: 1920px;
+    height: 120px;
+    box-sizing: border-box;
+    padding: 46px 18px 46px 24px;
+    /* background-color: #ddd; */
+  }
+    .head_inner {
+      width: 100%; max-width: 2100px; min-width: 1920px;
+      margin-left: 30px; box-sizing: border-box;
+      /* background-color: #ccc; */
+    }
+      h1 {
+        float: left;
+        width: 21.302%; min-width: 409px; height: 47px;
+      }
+      
+      h1 > button > img { 
+        width: 100%; min-width: 409px; height: 37px;}
+
+      .gnb {
+        float: left;
+        width: 75.521%; min-width: 1450px; height: 45px;
+      }
+      .gnb > ul {
+        width: 75.521%; min-width: 1450px; height: 45px;
+        text-align: center;
+        margin-left: 106px; 
+      }
+      .gnb > ul > li {
+        display: inline-block; width: auto; height: auto;
+        margin-left: 40px;
+        font-size: 26px;
+      }
+      .gnb li:first-child {
+        margin-left: 0;
+      }
+      .gnb li a {
+        padding: 5px;
+      }
+      /* background-color: #cca; */
+    
+/* #loginBox ============================ */
+  #loginBox {
+    width: 100%; min-width: 1920px;
+    height: 1500px;
+    padding: 0;
+    margin: auto;
+    background-image: url(../../img/loginbackground768.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .login_area {
+    width: 100%; min-width: 1920px;
+    height: 1500px;
+    padding: 220px 120px 80px 120px;
+  }
+  .logintext {
+    width: 32.292%; min-width: 620px;
+    height: 114px;
+    margin: auto;
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+  }
+  .welcometext li {
+    width: 40.521%; min-width: 778px;
+    height: 72px;
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+    padding: 20px 0;
+    color: #fff;
+  }
+  .privite {
+    width: 31.146%; min-width: 598px;
+    height: 206px;
+    border: none;
+    padding: 0;
+    margin: auto;
+    margin-top: 50px;
+  }
+  /* .login_area button {
+    width: 204px; height: 40px;
+    text-align: center; line-height: 130px;
+    font-size: 20px; font-weight: 500;
+  } */
+  #userId {
+    float: left;
+    width: 100%; min-width: 598px;
+    height: 90px;
+    border-radius: 5px;
+    font-size: 22px;
+    padding: 14px;
+    /* width: calc(100% - 19px); height: 42px; */
+  }
+  #userPw {
+    float: left;
+    width: 100%; min-width: 598px;
+    height: 90px;
+    border-radius: 5px;
+    font-size: 22px;
+    padding: 14px;
+    margin-top: 10px;
+  }
+  /* .privite ul > li > input {
+    /* width: 206px; height: 42px; */
+    /* float: left;
+    width:calc(100% - 19px); height: 42px;
+    padding: 12px 8px;
+    font-size: 18px;
+  } */
+
+    .check {
+      width: 10.9375%; min-width: 210px;
+      height: 85px;
+      margin-left: 560px;
+      padding-top: 10px;
+      border: none;
+    }
+    .check label span {
+      width: 10.9375%; min-width: 210px; height: 66px;
+      line-height: 38px;
+      /* padding: 5px; */
+      margin: auto;
+      margin-left: 40px;
+      margin-top: -10px;
+      float:left;
+      cursor: pointer;
+      color: #fff;
+      font-size: 22px;
+    }
+    .check label i { 
+      width: 20px; height: 20px;
+      margin-right: 0.3rem; margin-top:0.35rem;
+      float:left;
+      border:1px solid #fff;
+    }
+    #idcheck:checked + label > i { 
+      position: relative; 
+      background-color: #24305A;
+      border-color:transparent;
+    }
+    #logincheck:checked + label > i { 
+      position: relative; 
+      background-color: #24305A;
+      border-color:transparent;
+    }
+    /* .check span {
+      width: 100px;
+      padding: 10px;
+    } */
+    .login_btn {
+      width: 30.9375%; min-width: 594px; height: 75px;
+      border-radius: 5px;
+      background-color: #24305A;
+      text-align: center;
+      margin: auto;
+    }
+    .login {
+      width: 100%; height: 75px;
+    }
+    .login > button {
+      color: #fff;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 75px;
+    }
+    .etc_area {
+      width: 31.146%; min-width: 598px; height: 70px;
+      padding: 20px;
+      margin: auto;
+      /* line-height: 1px; */
+      /* float: left; */
+      margin-top: 42px;
+    }
+    .etc_area ul {
+      width: 100%; height: 70px;
+      margin: auto;
+      text-align: center;
+    }
+    .etc_area li {
+      display: inline-block;
+      width: 29.599%; min-width: 177px; height: 50px;
+      line-height: 50px;
+      font-size: 18px;
+      font-weight: 400;
+      text-align: center;
+      background-color: #eee;
+      margin-right: 5px;
+      border-radius: 5px;
+      /* background-color: #ddd; */
+    }
+    .membership_area {
+      width: 35.416%; min-width: 680px; height: 280px;
+      margin: auto;
+      margin-top: 120px;
+      padding-top: 25px;
+      text-align: center;
+      background-color:  rgba(238, 238, 238, 75%);
+      border-radius: 10px;
+    }
+    .membership_area > i {
+      width: 31.25%; min-width: 600px; height: 236px;
+      font-size: 20px;
+    }
+    .membership_content button {
+      width: 66.176%; min-width: 450px; height: 60px;
+      margin: auto;
+      margin-top: 30px;
+      font-size: 20px;
+      font-weight: 400;
+      color: #fff;
+      text-align: center;
+      line-height: 50px;
+      background-color: rgba(36, 48, 90, 94%);
+      border-radius: 7px;
+    }
+    
+/* ===================================================== */
+#footBox {
+  float: left;
+  width: 100%; min-width: 1920px;
+  height: 244px;
+  background-color: #555555;
+  /* padding: 20px; */
+}
+
+  .foot_inner {
+    width: 60.7292%; min-width: 1166px; height: 197px;
+    margin: 50px 0 0 70px;
+  }
+
+  .foot_inner > h2 {
+    margin-bottom: 29px;
+  }
+
+  .foot_inner > h2 > img {
+    width: 100%; width: 280px; height: 28px;
+  }
+
+  .foot_inner > ul > li {
+    font-size: 22px;
+    color: #ffffff;
+  }
+
+  .footInner_m {display: none;}
+} 
