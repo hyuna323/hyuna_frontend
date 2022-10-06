@@ -26,6 +26,35 @@
 
       .gnb {display: none;}
       /* background-color: #cca; */
+      .unb {
+        width: 17.5%; min-width: 56px;
+        height: auto;
+      }
+      .wrapper {
+        float: right;
+        width: 40px;
+        height: 40px;
+        margin: auto;
+        position:absolute;
+        right: 10px;
+      }
+      .line-wrapper {
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        /* top: 52.5px; */
+      }
+      .line {
+        background:#000;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        width: 35px;
+        height: 5px; 
+        border-radius: 3px;
+        /* box-shadow: 0 1px 3px rgba(0,0,0,.5); */
+        position:relative;
+      }
 
 /* #loginBox ============================ */
   #loginBox {
@@ -130,7 +159,7 @@
       width: 15px; height: 15px;
       margin-right: 0.3rem; margin-top:0.35rem;
       float:left;
-      border:1px solid #fff; 
+      border: 1px solid #fff; 
     }
     #idcheck:checked + label > i { 
       position: relative; 

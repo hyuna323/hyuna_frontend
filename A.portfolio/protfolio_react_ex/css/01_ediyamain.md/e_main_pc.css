@@ -137,7 +137,7 @@
   
     .find_inner {
       float: left;
-      width: 40.9444%; min-width: 604px; height: 254px;
+      width: 41.666%; min-width: 600px; height: 254px;
       margin: 3.969% 3.098% 4.031% 4.088%;
       /* padding: 30px 50px; */
     }
@@ -175,7 +175,7 @@
     .noticeBox_full {display: none;}
     .noticeBox {
       float: left;
-      width: 40.944%; min-width: 604px; height: 254px;
+      width: 41.666%; min-width: 600px; height: 254px;
       margin: 3.969% 4.088% 4.031% 3.098%;
       /* padding: 30px; */
     }

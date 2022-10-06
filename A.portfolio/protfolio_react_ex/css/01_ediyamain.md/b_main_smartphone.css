@@ -25,13 +25,68 @@
       }
 
       .gnb {display: none;}
+
+      .unb {
+        width: 17.5%; min-width: 56px;
+        height: auto;
+      }
+      .wrapper {
+        float: right;
+        width: 40px;
+        height: 40px;
+        margin: auto;
+        position:absolute;
+        right: 10px;
+      }
+      .line-wrapper {
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        /* top: 52.5px; */
+      }
+      .line {
+        background:#000;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        width: 35px;
+        height: 5px; 
+        border-radius: 3px;
+        /* box-shadow: 0 1px 3px rgba(0,0,0,.5); */
+        position:relative;
+      }
       /* background-color: #cca; */
 
-  /* #viewBox ========================= */
-  #viewBox {
-    width: 100%; min-width: 320px;
-    height: 172px;
-    box-sizing: border-box;
+      /* .minifinder {
+        float: right;
+        min-width: 56px;
+        height: 12px;
+        position: relative;
+      }
+      input {
+        width: 56px; height: 15px;
+        margin: auto;
+        border: 1px solid #bbb;
+        border-radius: 2px;
+        font-size: 12px;
+      }
+      .minifinder button {
+        cursor: pointer;
+      }
+      .minifinder button img {
+        float: right;
+        position: absolute;
+        width: 12px; height: 12px;
+        top: 18px;
+        left: 2px;
+        margin: 0;
+      } */
+      
+      /* #viewBox ========================= */
+      #viewBox {
+        width: 100%; min-width: 320px;
+        height: 172px;
+        box-sizing: border-box;
     /* background-color: #ccc; */
   }
     .view_outer {

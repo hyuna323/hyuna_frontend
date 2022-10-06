@@ -91,3 +91,9 @@ $('.notice_on').click(function(){
   $('.gallery_on').attr('class','gallery_off'); //갤러리 버튼 CSS 변경
 });
 
+// goaqjrj qjxms
+$('#line-wrapper').click(function(){
+  $('#line-top').toggleClass('line-top');
+  $('#line-mid').toggleClass('line-mid');
+  $('#line-bot').toggleClass('line-bot');
+})
