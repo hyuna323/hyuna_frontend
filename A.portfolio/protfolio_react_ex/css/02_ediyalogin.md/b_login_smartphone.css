@@ -103,12 +103,19 @@
       width: 65%; min-width: 208px;
       height: 50px;
       margin: auto;
-      margin-left: 20.1923%;
+      margin-left: 19.231%;
       padding-top: 5px;
       border: none;
     }
+    .check label {
+      width: 150px; height: 100%;
+      line-height: 35px;
+      /* padding: 5px; */
+      float:left;
+      cursor: pointer;
+    }
     .check label span {
-      width: 65%; min-width: 208px; height: 20px;
+      width: 65%; min-width: 108px; height: 35px;
       line-height: 35px;
       /* padding: 5px; */
       margin: auto;

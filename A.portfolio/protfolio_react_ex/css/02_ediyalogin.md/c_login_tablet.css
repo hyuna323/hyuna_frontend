@@ -2,16 +2,16 @@
 
 /* 768px ~ 1279px */
 @media all and (min-width: 768px) and (max-width: 1279px) {
-  #wrap {width: 100%; min-width: 768px; min-height: 600px; }
+  #wrap { width: 100%; min-width: 768px; min-height: 600px;}
   #headBox {
-    width: 100%;
+    width: 100%; min-width: 768px;
     height: 90px;
     box-sizing: border-box;
     padding: 30px 20px;
     /* background-color: #ddd; */
   }
     .head_inner {
-      width: 100%; min-width: 768px; max-width: 1279px;
+      width: 100%; max-width: 1279px; min-width: 768px;
       margin: auto; box-sizing: border-box;
       /* background-color: #ccc; */
     }
@@ -124,14 +124,22 @@
   } */
 
     .check {
-      width: 33.593%; min-width: 258px;
+      width: 42.708%; min-width: 328px;
       height: 65px;
       margin: auto;
-      margin-left: 35px;
+      margin-left: 7.622%;
       padding-top: 15px;
       border: none;
     }
-    .check > label span {
+    .check label {
+      width: 19.531%; min-width: 150px;
+      height: 100%;
+      line-height: 35px;
+      /* padding: 5px; */
+      float:left;
+      cursor: pointer;
+    }
+    .check label span {
       width: 33.593%; min-width: 258px;
       height: 46px;
       line-height: 35px;
