@@ -26,35 +26,87 @@
 
       .gnb {display: none;}
       /* background-color: #cca; */
-      .unb {
-        width: 17.5%; min-width: 56px;
-        height: auto;
-      }
-      .wrapper {
+
+      .headInner_m {
         float: right;
-        width: 40px;
-        height: 40px;
+        width: 130px; height: 32px;
         margin: auto;
-        position:absolute;
-        right: 10px;
+        margin-top: 5px;
+        /* background-color: #ddd; */
       }
-      .line-wrapper {
-        cursor: pointer;
-        width: 40px;
-        height: 40px;
-        margin-top: 10px;
-        /* top: 52.5px; */
-      }
-      .line {
-        background:#000;
-        margin-top: 4px;
-        margin-bottom: 4px;
-        width: 35px;
-        height: 5px; 
-        border-radius: 3px;
-        /* box-shadow: 0 1px 3px rgba(0,0,0,.5); */
-        position:relative;
-      }
+        .unb {
+          width: 130px; height: 32px;
+          float: right;
+          /* background-color: #ccc; */
+        }
+        .unbInner {
+          width: 90px; height: 32px;
+          /* background-color: #fff; */
+        }
+        .minisns {
+          /* float: right; */
+          width: 80px;
+          height: 18px;
+          margin-left: 34px;
+          margin-top: -15px;
+          /* background-color: #777; */
+        }
+        .minisns button img {
+          width: 10px; height: 10px;
+          top: 10px;
+        }
+        .minifinder {
+          float: left;
+          min-width: 80px;
+          height: 12px;
+          position: relative;
+          top: -6px;
+        }
+        input {
+          width: 80px; height: 15px;
+          margin: auto;
+          border: 0.5px solid #ccc;
+          border-radius: 2px;
+          font-size: 10px;
+          margin-left: 1px;
+        }
+        .minifinder button {
+          cursor: pointer;
+        }
+        .minifinder button img {
+          float: right;
+          position: absolute;
+          width: 12px; height: 12px;
+          top: 19px;
+          left: 2px;
+          margin: 0;
+        }
+        .wrapper {
+          /* float: right; */
+          width: 40px;
+          height: 30px;
+          margin: auto;
+          position:absolute;
+          right: 10px;
+          top: 16px;
+        }
+        .line-wrapper {
+          cursor: pointer;
+          width: 40px;
+          height: 40px;
+          margin-top: 4px;
+          /* top: 52.5px; */
+        }
+        .line {
+          background:#000;
+          margin-top: 4px;
+          margin-bottom: 4px;
+          width: 35px;
+          height: 5px; 
+          border-radius: 3px;
+          /* box-shadow: 0 1px 3px rgba(0,0,0,.5); */
+          position:relative;
+        }
 
 /* #loginBox ============================ */
   #loginBox {

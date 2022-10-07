@@ -44,6 +44,8 @@
         padding: 5px;
       }
       /* background-color: #cca; */
+      .headInner_m {display: none;}
+
 /* #loginBox ============================ */
   #loginBox {
     width: 100%; min-width: 1280px;

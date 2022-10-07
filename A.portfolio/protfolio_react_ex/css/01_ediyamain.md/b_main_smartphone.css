@@ -26,23 +26,74 @@
 
       .gnb {display: none;}
 
+    .headInner_m {
+      float: right;
+      width: 130px; height: 32px;
+      margin: auto;
+      margin-top: 5px;
+      /* background-color: #ddd; */
+    }
       .unb {
-        width: 17.5%; min-width: 56px;
-        height: auto;
+        width: 130px; height: 32px;
+        float: right;
+        /* background-color: #ccc; */
+      }
+      .unbInner {
+        width: 90px; height: 32px;
+        /* background-color: #fff; */
+      }
+      .minisns {
+        /* float: right; */
+        width: 80px;
+        height: 18px;
+        margin-left: 20px;
+        margin-top: -15px;
+        /* background-color: #777; */
+      }
+      .minisns button img {
+        width: 10px; height: 10px;
+        top: 10px;
+      }
+      .minifinder {
+        float: left;
+        min-width: 80px;
+        height: 12px;
+        position: relative;
+        top: -6px;
+      }
+      input {
+        width: 80px; height: 15px;
+        margin: auto;
+        border: 0.5px solid #ccc;
+        border-radius: 2px;
+        font-size: 10px;
+        margin-left: 1px;
+      }
+      .minifinder button {
+        cursor: pointer;
+      }
+      .minifinder button img {
+        float: right;
+        position: absolute;
+        width: 12px; height: 12px;
+        top: 19px;
+        left: 2px;
+        margin: 0;
       }
       .wrapper {
-        float: right;
+        /* float: right; */
         width: 40px;
-        height: 40px;
+        height: 30px;
         margin: auto;
         position:absolute;
         right: 10px;
+        top: 16px;
       }
       .line-wrapper {
         cursor: pointer;
         width: 40px;
         height: 40px;
-        margin-top: 10px;
+        margin-top: 4px;
         /* top: 52.5px; */
       }
       .line {
@@ -57,30 +108,6 @@
       }
       /* background-color: #cca; */
 
-      /* .minifinder {
-        float: right;
-        min-width: 56px;
-        height: 12px;
-        position: relative;
-      }
-      input {
-        width: 56px; height: 15px;
-        margin: auto;
-        border: 1px solid #bbb;
-        border-radius: 2px;
-        font-size: 12px;
-      }
-      .minifinder button {
-        cursor: pointer;
-      }
-      .minifinder button img {
-        float: right;
-        position: absolute;
-        width: 12px; height: 12px;
-        top: 18px;
-        left: 2px;
-        margin: 0;
-      } */
       
       /* #viewBox ========================= */
       #viewBox {

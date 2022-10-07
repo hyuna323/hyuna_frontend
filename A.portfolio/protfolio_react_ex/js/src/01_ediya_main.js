@@ -62,6 +62,12 @@ function home(){
   window.location = url;
 }
 
+// loginpage
+function login(){
+  let url = "http://127.0.0.1:5502/html/02_ediya_login.html";
+  window.location = url;
+  }
+
 // SNS Facebook
 function sns_F(){
   let url = "https://www.facebook.com/iEDIYA";
