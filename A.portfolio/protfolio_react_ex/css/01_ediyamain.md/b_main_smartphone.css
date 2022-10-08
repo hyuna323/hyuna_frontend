@@ -26,43 +26,79 @@
 
       .gnb {display: none;}
 
-    .headInner_m {
-      float: right;
-      width: 130px; height: 32px;
-      margin: auto;
-      margin-top: 5px;
-      /* background-color: #ddd; */
-    }
-      .unb {
-        width: 130px; height: 32px;
+      .headInner_m {
         float: right;
-        /* background-color: #ccc; */
+        width: 150px; height: 34px;
+        margin: auto;
+        margin-top: 5px;
+        box-sizing: border-box;
+        /* background-color: #ddd; */
       }
       .unbInner {
-        width: 90px; height: 32px;
-        /* background-color: #fff; */
+        float: left;
+        width: auto; height: auto;
+        margin: auto;
+      }
+      .wrapper {
+        /* float: right; */
+        width: 40px;
+        height: 30px;
+        margin: auto;
+        position:absolute;
+        right: 10px;
+        top: 15px;
+      }
+      .line-wrapper {
+        cursor: pointer;
+        width: 40px;
+        height: 50px;
+        margin-top: 4px;
+        /* top: 52.5px; */
+      }
+      .line {
+        background:#000;
+        margin-top: 4px;
+        margin-bottom: 5px;
+        width: 35px;
+        height: 6px; 
+        border-radius: 3px;
+        /* box-shadow: 0 1px 3px rgba(0,0,0,.5); */
+        position: relative;
+      }
+      .miniunb {
+        float: right;
+        width: 104px; height: 32px;
+        margin: auto;
+        box-sizing: border-box;
       }
       .minisns {
-        /* float: right; */
-        width: 80px;
-        height: 18px;
-        margin-left: 20px;
-        margin-top: -15px;
-        /* background-color: #777; */
+        float: left;
+        width: 104px; height: 16px;
+        margin: auto;
+        margin-left: 10px;
+        /* background-color: #fff; */
+      }
+      .minisns button {
+        /* top: 100px; */
+        float: left;
+        width: auto; height: 12px;
+        margin: auto;
+        margin-top: -5px;
+        margin-right: 7px;
       }
       .minisns button img {
-        width: 10px; height: 10px;
-        top: 10px;
+        width: 16px; height: 16px;
+        /* top: 100px; */
       }
       .minifinder {
-        float: left;
+        float: right;
         min-width: 80px;
         height: 12px;
         position: relative;
-        top: -6px;
+        top: -14px;
       }
       input {
-        width: 80px; height: 15px;
+        width: 90px; height: 19px;
         margin: auto;
         border: 0.5px solid #ccc;
         border-radius: 2px;
@@ -80,32 +116,7 @@
         left: 2px;
         margin: 0;
       }
-      .wrapper {
-        /* float: right; */
-        width: 40px;
-        height: 30px;
-        margin: auto;
-        position:absolute;
-        right: 10px;
-        top: 16px;
-      }
-      .line-wrapper {
-        cursor: pointer;
-        width: 40px;
-        height: 40px;
-        margin-top: 4px;
-        /* top: 52.5px; */
-      }
-      .line {
-        background:#000;
-        margin-top: 4px;
-        margin-bottom: 4px;
-        width: 35px;
-        height: 5px; 
-        border-radius: 3px;
-        /* box-shadow: 0 1px 3px rgba(0,0,0,.5); */
-        position:relative;
-      }
+
       /* background-color: #cca; */
 
       

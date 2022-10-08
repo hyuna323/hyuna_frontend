@@ -50,6 +50,7 @@
       /* .gnb li a {padding: auto;} */
       .gnb li button a {font-size: 2vw;}
       /* background-color: #cca; */
+      .headInner_m {display: none;}
 
   /* #viewBox ========================= */
   #viewBox {

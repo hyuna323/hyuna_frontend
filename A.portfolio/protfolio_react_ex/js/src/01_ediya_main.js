@@ -99,7 +99,9 @@ $('.notice_on').click(function(){
 
 // goaqjrj qjxms
 $('#line-wrapper').click(function(){
-  $('#line-top').toggleClass('line-top');
-  $('#line-mid').toggleClass('line-mid');
-  $('#line-bot').toggleClass('line-bot');
+  /* 추가된 부분 */
+  $('.line').removeClass('init');
+  $('#line-top').toggleClass('line-top').toggleClass('top-reverse');
+  $('#line-mid').toggleClass('line-mid').toggleClass('mid-reverse');
+  $('#line-bot').toggleClass('line-bot').toggleClass('bot-reverse');
 })
