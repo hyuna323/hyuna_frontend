@@ -97,11 +97,17 @@ $('.notice_on').click(function(){
   $('.gallery_on').attr('class','gallery_off'); //갤러리 버튼 CSS 변경
 });
 
-// goaqjrj qjxms
-$('#line-wrapper').click(function(){
-  /* 추가된 부분 */
-  $('.line').removeClass('init');
-  $('#line-top').toggleClass('line-top').toggleClass('top-reverse');
-  $('#line-mid').toggleClass('line-mid').toggleClass('mid-reverse');
-  $('#line-bot').toggleClass('line-bot').toggleClass('bot-reverse');
-})
+// // 메뉴네비
+// // 변수영역 ----------------------------------
+// var navArea = document.querySelector('.nav_area');
+// var naviBtnSelector = document.querySelector('.navi_btn');
+// var naviBtn = naviBtnSelector.querySelector('button');
+// var navOn = 'on';
+
+// // 이벤트영역 ----------------------------------
+// naviBtn.addEventListener('click', function(event){
+//   event.preventDefault();
+//   // navArea.classList.toggle('on');  
+//   var checkClassName = navArea.classList.contains(navOn);
+//   (checkClassName) ? navArea.classList.remove(navOn) : navArea.classList.add(navOn);
+// });
