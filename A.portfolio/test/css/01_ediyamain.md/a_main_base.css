@@ -1,0 +1,10 @@
+#wrap {width: 960px; height: auto; min-height: 500px;}
+#headBox {width: 100%;}
+  .unb .close_btn {display: none;}
+  .unb_list {display: none;}
+#viewBox {margin: auto;}
+#footBox {width: 100%;}
+
+/* .unb영역에 `.on` 부여 시 unb 내부 버튼 및 .unb_list 나타나게 처리 (js에서) */
+
+/* 01_ediyamain_base.css *
