@@ -29,7 +29,7 @@
     <header id="headBox">
       <div class="head_inner">
         <h1>
-          <a href="./01_ediya_main.html" class="blind">EDIYA</a>
+          <a href="./01_ediyamain.html" class="blind">EDIYA</a>
           <button onclick="home()"><img src="../img/ediyalogo.jpg" alt="이디야로고"></button>
         </h1>
         <nav class="gnb">
@@ -46,28 +46,42 @@
           </ul>
         </nav>
       </div>
-      <div class="headInner_m">
-        <nav class="unbInner">
+      <div class="header_m">
+        <nav id="unbInner">
           <h2 class="blind">user navigation</h2>
-          <div class="wrapper">
-            <ul class="line-wrapper">
-              <li class="line"></li>
-              <li class="line"></li>
-              <li class="line"></li>
-            </ul>
-          </div>
-          <div class="miniunb">
-            <div class="minisns">
-              <button onclick="login()"><img src="../img/minilogin.svg" alt="로그인페이지로 이동"></button>
-              <button onclick="sns_F()"><img src="../img/facebook_logo_black.svg" alt="페이스북으로 이동"></button>
-              <button onclick="sns_I()"><img src="../img/instargram_logo_black.svg" alt="인스타그램으로 이동"></button>
-              <button onclick="sns_N()"><img src="../img/NAVER_blog_icon_1.png" alt="네이버 블로그로 이동"></button>
-            </div>
-            <div class="minifinder">
-              <input type="text" placeholder="가까운 매장 찾기">
-              <button><img src="../img/minifinder.png" alt="매장위치 검색 창"></button>
-            </div>
-          </div>
+              <input type="checkbox" id="check_box">
+              <label for="check_box">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+              <div id="side_menu">
+                <ul>
+                  <li><a href="#">메뉴</a></li>
+                  <li><a href="#">공지사항</a></li>
+                  <li><a href="#">상품권</a></li>
+                  <li><a href="#">이디야멤버스</a></li>
+                  <li><a href="#">유통제품</a></li>
+                  <li><a href="#">사회공헌</a></li>
+                  <li><a href="#">고객소리</a></li>
+                  <li>
+                    <button onclick="login()"><img src="../img/minilogin.svg" alt="로그인페이지로 이동"></button>
+                    <button onclick="sns_F()"><img src="../img/facebooklogo_color.png" alt="페이스북으로 이동"></button>
+                    <button onclick="sns_I()"><img src="../img/instagramlogo_color.png" alt="인스타그램으로 이동"></button>
+                    <button onclick="sns_N()"><img src="../img/NAVER_blog_icon_1.png" alt="네이버 블로그로 이동"></button></li>
+                  </ul>
+                  <div class="search_part">
+                    <h3 class="blind">search navigation</h3>
+                    <form action="." method="GET">
+                      <fieldset>
+                        <legend class="blind">search area</legend>
+                        <label for="searchInput" class="blind">가까운 매장을 찾아보세요</label>
+                        <input type="search" id="searchInput" name="search__Input" value="" placeholder="가까운 매장 찾기">
+                        <button type="button" class="search_btn">search</button>
+                      </fieldset>
+                    </form>
+                  </div>
+              </div>
         </nav>
       </div>
     </header>
