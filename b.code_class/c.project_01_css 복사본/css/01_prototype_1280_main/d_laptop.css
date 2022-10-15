@@ -204,16 +204,20 @@
   }
 
   #communityBox {
-    height: 685px;
+    width: 100%; height: 695px;
     background-color: #fff;
-    padding: 65px 90px;
+    padding: 35px 90px;
   }
   .commuity_inner {
-    width: 1080px; height: 570px;
+    width: 100%; height: 625px;
   }
   .bestpicture {
     float: left;
-    width: 540px; height: 570px;
+    width: 540px; height: 625px;
+  }
+  .moretx {
+    width: 80px; height: 40px;
+    float: right;
   }
   .bestpicture1 {
     float: left;
@@ -245,19 +249,31 @@
   }
   .story {
     float: left;
-    width: 540px; height: 285px;
+    width: 540px; height: 290px;
+    margin-left: 10px;
+  }
+  .story h2 {
+    width: 140px; height: 40px;
+    margin-left: 24px;
+    float: left;
   }
   .storyimg {
     width: 450px; height: 150px;
+    float: left;
     margin: 25px 20px 5px 40px;
     border-radius: 10px;
     /* background-color: #aaa; */
   }
   .storytext {
     width: 450px; height: 45px;
-    margin: 10px 40px 0;
+    margin: 10px 40px;
     border-radius: 10px;
     /* background-color: #aaa; */
+  }
+  .storytextid {
+    width: 100%; height: 22px;
+    float: left;
+    font-size: 16px;
   }
   .storyimg_02 {
     display: none;
@@ -279,7 +295,7 @@
   }
   .review {
     float: left;
-    width: 540px; height: 285px;
+    width: 540px; height: 300px;
   }
   .storyimg_02 {
     display: none;
@@ -311,43 +327,43 @@
     box-sizing: border-box;
     /* padding: 50px 100px; */
   }
-  .commuity_inner {
+  /* .commuity_inner {
     width: 1080px; height: 570px;
-    /* background-color: #9cf; */
+    background-color: #9cf;
   }
   .bestpicture {
     float: left;
     width: 540px; height: 570px;
-    /* background-color: #ffd; */
+    background-color: #ffd;
   }
   .bestpicture1 {
     float: left;
     width: 245px; height: 240px;
     margin:25px 15px 0px 10px;
     border-radius: 10px;
-    /* background-color: #aaa; */
+    background-color: #aaa;
   }
   .bestpicture2 {
     float: left;
     width: 245px; height: 240px;
     margin:25px 15px 0px 10px;
     border-radius: 10px;
-    /* background-color: #aaa; */
+    background-color: #aaa;
   }
   .bestpicture3 {
     float: left;
     width: 245px; height: 230px;
     margin:20px 15px 0px 10px;
     border-radius: 10px;
-    /* background-color: #aaa; */
+    background-color: #aaa;
   }
   .bestpicture4 {
     float: left;
     width: 245px; height: 230px;
     margin:20px 15px 0px 10px;
     border-radius: 10px;
-    /* background-color: #aaa; */
-  }
+    background-color: #aaa;
+  } */
   /* .story {
     float: left;
     width: 540px; height: 285px;
