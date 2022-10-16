@@ -1,20 +1,22 @@
 // import logo from './logo.svg'; //외부에서 불러오는 데이터를 작성
+import Header from './component/Header'; // import의 기준은 작성하고 있는 문서의 기준임 .js를 굳이 안써도 문제 되지 않음
+import ContentBox from './component/ContentBox';
+import Footer from './component/Footer';
 import './App.css';
 
 
 function App() {
 
   const myName = 'EDIYA'; //javascript처럼 사용
-  const h1Style = { color:'#f50', textTransform:'uppercase' }
+  // const h1Style = { color:'#f50', textTransform:'uppercase' }
   // -------------------------------------------------------------
   return (
     <div className="App">
+      <Header /> 
+      {/* Header라는 이름 그대로 써주겠다는 의미 */}
+      <ContentBox />
+      <Footer />
 
-      <h1 style={h1Style}>{myName}</h1>
-      <p>{myName}는</p>
-      <dl>
-        <dt>{myName} 이란</dt>
-      </dl>
     </div>
   ); //컴포넌트 // 이 안에 들어가는 것을 js X라고 함
 }
@@ -26,6 +28,7 @@ function App() {
 // 변수는 function안, 컴포넌트 안에 return이 되기 전에 쓴다
 // return보다 아래에 쓸 순 있겠지만 오류가 날 수 있음 => return 처리 후에 함수를 호출하는 경우에만 사용
 // react는 오류가 날 시 수정한다고 오류내역이 사라지지 않아 새로고침해야 함
+// ---------------------------------------------------------------------------------------------------------
 // react는 style 적용을 따로 따로 하는 것을 별로 좋아하지 않음 (아래 예시)
 //  ex) <h1 style={ {color:"#f50", textTransform:'uppercase'} }> // 직접적으로 쓰고 싶을 때는 {{}} 중괄호를 이중으로 쓰고 ""/''는 필수로 써주지 않으면 오류남
 // 위의 방법보다 더 좋은 방법은 아래의 방법이 가장 좋음
@@ -37,6 +40,8 @@ function App() {
 //     </div>
 //   );
 // }
+// html에서 쓰던 코드를 react에서 쓰면 헷갈리기 때문에 header, article 등등 부분을 다 따로 폴더를 만들어야 함
+
 
 
 export default App;
