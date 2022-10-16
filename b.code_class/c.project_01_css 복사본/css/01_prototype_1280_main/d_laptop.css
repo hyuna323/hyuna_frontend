@@ -266,13 +266,16 @@
   }
   .storytext {
     width: 450px; height: 45px;
-    margin: 10px 40px;
+    float: left;
+    margin: 5px 0 0 40px;
     border-radius: 10px;
     /* background-color: #aaa; */
   }
   .storytextid {
     width: 100%; height: 22px;
     float: left;
+    margin-left: 40px;
+    margin-top: -10px;
     font-size: 16px;
   }
   .storyimg_02 {
@@ -295,23 +298,25 @@
   }
   .review {
     float: left;
-    width: 540px; height: 300px;
+    width: 540px; height: 290px;
+    margin-left: 10px;
   }
-  .storyimg_02 {
-    display: none;
-  }
-  .storytext_02 {
-    display: none;
+  .review h2 {
+    width: 162px; height: 40px;
+    margin-left: 24px;
+    float: left;
   }
   .reviewimg {
     width: 450px; height: 150px;
+    float: left;
     margin: 25px 20px 5px 40px;
     border-radius: 10px;
     /* background-color: #aaa; */
   }
   .reviewtext {
     width: 450px; height: 45px;
-    margin: 10px 40px 0;
+    float: left;
+    margin: 5px 0 0 40px;
     border-radius: 10px;
     /* background-color: #aaa; */
   }
@@ -327,77 +332,7 @@
     box-sizing: border-box;
     /* padding: 50px 100px; */
   }
-  /* .commuity_inner {
-    width: 1080px; height: 570px;
-    background-color: #9cf;
-  }
-  .bestpicture {
-    float: left;
-    width: 540px; height: 570px;
-    background-color: #ffd;
-  }
-  .bestpicture1 {
-    float: left;
-    width: 245px; height: 240px;
-    margin:25px 15px 0px 10px;
-    border-radius: 10px;
-    background-color: #aaa;
-  }
-  .bestpicture2 {
-    float: left;
-    width: 245px; height: 240px;
-    margin:25px 15px 0px 10px;
-    border-radius: 10px;
-    background-color: #aaa;
-  }
-  .bestpicture3 {
-    float: left;
-    width: 245px; height: 230px;
-    margin:20px 15px 0px 10px;
-    border-radius: 10px;
-    background-color: #aaa;
-  }
-  .bestpicture4 {
-    float: left;
-    width: 245px; height: 230px;
-    margin:20px 15px 0px 10px;
-    border-radius: 10px;
-    background-color: #aaa;
-  } */
-  /* .story {
-    float: left;
-    width: 540px; height: 285px;
-    background-color: #eee;
-  } */
-  /* .storyimg {
-    width: 450px; height: 150px;
-    margin: 25px 20px 5px 40px;
-    border-radius: 10px;
-    background-color: #aaa;
-  }
-  .storytext {
-    width: 450px; height: 45px;
-    margin: 10px 40px 0;
-    border-radius: 10px;
-    background-color: #aaa;
-  } */
-  /* .review {
-    float: left;
-    width: 540px; height: 285px;
-    background-color: #9cf;
-  } */
-  /* .reviewimg {
-    width: 450px; height: 150px;
-    margin: 25px 20px 5px 40px;
-    border-radius: 10px;
-    background-color: #aaa;
-  }
-  .reviewtext {
-    width: 450px; height: 45px;
-    margin: 10px 40px 0;
-    border-radius: 10px;
-    background-color: #aaa;
-  } */
+
 
   /* #bestBox============================== */
   #bestBox {
@@ -416,7 +351,7 @@
       width: 1040px; height: 35px;
 
       padding: 0 20px;
-      background-color: #eee;
+      /* background-color: #eee; */
     }
     .best_inner ul {
       width: 1040px; height: auto;
@@ -432,48 +367,48 @@
       width: 300px; height: 300px;
       margin: 30px 20px 10px 20px;
       border-radius: 10px;
-      background-color: #aaa;
+      /* background-color: #aaa; */
     }
     .bestimg2 {
       float: left;
       width: 300px; height: 300px;
       margin: 30px 20px 10px 20px;
       border-radius: 10px;
-      background-color: #aaa;
+      /* background-color: #aaa; */
     }
     .bestimg3 {
       float: left;
       width: 300px; height: 300px;
       margin: 30px 20px 10px 20px;
       border-radius: 10px;
-      background-color: #aaa;
+      /* background-color: #aaa; */
     }
     .besttext1 {
       float: left;
       width: 300px; height: 100px;
       margin: 10px 20px 10px 20px;
       border-radius: 10px;
-      background-color: #aaa;
+      /* background-color: #aaa; */
     }
     .besttext2 {
       float: left;
       width: 300px; height: 100px;
       margin: 10px 20px 10px 20px;
       border-radius: 10px;
-      background-color: #aaa;
+      /* background-color: #aaa; */
     }
     .besttext3 {
       float: left;
       width: 300px; height: 100px;
       margin: 10px 20px 10px 20px;
       border-radius: 10px;
-      background-color: #aaa;
+      /* background-color: #aaa; */
     }
 
   #miniAdBox {
     height: 285px; 
     box-sizing: border-box; padding: 28px 100px;
-    background-color: #fff;
+    /* background-color: #fff; */
   }
   .mini_inner{
     width: 1080px; height:230px;
@@ -488,7 +423,7 @@
     width: 400px; height: 150px;
     margin: 30px 70px 30px 70px;
     border-radius: 10px;
-    background-color: #aaa;
+    /* background-color: #aaa; */
   }
   .dealimg_02 {
     display: none;
@@ -508,14 +443,14 @@
   .planning {
     float: left;
     width: 540px; height: 230px;
-    background-color: #9cf;
+    /* background-color: #9cf; */
   }
   .planingimg {
     float: left;
     width: 400px; height: 150px;
     margin: 30px 70px 30px 70px;
     border-radius: 10px;
-    background-color: #aaa;
+    /* background-color: #aaa; */
   }
   .planingimg_02 {
     display: none;
@@ -537,11 +472,12 @@
     width: 100%; height: 360px; 
     box-sizing: border-box;
     /* padding: 5px 100px; */
-    background-color: #999;
+    /* background-color: #999; */
   }
   .foot_inner {
     width: 1080px; height: 350px;
     margin:auto;
-    background-color: #9cf;
+    font-size: 12px;
+    /* background-color: #9cf; */
   }
 }
