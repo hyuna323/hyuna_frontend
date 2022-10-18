@@ -12,10 +12,10 @@ function App() {
   // -------------------------------------------------------------
   return (
     <div className="App">
-      <Header /> 
+      <Header site={myName} url="http://naver.com" /> 
       {/* Header라는 이름 그대로 써주겠다는 의미 */}
-      <ContentBox />
-      <Footer />
+      <ContentBox name={myName} />
+      <Footer name={myName}/>
 
     </div>
   ); //컴포넌트 // 이 안에 들어가는 것을 js X라고 함
@@ -41,6 +41,14 @@ function App() {
 //   );
 // }
 // html에서 쓰던 코드를 react에서 쓰면 헷갈리기 때문에 header, article 등등 부분을 다 따로 폴더를 만들어야 함
+
+
+// contentBox.js와 Header.js에 각각 적힌 const myName의 내용을 Header.js에서 'EDIYA'가 아닌 다른 것으로 바꾸고자 할 때 contentBox.js에는 EDIYA로 적혀있어 결과 화면창에선 변화가 일어나지 않음
+// <Header site="AA" /> 를 속성이라 함 그 중 site를 프로퍼티(key)라고 함
+// site라는 프로퍼티 대신 url을 적어도 됨
+// site라는 프로퍼티를 전송하면 Header.js에서 받음
+// 여기서 site 내용을 바꾸면 바뀜
+// 프로퍼티의 내용을 <Header site="AA" /> 이런식으로 적는게 아닌 위에 const myName = 'EDIYA';라고 적어둔 변수가 있으니 <Header site={myName} /> 라고 쓰는 것이 맞음 "AA" -> {myName}
 
 
 
