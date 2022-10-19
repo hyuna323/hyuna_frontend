@@ -26,7 +26,7 @@
   #headBox .header_m {padding-left: 34.375%;}
     .header_m {
       float: right;
-      width: 46.875%; min-width: 150px; height: 50px;
+      width: auto; height: 32px;
       margin: auto;
       margin-top: 5px;
       box-sizing: border-box;
@@ -45,6 +45,7 @@
       height: 30px;
       cursor: pointer;
       z-index: 100;
+      margin: auto;
       /* position: relative; */
     }
     
@@ -266,8 +267,8 @@
       background-size: 100%;
       background-repeat: no-repeat;
     }
-      .drink_TX {
-        width: 100%; min-width: 150px;
+      .drink_TX span {
+        width: 86%; min-width: 130px;
         padding: 3.33333333% 6.66666667%;
         font-size: 20px;
         font-weight: 400;
@@ -275,9 +276,9 @@
         text-transform: capitalize;
       }
       .left_more {
-        width: 20.3125%; min-width: 65px;
-        padding: 3.07692308%;
-        margin: 0 15.3846154%;
+        width: 20.3125%; min-width: 69px;
+        padding: 1.07692308%;
+        margin: 5px 5%;
         font-size: 14px;
         float: left;
         outline: solid 1px;
@@ -290,23 +291,41 @@
       background-size: 100%;
       background-repeat: no-repeat;
     }
-      .bk_TX {
-        width: 100%; min-width: 150px;
-        padding: 3.33333333% 6.66666667% 0;
+      .bk_TX span {
+        width: 86%; min-width: 130px;
+        padding: 2.33333333% 6.66666667%;
         font-size: 20px;
         font-weight: 400;
-        float: left;
+        float: right;
         text-align: right;
         text-transform: capitalize;
       }
-      .right_more {
+
+      /* .right_more {
         width: 20.3125%; min-width: 65px;
         padding: 2px;
+        margin: auto;
+        margin: 10px;
         margin: 0 0 0 107.692308%;
         font-size: 14px;
-        float: left;
+        float: right;
+        outline: solid 1px;
+      } */
+      .right_more {
+        width: 20.3125%; min-width: 69px;
+        padding: 1.07692308%;
+        margin: 5px 5%;
+        font-size: 14px;
+        float: right;
         outline: solid 1px;
       }
+
+      /* .right_more span {
+        width: 65px; height: 20px;
+        font-size: 14px;
+        text-align: center;
+        top: -10px;
+      } */
     .mdInner {
       float: left;
       width: 49.875%; min-width: 150px; height: 90px;
@@ -315,14 +334,13 @@
       background-size: 100%;
       background-repeat: no-repeat;
     }
-      .md_TX {
-        width: 100%; min-width: 150px;
-        padding: 3.33333333% 6.66666667% 0;
+      .md_TX span {
+        width: 86%; min-width: 130px;
+        padding: 3.33333333% 6.66666667%;
         font-size: 20px;
         font-weight: 400;
         float: left;
-        text-align: left;
-        text-transform: uppercase;
+        text-transform: capitalize;
       }
     .bistroInner {
       float: left;
@@ -332,9 +350,9 @@
       background-size: 100%;
       background-repeat: no-repeat;
     }
-      .bst_TX {
-        width: 100%; min-width: 150px;
-        padding: 3.33333333% 6.66666667% 0;
+      .bst_TX span {
+        width: 86%; min-width: 130px;
+        padding: 2.33333333% 6.66666667%;
         font-size: 20px;
         font-weight: 400;
         float: right;

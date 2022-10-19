@@ -78,8 +78,12 @@
     padding: 20px 0;
     color: #fff;
   }
+  .loginmain {
+    width: auto; height: auto;
+    margin: auto;
+  }
   .privite {
-    width: 34.583%; min-width: 498px;
+    width: 39.84375%; min-width: 510px;
     height: 186px;
     border: none;
     padding: 0;
@@ -118,9 +122,10 @@
   } */
 
     .check {
-      width: 13.888%; min-width: 200px;
+      width: 38.90625%; min-width: 498px;
       height: 65px;
-      margin-left: 370px;
+      /* margin-left: 370px; */
+      margin: auto;
       padding-top: 5px;
       border: none;
     }

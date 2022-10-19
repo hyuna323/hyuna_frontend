@@ -12,11 +12,13 @@ function App() {
   // -------------------------------------------------------------
   return (
     <div className="App">
-      <Header site={myName} url="http://naver.com" /> 
+      <Header 
+        site={myName} 
+        url="http://naver.com" /> 
       {/* Header라는 이름 그대로 써주겠다는 의미 */}
-      <ContentBox name={myName} />
+      <ContentBox 
+        name={myName} />
       <Footer name={myName}/>
-
     </div>
   ); //컴포넌트 // 이 안에 들어가는 것을 js X라고 함
 }

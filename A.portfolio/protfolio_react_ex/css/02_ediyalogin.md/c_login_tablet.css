@@ -181,6 +181,14 @@
     padding: 15px 0;
     color: #fff;
   }
+  .loginmain {
+    width: auto; height: auto;
+    margin: auto;
+  }
+  /* .loginmain form {
+    width: 500px;
+    margin: auto;
+  } */
   .privite {
     width: 65.104%; min-width: 500px;
     height: 180px;
@@ -220,11 +228,11 @@
   } */
 
     .check {
-      width: 42.708%; min-width: 328px;
-      height: 65px;
+      width: 65%; min-width: 498px;
+      height: 50px;
       margin: auto;
-      margin-left: 7.622%;
-      padding-top: 15px;
+      /* margin-left: 7.231%; */
+      padding-top: 5px;
       border: none;
     }
     .check label {

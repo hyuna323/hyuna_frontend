@@ -25,16 +25,17 @@
 
       .gnb {
         float: left;
-        width: 63.5%; min-width: 900px; height: 55px;
+        width: 77%; min-width: 1000px; height: 55px;
       }
       .gnb > ul {
-        width: 63.5%; min-width: 900px; height: 54px;
+        width: 82%; min-width: 830px; height: 54px;
         text-align: center;
         margin-left: 190px; 
+        line-height: 15px;
       }
       .gnb > ul > li {
         display: inline-block; width: auto; height: auto;
-        margin-left: 10px;
+        margin-left: 14px;
       }
       .gnb li:first-child {
         margin-left: 0;

@@ -91,25 +91,27 @@
         <ul class="welcometext">
           <li>이디야커피에 오신 것을 환영합니다.</li>
         </ul>
-        <form action="#" method="POST">
-          <fieldset class="privite">
-            <legend class="blind">개인정보 입력창</legend>
-            <ul>
-              <li>
-                <input type="text" id="userId" name="user__Id" value="" placeholder="이메일">
-              </li>
-              <li>
-                <input type="password" id="userPw" name="user__Pw" value="" placeholder="비밀번호">
-              </li>
-            </ul>
-          </fieldset>
-        </form>
+        <div class="loginmain">
+          <form action="#" method="POST">
+            <fieldset class="privite">
+              <legend class="blind">개인정보 입력창</legend>
+              <ul>
+                <li>
+                  <input type="text" id="userId" name="user__Id" value="" placeholder="이메일">
+                </li>
+                <li>
+                  <input type="password" id="userPw" name="user__Pw" value="" placeholder="비밀번호">
+                </li>
+              </ul>
+            </fieldset>
+          </form>
           <fieldset class="check">
             <input class="blind" type="checkbox" name="login__check" id="idcheck" value="logincheck-true">
             <label for="idcheck">
               <i><span>이메일 저장</span></i>
             </label>
           </fieldset>
+        </div>
         <fieldset class="login_btn">
           <legend class="blind">로그인처리</legend>
           <div class="login">

@@ -259,8 +259,8 @@
       background-size: 100%;
       background-repeat: no-repeat;
     }
-      .drink_TX {
-        width: 100%; min-width: 370px;
+      .drink_TX span {
+        width: 86%; min-width: 350px;
         padding: 1.35501355% 2.7100271%;
         font-size: 24px;
         font-weight: 400;
@@ -268,9 +268,9 @@
         text-transform: capitalize;
       }
       .left_more {
-        width: 18.4896%; min-width: 142px;
+        width: 19.3125%; min-width: 140px;
         padding: 1.4084507%;
-        margin: 0 7.04225352%;
+        margin: 5px 5%;
         font-size: 18px;
         float: left;
         outline: solid 1px;
@@ -283,21 +283,21 @@
       background-size: 100%;
       background-repeat: no-repeat;
     }
-      .bk_TX {
-        width: 100%; min-width: 370px;
-        padding: 1.35501355% 2.7100271% 0;
+      .bk_TX span {
+        width: 86%; min-width: 350px;
+        padding: 1.35501355% 2.7100271%;
         font-size: 24px;
         font-weight: 400;
-        float: left;
+        float: right;
         text-align: right;
         text-transform: capitalize;
       }
       .right_more {
-        width: 18.4896%; min-width: 142px;
-        padding: 2px;
-        margin: 4.22535211% 0 0 146.478873%;
+        width: 19.3125%; min-width: 140px;
+        padding: 1.4084507%;
+        margin: 5px 5%;
         font-size: 18px;
-        float: left;
+        float: right;
         outline: solid 1px;
       }
     .mdInner {
@@ -308,14 +308,13 @@
       background-size: 100%;
       background-repeat: no-repeat;
     }
-      .md_TX {
-        width: 100%; min-width: 370px;
-        padding: 1.35501355% 2.7100271% 0;
+      .md_TX span {
+        width: 86%; min-width: 350px;
+        padding: 1.35501355% 2.7100271%;
         font-size: 24px;
         font-weight: 400;
         float: left;
-        text-align: left;
-        text-transform: uppercase;
+        text-transform: capitalize;
       }
     .bistroInner {
       float: left;
@@ -325,9 +324,9 @@
       background-size: 100%;
       background-repeat: no-repeat;
     }
-      .bst_TX {
-        width: 100%; min-width: 370px;
-        padding: 1.35501355% 2.7100271% 0;
+      .bst_TX span {
+        width: 86%; min-width: 350px;
+        padding: 1.35501355% 2.7100271%;
         font-size: 24px;
         font-weight: 400;
         float: right;
