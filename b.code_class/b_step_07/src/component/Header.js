@@ -1,4 +1,6 @@
 // Header.js
+import Gnb from "./Gnb";
+
 
 // function Header(){} 써도 되고 안써도 됨
 export default function Header({site, url}){
@@ -12,31 +14,20 @@ export default function Header({site, url}){
   // const url = "http://naver.com";
   
   const h1Style = { color:'#f50', textTransform:'uppercase' };
-  const navLists = {
-    'about'
-    'product'
-    'gallery'
-    
-  }
 
   return (
       <header id="headBox">
         <h1 style={h1Style}>
-          <a href={url}
-            target="_blank">{site}</a>
+          <a href={url} target="_blank">{site}</a>
         </h1>
-        <nav className="gnb">
-          <h2>navigation</h2>
-          <ul>
-            <li><a href="about"> about</a></li>
-            <li><a href="product"> product</a></li>
-            <li><a href="gallery"> gallery</a></li>
-          </ul>
-        </nav>
+        <Gnb />
       </header>
   )
 } // 다이렉트로 바로 쓴 것
 
+Header.defaultProps = { name : 'EDIYA' };
+ // App.js에서 Header를 site가 아닌 name으로 통일 시키고 싶은데 Header.js에서는 site를 사용해야하는 경우엔 불러올 내용이 없더라도 default (= 기본적으로) Props를 설정하겠다 라는 의미에서 위처럼 씀
+// 단, export default 밖에서 써야 함
 
 
 // 내보내는 방법
@@ -69,3 +60,5 @@ export default function Header({site, url}){
 //   </header>
 //   )
 // }
+
+// for 반복문

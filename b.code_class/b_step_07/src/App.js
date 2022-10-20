@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Header 
-        site={myName} 
+        // name={myName} 
         url="http://naver.com" /> 
       {/* Header라는 이름 그대로 써주겠다는 의미 */}
       <ContentBox 
