@@ -30,9 +30,7 @@
       .gnb > ul {
         width: 82%; min-width: 830px; height: 54px;
         text-align: center;
-        margin-left: 190px; 
-        line-height: 15px;
-      }
+        margin-left: 190px;       }
       .gnb > ul > li {
         display: inline-block; width: auto; height: auto;
         margin-left: 14px;
