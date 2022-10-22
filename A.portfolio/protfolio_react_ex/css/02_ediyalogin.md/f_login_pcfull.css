@@ -139,6 +139,13 @@
       float:left;
       cursor: pointer;
     }
+    .check input {
+      width: 20px;
+      height: 20px;
+      float: left;
+      margin-left: 20px;
+      border: 1px solid #ededed;
+    }
     .check label span {
       width: 10.9375%; min-width: 210px; height: 66px;
       line-height: 38px;
@@ -151,7 +158,7 @@
       color: #fff;
       font-size: 22px;
     }
-    .check label i { 
+    /* .check label i { 
       width: 20px; height: 20px;
       margin-right: 0.3rem; margin-top:0.35rem;
       float:left;
@@ -166,7 +173,7 @@
       position: relative; 
       background-color: #24305A;
       border-color:transparent;
-    }
+    } */
     /* .check span {
       width: 100px;
       padding: 10px;
@@ -225,7 +232,7 @@
       width: 31.25%; min-width: 600px; height: 236px;
       font-size: 20px;
     }
-    .membership_content button {
+    #open {
       width: 66.176%; min-width: 450px; height: 60px;
       margin: auto;
       margin-top: 30px;
@@ -237,6 +244,9 @@
       background-color: rgba(36, 48, 90, 94%);
       border-radius: 7px;
     }
+
+    .modal {display: none;}
+
     
 /* ===================================================== */
 #footBox {

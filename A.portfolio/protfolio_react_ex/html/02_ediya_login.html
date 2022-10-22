@@ -106,7 +106,7 @@
             </fieldset>
           </form>
           <fieldset class="check">
-            <input class="blind" type="checkbox" name="login__check" id="idcheck" value="logincheck-true">
+            <input type="checkbox" name="login__check" id="idcheck" value="logincheck-true">
             <label for="idcheck">
               <i><span>이메일 저장</span></i>
             </label>
@@ -132,7 +132,24 @@
             회원님께서 새로운 서비스를 이용하시기 위해서는 본인 인증이 필요합니다.<br />
             본인인증은 1회만 진행하며, 인증후, 더 편리하게 서비스를 이용하실 수 있습니다.
           </i>
-          <div class="membership_content"><button>이디야 멤버십 가입정보 찾기</button></div>
+          <button id="open">이디야 멤버십 가입정보 찾기</button>
+        </div>
+        
+        <!-- modal -->
+        <div class="modal on">
+          <div class="modal_overlay"></div>
+          <div class="modal_content">
+            <div class="modalHeader">
+              <h1>이디야 멤버십 가입정보 찾기</h1>
+              <button><img src="../img/close.svg" alt="닫기"></button>
+            </div>
+            <i>
+              회원님께 더 좋은 서비스를 제공해드리고자,<br />
+              선물하기, 이디야카드, 스마트오더 등의 서비스를 추가하여 더욱 새로워졌습니다.<br />
+              회원님께서 새로운 서비스를 이용하시기 위해서는 본인 인증이 필요합니다.<br />
+              본인인증은 1회만 진행하며, 인증후, 더 편리하게 서비스를 이용하실 수 있습니다.
+            </i>
+          </div>
         </div>
       </div>
     </section>
@@ -183,6 +200,7 @@
   </div>
 
   <!-- script -->
+  
     <script src="../js/src/02_ediya_login.js"></script>
   
 </body>

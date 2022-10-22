@@ -235,6 +235,13 @@
       padding-top: 5px;
       border: none;
     }
+    .check input {
+      width: 20px;
+      height: 20px;
+      float: left;
+      margin-left: 20px;
+      border: 1px solid #ededed;
+    }
     .check label {
       width: 19.531%; min-width: 150px;
       height: 100%;
@@ -249,33 +256,13 @@
       line-height: 35px;
       /* padding: 5px; */
       margin: auto;
-      margin-left: 30px;
-      margin-top: -10px;
+      margin-left: 10px;
+      margin-top: -8px;
       float:left;
       cursor: pointer;
       color: #fff;
       font-size: 16px;
     }
-    .check label i { 
-      width: 17px; height: 17px;
-      margin-right: 0.3rem; margin-top:0.35rem;
-      float:left;
-      border:1px solid #fff;
-    }
-    #idcheck:checked + label > i { 
-      position: relative; 
-      background-color: #24305A;
-      border-color:transparent;
-    }
-    #logincheck:checked + label > i { 
-      position: relative; 
-      background-color: #24305A;
-      border-color:transparent;
-    }
-    /* .check span {
-      width: 100px;
-      padding: 10px;
-    } */
     .login_btn {
       width: 64.322%; min-width: 494px; height: 60px;
       border-radius: 5px;
@@ -322,7 +309,8 @@
       margin: auto;
     }
     .membership_area > i {display: none;}
-    .membership_content button {
+    
+    #open {
       width: 100%; min-width: 450px; height: 50px;
       margin: auto;
       margin-top: 80px;
@@ -334,7 +322,67 @@
       background-color: rgba(36, 48, 90, 86%);
       border-radius: 7px;
     }
-
+    .modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .modal_overlay {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+    .modal_content {
+      width: 50%;
+      height: 40%;
+      float: right;
+      background-color: #fff;
+      padding: 10px 5px;
+      text-align: center;
+      position: relative;
+      border-radius: 10px;
+      line-height: 20px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    }
+    .modalHeader h1 {
+      /* text-align: center; */
+      float: right;
+      width: 100%;
+      height: 24px;
+      font-size: 16px;
+      top: 0;
+      margin: 0;
+      padding-left: 20px;
+      margin: 10px 0;
+      /* line-height: 10%; */
+    }
+    .modalHeader button {
+      top: 0;
+      float: right;
+      margin: -44px 10px;
+      /* text-align: right; */
+      padding-left: 10px;
+    }
+    .modalHeader button img {
+      top: 0;
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+    }
+    .modal_content i {
+      width: 100%;
+      height: 100%;
+      font-size: 14px;
+    }
+    .on {
+      display: none;
+    }
     
 /* ===================================================== */
 #footBox {
