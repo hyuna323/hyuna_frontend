@@ -103,7 +103,7 @@
     #side_menu ul {width: 100%; height: auto;}
     #side_menu li {
       width: 100%; height: auto; margin-bottom: 10px;
-      font-size: 19px; font-weight: 500; text-transform: capitalize;
+      font-size: 15px; font-weight: 500; text-transform: capitalize;
       color: #ddd;
     }
     #side_menu a {color: inherit;}
@@ -270,16 +270,16 @@
       .drink_TX span {
         width: 86%; min-width: 130px;
         padding: 3.33333333% 6.66666667%;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
         float: left;
         text-transform: capitalize;
       }
       .left_more {
-        width: 20.3125%; min-width: 69px;
+        width: 18.75%; min-width: 60px;
         padding: 1.07692308%;
         margin: 5px 5%;
-        font-size: 14px;
+        font-size: 12px;
         float: left;
         outline: solid 1px;
       }
@@ -294,7 +294,7 @@
       .bk_TX span {
         width: 86%; min-width: 130px;
         padding: 2.33333333% 6.66666667%;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
         float: right;
         text-align: right;
@@ -312,10 +312,10 @@
         outline: solid 1px;
       } */
       .right_more {
-        width: 20.3125%; min-width: 69px;
+        width: 18.75%; min-width: 60px;
         padding: 1.07692308%;
         margin: 5px 5%;
-        font-size: 14px;
+        font-size: 12px;
         float: right;
         outline: solid 1px;
       }
@@ -337,10 +337,10 @@
       .md_TX span {
         width: 86%; min-width: 130px;
         padding: 3.33333333% 6.66666667%;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
         float: left;
-        text-transform: capitalize;
+        text-transform: uppercase;
       }
     .bistroInner {
       float: left;
@@ -353,7 +353,7 @@
       .bst_TX span {
         width: 86%; min-width: 130px;
         padding: 2.33333333% 6.66666667%;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
         float: right;
         text-align: right;
@@ -386,7 +386,7 @@
       width: 55.313%; min-width: 177px;
       text-align: left;
       margin-top: 1.3125%;
-      font-size: 7px;
+      font-size: 10px;
       color: #ffffff;
     }
 
@@ -406,7 +406,7 @@
     
     .dream_fc{
       float: right;
-      font-size: 8px;
+      font-size: 10px;
       width: 17.1875%; min-width: 55px; height: 12px;
       line-height: 12px;
       text-transform: uppercase;
@@ -417,7 +417,7 @@
     }
     .dream_lc{
       float: right;
-      font-size: 8px;
+      font-size: 10px;
       width: 17.1875%; min-width: 55px; height: 12px;
       line-height: 12px;
       text-transform: uppercase;
@@ -472,7 +472,7 @@
 
     .franchise_gd{
       float: right;
-      font-size: 12px;
+      font-size: 11px;
       width: 28.75%; min-width: 60px; height: 16px;
       line-height: 16px;
       /* margin-bottom: 5px; */
@@ -484,7 +484,7 @@
     }
     .franchise_pt{
       float: right;
-      font-size: 12px;
+      font-size: 11px;
       width: 28.75%; min-width: 60px; height: 16px;
       line-height: 16px;
       margin-top: -30px;
@@ -529,7 +529,7 @@
     }
     .ediyastory_more {
       float: right;
-      font-size: 12px;
+      font-size: 11px;
       width: 100%; min-width: 60px; height: 16px;
       line-height: 16px;
       /* margin-bottom: 5px; */
@@ -569,7 +569,7 @@
 
     .footInner_m > ul > li {
       width: 93.75%; min-width: 300px;
-      font-size: 6px;
+      font-size: 10px;
       color: #ffffff;
     }
 } /* (디자인기준: 320px) ~ 767px ==================================== */
