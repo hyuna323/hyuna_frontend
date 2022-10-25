@@ -5,9 +5,9 @@
   #wrap {width: 100%; min-width: 1280px;}
     /* #headBox ========================= */
   #headBox {
-    width: 100%; height: 120px;
+    width: 100%; height: 90px;
     box-sizing: border-box;
-    padding: 27px 18px 27px 30px;
+    padding: 28px 34px;
     line-height: 18px;
     position: fixed;
     z-index: 1000;
@@ -20,27 +20,31 @@
     }
       h1 {
         float: left;
-        width: 20.875%; min-width: 280px; height: 54px;
-        line-height: 54px;
+        width: 15.625%; min-width: 200px; height: 34px;
         /* margin-top: 19px; */
+        /* line-height: 54px; */
       }
       
       h1 > button > img {
-        width: 100%; min-width: 280px; height: 28px;}
+        width: 100%; min-width: 200px;
+        height: 20px;
+        margin-top: 6px;
+      }
 
       .gnb {
-        float: left;
-        width: 76%; min-width: 950px; height: 55px;
+        float: right;
+        width: 70.3125%; min-width: 900px; height: 34px;
       }
       .gnb > ul {
-        width: 94%; min-width: 920px; height: 54px;
+        width: 66.406%; min-width: 840px; height: 34px;
         text-align: center;
-        margin-left: 50px; 
-        line-height: 54px;
+        margin-right: 20px; 
       }
       .gnb > ul > li {
         display: inline-block; width: auto; height: auto;
+        line-height: 34px;
         margin-left: 10px;
+        font-size: 22px;
       }
       .gnb li:first-child {
         margin-left: 0;
@@ -48,16 +52,24 @@
       .gnb li a {
         padding: 5px;
       }
+      .loginbtn {
+        width: 100px; height: 38px;
+        line-height: 38px;
+        font-weight: 600; 
+        color: #243c84; 
+        outline: solid 1.5px; 
+        border-radius: 5px;
+      }
       .header_m {display: none;}
       /* background-color: #cca; */
     
-  .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 120px;}
+  .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 90px;}
 
     
   /* #viewBox ========================= */
   #viewBox {
     width: 100%; min-width: 1280px;
-    height: 720px;
+    height: 740px;
     box-sizing: border-box;
     /* background-color: #ccc; */
   }
@@ -66,10 +78,10 @@
       /* margin-top: -30px; */
     }
     .viewport {
-      width: 100%; min-width: 1280px;height: 630px;
+      width: 100%; min-width: 1280px; height: 690px;
     }
     .viewport > img {
-      width: 100%; min-width: 1280px; height: 720px;
+      width: 100%; min-width: 1280px; height: 740px;
     }
   
     /* .view_outer {
@@ -85,6 +97,10 @@
   
     /* Slideshow container */
     /* The dots/bullets/indicators */
+    .dotBox {
+      width: 100%; min-width: 768px; height: 35px;
+      margin-bottom: 15px;
+    }
     .dot {
       cursor: pointer;
       height: 15px;
@@ -126,15 +142,16 @@
   } */
   
   /* #storefindBox ========================= */
-  .content_box_wrap {
-    width: 100%; min-width: 1280px; height: 484px;
+  #content_box_wrap {
+    width: 100%; min-width: 1280px; height: auto;
   }
     .storefactory {display: none;}
     #dreamfactoryBox_full {display: none;}
   
     #storefindBox {
       width: 100%; min-width: 1280px;
-      height: 328px;
+      height: 280px;
+      padding-top: 28px;
       /* ????? */
       /* margin-top: 45px; */
       /* float: left; */
@@ -142,21 +159,26 @@
       /* background-color: #ddd; */
       /* padding: 58px; */
     }
-    
       .find_inner {
         float: left;
-        width: 40.9375%; min-width: 524px; height: 232px;
-        margin: 2.969% 4.098% 4.031% 4.988%;
+        width: 40.9375%; min-width: 524px; height: 180px;
+        margin: 2.969% 4.098% 1.031% 4.988%;
       }
-    
+      .finder {
+        width: 524px; height: 180px;
+      }
+
       .storefind_TX {
         margin-left: 38px;
         font-weight: 500;
+        font-size: 22px;
       }
     
       .search {
         position: relative;
-        width: 33.75%; min-width: 430px;
+        width: 33.75%; min-width: 500px;
+        height: 180px;
+        top: -40px;
       }
     
       input {
@@ -165,7 +187,7 @@
         border: 1px solid #bbb;
         border-radius: 8px;
         padding: 10px 12px;
-        font-size: 25px;
+        font-size: 18px;
       }
     
       .search > button {
@@ -173,16 +195,17 @@
       }
       .search > button > img {
         position: absolute;
-        width: 40px; height: 40px;
-        top: 90px;
-        right: -20px;
+        width: 30px; height: 30px;
+        top: 95px;
+        /* float: right; */
+        right: 50px;
         margin: 0;
       }
       .noticeBox_full {display: none;}
       .noticeBox {
         float: left;
-        width: 40.9375%; min-width: 524px; height: 232px;
-        margin: 2.969% 4.831% 4.031% 4.098%;
+        width: 40.9375%; min-width: 524px; height: 180px;
+        margin: 2.969% 4.831% 1.031% 4.098%;
       }
     
       /* .notice_inner {
@@ -192,18 +215,21 @@
       } */
     
       .notice {
-        width: 42.5781%; min-width: 524px; height: 232px;
+        width: 42.5781%; min-width: 524px; height: 180px;
       }
     
       .notice_TX {
         width: 42.5781%; min-width: 545px; height: 50px;
         margin-left: 18px;
+      }
+      
+      .notice_h2 {
+        width: 66.7939%; min-width: 350px;
+        font-size: 22px;
         font-weight: 500;
       }
-    
-    
       .notice_more {
-        margin-top: -25PX;
+        margin-top: -30PX;
         margin-right: 80PX;
         float: right;
         font-weight: normal;
@@ -219,7 +245,7 @@
     } */
     
       .notice_letter{
-        width: 38.28125%; min-width: 490px; height: 220px;
+        width: 38.28125%; min-width: 490px; height: 110px;
         display: block;
         /* position: fixed; */
         /* padding: 10px; */
@@ -230,7 +256,7 @@
         font-weight: normal;
       }
       .notice_letter > li > a {
-        font-size: 20px;
+        font-size: 17px;
         float: left;
         width: 25.7813%; min-width: 330px;
         height: auto;
@@ -246,32 +272,33 @@
     /* #storyBox ========================= */
     #storyBox {
       float: left;
-      /* padding: 10px 10px 0; */
       width: 100%; min-width: 1280px; height: 518px;
+      /* padding: 10px 10px 0; */
       /* background-color: #aaa; */
       }
     
       .menu_inner {
         float: left;
-        width: 40.156%; min-width: 522px; height: 422px; 
-        margin: 3.469% 4.191% 4.031% 4.988%;
+        width: 40.156%; min-width: 490px; height: 390px; 
+        margin: 3.469% 3.191% 4.031% 5.988%;
       }
     
       .menu {
         float: left;
-        width: 100%; min-width: 522px; height: 422px;
+        width: 100%; min-width: 490px; height: 390px;
         padding: 20px 0;
         background-image: url(../../img/menu_intro.png);
         background-repeat: no-repeat;
-        background-size: 100% 422px;
+        background-size: 100% 390px;
         background-position: 50% 50%;
         color: #ffffff;
       }
     
       .menu_TX {
-        width: 100%; min-width: 504px;
+        width: 100%; min-width: 490px;
         text-align: center;
         text-transform: uppercase;
+        font-size: 20px;
         font-weight: 500;
       }
     
@@ -285,26 +312,32 @@
       
       .menu_dk {
         float: right;
-        width: 94.667%; min-width: 142px;
+        width: 88%; min-width: 132px; height: 45px;
         line-height: 45px;
         margin-bottom: 10px;
         border: 1px solid #cccccc;
+        font-size: 18px;
+        font-weight: 400;
         cursor: pointer;
       }
       .menu_fd{
         float: right;
-        width: 94.667%; min-width: 142px;
+        width: 88%; min-width: 132px; height: 45px;
         line-height: 45px;
         margin-bottom: 10px;
         border: 1px solid #cccccc;
+        font-size: 18px;
+        font-weight: 400;
         cursor: pointer;
       }
       .menu_md{
         float: right;
-        width: 94.667%; min-width: 142px;
+        width: 88%; min-width: 132px;
         line-height: 45px;
         text-transform: uppercase;
         border: 1px solid #cccccc;
+        font-size: 18px;
+        font-weight: 400;
         cursor: pointer;
       }
     
@@ -312,31 +345,32 @@
         margin: 270px 76px 0 0;
         /* height: 524px; */
         text-align: right;
-        font-size: 20px;
-        font-weight: 400;
+        font-size: 16px;
+        font-weight: 300;
         color: white;
       }
     
       .brandStory_inner {
         float: left;
-        width: 40.156%; min-width: 522px; height: 422px;
-        margin: 3.469% 4.988% 4.031% 4.191%;
+        width: 40.156%; min-width: 490px; height: 390px;
+        margin: 3.469% 5.988% 4.031% 4.191%;
       }
     
       .brandStory {
         float: left;
-        width: 100%; min-width: 522px; height: 422px;
+        width: 100%; min-width: 490px; height: 390px;
         padding: 20px 0;
         background-image: url(../../img/brandStory.png);
         background-repeat: no-repeat;
-        background-size: 100% 422px;
+        background-size: 100% 390px;
         background-position: 50% 50%;
       }
     
       .brandStory_TX {
-        width: 100%; min-width: 504px;
+        width: 100%; min-width: 490px;
         text-align: center;
         text-transform: uppercase;
+        font-size: 20px;
         font-weight: 500;
       }
     
@@ -344,51 +378,66 @@
         width: 11.719%; min-width: 150px;
         height: 307px;
         float: right;
-        margin-top: 50px;
-        margin-right: 80px;
+        margin-top: 30px;
+        margin-right: 30px;
       }
       
       .brandStory_ey {
         float: right;
-        width: 94.667%; min-width: 142px;
+        width: 88%; min-width: 132px;
+        height: 45px;
         line-height: 45px;
         margin-bottom: 5px;
         border: 1px solid #151515;
+        font-size: 18px;
+        font-weight: 400;
         cursor: pointer;
       }
       .brandStory_ci{
         float: right;
-        width: 94.667%; min-width: 142px;
+        width: 88%; min-width: 132px;
+        height: 45px;
         line-height: 45px;
         margin-bottom: 5px;
         text-transform: uppercase;
         border: 1px solid #151515;
+        font-size: 18px;
+        font-weight: 400;
         cursor: pointer;
       }
       .brandStory_ht{
         float: right;
-        width: 94.667%; min-width: 142px;
+        width: 88%; min-width: 132px;
+        height: 45px;
         line-height: 45px;
         margin-bottom: 5px;
         border: 1px solid #151515;
+        font-size: 18px;
+        font-weight: 400;
         cursor: pointer;
       }
     
       .brandStory_m{
         float: right;
-        width: 94.667%; min-width: 142px;
+        width: 88%; min-width: 132px;
+        height: 45px;
         line-height: 45px;
         margin-bottom: 5px;
         text-transform: uppercase;
         border: 1px solid #151515;
+        font-size: 18px;
+        font-weight: 400;
         cursor: pointer;
       }
       .brandStory_aw{
         float: right;
-        width: 94.667%; min-width: 142px;
+        width: 88%; min-width: 132px;
+        height: 45px;
         line-height: 45px;
         text-transform: uppercase;
         border: 1px solid #151515;
+        font-size: 18px;
+        font-weight: 400;
         cursor: pointer;
       }
     
@@ -397,15 +446,15 @@
     #dreamfactoryBox {
       float: left;
       width: 100%; min-width: 1280px;
-      height: auto;
+      height: 390px;
       background-color: #243c84;
     }
     
       /* .dreamfactory_inner {} */
     
       .dreamfactory {
-        height: 412px;
-        padding-top: 4.6875%;
+        height: 390px;
+        padding-top: 3.6875%;
         padding-left: 7.03125%;
       }
     
@@ -418,12 +467,14 @@
         width: 36.7188%; min-width: 470px;
         text-align: left;
         margin-top: 50px;
-        font-size: 18px;
+        font-size: 16px;
+        font-weight: 300;
         color: #ffffff;
       }
     
       .dreamImg {
-        width: 64.8438%; min-width: 830px; height:262px;
+        width: 64.8438%; min-width: 630px; 
+        height: 250px;
         float: right;
         margin-top: 12px;
       }
@@ -438,23 +489,27 @@
     
       .dream_fc{
         float: right;
-        width: 170px;
+        width: 140px;
         margin-right: 10px;
         line-height: 45px;
         text-transform: uppercase;
         border: 1px solid #151515;
         background-color: #dddddd;
         opacity: 0.6;
+        font-size: 18px;
+        font-weight: 400;
         cursor: pointer;
       }
       .dream_lc{
         float: right;
-        width: 170px;
+        width: 140px;
         line-height: 45px;
         text-transform: uppercase;
         border: 1px solid #151515;
         background-color: #dddddd;
         opacity: 0.6;
+        font-size: 18px;
+        font-weight: 400;
         cursor: pointer;
       }
     
@@ -485,11 +540,11 @@
     
       .franchise_TX {
         width: 39.375%; min-width: 504px;
-        font-size: 18px;
+        font-size: 20px;
         text-align: right;
         font-weight: 500;
         padding-right: 110px;
-        padding-top: 30px;
+        padding-top: 50px;
       }
     
       .franchise_btn {
@@ -497,12 +552,12 @@
         height: 121px;
         float: right;
         margin-top: 80px;
-        margin-right: 40px;
+        margin-right: 20px;
       }
     
       .franchise_gd{
         float: right;
-        width: 15%; min-width: 192px;
+        width: 11.875%; min-width: 152px;
         height: 45px;
         line-height: 45px;
         margin-bottom: 5px;
@@ -514,7 +569,7 @@
       }
       .franchise_pt{
         float: right;
-        width: 15%; min-width: 192px;
+        width: 11.875%; min-width: 152px;
         height: 45px;
         line-height: 45px;
         text-transform: uppercase;
@@ -568,16 +623,15 @@
       .snsmark > button > span {
         float: left;
         margin: 5px;
-        font-size: 25px;
+        font-size: 22px;
         line-height: 10px;
-        margin-top: 45px;
-        margin-bottom: 80px;
+        margin: 42px 0 80px 15px;
         /* color: #ffffff; */
       }
     
       .snsmark > button > img {
         margin-top: 25.3165%;
-        margin-left: 10px;
+        margin-left: 20px;
       }
     
       .snsmark > button:last-child {
@@ -603,14 +657,14 @@
   #footBox {
     float: left;
     width: 100%; min-width: 1280px;
-    height: 244px;
+    height: 200px;
     background-color: #555555;
     /* padding: 20px; */
   }
   
     .foot_inner {
-      width: 91.0938%; min-width: 1166px; height: 197px;
-      margin: 50px 0 0 70px;
+      width: 91.0938%; min-width: 1166px; height: 170px;
+      margin: 30px 0 0 70px;
     }
   
     .foot_inner > h2 {
@@ -622,7 +676,8 @@
     }
   
     .foot_inner > ul > li {
-      font-size: 20px;
+      font-size: 16px;
+      font-weight: 300;
       color: #ffffff;
     }
 

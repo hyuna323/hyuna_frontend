@@ -5,9 +5,9 @@
   #wrap {width: 100%; min-width: 1440px;}
   /* #headBox ========================= */
   #headBox {
-    width: 100%; height: 120px;
+    width: 100%; height: 90px;
     box-sizing: border-box;
-    padding: 46px 18px 46px 24px;
+    padding: 28px 34px;
     position: fixed;
     z-index: 1000;
     background-color: #fff;
@@ -19,23 +19,26 @@
     }
       h1 {
         float: left;
-        width: 19.444%; min-width: 280px; height: 28px;
+        width: 19.444%; min-width: 200px; height: 34px;
       }
       
       h1 > button > img { 
-        width: 100%; min-width: 280px; height: 28px;}
+        width: 100%; min-width: 200px; height: 20px;}
 
       .gnb {
         float: left;
-        width: 77%; min-width: 1000px; height: 55px;
+        width: 77%; min-width: 1000px; height: 34px;
       }
       .gnb > ul {
-        width: 82%; min-width: 830px; height: 54px;
+        width: 82%; min-width: 840px; height: 34px;
         text-align: center;
-        margin-left: 190px;       }
+        margin-left: 190px;
+      }
       .gnb > ul > li {
         display: inline-block; width: auto; height: auto;
-        margin-left: 14px;
+        line-height: 34px;
+        margin-left: 10px;
+        font-size: 22px;
       }
       .gnb li:first-child {
         margin-left: 0;
@@ -46,7 +49,7 @@
       /* background-color: #cca; */
       .header_m {display: none;}
 
-  .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 120px;}
+  .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 90px;}
 
     
   /* #viewBox ========================= */
@@ -61,7 +64,7 @@
       /* margin-top: -30px; */
     }
     .viewport {
-      width: 100%; min-width: 1440px; height: 705px;
+      width: 100%; min-width: 1440px; height: 690px;
     }
   
     .viewport > img {
@@ -81,6 +84,10 @@
   
     /* Slideshow container */
     /* The dots/bullets/indicators */
+    .dotBox {
+      width: 100%; min-width: 768px; height: 35px;
+      margin-bottom: 15px;
+    }
     .dot {
       cursor: pointer;
       height: 15px;
@@ -123,38 +130,43 @@
   
   /* #storefindBox ========================= */
   .content_box_wrap{
-    width: 100%; min-width: 1440px; height: 1830px;
+    width: 100%; min-width: 1440px; height: auto;
   }
   .storefactory {display: none;}
   #dreamfactoryBox_full {display: none;}
 
   #storefindBox {
     width: 100%; min-width: 1440px;
-    height: 370px;
+    height: 330px;
+    padding: 30px 1.25%;
     /* ????? */
     /* margin-top: 30px; */
     /* margin-top: 45px; */
     /* float: left; */
     /* position: relative; */
     /* background-color: #ddd; */
-    padding: 0 1.25%;
   }
   
     .find_inner {
       float: left;
-      width: 41.666%; min-width: 600px; height: 254px;
-      margin: 3.969% 3.098% 4.031% 4.088%;
+      width: 41.666%; min-width: 600px; height: 200px;
+      margin: 2.969% 3.098% 3.031% 4.088%;
       /* padding: 30px 50px; */
     }
-  
+    .finder {
+      width: 524px; height: 190px;
+    }
     .storefind_TX {
       margin-left: 38px;
       font-weight: 500;
+      font-size: 22px;
     }
   
     .search {
       position: relative;
-      width: 30%; min-width: 432px;
+      width: 30%; min-width: 500px;
+      height: 180px;
+      top: -40px;
     }
   
     input {
@@ -171,17 +183,17 @@
     }
     .search > button > img {
       position: absolute;
-      width: 40px; height: 40px;
-      top: 90px;
-      right: -20px;
+      width: 30px; height: 30px;
+      top: 95px;
+      right: 50px;
       margin: 0;
     }
   
     .noticeBox_full {display: none;}
     .noticeBox {
       float: left;
-      width: 41.666%; min-width: 600px; height: 254px;
-      margin: 3.969% 4.088% 4.031% 3.098%;
+      width: 41.666%; min-width: 600px; height: 200px;
+      margin: 2.969% 4.088% 3.031% 3.098%;
       /* padding: 30px; */
     }
   
@@ -192,18 +204,21 @@
     } */
   
     .notice {
-      width: 37.847%; min-width: 524px; height: 232px;
+      width: 37.847%; min-width: 524px; height: 200px;
     }
   
     .notice_TX {
       width: 37.847%; min-width: 545px; height: 50px;
       margin-left: 18px;
+    }
+    .notice_h2 {
+      width: 66.7939%; min-width: 350px;
+      font-size: 22px;
       font-weight: 500;
     }
   
-  
     .notice_more {
-      margin-top: -25PX;
+      margin-top: -30PX;
       margin-right: 80PX;
       float: right;
       font-weight: normal;
@@ -219,7 +234,7 @@
   } */
   
     .notice_letter{
-      width: 34.0277778%; min-width: 490px; height: 220px;
+      width: 34.0277778%; min-width: 490px; height: auto;
       display: block;
       /* position: fixed; */
       /* padding: 10px; */
