@@ -8,7 +8,8 @@
     height: 90px;
     box-sizing: border-box;
     padding: 30px 20px;
-    /* background-color: #ddd; */
+    position: fixed;
+    background-color: #fff;
   }
     .head_inner {
       width: 100%; min-width: 768px; max-width: 1279px;
@@ -96,7 +97,7 @@
         transition: all 300ms;
         z-index: 1;
         top: 0px;
-        padding: 60px 20px 20px 16px;
+        padding: 60px 20px 20px 30px;
         box-sizing: border-box;
       }
       
@@ -106,15 +107,15 @@
       }
       #side_menu ul {width: 100%; height: auto;}
       #side_menu li {
-        width: 100%; height: auto; margin-bottom: 15px;
-        font-size: 22px; font-weight: 500; text-transform: capitalize;
+        width: 100%; height: auto; margin-bottom: 35px;
+        font-size: 18px; font-weight: 500; text-transform: capitalize;
         color: #ddd;
       }
       #side_menu a {color: inherit;}
       
       #side_menu button img {
-        width: 100%; min-width: 32px; height: 32px;
-        margin-right: 5px;
+        width: 4.1%; min-width: 32px; height: 32px;
+        margin-right: 15px;
         color: #aaa;
       }
       .search_part {
@@ -147,20 +148,23 @@
         text-transform: capitalize;
       }
 
+  .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 60px;}
+  
+
   /* #viewBox ========================= */
   #viewBox {
     width: 100%; min-width: 768px;
-    height: 403px;
+    height: 330px;
     box-sizing: border-box;
     /* background-color: #ccc; */
   }
     .view_outer {
-      width: 100%; min-width: 768px; height: 403px;
+      width: 100%; min-width: 768px; height: 330px;
     }
     .viewport {
-      width: 100%; min-width: 768px; height: 373px;
+      width: 100%; min-width: 768px; height: 290px;
     }
-    .viewport > img {width: 100%; min-width: 768px; height: 408px; }
+    .viewport > img {width: 100%; min-width: 768px; height: 330px; }
 
     /* .view_outer {
       background-color: #ddd;
@@ -175,6 +179,10 @@
 
     /* Slideshow container */
     /* The dots/bullets/indicators */
+    .dotBox {
+      width: 100%; min-width: 768px; height: 35px;
+      margin-bottom: 5px;
+    }
     .dot {
       cursor: pointer;
       height: 10px;
@@ -261,18 +269,19 @@
     }
       .drink_TX span {
         width: 86%; min-width: 350px;
-        padding: 1.35501355% 2.7100271%;
-        font-size: 24px;
+        padding: 4.35501355% 5.7100271%;
+        font-size: 22px;
         font-weight: 400;
         float: left;
-        text-transform: capitalize;
+        text-transform: uppercase;
       }
       .left_more {
-        width: 19.3125%; min-width: 140px;
+        width: 14.323%; min-width: 110px;
         padding: 1.4084507%;
         margin: 5px 5%;
-        font-size: 18px;
+        font-size: 16px;
         float: left;
+        border-radius: 4px;
         outline: solid 1px;
       }
     .bakeryInner {
@@ -285,19 +294,20 @@
     }
       .bk_TX span {
         width: 86%; min-width: 350px;
-        padding: 1.35501355% 2.7100271%;
-        font-size: 24px;
+        padding: 4.35501355% 5.7100271%;
+        font-size: 22px;
         font-weight: 400;
         float: right;
         text-align: right;
-        text-transform: capitalize;
+        text-transform: uppercase;
       }
       .right_more {
-        width: 19.3125%; min-width: 140px;
+        width: 14.323%; min-width: 110px;
         padding: 1.4084507%;
         margin: 5px 5%;
-        font-size: 18px;
+        font-size: 16px;
         float: right;
+        border-radius: 4px;
         outline: solid 1px;
       }
     .mdInner {
@@ -310,11 +320,11 @@
     }
       .md_TX span {
         width: 86%; min-width: 350px;
-        padding: 1.35501355% 2.7100271%;
-        font-size: 24px;
+        padding: 4.35501355% 5.7100271%;
+        font-size: 22px;
         font-weight: 400;
         float: left;
-        text-transform: capitalize;
+        text-transform: uppercase;
       }
     .bistroInner {
       float: left;
@@ -326,12 +336,12 @@
     }
       .bst_TX span {
         width: 86%; min-width: 350px;
-        padding: 1.35501355% 2.7100271%;
-        font-size: 24px;
+        padding: 4.35501355% 5.7100271%;
+        font-size: 22px;
         font-weight: 400;
         float: right;
         text-align: right;
-        text-transform: capitalize;
+        text-transform: uppercase;
       }
 
   /* #storyBox ========================= */
@@ -361,9 +371,9 @@
     .dreamfactory > ul > li {
       width: 37.7604%; min-width: 290px;
       text-align: left;
-      margin-top: 10px;
-      font-size: 16px;
-      font-weight: 400;
+      margin-top: 15px;
+      font-size: 15px;
+      font-weight: 300;
       color: #ffffff;
     }
 
@@ -375,32 +385,34 @@
 
     .dreamfactory_btn {
       width: 266px;
-      height: 140px;
+      height: 72px;
       /* float: right; */
-      margin-top: 15px;
+      margin-top: 25px;
       /* margin-right: 80px; */
     }
     
     .dream_fc{
       float: right;
-      font-size: 16px;
-      width: 128px; height: 30px;
-      line-height: 30px;
+      font-size: 14px;
+      width: 108px; height: 34px;
+      line-height: 34px;
       text-transform: uppercase;
       border: 1px solid #151515;
       background-color: #dddddd;
       opacity: 0.6;
+      border-radius: 4px;
       cursor: pointer;
     }
     .dream_lc{
       float: right;
-      font-size: 16px;
-      width: 128px; height: 30px;
-      line-height: 30px;
+      font-size: 14px;
+      width: 108px; height: 34px;
+      line-height: 34px;
       text-transform: uppercase;
       border: 1px solid #151515;
       background-color: #dddddd;
       opacity: 0.6;
+      border-radius: 4px;
       cursor: pointer;
     }
 
@@ -431,44 +443,44 @@
     .franchise_TX {
       float: right;
       width: 16.9271%; min-width: 130px;
-      font-size: 16px;
-      text-align: right;
+      font-size: 18px;
+      text-align: center;
       font-weight: 400;
-      margin-right: 80px;
+      margin-right: 25%;
       padding-top: 30px;
     }
 
     .franchise_btn {
       width: 17.1875%; min-width: 132px;
       height: 78px;
-      float: right;
-      margin-top: 95px;
-      margin-right: -170px;
+      float: left;
+      margin-top: 35px;
+      margin-left: 180px;
     }
 
     .franchise_gd{
       float: right;
-      font-size: 16px;
-      width: 17.1875%; min-width: 132px; height: 32px;
-      line-height: 32px;
+      font-size: 15px;
+      width: 15.885%; min-width: 122px; height: 36px;
+      line-height: 36px;
       /* margin-bottom: 5px; */
-      text-transform: uppercase;
       border: 1px solid #151515;
       background-color: #dddddd;
       opacity: 0.6;
       cursor: pointer;
+      border-radius: 4px;
       /* color: #000000; */
     }
     .franchise_pt{
       float: right;
-      font-size: 16px;
-      width: 17.1875%; min-width: 132px; height: 32px;
-      line-height: 32px;
-      text-transform: uppercase;
+      font-size: 15px;
+      width: 15.885%; min-width: 122px; height: 36px;
+      line-height: 36px;
       border: 1px solid #151515;
       background-color: #dddddd;
       opacity: 0.6;
       cursor: pointer;
+      border-radius: 4px;
       /* margin-bottom: 5px; */
       /* color: #000000; */
     }
@@ -492,39 +504,39 @@
     }
     .ediyastory_TX {
       float: right;
-      width: 100%; min-width: 130px;
-      font-size: 16px;
-      text-align: right;
+      width: 16.9271%; min-width: 130px;
+      font-size: 18px;
+      text-align: center;
       font-weight: 400;
-      margin-right: 15.5384615%;
+      margin-right: 25%;
       padding-top: 30px;
     }
     .ediyastory_btn {
       width: 17.1875%; min-width: 132px;
       height: 78px;
-      float: right;
-      margin-top: 40px;
-      margin-right: 40px;
+      float: left;
+      margin-top: 35px;
+      margin-left: 180px;
     }
     .ediyastory_more {
       float: right;
-      font-size: 16px;
-      width: 100%; min-width: 132px; height: 32px;
+      font-size: 15px;
+      width: 15.885%; min-width: 122px; height: 36px;
       /* color: #000000; */
-      line-height: 32px;
+      line-height: 36px;
       /* margin-bottom: 5px; */
-      text-transform: uppercase;
       border: 1px solid #151515;
       background-color: #dddddd;
       opacity: 0.6;
       cursor: pointer;
+      border-radius: 4px;
     }
 
 
   /* #footBox ========================= */
   #footBox {
     width: 100%; min-width: 768px;
-    height: 217px;
+    height: 186px;
     float: left;
     background-color: #555;
     /* padding: 20px; */
@@ -533,7 +545,7 @@
 
   .footInner_m {
       width: 90%; min-width: 700px;
-      height: 197px;
+      height: 167px;
       margin-left: 4.55729167%;
       margin-top: 2.60416667%;
     }
@@ -550,7 +562,7 @@
 
     .footInner_m > ul > li {
       width: 90%; min-width: 700px;
-      font-size: 16px;
+      font-size: 14px;
       color: #ffffff;
     }
 } /* 768px ~ 1279px ================================================= */
