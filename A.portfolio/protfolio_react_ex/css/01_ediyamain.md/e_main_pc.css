@@ -23,7 +23,10 @@
       }
       
       h1 > button > img { 
-        width: 100%; min-width: 200px; height: 20px;}
+        width: 100%; min-width: 200px;
+        height: 20px;
+        margin-top: 6px;
+      }
 
       .gnb {
         float: left;
@@ -46,6 +49,14 @@
       .gnb li a {
         padding: 5px;
       }
+      .loginbtn {
+        width: 100px; height: 38px;
+        line-height: 38px;
+        font-weight: 600; 
+        color: #243c84; 
+        outline: solid 1.5px; 
+        border-radius: 5px;
+      }
       /* background-color: #cca; */
       .header_m {display: none;}
 
@@ -55,20 +66,20 @@
   /* #viewBox ========================= */
   #viewBox {
     width: 100%; min-width: 1440px;
-    height: 740px;
+    height: 700px;
     box-sizing: border-box;
     /* background-color: #ccc; */
   }
     .view_outer {
-      width: 100%; min-width: 1440px; height: 740px;
+      width: 100%; min-width: 1440px; height: 700px;
       /* margin-top: -30px; */
     }
     .viewport {
-      width: 100%; min-width: 1440px; height: 690px;
+      width: 100%; min-width: 1440px; height: 650px;
     }
   
     .viewport > img {
-      width: 100%; min-width: 1440px; height: 740px;
+      width: 100%; min-width: 1440px; height: 700px;
     }
 
     /* .view_outer {
@@ -300,26 +311,35 @@
     
     .menu_dk {
       float: right;
+      font-size: 18px;
       width: 94.667%; min-width: 142px;
+      height: 45px;
       line-height: 45px;
       margin-bottom: 10px;
       border: 1px solid #cccccc;
+      border-radius: 6px;
       cursor: pointer;
     }
     .menu_fd{
       float: right;
+      font-size: 18px;
       width: 94.667%; min-width: 142px;
+      height: 45px;
       line-height: 45px;
       margin-bottom: 10px;
       border: 1px solid #cccccc;
+      border-radius: 6px;
       cursor: pointer;
     }
     .menu_md{
       float: right;
+      font-size: 18px;
       width: 94.667%; min-width: 142px;
+      height: 45px;
       line-height: 45px;
       text-transform: uppercase;
       border: 1px solid #cccccc;
+      border-radius: 6px;
       cursor: pointer;
     }
   
@@ -327,7 +347,7 @@
       margin: 270px 76px 0 0;
       /* height: 524px; */
       text-align: right;
-      font-size: 20px;
+      font-size: 16px;
       font-weight: 400;
       color: white;
     }
@@ -365,45 +385,57 @@
     
     .brandStory_ey {
       float: right;
+      font-size: 18px;
       width: 94.667%; min-width: 142px;
+      height: 45px;
       line-height: 45px;
       margin-bottom: 5px;
       border: 1px solid #151515;
+      border-radius: 6px;
       cursor: pointer;
     }
     .brandStory_ci{
       float: right;
+      font-size: 18px;
       width: 94.667%; min-width: 142px;
+      height: 45px;
       line-height: 45px;
       margin-bottom: 5px;
-      text-transform: uppercase;
       border: 1px solid #151515;
+      border-radius: 6px;
       cursor: pointer;
     }
     .brandStory_ht{
       float: right;
+      font-size: 18px;
       width: 94.667%; min-width: 142px;
+      height: 45px;
       line-height: 45px;
       margin-bottom: 5px;
       border: 1px solid #151515;
+      border-radius: 6px;
       cursor: pointer;
     }
   
     .brandStory_m{
       float: right;
+      font-size: 18px;
       width: 94.667%; min-width: 142px;
+      height: 45px;
       line-height: 45px;
       margin-bottom: 5px;
-      text-transform: uppercase;
       border: 1px solid #151515;
+      border-radius: 6px;
       cursor: pointer;
     }
     .brandStory_aw{
       float: right;
+      font-size: 18px;
       width: 94.667%; min-width: 142px;
+      height: 45px;
       line-height: 45px;
-      text-transform: uppercase;
       border: 1px solid #151515;
+      border-radius: 6px;
       cursor: pointer;
     }
   
@@ -432,7 +464,7 @@
       width: 32.638%; min-width: 470px;
       text-align: left;
       margin-top: 50px;
-      font-size: 20px;
+      font-size: 16px;
       color: #ffffff;
     }
   
@@ -452,23 +484,29 @@
   
     .dream_fc{
       float: right;
+      font-size: 18px;
       width: 170px;
+      height: 47px;
       margin-right: 10px;
       line-height: 45px;
       text-transform: uppercase;
       border: 1px solid #151515;
       background-color: #dddddd;
       opacity: 0.6;
+      border-radius: 6px;
       cursor: pointer;
     }
     .dream_lc{
       float: right;
+      font-size: 18px;
       width: 170px;
+      height: 47px;
       line-height: 45px;
       text-transform: uppercase;
       border: 1px solid #151515;
       background-color: #dddddd;
       opacity: 0.6;
+      border-radius: 6px;
       cursor: pointer;
     }
   
@@ -500,9 +538,9 @@
     .franchise_TX {
       width: 36.3888%; min-width: 524px;
       font-size: 18px;
-      text-align: right;
+      text-align: center;
       font-weight: 500;
-      padding-right: 110px;
+      /* padding-right: 110px; */
       padding-top: 30px;
     }
   
@@ -516,23 +554,30 @@
   
     .franchise_gd{
       float: right;
+      font-size: 18px;
       width: 13.333%; min-width: 192px;
+      height: 45px;
       line-height: 45px;
       margin-bottom: 5px;
       text-transform: uppercase;
       border: 1px solid #151515;
       background-color: #dddddd;
       opacity: 0.6;
+      border-radius: 6px;
       cursor: pointer;
     }
     .franchise_pt{
       float: right;
+      font-size: 18px;
       width: 13.333%; min-width: 192px;
+      height: 45px;
       line-height: 45px;
+      margin-bottom: 5px;
       text-transform: uppercase;
       border: 1px solid #151515;
       background-color: #dddddd;
       opacity: 0.6;
+      border-radius: 6px;
       cursor: pointer;
     }
   
@@ -634,7 +679,7 @@
     }
   
     .foot_inner > ul > li {
-      font-size: 20px;
+      font-size: 18px;
       color: #ffffff;
     }
 

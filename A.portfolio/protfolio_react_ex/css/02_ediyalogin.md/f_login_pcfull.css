@@ -9,7 +9,9 @@
     height: 120px;
     box-sizing: border-box;
     padding: 46px 18px 46px 24px;
-    /* background-color: #ddd; */
+    position: fixed;
+    z-index: 1000;
+    background-color: #fff;
   }
     .head_inner {
       width: 100%; max-width: 2100px; min-width: 1920px;
@@ -46,6 +48,8 @@
       }
       /* background-color: #cca; */
       .header_m {display: none;}
+
+  .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 120px;}
     
 /* #loginBox ============================ */
   #loginBox {
@@ -69,12 +73,12 @@
     padding: 30px;
     color: #fff;
     text-align: center;
-    font-size: 30px;
+    font-size: 26px;
   }
   .welcometext li {
     width: 40.521%; min-width: 778px;
     height: 72px;
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
     margin: auto;
     padding: 20px 0;
@@ -102,7 +106,7 @@
     width: 100%; min-width: 598px;
     height: 90px;
     border-radius: 5px;
-    font-size: 22px;
+    font-size: 20px;
     padding: 14px;
     /* width: calc(100% - 19px); height: 42px; */
   }
@@ -111,7 +115,7 @@
     width: 100%; min-width: 598px;
     height: 90px;
     border-radius: 5px;
-    font-size: 22px;
+    font-size: 20px;
     padding: 14px;
     margin-top: 10px;
   }
@@ -128,7 +132,7 @@
       height: 85px;
       /* margin-left: 560px; */
       margin: auto;
-      padding-top: 10px;
+      padding-top: 20px;
       border: none;
     }
     .check label {
@@ -190,7 +194,7 @@
     }
     .login > button {
       color: #fff;
-      font-size: 24px;
+      font-size: 22px;
       font-weight: 500;
       line-height: 75px;
     }
@@ -212,7 +216,6 @@
       width: 29.599%; min-width: 177px; height: 50px;
       line-height: 50px;
       font-size: 18px;
-      font-weight: 400;
       text-align: center;
       background-color: #eee;
       margin-right: 5px;
@@ -230,7 +233,7 @@
     }
     .membership_area > i {
       width: 31.25%; min-width: 600px; height: 236px;
-      font-size: 20px;
+      font-size: 19px;
     }
     #open {
       width: 66.176%; min-width: 450px; height: 60px;
@@ -271,7 +274,7 @@
   }
 
   .foot_inner > ul > li {
-    font-size: 22px;
+    font-size: 18px;
     color: #ffffff;
   }
 

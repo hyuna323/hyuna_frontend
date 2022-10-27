@@ -7,9 +7,9 @@
     width: 100%; height: 120px;
     box-sizing: border-box;
     padding: 46px 18px 46px 24px;
-    /* position: fixed;
-    z-index: 99; */
-    /* background-color: #fff; */
+    position: fixed;
+    z-index: 1000;
+    background-color: #fff;
   }
     .head_inner {
       width: 100%; max-width: 1439px; min-width: 1280px;
@@ -36,6 +36,7 @@
       .gnb > ul > li {
         display: inline-block; width: auto; height: auto;
         margin-left: 10px;
+        font-size: 22px;
       }
       .gnb li:first-child {
         margin-left: 0;
@@ -45,6 +46,9 @@
       }
       /* background-color: #cca; */
       .header_m {display: none;}
+
+  .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 120px;}
+
       
 
 /* #loginBox ============================ */
@@ -70,12 +74,12 @@
     padding: 30px;
     color: #fff;
     text-align: center;
-    font-size: 28px;
+    font-size: 22px;
   }
   .welcometext li {
     width: 60.781%; min-width: 778px;
     height: 72px;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     margin: auto;
     padding: 20px 0;
@@ -103,7 +107,7 @@
     width: 100%; min-width: 498px;
     height: 80px;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 18px;
     padding: 12px;
     /* width: calc(100% - 19px); height: 42px; */
   }
@@ -112,7 +116,7 @@
     width: 100%; min-width: 498px;
     height: 80px;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 18px;
     padding: 12px;
     margin-top: 10px;
   }
@@ -128,7 +132,7 @@
       width: 38.90625%; min-width: 498px;
       height: 65px;
       /* margin-left: 22.65625%; */
-      padding-top: 5px;
+      padding-top: 15px;
       border: none;
     }
     .check input {
@@ -152,11 +156,11 @@
       /* padding: 5px; */
       margin: auto;
       margin-left: 30px;
-      margin-top: -10px;
+      margin-top: -8px;
       float:left;
       cursor: pointer;
       color: #fff;
-      font-size: 18px;
+      font-size: 17px;
     }
     /* .check label i { 
       width: 18px; height: 18px;
@@ -190,7 +194,7 @@
     }
     .login > button {
       color: #fff;
-      font-size: 22px;
+      font-size: 20px;
       font-weight: 500;
       line-height: 65px;
     }
@@ -230,7 +234,7 @@
     }
     .membership_area > i {
       width: 46.094%; min-width: 590px; height: 226px;
-      font-size: 16px;
+      font-size: 15px;
     }
     #open {
       width: 81.818%; min-width: 450px; height: 50px;
@@ -269,7 +273,7 @@
 }
 
 .foot_inner > ul > li {
-  font-size: 20px;
+  font-size: 16px;
   color: #ffffff;
 }
 

@@ -84,75 +84,76 @@
       </div>
     </header>
     <!-- #headBox -->
-
-    <section id="loginBox">
-      <div class="login_area">
-        <h2 class="logintext">로그인</h2>
-        <ul class="welcometext">
-          <li>이디야커피에 오신 것을 환영합니다.</li>
-        </ul>
-        <div class="loginmain">
-          <form action="#" method="POST">
-            <fieldset class="privite">
-              <legend class="blind">개인정보 입력창</legend>
-              <ul>
-                <li>
-                  <input type="text" id="userId" name="user__Id" value="" placeholder="이메일">
-                </li>
-                <li>
-                  <input type="password" id="userPw" name="user__Pw" value="" placeholder="비밀번호">
-                </li>
-              </ul>
-            </fieldset>
-          </form>
-          <fieldset class="check">
-            <input type="checkbox" name="login__check" id="idcheck" value="logincheck-true">
-            <label for="idcheck">
-              <i><span>이메일 저장</span></i>
-            </label>
-          </fieldset>
-        </div>
-        <fieldset class="login_btn">
-          <legend class="blind">로그인처리</legend>
-          <div class="login">
-            <button type="submit">로그인</button>
-          </div>
-        </fieldset>
-        <div class="etc_area">
-          <ul>
-            <li><a href="#">회원가입</a></li>
-            <li><a href="#">이메일 찾기</a></li>
-            <li><a href="#">비밀번호 찾기</a></li>
+    <div class="mainBox">
+      <section id="loginBox">
+        <div class="login_area">
+          <h2 class="logintext">로그인</h2>
+          <ul class="welcometext">
+            <li>이디야커피에 오신 것을 환영합니다.</li>
           </ul>
-        </div>
-        <div class="membership_area">
-          <i>
-            회원님께 더 좋은 서비스를 제공해드리고자,<br />
-            선물하기, 이디야카드, 스마트오더 등의 서비스를 추가하여 더욱 새로워졌습니다.<br />
-            회원님께서 새로운 서비스를 이용하시기 위해서는 본인 인증이 필요합니다.<br />
-            본인인증은 1회만 진행하며, 인증후, 더 편리하게 서비스를 이용하실 수 있습니다.
-          </i>
-          <button id="open">이디야 멤버십 가입정보 찾기</button>
-        </div>
-        
-        <!-- modal -->
-        <div class="modal on">
-          <div class="modal_overlay"></div>
-          <div class="modal_content">
-            <div class="modalHeader">
-              <h1>이디야 멤버십 가입정보 찾기</h1>
-              <button><img src="../img/close.svg" alt="닫기"></button>
+          <div class="loginmain">
+            <form action="#" method="POST">
+              <fieldset class="privite">
+                <legend class="blind">개인정보 입력창</legend>
+                <ul>
+                  <li>
+                    <input type="text" id="userId" name="user__Id" value="" placeholder="이메일">
+                  </li>
+                  <li>
+                    <input type="password" id="userPw" name="user__Pw" value="" placeholder="비밀번호">
+                  </li>
+                </ul>
+              </fieldset>
+            </form>
+            <fieldset class="check">
+              <input type="checkbox" name="login__check" id="idcheck" value="logincheck-true">
+              <label for="idcheck">
+                <i><span>이메일 저장</span></i>
+              </label>
+            </fieldset>
+          </div>
+          <fieldset class="login_btn">
+            <legend class="blind">로그인처리</legend>
+            <div class="login">
+              <button type="submit">로그인</button>
             </div>
+          </fieldset>
+          <div class="etc_area">
+            <ul>
+              <li><a href="#">회원가입</a></li>
+              <li><a href="#">이메일 찾기</a></li>
+              <li><a href="#">비밀번호 찾기</a></li>
+            </ul>
+          </div>
+          <div class="membership_area">
             <i>
               회원님께 더 좋은 서비스를 제공해드리고자,<br />
               선물하기, 이디야카드, 스마트오더 등의 서비스를 추가하여 더욱 새로워졌습니다.<br />
               회원님께서 새로운 서비스를 이용하시기 위해서는 본인 인증이 필요합니다.<br />
               본인인증은 1회만 진행하며, 인증후, 더 편리하게 서비스를 이용하실 수 있습니다.
             </i>
+            <button id="open">이디야 멤버십 가입정보 찾기</button>
+          </div>
+
+          <!-- modal -->
+          <div class="modal on">
+            <div class="modal_overlay"></div>
+            <div class="modal_content">
+              <div class="modalHeader">
+                <h1>이디야 멤버십 가입정보 찾기</h1>
+                <button><img src="../img/close.svg" alt="닫기"></button>
+              </div>
+              <i>
+                회원님께 더 좋은 서비스를 제공해드리고자,<br />
+                선물하기, 이디야카드, 스마트오더 등의 서비스를 추가하여 더욱 새로워졌습니다.<br />
+                회원님께서 새로운 서비스를 이용하시기 위해서는 본인 인증이 필요합니다.<br />
+                본인인증은 1회만 진행하며, 인증후, 더 편리하게 서비스를 이용하실 수 있습니다.
+              </i>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
 
     <footer id="footBox">
       <div class="foot_inner">

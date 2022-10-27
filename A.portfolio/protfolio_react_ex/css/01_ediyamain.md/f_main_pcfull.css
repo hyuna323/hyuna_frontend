@@ -7,7 +7,7 @@
   #headBox {
     width: 100%; height: 120px;
     box-sizing: border-box;
-    padding: 46px 18px 46px 24px;
+    padding: 36px 28px;
     position: fixed;
     z-index: 1000;
     background-color: #fff;
@@ -19,24 +19,28 @@
     }
       h1 {
         float: left;
-        width: 21.302%; min-width: 409px; height: 47px;
+        width: 18.75%; min-width: 360px; height: 47px;
       }
       
       h1 > button > img { 
-        width: 100%; min-width: 409px; height: 37px;}
+        width: 100%; min-width: 306px; 
+        height: 34px;
+        margin-top: 8px;
+      }
 
       .gnb {
-        float: left;
-        width: 75.521%; min-width: 1450px; height: 45px;
+        float: right;
+        width: 81.25%; min-width: 1560px; height: 47px;
       }
       .gnb > ul {
-        width: 75.521%; min-width: 1450px; height: 45px;
+        width: 81.25%; min-width: 1560px; height: 47px;
         text-align: center;
-        margin-left: 106px; 
+        /* margin-right: 6px;  */
       }
       .gnb > ul > li {
         display: inline-block; width: auto; height: auto;
-        margin-left: 40px;
+        line-height: 47px;
+        margin-left: 60px;
         font-size: 26px;
       }
       .gnb li:first-child {
@@ -44,6 +48,14 @@
       }
       .gnb li a {
         padding: 5px;
+      }
+      .loginbtn {
+        width: 100px; height: 38px;
+        line-height: 38px;
+        font-weight: 600; 
+        color: #243c84; 
+        outline: solid 1.5px; 
+        border-radius: 5px;
       }
       /* background-color: #cca; */
       .header_m {display: none;}
@@ -82,6 +94,7 @@
   
     /* Slideshow container */
     /* The dots/bullets/indicators */
+    
     .dot {
       cursor: pointer;
       height: 15px;
@@ -124,7 +137,7 @@
   
   /* #storefindBox ========================= */
   .content_box_wrap{
-    width: 100%; min-width: 1920px; height: 1600px;
+    width: 100%; min-width: 1920px; height: auto;
   }
 
   /* .storefactory{width: 1230px; height: 580px;} */
@@ -132,23 +145,23 @@
     float: left;
     width: 64.0625%; min-width: 1230px;
     height: 580px;
-    padding: 4.065% 4.845%;
+    padding: 4.065% 1.845% 1.845% 1.845%;
   }
   
   .dreamfactory_inner {
     width: 60.416%; min-width: 1160px; 
-    height: 486px;
+    height: 470px;
     background-color: #243c84;
   }
   
     .dreamfactory {
-      height: 488px;
+      height: 470px;
       padding-top: 4.31%;
       padding-left: 7.758%;
       }
 
       .dreamTxt {
-        width: 43.6458%; min-width: 838px; height:80px;
+        width: 43.6458%; min-width: 838px; height: 80px;
       }
     
       .dreamfactory > ul > li {
@@ -160,7 +173,7 @@
       }
     
       .dreamImg {
-        width: 35.9375%; min-width: 690px; height: 305px;
+        width: 35.9375%; min-width: 690px; height: 285px;
         float: right;
         margin-top: 45px;
       }
@@ -175,42 +188,52 @@
     
       .dream_fc{
         float: right;
+        font-size: 18px;
         width: 170px;
+        height: 47px;
         margin-right: 10px;
         line-height: 45px;
         text-transform: uppercase;
         border: 1px solid #151515;
         background-color: #dddddd;
         opacity: 0.6;
+        border-radius: 6px;
         cursor: pointer;
       }
       .dream_lc{
         float: right;
+        font-size: 18px;
         width: 170px;
+        height: 47px;
         line-height: 45px;
         text-transform: uppercase;
         border: 1px solid #151515;
         background-color: #dddddd;
         opacity: 0.6;
+        border-radius: 6px;
         cursor: pointer;
       }
   
   #storefindBox {
     float: left;
     width: 35.9375%; min-width: 690px;
-    height: 580px;
+    height: 570px;
     /* ????? */
     /* margin-top: 45px; */
     /* position: relative; */
     /* margin: 0 0px; */
     /* background-color: #ddd; */
-    padding: 3.855% 0;
+    padding: 3.855% 0 1% 0;
   }
   
     .find_inner {
       float: left;
       width: 31.042%; min-width: 596px; height: 224px;
       margin: 0 6.3758%;
+    }
+
+    .finder {
+      width: 524px; height: 190px;
     }
   
     .storefind_TX {
@@ -220,7 +243,9 @@
   
     .search {
       position: relative;
-      width: 27.777%; min-width: 400px;
+      width: 27.777%; min-width: 500px;
+      height: 100px;
+      top: 30px;
     }
   
     input {
@@ -237,15 +262,15 @@
     }
     .search > button > img {
       position: absolute;
-      width: 40px; height: 40px;
-      top: 30px;
-      right: -20px;
+      width: 30px; height: 30px;
+      top: 35px;
+      right: 40px;
       margin: 0;
     }
     .noticeBox_full {
       float: right;
       width: 26.25%; min-width: 504px; height: 208px;
-      margin: 15.476% 15.476% 0 0;
+      margin: 13.476% 15.476% 0 0;
     }
   
     .noticeBox {display: none;}
@@ -257,7 +282,7 @@
     } */
   
     .notice {
-      width: 28.385%; min-width: 545px; height: 290px;
+      width: 28.385%; min-width: 545px; height: auto;
     }
   
     .notice_TX {
@@ -274,17 +299,10 @@
       font-weight: normal;
       font-size: 18px;
     }
-  
-    /* .tab_title{
-      position: absolute;
-      width: 100%;
-      font-size: 0;
-      z-index: 2;
-      cursor: pointer;
-  } */
+
   
     .notice_letter{
-      width: 25.521%; min-width: 490px; height: 220px;
+      width: 25.521%; min-width: 490px; height: auto;
       display: block;
       /* position: fixed; */
       /* padding: 10px; */
@@ -317,13 +335,13 @@
   
     .menu_inner {
       float: left;
-      width: 39.583%; min-width: 778px; height: 477px;
-      margin: 2.969% 2.331% 3.331% 6.8%;
+      width: 40%; min-width: 768px; height: 477px;
+      margin: 2.969% 2.731% 3.331% 7.2%;
     }
   
     .menu {
       float: left;
-      width: 100%; min-width: 778px; height: 477px;
+      width: 100%; min-width: 768px; height: 477px;
       padding: 20px 0;
       background-image: url(../../img/menu_intro.png);
       background-repeat: no-repeat;
@@ -343,32 +361,41 @@
       width: 8.5938%; min-width: 165px;
       height: 200px;
       float: right;
-      margin-top: 80px;
-      margin-right: 150px;
+      margin-top: 50px;
+      margin-right: 100px;
     }
     
     .menu_dk {
       float: right;
+      font-size: 20px;
       width: 86.061%; min-width: 142px;
+      height: 45px;
       line-height: 45px;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
       border: 1px solid #cccccc;
+      border-radius: 6px;
       cursor: pointer;
     }
     .menu_fd{
       float: right;
+      font-size: 20px;
       width: 86.061%; min-width: 142px;
+      height: 45px;
       line-height: 45px;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
       border: 1px solid #cccccc;
+      border-radius: 6px;
       cursor: pointer;
     }
     .menu_md{
       float: right;
+      font-size: 20px;
       width: 86.061%; min-width: 142px;
+      height: 45px;
       line-height: 45px;
       text-transform: uppercase;
       border: 1px solid #cccccc;
+      border-radius: 6px;
       cursor: pointer;
     }
   
@@ -383,13 +410,13 @@
   
     .brandStory_inner {
       float: left;
-      width: 39.583%; min-width: 778px; height: 477px;
-      margin: 2.969% 6.8% 3.331% 2.331%;
+      width: 40%; min-width: 768px; height: 477px;
+      margin: 2.969% 7.2% 3.331% 2.731%;
     }
   
     .brandStory {
       float: left;
-      width: 100%; min-width: 778px; height: 477px;
+      width: 100%; min-width: 768px; height: 477px;
       padding: 20px 0;
       background-image: url(../../img/brandStory.png);
       background-repeat: no-repeat;
@@ -414,45 +441,57 @@
     
     .brandStory_ey {
       float: right;
+      font-size: 20px;
       width: 94.667%; min-width: 142px;
+      height: 45px;
       line-height: 45px;
-      margin-bottom: 5px;
+      margin-bottom: 10px;
       border: 1px solid #151515;
+      border-radius: 6px;
       cursor: pointer;
     }
     .brandStory_ci{
       float: right;
+      font-size: 20px;
       width: 94.667%; min-width: 142px;
+      height: 45px;
       line-height: 45px;
-      margin-bottom: 5px;
-      text-transform: uppercase;
+      margin-bottom: 10px;
       border: 1px solid #151515;
+      border-radius: 6px;
       cursor: pointer;
     }
     .brandStory_ht{
       float: right;
+      font-size: 20px;
       width: 94.667%; min-width: 142px;
+      height: 45px;
       line-height: 45px;
-      margin-bottom: 5px;
+      margin-bottom: 10px;
       border: 1px solid #151515;
+      border-radius: 6px;
       cursor: pointer;
     }
   
     .brandStory_m{
       float: right;
+      font-size: 20px;
       width: 94.667%; min-width: 142px;
+      height: 45px;
       line-height: 45px;
-      margin-bottom: 5px;
-      text-transform: uppercase;
+      margin-bottom: 10px;
       border: 1px solid #151515;
+      border-radius: 6px;
       cursor: pointer;
     }
     .brandStory_aw{
       float: right;
+      font-size: 20px;
       width: 94.667%; min-width: 142px;
+      height: 45px;
       line-height: 45px;
-      text-transform: uppercase;
       border: 1px solid #151515;
+      border-radius: 6px;
       cursor: pointer;
     }
   
@@ -486,11 +525,11 @@
     }
   
     .franchise_TX {
-      width: 27.2916%; min-width: 524px;
-      /* font-size: 20px; */
-      text-align: right;
+      width: 100%; min-width: 524px;
+      font-size: 20px;
+      text-align: center;
       font-weight: 500;
-      padding-right: 110px;
+      /* padding-right: 110px; */
       padding-top: 30px;
     }
   
@@ -504,23 +543,29 @@
   
     .franchise_gd{
       float: right;
+      font-size: 20px;
       width: 10%; min-width: 192px;
+      height: 45px;
       line-height: 45px;
-      margin-bottom: 5px;
+      margin-bottom: 10px;
       text-transform: uppercase;
       border: 1px solid #151515;
       background-color: #dddddd;
       opacity: 0.6;
+      border-radius: 6px;
       cursor: pointer;
     }
     .franchise_pt{
       float: right;
+      font-size: 20px;
       width: 10%; min-width: 192px;
+      height: 45px;
       line-height: 45px;
       text-transform: uppercase;
       border: 1px solid #151515;
       background-color: #dddddd;
       opacity: 0.6;
+      border-radius: 6px;
       cursor: pointer;
     }
   
@@ -567,11 +612,12 @@
     }
     .snsmark > button > span {
       float: left;
-      margin: 5px;
+      height: 25px;
+      margin-left: 17px;
       font-size: 25px;
-      line-height: 10px;
-      margin-top: 45px;
-      margin-bottom: 80px;
+      line-height: 25px;
+      margin-top: 33px;
+      margin-bottom: 70px;
       /* color: #ffffff; */
     }
   

@@ -7,7 +7,9 @@
     width: 100%; height: 120px;
     box-sizing: border-box;
     padding: 46px 18px 46px 24px;
-    /* background-color: #ddd; */
+    position: fixed;
+    z-index: 1000;
+    background-color: #fff;
   }
     .head_inner {
       width: 100%; max-width: 1919px; min-width: 1440px;
@@ -34,6 +36,7 @@
       .gnb > ul > li {
         display: inline-block; width: auto; height: auto;
         margin-left: 10px;
+        font-size: 26px;
       }
       .gnb li:first-child {
         margin-left: 0;
@@ -43,6 +46,9 @@
       }
       /* background-color: #cca; */
       .header_m {display: none;}
+
+  .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 120px;}
+
 
 /* #loginBox ============================ */
   #loginBox {
@@ -67,7 +73,7 @@
     padding: 30px;
     color: #fff;
     text-align: center;
-    font-size: 28px;
+    font-size: 24px;
   }
   .welcometext li {
     width: 54.027%; min-width: 778px;
@@ -100,7 +106,7 @@
     width: 100%; min-width: 498px;
     height: 80px;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 18px;
     padding: 12px;
     /* width: calc(100% - 19px); height: 42px; */
   }
@@ -109,7 +115,7 @@
     width: 100%; min-width: 498px;
     height: 80px;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 18px;
     padding: 12px;
     margin-top: 10px;
   }
@@ -126,7 +132,7 @@
       height: 65px;
       /* margin-left: 370px; */
       margin: auto;
-      padding-top: 5px;
+      padding-top: 15px;
       border: none;
     }
     .check input {
@@ -154,7 +160,7 @@
       float:left;
       cursor: pointer;
       color: #fff;
-      font-size: 18px;
+      font-size: 17px;
     }
     /* .check label i { 
       width: 18px; height: 18px;
@@ -188,7 +194,7 @@
     }
     .login > button {
       color: #fff;
-      font-size: 22px;
+      font-size: 20px;
       font-weight: 500;
       line-height: 65px;
     }
@@ -210,7 +216,6 @@
       width: 10%; min-width: 144px; height: 40px;
       line-height: 40px;
       font-size: 16px;
-      font-weight: 400;
       text-align: center;
       background-color: #eee;
       margin-right: 5px;
@@ -234,7 +239,7 @@
       width: 81.818%; min-width: 450px; height: 50px;
       margin: auto;
       margin-top: 30px;
-      font-size: 16px;
+      font-size: 17px;
       font-weight: 400;
       color: #fff;
       text-align: center;
@@ -267,7 +272,7 @@
     }
   
     .foot_inner > ul > li {
-      font-size: 20px;
+      font-size: 16px;
       color: #ffffff;
     }
 

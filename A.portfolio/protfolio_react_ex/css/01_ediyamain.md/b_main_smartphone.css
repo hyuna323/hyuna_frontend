@@ -9,6 +9,7 @@
     box-sizing: border-box;
     padding: 10px 12px 14px 12px;
     position: fixed;
+    z-index: 1000;
     background-color: #fff;
   }
     .head_inner {
@@ -103,8 +104,8 @@
     }
     #side_menu ul {width: 100%; height: auto;}
     #side_menu li {
-      width: 100%; height: auto; margin-bottom: 10px;
-      font-size: 15px; font-weight: 500; text-transform: capitalize;
+      width: 100%; height: auto; margin-bottom: 20px;
+      font-size: 15px; font-weight: 500;
       color: #ddd;
     }
     #side_menu a {color: inherit;}
@@ -251,7 +252,7 @@
       text-align: center;
       padding: 8px;
       font-size: 16px;
-      font-weight: 500;
+      font-weight: bold;
       text-transform: uppercase;
       color: #243c84;
     }
@@ -274,7 +275,7 @@
         font-size: 18px;
         font-weight: 400;
         float: left;
-        text-transform: capitalize;
+        text-transform: uppercase;
       }
       .left_more {
         width: 18.75%; min-width: 60px;
@@ -282,6 +283,7 @@
         margin: 5px 5%;
         font-size: 12px;
         float: left;
+        border-radius: 3px;
         outline: solid 1px;
       }
     .bakeryInner {
@@ -299,7 +301,7 @@
         font-weight: 400;
         float: right;
         text-align: right;
-        text-transform: capitalize;
+        text-transform: uppercase;
       }
 
       /* .right_more {
@@ -318,6 +320,7 @@
         margin: 5px 5%;
         font-size: 12px;
         float: right;
+        border-radius: 3px;
         outline: solid 1px;
       }
 
@@ -358,7 +361,7 @@
         font-weight: 400;
         float: right;
         text-align: right;
-        text-transform: capitalize;
+        text-transform: uppercase;
       }
   #storyBox {display: none;}
 
@@ -414,6 +417,7 @@
       border: 0.8px solid #151515;
       background-color: #dddddd;
       opacity: 0.6;
+      border-radius: 3px;
       cursor: pointer;
     }
     .dream_lc{
@@ -425,6 +429,7 @@
       border: 0.8px solid #151515;
       background-color: #dddddd;
       opacity: 0.6;
+      border-radius: 3px;
       cursor: pointer;
     }
 
@@ -481,6 +486,7 @@
       border: 1px solid #151515;
       background-color: #dddddd;
       opacity: 0.6;
+      border-radius: 3px;
       cursor: pointer;
     }
     .franchise_pt{
@@ -493,6 +499,7 @@
       border: 1px solid #151515;
       background-color: #dddddd;
       opacity: 0.6;
+      border-radius: 3px;
       cursor: pointer;
     }
 
@@ -538,6 +545,7 @@
       border: 1px solid #151515;
       background-color: #dddddd;
       opacity: 0.6;
+      border-radius: 3px;
       cursor: pointer;
     }
 

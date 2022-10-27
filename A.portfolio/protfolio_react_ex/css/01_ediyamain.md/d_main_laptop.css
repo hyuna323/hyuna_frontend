@@ -312,32 +312,35 @@
       
       .menu_dk {
         float: right;
-        width: 88%; min-width: 132px; height: 45px;
+        font-size: 18px;
+        width: 88%; min-width: 132px;
+        height: 45px;
         line-height: 45px;
         margin-bottom: 10px;
         border: 1px solid #cccccc;
-        font-size: 18px;
-        font-weight: 400;
+        border-radius: 6px;
         cursor: pointer;
       }
       .menu_fd{
         float: right;
-        width: 88%; min-width: 132px; height: 45px;
+        font-size: 18px;
+        width: 88%; min-width: 132px;
+        height: 45px;
         line-height: 45px;
         margin-bottom: 10px;
         border: 1px solid #cccccc;
-        font-size: 18px;
-        font-weight: 400;
+        border-radius: 6px;
         cursor: pointer;
       }
       .menu_md{
         float: right;
-        width: 88%; min-width: 132px;
-        line-height: 45px;
-        text-transform: uppercase;
-        border: 1px solid #cccccc;
         font-size: 18px;
-        font-weight: 400;
+        width: 88%; min-width: 132px;
+        height: 45px;
+        line-height: 45px;
+        margin-bottom: 10px;
+        border: 1px solid #cccccc;
+        border-radius: 6px;
         cursor: pointer;
       }
     
@@ -384,60 +387,57 @@
       
       .brandStory_ey {
         float: right;
+        font-size: 18px;
         width: 88%; min-width: 132px;
         height: 45px;
         line-height: 45px;
         margin-bottom: 5px;
         border: 1px solid #151515;
-        font-size: 18px;
-        font-weight: 400;
+        border-radius: 6px;
         cursor: pointer;
       }
       .brandStory_ci{
         float: right;
+        font-size: 18px;
         width: 88%; min-width: 132px;
         height: 45px;
         line-height: 45px;
         margin-bottom: 5px;
-        text-transform: uppercase;
         border: 1px solid #151515;
-        font-size: 18px;
-        font-weight: 400;
+        border-radius: 6px;
         cursor: pointer;
       }
       .brandStory_ht{
         float: right;
+        font-size: 18px;
         width: 88%; min-width: 132px;
         height: 45px;
         line-height: 45px;
         margin-bottom: 5px;
         border: 1px solid #151515;
-        font-size: 18px;
-        font-weight: 400;
+        border-radius: 6px;
         cursor: pointer;
       }
     
       .brandStory_m{
         float: right;
+        font-size: 18px;
         width: 88%; min-width: 132px;
         height: 45px;
         line-height: 45px;
         margin-bottom: 5px;
-        text-transform: uppercase;
         border: 1px solid #151515;
-        font-size: 18px;
-        font-weight: 400;
+        border-radius: 6px;
         cursor: pointer;
       }
       .brandStory_aw{
         float: right;
+        font-size: 18px;
         width: 88%; min-width: 132px;
         height: 45px;
         line-height: 45px;
-        text-transform: uppercase;
         border: 1px solid #151515;
-        font-size: 18px;
-        font-weight: 400;
+        border-radius: 6px;
         cursor: pointer;
       }
     
@@ -489,27 +489,29 @@
     
       .dream_fc{
         float: right;
+        font-size: 18px;
         width: 140px;
         margin-right: 10px;
+        height: 45px;
         line-height: 45px;
         text-transform: uppercase;
         border: 1px solid #151515;
         background-color: #dddddd;
         opacity: 0.6;
-        font-size: 18px;
-        font-weight: 400;
+        border-radius: 6px;
         cursor: pointer;
       }
       .dream_lc{
         float: right;
+        font-size: 18px;
         width: 140px;
+        height: 45px;
         line-height: 45px;
         text-transform: uppercase;
         border: 1px solid #151515;
         background-color: #dddddd;
         opacity: 0.6;
-        font-size: 18px;
-        font-weight: 400;
+        border-radius: 6px;
         cursor: pointer;
       }
     
@@ -557,18 +559,21 @@
     
       .franchise_gd{
         float: right;
+        font-size: 18px;
         width: 11.875%; min-width: 152px;
         height: 45px;
         line-height: 45px;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
         text-transform: uppercase;
         border: 1px solid #151515;
         background-color: #dddddd;
         opacity: 0.6;
+        border-radius: 6px;
         cursor: pointer;
       }
       .franchise_pt{
         float: right;
+        font-size: 18px;
         width: 11.875%; min-width: 152px;
         height: 45px;
         line-height: 45px;
@@ -576,6 +581,7 @@
         border: 1px solid #151515;
         background-color: #dddddd;
         opacity: 0.6;
+        border-radius: 6px;
         cursor: pointer;
       }
     
