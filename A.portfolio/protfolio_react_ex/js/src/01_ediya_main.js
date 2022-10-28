@@ -1,3 +1,47 @@
+// navi menu
+// 변수영역 ----------------------------------
+var gnb = document.querySelector('.gnb');
+var subDropSelector = document.querySelector('.sub_drop');
+var subDrop = subDropSelector.querySelector('button');
+var navOn = 'open';
+
+// 이벤트영역 ----------------------------------
+subDrop.addEventListener('click', function(event){
+  event.preventDefault();
+  // navArea.classList.toggle('on');  
+  var checkClassName = gnb.classList.contains(navOn);
+  (checkClassName) ? gnb.classList.remove(navOn) : gnb.classList.add(navOn);
+});
+
+// 변수 ----------------------------------------------------
+var menuDropSelector = document.querySelector('.sub_drop');
+var subDrop = subDropSelector.querySelector('button');
+var subDropInner = document.querySelector('.sub_drop_inner');
+
+var subDropInnerStyle = getComputedStyle(subDropInner);
+
+
+var displayStateFn = function(selector){
+  // 선택자의 display 상태값을 가져오는데 기본 html문서에서 값을 가져오되 없다면, css기본값에서 가져오게
+    return selector.style.display || getComputedStyle(selector).display;
+};
+
+// 이벤트 ----------------------------------------------------
+subDrop.addEventListener('click', function(event){
+  event.preventDefault();
+  var state = displayStateFn(subDropInner);
+  console.log( state );
+  (state === 'none') ? subDropInner.style.display = 'block' :  subDropInner.style.display = 'none';
+});
+// ----------------------------------------------------------------
+console.clear();
+
+var ck = subDropInner.style.display; // 0 , false, null, undefined, ''
+console.log( ck  );
+console.log( !ck  ); // 원값의 결과를 boolean타입의 형태로 강제로 치환하기 위한 부정으로 처리
+console.log( !!ck  ); // 원값의 처리가 boolean타입의 형태로 전환해보기 ( !! 두개 )
+
+
 var slideIndex = 0;
 
 // html 끝난 후 동작
@@ -89,13 +133,13 @@ function sns_N(){
 // --------------------------
 // 이디야 소식 버튼
 
-//공지사항 버튼 클릭
-$('.notice_on').click(function(){
-  $('.notice_letter').show(); //공지사항 내용 나타내기
-  $('.gallery_img').hide(); //갤러리 내용 숨기기
-  $(this).attr('class','notice_on'); //공지사항 버튼 CSS변경
-  $('.gallery_on').attr('class','gallery_off'); //갤러리 버튼 CSS 변경
-});
+// //공지사항 버튼 클릭
+// $('.notice_on').click(function(){
+//   $('.notice_letter').show(); //공지사항 내용 나타내기
+//   $('.gallery_img').hide(); //갤러리 내용 숨기기
+//   $(this).attr('class','notice_on'); //공지사항 버튼 CSS변경
+//   $('.gallery_on').attr('class','gallery_off'); //갤러리 버튼 CSS 변경
+// });
 
 // // 메뉴네비
 // // 변수영역 ----------------------------------

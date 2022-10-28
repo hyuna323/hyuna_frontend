@@ -1,145 +1,132 @@
-/* b_smartphone.css */
+/* d_main_laptop.css */
 
-/* (디자인기준: 320px) ~ 767px */
-@media all and (max-width:767px) {
-#wrap { width: 100%; min-width: 320px; min-height: 600px;}
-#headBox {
-  width: 100%;
-  height: 60px;
-  box-sizing: border-box;
-  padding: 10px 12px 14px 12px;
-  /* background-color: #ddd; */
-}
-  .head_inner {
-    width: 100%; max-width: 767px; min-width: 320px;
-    margin: auto; box-sizing: border-box;
-    /* background-color: #ccc; */
-  }
-    h1 {
-      float: left;
-      width: 33.75%; min-width: 108px; height: auto;
-    }
-    .head_inner > h1 > button > img {
-      width: 100%; min-width: 108px; height: 12px;
-    }
-  .gnb {display: none;}
-#headBox .header_m {padding-left: 110px;}
-  .header_m {
-    float: right;
-    width: 150px; height: 50px;
-    margin: auto;
-    margin-top: 5px;
+/* 1280px ~ 1439px */
+@media all and (min-width:1280px) and (max-width:1439px) {
+  #wrap {width: 100%; min-width: 1280px;}
+    /* #headBox ========================= */
+  #headBox {
+    width: 100%; height: 90px;
     box-sizing: border-box;
-    /* background-color: #ddd; */
-  }
-  #unbInner {width: 60px; padding: 0;}
-  
-  #check_box {
-    display: none;
-  }
-  
-  #check_box + label {
-    position: relative;
-    display: block;
-    width: 46px;
-    height: 30px;
-    cursor: pointer;
-    z-index: 100;
-    /* position: relative; */
-  }
-  
-  #check_box + label > span {
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 5px;
-    background: black;
-    border-radius: 5px;
-    transition: all 300ms;
-  }
-  
-  #check_box:checked + label > span:nth-child(1) {
-    top: 50%;
-    transform: translate(0, -50%);
-    transform: rotate(45deg);
-  }
-  
-  #check_box + label > span:nth-child(2) {
-    top: 50%;
-    transform: translate(0, -50%);
-  }
-  
-  #check_box:checked + label > span:nth-child(2) {
-    opacity: 0;
-  }
-  
-  #check_box + label > span:nth-child(3) {
-    bottom: 0;
-  }
-  
-  #check_box:checked + label > span:nth-child(3) {
-    top: 50%;
-    transform: translate(0, -50%);
-    transform: rotate(-45deg);
-  }
-  #side_menu {
+    padding: 28px 34px;
+    line-height: 18px;
     position: fixed;
-    width: 300px;
-    height: 100%;
-    background-color: rgba(36, 48, 90, 86%);
-    left: 400px;
-    transition: all 300ms;
-    z-index: 1;
-    top: 0px;
-    padding: 60px 20px 20px 16px;
-    box-sizing: border-box;
+    z-index: 1000;
+    background-color: #fff;
   }
-  
-  #check_box:checked + label + #side_menu {
-    /* float: right; */
-    left: 40px;
-  }
-  #side_menu ul {width: 100%; height: auto;}
-  #side_menu li {
-    width: 100%; height: auto; margin-bottom: 10px;
-    font-size: 1.2rem; font-weight: 500; text-transform: capitalize;
-    color: #ddd;
-  }
-  #side_menu a {color: inherit;}
-  
-  #side_menu button img {
-    width: 26px; height: 26px;
-    margin-right: 5px;
-    color: #aaa;
-  }
-  .search_part {
-    height: auto;
-  }
-  .search_part > form {
-    width: auto;
-    height: auto;
-  }
-  .search_part fieldset {
-    display: flex;
-    width: auto;
-    height: auto;
-    /* padding: 4px; */
-  }
-  #searchInput {
-    width: 172px;
-    height: 46px;
-    margin-right: 8px;
-    padding-left: 5px;
-    border-radius: 4px;
-    border: 1px solid #aaaaaa;
-  }
-  
-  .search_btn {
-    width: 70px;
-    border-radius: 4px;
-    border: 1px solid #fff;
-    color: #fff;
-    text-transform: capitalize;
-  }
+    .head_inner {
+      width: 100%; max-width: 1439px; min-width: 1280px;
+      margin: auto; box-sizing: border-box;
+      /* background-color: #ccc; */
+    }
+      h1 {
+        float: left;
+        width: 15.625%; min-width: 200px; height: 34px;
+        /* margin-top: 19px; */
+        /* line-height: 54px; */
+      }
+      
+      h1 > button > img {
+        width: 100%; min-width: 200px;
+        height: 20px;
+        margin-top: 6px;
+      }
+
+      .gnb {
+        float: right;
+        width: 70.3125%; min-width: 900px; height: 34px;
+      }
+      .gnb > ul {
+        width: 66.406%; min-width: 840px; height: 34px;
+        text-align: center;
+        margin-right: 20px; 
+      }
+      .gnb > ul > li {
+        display: inline-block; width: auto; height: auto;
+        line-height: 34px;
+        margin-left: 10px;
+        font-size: 22px;
+      }
+      .gnb li:first-child {
+        margin-left: 0;
+      }
+      .gnb li a {
+        padding: 5px;
+      }
+      .global_part {
+        width: auto;
+        height: 40px;
+      }
+      
+      .main_menu {
+        display: flex;
+        width: auto;
+        height: 40px;
+      }
+      .main_menu > li {
+        position: relative;
+        width: auto;
+        margin-right: 16px;
+        color: #333333;
+        font-weight: 600;
+        text-transform: capitalize;
+      }
+      .main_menu > li:last-child {
+        margin-right: 0;
+      }
+      .main_menu > li > a {
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        color: inherit;
+        height: 100%;
+      }
+      .drop_btn {
+        height: 100%;
+      }
+      .drop_btn > button {
+        height: 100%;
+        padding: 0 10px;
+        color: inherit;
+        text-transform: inherit;
+      }
+      
+      .sub_menu {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: calc(100% + 4px);
+        width: auto;
+        height: auto;
+        border: 1px solid #757575;
+        border-radius: 3px;
+        color: #333333;
+        white-space: nowrap;
+        background-color: #ffffff;
+      }
+      .sub_menu > li {
+        width: 100%;
+        height: auto;
+        margin-bottom: 8px;
+      }
+      .sub_menu > li a {
+        display: block;
+        width: 100%;
+        padding: 8px 20px;
+      }
+      .sub_menu > .border_line {
+        border-bottom: 1px solid #757575;
+      }
+      .loginbtn {
+        width: 100px; height: 38px;
+        line-height: 38px;
+        font-weight: 600; 
+        color: #243c84; 
+        outline: solid 1.5px; 
+        border-radius: 5px;
+      }
+      .header_m {display: none;}
+      /* background-color: #cca; */
+    
+  .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 90px;}
 
 }
