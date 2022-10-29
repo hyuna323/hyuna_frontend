@@ -2,12 +2,12 @@
 
 /* 1280px ~ 1439px */
 @media all and (min-width:1280px) and (max-width:1439px) {
-  #wrap {width: 100%; min-width: 1280px;}
+  #wrap {width: 100%; min-width: 1280px; background-color: #ddd;}
     /* #headBox ========================= */
   #headBox {
     width: 100%; height: 90px;
     box-sizing: border-box;
-    padding: 28px 34px;
+    padding: 18px 34px;
     line-height: 18px;
     position: fixed;
     z-index: 1000;
@@ -20,8 +20,8 @@
     }
       h1 {
         float: left;
-        width: 15.625%; min-width: 200px; height: 34px;
-        /* margin-top: 19px; */
+        width: 15.625%; min-width: 200px; height: 60px;
+        margin-top: 9px;
         /* line-height: 54px; */
       }
       
@@ -33,89 +33,39 @@
 
       .gnb {
         float: right;
-        width: 70.3125%; min-width: 900px; height: 34px;
-      }
-      .gnb > ul {
-        width: 66.406%; min-width: 840px; height: 34px;
-        text-align: center;
-        margin-right: 20px; 
-      }
-      .gnb > ul > li {
-        display: inline-block; width: auto; height: auto;
-        line-height: 34px;
-        margin-left: 10px;
-        font-size: 22px;
-      }
-      .gnb li:first-child {
-        margin-left: 0;
-      }
-      .gnb li a {
-        padding: 5px;
-      }
-      .global_part {
-        width: auto;
-        height: 40px;
-      }
-      
-      .main_menu {
-        display: flex;
-        width: auto;
-        height: 40px;
-      }
-      .main_menu > li {
+        width: 70.3125%; min-width: 900px; height: 74px;
+        margin-right: 50px;
         position: relative;
-        width: auto;
-        margin-right: 16px;
-        color: #333333;
-        font-weight: 600;
-        text-transform: capitalize;
+        z-index: 900;
       }
-      .main_menu > li:last-child {
-        margin-right: 0;
-      }
-      .main_menu > li > a {
+      .gnb_box {
         display: flex;
-        align-items: center;
-        padding: 0 10px;
-        color: inherit;
-        height: 100%;
-      }
-      .drop_btn {
-        height: 100%;
-      }
-      .drop_btn > button {
-        height: 100%;
-        padding: 0 10px;
-        color: inherit;
-        text-transform: inherit;
-      }
-      
-      .sub_menu {
-        display: none;
-        position: absolute;
-        left: 0;
-        top: calc(100% + 4px);
-        width: auto;
-        height: auto;
-        border: 1px solid #757575;
-        border-radius: 3px;
-        color: #333333;
-        white-space: nowrap;
-        background-color: #ffffff;
-      }
-      .sub_menu > li {
+        justify-content: space-around;
         width: 100%;
-        height: auto;
-        margin-bottom: 8px;
+        height: 64px;
+        /* line-height: 34px; */
+        margin: auto;
+        text-align: center;
       }
-      .sub_menu > li a {
+      .gnb_box div {
+        width: 100%;
+        height: 74px;
+        line-height: 58px;
+      }
+      .gnb_box div button {
         display: block;
+        width: 225px;
+        height: 100%;
+        margin: auto;
+      }
+      .gnb_box div ul {
         width: 100%;
-        padding: 8px 20px;
+        height: auto;
+        margin: auto;
+        font-size: 15px;
+        background-color: #ccc;
       }
-      .sub_menu > .border_line {
-        border-bottom: 1px solid #757575;
-      }
+      .gnb_box div ul.on {display: block;}
       .loginbtn {
         width: 100px; height: 38px;
         line-height: 38px;
