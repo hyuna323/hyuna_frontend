@@ -3,51 +3,137 @@
 /* 1280px ~ 1439px */
 @media all and (min-width:1280px) and (max-width:1439px) {
   #wrap {width: 100%; min-width: 1280px; min-height: 600px; }
-  #headBox {
-    width: 100%; height: 120px;
-    box-sizing: border-box;
-    padding: 46px 18px 46px 24px;
+  #headBox { 
+    width:100%; height: 140px; 
+    box-sizing:border-box;
     position: fixed;
     z-index: 1000;
     background-color: #fff;
   }
-    .head_inner {
-      width: 100%; max-width: 1439px; min-width: 1280px;
-      margin: auto; box-sizing: border-box;
-      /* background-color: #ccc; */
-    }
-      h1 {
-        float: left;
-        width: 21.875%; min-width: 280px; height: auto;
-      }
-      
-      h1 > button > img {
-        width: 100%; min-width: 280px; height: 28px;}
+  .head_inner {
+    width: 100%; max-width: 1439px; min-width: 1280px;
+    height: 50%;
+    margin: auto; box-sizing: border-box;
+    padding: 12px 40px;
+    /* background-color: #243c84; */
+  }
+  h1 {
+    float: left;
+    width: 240px; height: 56px;
+    /* margin-left: 10px; */
+    margin: auto;
+  }
+  h1 > button > img {
+    width: 90%; height: 20px;
+    margin: 10px;
+    margin-top: 12px;
+  }
 
-      .gnb {
-        float: left;
-        width: 74.2188%; min-width: 950px; height: 55px;
-      }
-      .gnb > ul {
-        width: 71.875%; min-width: 920px; height: 54px;
-        text-align: center;
-        margin-left: 50px; 
-      }
-      .gnb > ul > li {
-        display: inline-block; width: auto; height: auto;
-        margin-left: 10px;
-        font-size: 22px;
-      }
-      .gnb li:first-child {
-        margin-left: 0;
-      }
-      .gnb li a {
-        padding: 5px;
-      }
-      /* background-color: #cca; */
+  .unb {
+    float: right;
+    width: 470px; height: 46px;      
+  }
+  .unb ul {
+    width:450px; height: auto;
+    /* padding: 5px 15px; */
+  }
+  .unb li {
+    float: right;
+    width: auto; height: 20px;
+    margin: 12px;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    /* color: #fff; */
+    /* background-color: #fff; */
+  }
+  .unb .clearfix {
+    width: 410px; height: auto;
+  }
+
+  /* .unb button {
+    width: 80px; height: 25px; 
+    border: 0; margin: 0; 
+    background-color: #213C5D;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+  } */
+  .search_part {
+    float: right;
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  .search_part > form {
+    width: auto;
+    height: auto;
+  }
+  .search_part fieldset {
+    display: flex;
+    width: auto;
+    height: auto;
+    /* padding: 4px; */
+  }
+  #unbsearchInput {
+    width: 64%; min-width: 192px;
+    height: 40px;
+    margin: auto;
+    margin-right: 8px;
+    padding-left: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 1px solid #aaaaaa;
+  }
+  
+  .search_btn {
+    width: 24.666%; min-width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: #243c84;
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+
+  /* ---------------------------------- */
+  .head_inner02 {
+    width: 100%; height: 50%;
+    background-color: #243c84;
+    margin: auto; padding-top: 12px; box-sizing: border-box;
+    /* border-top: 2px solid #333; */
+  }
+
+  .gnb {
+    width: auto; height: 45px;
+  }
+  .gnb ul {
+    width:100%; height: auto;
+    padding: 0 15px;
+    margin:auto; text-align: center;
+  }
+  .gnb li {
+    display:inline-block; width:auto; height: auto;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+  }
+  .gnb li:first-child {
+    margin-left: 0;
+  }
+
+  .gnb li a {
+    padding: 5px 20px;
+    /* background-color: #cca; */
+  }
       .header_m {display: none;}
+      /* background-color: #cca; */
+    
+  .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 140px;}
 
-  .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 120px;}
 
       
 

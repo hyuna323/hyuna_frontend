@@ -24,6 +24,7 @@
       .head_inner > h1 > button > img {
         width: 100%; min-width: 108px; height: 12px;
       }
+    .unb {display: none;}
     .gnb {display: none;}
   #headBox .header_m {padding-left: 34.375%;}
     .header_m {

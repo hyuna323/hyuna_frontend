@@ -26,8 +26,8 @@
         height: 20px;
         margin-bottom: 1.111px;
       }
-
-      .gnb {display: none;}
+    .unb {display: none;}
+    .gnb {display: none;}
       /* background-color: #cca; */
       #headBox .header_m {padding-left: 13.375%;}
       .header_m {

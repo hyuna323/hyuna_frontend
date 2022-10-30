@@ -29,80 +29,42 @@
     <header id="headBox">
       <div class="head_inner">
         <h1>
-          <a href="./01_ediyamain.html" class="blind">EDIYA</a>
-          <button onclick="home()"><img src="../img/ediyalogo.jpg" alt="이디야로고"></button>
+          <a href="../html/01_ediyamain.html" class="blind">오늘의집</a>
+          <button onclick="home()"><img src="../img/ediyalogo.png" alt="이디야"></button>
         </h1>
-        <nav class="gnb">
-          <h2 class="blind">글로벌내비게이션</h2>
-          <div class="gnb_box">
-            <div class="menu_part">
-              <div class="btn_part">
-                <button type="button" class="btn">메뉴</button>
-              </div>
-              <ul class="menu_inner on">
-                <li>음료</li>
-                <li>푸드</li>
-                <li>md</li>
-              </ul>
-            </div>
-            <div class="members_part">
-              <div class="btn_part">
-                <button type="button" class="btn">이디야 멤버스</button>
-              </div>
-              <ul class="members_inner">
-                <li>멤버스 소개</li>
-                <li>이디야 카드</li>
-                <li>선물하기</li>
-                <li>이디야오더</li>
-                <li>자주하는 질문</li>
-              </ul>
-            </div>
-            <div class="gift_part">
-              <div class="btn_part">
-                <button type="button" class="btn">상품권</button>
-              </div>
-              <ul class="gift_inner">
-                <li>기프트카드</li>
-                <li>모바일 상품권</li>
-                <li>단체/기업 구매</li>
-              </ul>
-            </div>
-            <!-- <div class="ventilation_part">
-              <div class="btn_part">
-                <button type="button" class="btn">유통제품</button>
-              </div>
-              <ul class="ventilation_inner">
-                <li>스틱커피</li>
-                <li>커피믹스</li>
-                <li>캡슐커피</li>
-                <li>컵커피</li>
-                <li>수출인 거래</li>
-                <li>대리점 거래</li>
-              </ul>
-            </div>
-            <div class="social_part">
-              <div class="btn_part">
-                <button type="button" class="btn">사회공헌</button>
-              </div>
-              <ul class="social_inner">
-                <li>메이트 희망기금</li>
-                <li>캠퍼스 희망기금</li>
-                <li>식수위생 캠페인</li>
-                <li>이디야 동행</li>
-                <li>기타 활동</li>
-              </ul>
-            </div> -->
-            <div class="announcement_part">
-              <div class="btn_part">
-                <button type="button" class="btn">공지사항</button>
-              </div>
-              <ul class="announcement_inner">
-                <li>이디야소식</li>
-                <li>이벤트</li>
-                <li>홈카페레시피</li>
-              </ul>
-            </div>
+        <nav class="unb">
+          <h2 class="blind">유틸리티네비게이션</h2>
+          <div class="search_part">
+            <h3 class="blind">search navigation</h3>
+            <form action="." method="GET">
+              <fieldset>
+                <legend class="blind">search area</legend>
+                <label for="searchInput" class="blind">가까운 매장을 찾아보세요</label>
+                <input type="search" id="unbsearchInput" name="search__Input" value="" placeholder="가까운 매장 찾기">
+                <button type="button" class="search_btn">search</button>
+              </fieldset>
+            </form>
           </div>
+          <ul class="login">
+          <li onclick="login()">
+            <a href="../html/02_ediylogin.html">login</a>
+          </li>
+            <li><a href="#">about</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="head_inner02">
+        <nav class="gnb">
+          <h2 class="blind">글로벌네비게이션</h2>
+          <ul class="clearfix">
+            <li><a href="#">메뉴</a></li>
+            <li><a href="#">상품권</a></li>
+            <li><a href="#">이디야멤버스</a></li>
+            <li><a href="#">유통제품</a></li>
+            <li><a href="#">사회공헌</a></li>
+            <li><a href="#">공지사항</a></li>
+            <li><a href="#">고객소리</a></li>
+          </ul>
         </nav>
       </div>
       <div class="header_m">

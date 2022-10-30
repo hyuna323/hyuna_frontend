@@ -29,56 +29,41 @@
     <header id="headBox">
       <div class="head_inner">
         <h1>
-          <a href="./01_ediyamain.html" class="blind">EDIYA</a>
-          <button onclick="home()"><img src="../img/ediyalogo.jpg" alt="이디야로고"></button>
+          <a href="../html/01_ediyamain.html" class="blind">이디야</a>
+          <button onclick="home()"><img src="../img/ediyalogo.png" alt="이디야"></button>
         </h1>
+        <nav class="unb">
+          <h2 class="blind">유틸리티네비게이션</h2>
+          <div class="search_part">
+            <h3 class="blind">search navigation</h3>
+            <form action="." method="GET">
+              <fieldset>
+                <legend class="blind">search area</legend>
+                <label for="searchInput" class="blind">가까운 매장을 찾아보세요</label>
+                <input type="search" id="unbsearchInput" name="search__Input" value="" placeholder="가까운 매장 찾기">
+                <button type="button" class="search_btn">search</button>
+              </fieldset>
+            </form>
+          </div>
+          <ul class="login">
+          <li onclick="login()">
+            <a href="../html/02_ediya_login.html">login</a>
+          </li>
+            <li><a href="../html/03_ediya_about.html">about</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="head_inner02">
         <nav class="gnb">
-          <h2 class="blind">글로벌내비게이션</h2>
-          <ul class="">
-            <li>
-              <div class="sub_drop">
-                <button type="button">
-                  메뉴
-                </button>
-              </div>
-              <ul class="sub_drop_inner">
-                <li><a href="#">음료</a></li>
-                <li><a href="#">푸드</a></li>
-                <li><a href="#">md</a></li>
-              </ul>
-            </li>
-
-            <li>
-              <div class="sub_drop">
-                <button type="button">
-                  공지사항
-                </button>
-              </div>
-              <ul class="sub_drop_inner">
-                <li><a href="#">이디야 소식</a></li>
-                <li><a href="#">이벤트</a></li>
-                <li><a href="#">홈카페 레시피</a></li>
-                <li><a href="https://youtube.com/c/%EC%9D%B4%EB%94%94%EC%95%BC%EC%BB%A4%ED%94%BCediyacoffee">이디야 유튜브</a></li>
-              </ul>
-            </li>
-            
-            <li>
-              <div class="sub_drop">
-                <button type="button">
-                  상품권
-                </button>
-              </div>
-              <ul class="sub_drop_inner">
-                <li><a href="#">기프트카드</a></li>
-                <li><a href="#">모바일상품권</a></li>
-                <li><a href="#">단체/기업 구매</a></li>
-              </ul>
-            </li>
+          <h2 class="blind">글로벌네비게이션</h2>
+          <ul class="clearfix">
+            <li><a href="#">메뉴</a></li>
+            <li><a href="#">상품권</a></li>
             <li><a href="#">이디야멤버스</a></li>
             <li><a href="#">유통제품</a></li>
             <li><a href="#">사회공헌</a></li>
+            <li><a href="#">공지사항</a></li>
             <li><a href="#">고객소리</a></li>
-            <li class="loginbtn" onclick="login()"><a href="../html/02_ediya_login.html">로그인</a></li>
           </ul>
         </nav>
       </div>
@@ -225,9 +210,9 @@
                 </div>
               </div>
             </div>
-            <div class="noticeBox">
+            <!-- <div class="noticeBox"> -->
               <!-- <div class="notice_inner"> -->
-              <div class="notice">
+              <!-- <div class="notice">
                 <h2 class="blind">이디야 소식</h2>
                 <div class="notice_TX">
                   <ul>
@@ -242,7 +227,7 @@
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> -->
           </article>
 
         <!-- css 해야함 -->
@@ -351,6 +336,7 @@
                 <button onclick="sns_F()"><img class="Fmark" src="../img/facebooklogo_color.png" alt="facebook"><span>facebook</span></button>
                 <button onclick="sns_I()"><img class="Imark" src="../img/instagramlogo_color.png" alt="instargram"><span>instagram</span></button>
                 <button onclick="sns_N()"><img class="NBmark" src="../img/NAVER_blog_icon_1.png" alt="naverblog"><span>naverblog</span></button>
+                <button onclick="sns_Y()"><img class="Ymark" src="../img/youtubeLogo.png" alt="youtube"><span>youtube</span></button>
               </div>
             </div>
           </div>

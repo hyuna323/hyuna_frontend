@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko-KR" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../css/common/reset.css">
+  <link rel="stylesheet" href="../css/common/common.css">
+  <link rel="stylesheet" href="../css/src/01_ediya_main.css">
+
+  <script src="../js/common/modernizr-custom.js"></script>
+
+  <title>EDIYA</title>
+  <link rel="shortcut icon" href="../img/ediyamark.png" type="image/png">
+  <link rel="apple-touch-icon" href="../img/ediyamark.png">
+</head>
+<body>
+  <!-- layout -->
+  <div id="wrap">
+    <div id="wrap">
+      <header id="headBox">
+        <div class="head_inner">
+          <h1>
+            <a href="../html/01_ediyamain.html" class="blind">오늘의집</a>
+            <button onclick="home()"><img src="../img/ediyalogo.png" alt="이디야"></button>
+          </h1>
+          <nav class="unb">
+            <h2 class="blind">유틸리티네비게이션</h2>
+            <div class="search_part">
+              <h3 class="blind">search navigation</h3>
+              <form action="." method="GET">
+                <fieldset>
+                  <legend class="blind">search area</legend>
+                  <label for="searchInput" class="blind">가까운 매장을 찾아보세요</label>
+                  <input type="search" id="unbsearchInput" name="search__Input" value="" placeholder="가까운 매장 찾기">
+                  <button type="button" class="search_btn">search</button>
+                </fieldset>
+              </form>
+            </div>
+            <ul class="login">
+            <li onclick="login()">
+              <a href="../html/02_ediya_login.html">login</a>
+            </li>
+              <li><a href="#">about</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="head_inner02">
+          <nav class="gnb">
+            <h2 class="blind">글로벌네비게이션</h2>
+            <ul class="clearfix">
+              <li><a href="#">메뉴</a></li>
+              <li><a href="#">상품권</a></li>
+              <li><a href="#">이디야멤버스</a></li>
+              <li><a href="#">유통제품</a></li>
+              <li><a href="#">사회공헌</a></li>
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">고객소리</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header_m">
+          <nav id="unbInner">
+            <h2 class="blind">user navigation</h2>
+                <input type="checkbox" id="check_box">
+                <label for="check_box">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </label>
+                <div id="side_menu">
+                  <ul>
+                    <li><a href="#">메뉴</a></li>
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">상품권</a></li>
+                    <li><a href="#">이디야멤버스</a></li>
+                    <li><a href="#">유통제품</a></li>
+                    <li><a href="#">사회공헌</a></li>
+                    <li><a href="#">고객소리</a></li>
+                    <li>
+                      <button onclick="login()"><img src="../img/minilogin.svg" alt="로그인페이지로 이동"></button>
+                      <button onclick="sns_F()"><img src="../img/facebooklogo_color.png" alt="페이스북으로 이동"></button>
+                      <button onclick="sns_I()"><img src="../img/instagramlogo_color.png" alt="인스타그램으로 이동"></button>
+                      <button onclick="sns_N()"><img src="../img/NAVER_blog_icon_1.png" alt="네이버 블로그로 이동"></button></li>
+                    </ul>
+                    <div class="search_part">
+                      <h3 class="blind">search navigation</h3>
+                      <form action="." method="GET">
+                        <fieldset>
+                          <legend class="blind">search area</legend>
+                          <label for="searchInput" class="blind">가까운 매장을 찾아보세요</label>
+                          <input type="search" id="searchInput" name="search__Input" value="" placeholder="가까운 매장 찾기">
+                          <button type="button" class="search_btn">search</button>
+                        </fieldset>
+                      </form>
+                    </div>
+                </div>
+          </nav>
+        </div>
+      </header>
+    <!-- #headBox -->
+
+    <section id="aboutBox">
+      <h2>about ediya</h2>
+      <div class="about_part">
+        <ul class="about_area">
+          <div>
+            <li class="aboy_intro">
+              <dl class="mobile">
+                <dt></dt>
+                <dd></dd>
+              </dl>
+            </li>
+            <dl class="tab_lap_pc_full">
+              <dt></dt>
+              <dd></dd>
+            </dl>
+          </div>
+        </ul>
+      </div>
+    </section>
+    <!-- #aboutBox -->
+
+    <footer id="footBox">
+      <div class="foot_inner">
+        <h2>
+          <!-- <a href="./01_ediya_main.html" class="blind">EDIYA</a> -->
+          <button onclick="home()"><img src="../img/ediyagray.png" alt="이디야로고" style="width: 280px;"></button>
+        </h2>
+        <ul>
+          <li>
+            서울특별시 강남구 논현로 636 이디야빌딩(서울특별시 강남구 논현동 221-17) &brvbar; TEL : 02-543-6467 &brvbar; FAX : 02-543-7191 <br /> 
+            사업자등록번호 : 107-86-16302 &brvbar; 통신판매업 신고 : 강남 제 002519호 &brvbar; 대표이사 : 문창기 <br />
+            COPYRIGHTⓒ 2018 THEBORN KOREA INC. ALL RIGHTS RESERVED
+          </li>
+        </ul>
+      </div>
+
+      <div class="footInner_m">
+        <h2>
+          <!-- <a href="./01_ediya_main.html" class="blind">EDIYA</a> -->
+          <button onclick="home()"><img src="../img/ediyagray.png" alt="이디야로고"></button>
+        </h2>
+        <ul>
+          <li>
+            서울특별시 강남구 논현로 636 이디야빌딩(서울특별시 강남구 논현동 221-17) &brvbar;
+            TEL : 02-543-6467 &brvbar; FAX : 02-543-7191 <br /> 
+            사업자등록번호 : 107-86-16302 &brvbar; 통신판매업 신고 : 강남 제 002519호 <br />
+            대표이사 : 문창기 <br />
+            COPYRIGHTⓒ 2018 THEBORN KOREA INC. ALL RIGHTS RESERVED
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- #footBox -->
+  </div>
+
+  <!-- script -->
+  <script></script>
+  
+</body>
+</html>

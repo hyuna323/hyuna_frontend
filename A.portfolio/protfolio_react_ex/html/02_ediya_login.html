@@ -27,20 +27,41 @@
     <header id="headBox">
       <div class="head_inner">
         <h1>
-          <a href="./01_ediya_main.html" class="blind">EDIYA</a>
-          <button onclick="home()"><img src="../img/ediyalogo.jpg" alt="이디야로고"></button>
+          <a href="../html/01_ediyamain.html" class="blind">오늘의집</a>
+          <button onclick="home()"><img src="../img/ediyalogo.png" alt="이디야"></button>
         </h1>
+        <nav class="unb">
+          <h2 class="blind">유틸리티네비게이션</h2>
+          <div class="search_part">
+            <h3 class="blind">search navigation</h3>
+            <form action="." method="GET">
+              <fieldset>
+                <legend class="blind">search area</legend>
+                <label for="searchInput" class="blind">가까운 매장을 찾아보세요</label>
+                <input type="search" id="unbsearchInput" name="search__Input" value="" placeholder="가까운 매장 찾기">
+                <button type="button" class="search_btn">search</button>
+              </fieldset>
+            </form>
+          </div>
+          <ul class="login">
+          <li onclick="login()">
+            <a href="../html/02_ediya_login.html">login</a>
+          </li>
+            <li><a href="#">about</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="head_inner02">
         <nav class="gnb">
           <h2 class="blind">글로벌네비게이션</h2>
-          <ul>
+          <ul class="clearfix">
             <li><a href="#">메뉴</a></li>
-            <li><a href="#">공지사항</a></li>
             <li><a href="#">상품권</a></li>
             <li><a href="#">이디야멤버스</a></li>
             <li><a href="#">유통제품</a></li>
             <li><a href="#">사회공헌</a></li>
+            <li><a href="#">공지사항</a></li>
             <li><a href="#">고객소리</a></li>
-            <!-- <li><a href="../html/02_ediya_login.html" style="font-weight: 700; color: #243c84; outline: solid 1.5px; border-radius: 10%;">로그인</a></li> -->
           </ul>
         </nav>
       </div>
