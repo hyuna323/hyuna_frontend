@@ -1,3 +1,16 @@
+// 언어 선택
+//navinner2 선택, language part 선택, language_bt선택 ul 선택
+const elNavInner02 = document.querySelector('.footsubmenu');
+const elLanPart = elNavInner02.querySelector('.language_part');
+const elLanBtn = elLanPart.querySelector('.language_btn');
+const elUl = elLanPart.querySelector('ul');
+
+elLanBtn.addEventListener('click', e => {
+  e.preventDefault();
+  let check = elUl.classList.contains('on');
+  (check) ? elUl.classList.remove('on') : elUl.classList.add('on');
+});
+
 
 // viewBox ==============================
 var slideIndex = 0;
@@ -55,11 +68,10 @@ function showSlides(n) {
 //   }
 // };
 
-// ---------------------------------------------
-
+// page 이동 ---------------------------------------------
 // mainpage
+// 베르첼 배포시 url 바꾸기
 function home(){
-  // 베르첼 배포시 url 바꾸기
   let url = "http://127.0.0.1:5500/html/01_ediya_main.html";
   window.location = url;
 }
@@ -67,6 +79,12 @@ function home(){
 // loginpage
 function login(){
   let url = "http://127.0.0.1:5502/html/02_ediya_login.html";
+  window.location = url;
+  }
+
+// aboutpage
+function about(){
+  let url = "http://127.0.0.1:5502/html/03_ediya_about.html";
   window.location = url;
   }
 
