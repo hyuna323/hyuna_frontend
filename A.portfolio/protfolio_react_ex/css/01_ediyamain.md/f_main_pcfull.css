@@ -20,18 +20,19 @@
   }
   h1 {
     float: left;
-    width: 260px; height: 66px;
+    width: 280px; height: 66px;
     /* margin-left: 10px; */
     margin: auto;
   }
   h1 > button > img {
     width: 100%; height: 30px;
-    margin: 10px;
+    margin-top: 14px;
   }
 
   .unb {
     float: right;
-    width: 500px; height: 52px;      
+    width: 500px; height: 52px;
+    margin-top: 2px;
   }
   .unb ul {
     width: 500px; height: auto;
@@ -139,6 +140,8 @@
     width: 100%; min-width: 1920px;
     height: 720PX;
     box-sizing: border-box;
+    z-index: 500;
+    position: relative;
     /* background-color: #ccc; */
   }
     .view_outer {
@@ -727,28 +730,135 @@
   #footBox {
     float: left;
     width: 100%; min-width: 1920px;
-    height: 244px;
-    background-color: #555555;
+    height: auto;
+    border-top: 3px solid #243c84;
     /* padding: 20px; */
   }
   
     .foot_inner {
-      width: 60.7292%; min-width: 1166px; height: 197px;
-      margin: 50px 0 0 70px;
+      width: 71.1458%; min-width: 1366px; height: auto;
+      margin: 34px auto;
     }
-  
-    .foot_inner > h2 {
-      margin-bottom: 29px;
+    .foot_main {
+      color: #000;
+      text-align: center;
+      position: relative;
     }
-
-    .foot_inner > h2 > img {
-      width: 100%; width: 280px; height: 28px;
+    .foot_main > h2 {
+      width: auto;
+      margin-bottom: 28px;
     }
-  
+    .foot_main h2 button img {
+      width: 280px; height: 28px;
+      margin: auto;
+      display: block;
+    }
+    .foot_main .company_info {
+      width: 100%; height: auto;
+    }
+    .foot_main .company_info li {
+      font-size: 21px;
+      display: inline-block;
+    }
+    .foot_main .company_info li::after {
+      padding: 0 14px;
+      content: 'l';
+    }
+    /* .foot_main .company_info li:last-child:after{display:none;} */
+    .foot_main p {
+      font-size: 20px;
+      margin-top: 26px;
+      font-weight: 400;
+    }
+    .foot_main .footsubmenu {
+      width: 15.625%;
+      min-width: 310px; height: auto;
+      display: flex;
+      position: absolute;
+      top: 10px;
+      right: 0;
+      /* font-size: 0.75rem; */
+    }
+    .language_part {
+      width: 50%;
+    }
+    .language_btn {
+      width: 100%; height: 60px;
+      margin-top: 2px;
+    }
+    .language_btn img {
+      width: 45px; height: 45px;
+    }
+    .language_part ul {
+      display: none;
+      width: 100%;
+      margin-top: 10px;
+      padding: 10px 8px;
+      /* margin-bottom: 25px; */
+      border: 1px solid #262626;
+      position: relative;
+      cursor: pointer;
+      text-align: center;
+    }
+    .language_part ul.on {
+      display: block;
+      width: 100%; height: auto;
+    }
+    .language_part li {
+      width: auto; height: 30px;
+      line-height: 20px;
+    }
+    .language_part li button { text-transform: uppercase; }
+    .brandsite_part {
+      width: 50%;
+      margin-left: 5px;
+    }
+    .brandsite_btn {
+      width: 100%; height: 60px;
+      line-height: 42px;
+      background-color: #243c84;
+      border-radius: 5px;
+      color: #fff;
+      font-size: 17px;
+    }
+    .brandsite_part ul {
+      display: none;
+      width: 100%; height: auto;
+      margin-top: 10px;
+      padding: 5px 8px;
+      border: 1px solid #262626;
+      /* margin-bottom: 25px; */
+      position: relative;
+      cursor: pointer;
+      text-align: center;
+    }
+    .brandsite_part ul.on {
+      display: block;
+      width: 100%; height: auto;
+    }
     .foot_inner > ul > li {
       font-size: 20px;
       color: #ffffff;
     }
-
+    .to_top {
+      display: block;
+      position: fixed;
+      bottom: 15px;
+      right: 2%;
+      z-index: 1;
+    }
+    .to_top span {
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      cursor: pointer;
+      background: url(../../img/to_top2color.svg)no-repeat center;
+      background-size: 60px;
+    }
+    .to_top span:hover {
+      background: url(../../img/to_top_fill.svg)no-repeat center;
+      background-size: 60px;
+    }
+    
     .footInner_m {display: none;}
-} /* 1920px ~ =========================================== */
+  } /* 1920px ~ =========================================== */

@@ -337,22 +337,115 @@
 #footBox {
   float: left;
   width: 100%; min-width: 1440px;
-  height: 244px;
-  background-color: #555555;
+  height: auto;
+  border-top: 3px solid #243c84;
   /* padding: 20px; */
 }
-  .foot_inner {
-    width: 80.9722%; min-width: 1166px; height: 197px;
-    margin: 50px 0 0 70px;
+
+.foot_inner {
+  width: 79.1666%; min-width: 1140px; height: auto;
+  margin: 28px auto;
+  position: relative;
+}
+
+  .foot_main {
+    color: #000;
+    text-align: center;
+    position: relative;
   }
-  .foot_inner > h2 {
-    margin-bottom: 29px;
+  .foot_main > h2 {
+    width: auto;
+    margin-bottom: 28px;
   }
-  .foot_inner > h2 > img {
-    width: 100%; min-width: 280px; height: 28px;
+  .foot_main h2 button img {
+    width: 280px; height: 28px;
+    margin: auto;
+    display: block;
+  }
+  .foot_main .company_info {
+    width: 100%; height: auto;
+  }
+  .foot_main .company_info li {
+    font-size: 17px;
+    display: inline-block;
+  }
+  .foot_main .company_info li::after {
+    padding: 0 14px;
+    content: 'l';
+  }
+  .foot_main p {
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 400;
+  }
+  .foot_main .footsubmenu {
+    width: 100%;
+    width: 240px;
+    display: flex;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    /* font-size: 0.75rem; */
+  }
+  .language_part {
+    width: 50%;
+  }
+  .language_btn {
+    width: 100%; height: 42px;
+    margin-top: 2px;
+  }
+  .language_btn img {
+    width: 30px; height: 30px;
+  }
+  .language_part ul {
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 8px;
+    /* margin-bottom: 25px; */
+    border: 1px solid #262626;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+  }
+  .language_part ul.on {
+    display: block;
+    width: 100%; height: auto;
+  }
+  .language_part li {
+    width: auto; height: 30px;
+    line-height: 20px;
+  }
+  .language_part li button { text-transform: uppercase; }
+  .brandsite_part {
+    width: 50%;
+    margin-left: 5px;
+  }
+  .brandsite_btn {
+    width: 100%; height: 42px;
+    line-height: 42px;
+    background-color: #243c84;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+  }
+  .brandsite_part ul {
+    display: none;
+    width: 100%; height: auto;
+    margin-top: 10px;
+    padding: 5px 8px;
+    /* margin-bottom: 25px; */
+    border: 1px solid #262626;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+  }
+  .brandsite_part ul.on {
+    display: block;
+    width: 100%; height: auto;
   }
   .foot_inner > ul > li {
-    font-size: 16px;
+    font-size: 18px;
     color: #ffffff;
   }
   .footInner_m {display: none;}

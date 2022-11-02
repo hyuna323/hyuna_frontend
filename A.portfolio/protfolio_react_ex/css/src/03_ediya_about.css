@@ -384,8 +384,10 @@
   #wrap {width: 100%; min-width: 1280px; min-height: 600px; }
 
   /* headBox ========================= */
+  #wrap {width: 100%; min-width: 1280px;}
   #headBox { 
-    width:100%; height: 140px; 
+    width:100%; min-width: 1280px;
+    height: 140px; 
     box-sizing:border-box;
     position: fixed;
     z-index: 1000;
@@ -395,27 +397,29 @@
     width: 100%; max-width: 1439px; min-width: 1280px;
     height: 50%;
     margin: auto; box-sizing: border-box;
-    padding: 12px 40px;
+    padding: 13px 40px;
     /* background-color: #243c84; */
   }
   h1 {
     float: left;
-    width: 240px; height: 56px;
+    width: 18.75%; min-width: 240px; 
+    height: 56px;
     /* margin-left: 10px; */
     margin: auto;
   }
   h1 > button > img {
-    width: 90%; height: 20px;
-    margin: 10px;
+    width: 100%; height: 20px;
     margin-top: 12px;
   }
 
   .unb {
     float: right;
-    width: 470px; height: 46px;      
+    width: 36.7188%; min-width: 470px; 
+    height: 46px;      
   }
   .unb ul {
-    width:450px; height: auto;
+    width: 100%; min-width: 450px; 
+    height: auto;
     /* padding: 5px 15px; */
   }
   .unb li {
@@ -429,7 +433,7 @@
     /* background-color: #fff; */
   }
   .unb .clearfix {
-    width: 410px; height: auto;
+    width: 32.0313%; min-width: 410px; height: auto;
   }
 
   /* .unb button {
@@ -492,12 +496,12 @@
     width: auto; height: 45px;
   }
   .gnb ul {
-    width:100%; height: auto;
+    width: 100%; height: auto;
     padding: 0 15px;
     margin:auto; text-align: center;
   }
   .gnb li {
-    display:inline-block; width:auto; height: auto;
+    display: inline-block; width:auto; height: auto;
     margin-left: 20px;
     font-size: 16px;
     color: #fff;
@@ -506,8 +510,14 @@
     margin-left: 0;
   }
 
-  .gnb li a {padding: 5px 20px;}
-  .header_m {display: none;}
+  .gnb li a {
+    padding: 5px 20px;
+    /* background-color: #cca; */
+  }
+      .header_m {display: none;}
+      /* background-color: #cca; */
+    
+  .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 140px;}
     
   /* aboutBox ========================= */
   #aboutBox {
@@ -538,7 +548,25 @@
   font-size: 16px;
   color: #ffffff;
 }
-
+.to_top {
+  display: block;
+  position: fixed;
+  bottom: 15px;
+  right: 2%;
+  z-index: 1;
+}
+.to_top span {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  background: url(../../img/to_top2color.svg)no-repeat center;
+  background-size: 60px;
+}
+.to_top span:hover {
+  background: url(../../img/to_top_fill.svg)no-repeat center;
+  background-size: 60px;
+}
 .footInner_m {display: none;}
 }
 
@@ -680,26 +708,134 @@
 #footBox {
   float: left;
   width: 100%; min-width: 1440px;
-  height: 244px;
-  background-color: #555555;
+  height: auto;
+  border-top: 3px solid #243c84;
   /* padding: 20px; */
 }
 
   .foot_inner {
-    width: 80.9722%; min-width: 1166px; height: 197px;
-    margin: 50px 0 0 70px;
+    width: 80.9722%; min-width: 1270px; height: 197px;
+    margin: 28px auto;
+    position: relative;
   }
 
-  .foot_inner > h2 {
-    margin-bottom: 29px;
+  .foot_main {
+    color: #000;
+    text-align: center;
+    position: relative;
   }
-  .foot_inner > h2 > img {
-    width: 100%; min-width: 280px; height: 28px;
+  .foot_main > h2 {
+    width: auto;
+    margin-bottom: 28px;
   }
-
-  .foot_inner > ul > li {
+  .foot_main h2 button img {
+    width: 280px; height: 28px;
+    margin: auto;
+    display: block;
+  }
+  .foot_main .company_info {
+    width: 100%; height: auto;
+  }
+  .foot_main .company_info li {
+    font-size: 17px;
+    display: inline-block;
+  }
+  .foot_main .company_info li::after {
+    padding: 0 14px;
+    content: 'l';
+  }
+  .foot_main p {
     font-size: 16px;
+    margin-top: 20px;
+    font-weight: 400;
+  }
+  .foot_main .footsubmenu {
+    width: 100%;
+    width: 240px;
+    display: flex;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    /* font-size: 0.75rem; */
+  }
+  .language_part {
+    width: 50%;
+  }
+  .language_btn {
+    width: 100%; height: 42px;
+    margin-top: 2px;
+  }
+  .language_btn img {
+    width: 30px; height: 30px;
+  }
+  .language_part ul {
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 8px;
+    /* margin-bottom: 25px; */
+    border: 1px solid #262626;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+  }
+  .language_part ul.on {
+    display: block;
+    width: 100%; height: auto;
+  }
+  .language_part li {
+    width: auto; height: 30px;
+    line-height: 20px;
+  }
+  .brandsite_part {
+    width: 50%;
+    margin-left: 5px;
+  }
+  .brandsite_btn {
+    width: 100%; height: 42px;
+    line-height: 42px;
+    background-color: #243c84;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+  }
+  .brandsite_part ul {
+    display: none;
+    width: 100%; height: auto;
+    margin-top: 10px;
+    padding: 5px 8px;
+    /* margin-bottom: 25px; */
+    border: 1px solid #262626;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+  }
+  .brandsite_part ul.on {
+    display: block;
+    width: 100%; height: auto;
+  }
+  .foot_inner > ul > li {
+    font-size: 18px;
     color: #ffffff;
+  }
+  .to_top {
+    display: block;
+    position: fixed;
+    bottom: 15px;
+    right: 2%;
+    z-index: 1;
+  }
+  .to_top span {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background: url(../../img/to_top2color.svg)no-repeat center;
+    background-size: 60px;
+  }
+  .to_top span:hover {
+    background: url(../../img/to_top_fill.svg)no-repeat center;
+    background-size: 60px;
   }
   .footInner_m {display: none;}
 }
@@ -724,18 +860,19 @@
   }
   h1 {
     float: left;
-    width: 260px; height: 66px;
+    width: 280px; height: 66px;
     /* margin-left: 10px; */
     margin: auto;
   }
   h1 > button > img {
     width: 100%; height: 30px;
-    margin: 10px;
+    margin-top: 14px;
   }
 
   .unb {
     float: right;
     width: 500px; height: 52px;      
+    margin-top: 2px;
   }
   .unb ul {
     width: 500px; height: auto;
@@ -836,7 +973,7 @@
       .header_m {display: none;}
       /* background-color: #cca; */
     
-#aboutBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 180px;}
+  .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 180px;}
 
 /* footer ========================= */
 #footBox {
@@ -863,6 +1000,25 @@
   .foot_inner > ul > li {
     font-size: 18px;
     color: #ffffff;
+  }
+  .to_top {
+    display: block;
+    position: fixed;
+    bottom: 15px;
+    right: 2%;
+    z-index: 1;
+  }
+  .to_top span {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background: url(../../img/to_top2color.svg)no-repeat center;
+    background-size: 60px;
+  }
+  .to_top span:hover {
+    background: url(../../img/to_top_fill.svg)no-repeat center;
+    background-size: 60px;
   }
 
   .footInner_m {display: none;}

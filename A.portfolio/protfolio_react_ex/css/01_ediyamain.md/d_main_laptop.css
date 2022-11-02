@@ -15,7 +15,7 @@
     width: 100%; max-width: 1439px; min-width: 1280px;
     height: 50%;
     margin: auto; box-sizing: border-box;
-    padding: 12px 40px;
+    padding: 13px 40px;
     /* background-color: #243c84; */
   }
   h1 {
@@ -27,14 +27,13 @@
   }
   h1 > button > img {
     width: 100%; height: 20px;
-    margin: 10px;
     margin-top: 12px;
   }
 
   .unb {
     float: right;
     width: 36.7188%; min-width: 470px; 
-    height: 46px;      
+    height: 46px;
   }
   .unb ul {
     width: 100%; min-width: 450px; 
@@ -144,18 +143,20 @@
     width: 100%; min-width: 1280px;
     height: 660px;
     box-sizing: border-box;
+    z-index: 500;
+    position: relative;
     /* background-color: #ccc; */
   }
-    .view_outer {
-      width: 100%; min-width: 1280px; height: 660px;
-      /* margin-top: -30px; */
-    }
-    .viewport {
-      width: 100%; min-width: 1280px; height: 610px;
-      /* margin: 0 35px; */
-    }
-    .viewport > img {
-      width: 100%; min-width: 1280px; height: 660px;
+  .view_outer {
+    width: 100%; min-width: 1280px; height: 660px;
+    /* margin-top: -30px; */
+  }
+  .viewport {
+    width: 100%; min-width: 1280px; height: 610px;
+    /* margin: 0 35px; */
+  }
+  .viewport > img {
+    width: 100%; min-width: 1280px; height: 660px;
       /* margin: 0 35px; */
     }
   
@@ -694,33 +695,138 @@
       .ediyastory_inner {display: none;}
     
   /* #footBox ========================= */
-  #footBox {
-    float: left;
-    width: 100%; min-width: 1280px;
-    height: 200px;
-    background-color: #555555;
-    /* padding: 20px; */
+#footBox {
+  float: left;
+  width: 100%; min-width: 1280px;
+  height: auto;
+  border-top: 3px solid #243c84;
+  /* padding: 20px; */
+}
+.foot_inner {
+  width: 85.7813%; min-width: 1098px; height: auto;
+  margin: 30px auto;
+  position: relative;
+}
+  .foot_main {
+    color: #000;
+    text-align: center;
+    position: relative;
   }
-  
-    .foot_inner {
-      width: 91.0938%; min-width: 1166px; height: 170px;
-      margin: 30px 0 0 70px;
-    }
-  
-    .foot_inner > h2 {
-      margin-bottom: 29px;
-    }
-
-    .foot_inner > h2 > img {
-      width: 100%; min-width: 280px; height:28px;
-    }
-  
-    .foot_inner > ul > li {
-      font-size: 16px;
-      font-weight: 300;
-      color: #ffffff;
-    }
-
-    .footInner_m {display: none;}
+  .foot_inner > h2 {
+    width: auto;
+    margin-bottom: 28px;
+  }
+  .foot_main h2 button img {
+    width: 260px; height: 26px;
+    margin: auto;
+    display: block;
+  }
+  .foot_main .company_info {
+    width: 100%; height: auto;
+  }
+  .foot_main .company_info li {
+    font-size: 18px;
+    display: inline-block;
+  }
+  .foot_main .company_info li::after {
+    padding: 0 14px;
+    content: 'l';
+  }
+  .foot_main p {
+    font-size: 17px;
+    margin-top: 26px;
+    font-weight: 400;
+  }
+  .foot_main .footsubmenu {
+    width: 100%;
+    width: 240px;
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    /* font-size: 0.75rem; */
+  }
+  .language_part {
+    width: 50%;
+  }
+  .language_btn {
+    width: 100%; height: 42px;
+    margin-top: 2px;
+  }
+  .language_btn img {
+    width: 30px; height: 30px;
+  }
+  .language_part ul {
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 8px;
+    /* margin-bottom: 25px; */
+    border: 1px solid #262626;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+  }
+  .language_part ul.on {
+    display: block;
+    width: 100%; height: auto;
+  }
+  .language_part li {
+    width: auto; height: 30px;
+    line-height: 20px;
+  }
+  .language_part li button { text-transform: uppercase; }
+  .brandsite_part {
+    width: 50%;
+    margin-left: 5px;
+  }
+  .brandsite_btn {
+    width: 100%; height: 42px;
+    line-height: 42px;
+    background-color: #243c84;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+  }
+  .brandsite_part ul {
+    display: none;
+    width: 100%; height: auto;
+    margin-top: 10px;
+    padding: 5px 8px;
+    /* margin-bottom: 25px; */
+    border: 1px solid #262626;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+  }
+  .brandsite_part ul.on {
+    display: block;
+    width: 100%; height: auto;
+  }
+  .foot_inner > ul > li {
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+  }
+  .to_top {
+    display: block;
+    position: fixed;
+    bottom: 15px;
+    right: 2%;
+    z-index: 1;
+  }
+  .to_top span {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background: url(../../img/to_top2color.svg)no-repeat center;
+    background-size: 60px;
+  }
+  .to_top span:hover {
+    background: url(../../img/to_top_fill.svg)no-repeat center;
+    background-size: 60px;
+  }
+  .footInner_m {display: none;}
 
 } /* 1280px ~ 1439px ============================================== */

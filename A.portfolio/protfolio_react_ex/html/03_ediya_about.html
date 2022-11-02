@@ -45,7 +45,9 @@
           <li onclick="login()">
             <a href="../html/02_ediya_login.html">login</a>
           </li>
-            <li><a href="#">about</a></li>
+            <li onclick="about()">
+              <a href="#">about</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -102,7 +104,8 @@
         </nav>
       </div>
     </header>
-  <!-- #headBox -->
+    <!-- #headBox -->
+
     <section id="aboutBox">
       <h2>about ediya</h2>
       <div class="about_part">
@@ -152,19 +155,72 @@
       </div>
     </section>
     <!-- #aboutBox -->
+
+    <!-- #footBox -->
     <footer id="footBox">
       <div class="foot_inner">
-        <h2>
-          <!-- <a href="./01_ediya_main.html" class="blind">EDIYA</a> -->
-          <button onclick="home()"><img src="../img/ediyagray.png" alt="이디야로고" style="width: 280px;"></button>
-        </h2>
-        <ul>
-          <li>
-            서울특별시 강남구 논현로 636 이디야빌딩(서울특별시 강남구 논현동 221-17) &brvbar; TEL : 02-543-6467 &brvbar; FAX : 02-543-7191 <br /> 
-            사업자등록번호 : 107-86-16302 &brvbar; 통신판매업 신고 : 강남 제 002519호 &brvbar; 대표이사 : 문창기 <br />
-            COPYRIGHTⓒ 2018 THEBORN KOREA INC. ALL RIGHTS RESERVED
-          </li>
-        </ul>
+        <div class="foot_main">
+          <h2>
+            <button onclick="home()"><img src="../img/ediyalogo.png" alt="이디야로고"></button>
+          </h2>
+          <div class="company_info">
+            <ul>
+              <li>
+                (주)이디야커피
+              </li>
+              <li>사업자등록번호:107-86-16302</li>
+              <li>대표이사:문창기</li>
+            </ul>
+            <ul>
+              <li>서울특별시 강남구 논현로 636 이디야빌딩(서울특별시 강남구 논현동 221-17)</li>
+            </ul>
+            <ul>
+              <li>통신판매업 신고:강남 제 002519호</li>
+              <li>TEL:02-543-6457</li>
+              <li>FAX:02-543-7191</li>
+            </ul>
+            <p>ⓒ 2017 EDIYA COFFEE COMPANY. ALL RIGHTS RESERVED</p>
+          </div>
+          <div class="footsubmenu">
+            <div class="language_part">
+              <button type="button" class="language_btn">
+                <img src="../img/language.svg" alt="언어선택">
+              </button>
+              <ul>
+                <li>
+                  <button type="button">korean</button>
+                </li>
+                <li>
+                  <button type="button">english</button>
+                </li>
+                <li>
+                  <button type="button">chinese</button>
+                </li>
+                <li>
+                  <button type="button">japanese</button>
+                </li>
+              </ul>
+            </div>
+            <div class="brandsite_part">
+              <button type="button" class="brandsite_btn">
+                <span>관계자 사이트</span>
+              </button>
+              <ul>
+                <li>
+                  <button type="button">기업사이트</button>
+                </li>
+                <li>
+                  <button type="button">창업안내</button>
+                </li>
+                <li>
+                  <button type="button">채용안내</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="to_top">
+            <span></span>
+          </div>
       </div>
       <div class="footInner_m">
         <h2>
@@ -182,8 +238,8 @@
         </ul>
       </div>
     </footer>
-  <!-- #footBox -->
-</div>
+    <!-- #footBox -->
+  </div>
   <!-- script -->
   <script src="../js/src/03_ediya_about.js"></script>
   
