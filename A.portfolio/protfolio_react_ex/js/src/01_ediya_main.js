@@ -1,3 +1,18 @@
+// // header 고정
+// const elHeadBox = document.querySelector('.head_inner');
+
+// const OPTION_FIX = 'fix';
+// const offsetCheck = elHeadBox.offsetTop;
+// // console.log(offsetCheck);
+
+// window.addEventListener('scroll', e => {
+//   const target = parseInt(e.currentTarget.scrollY);
+//   const elHeadBoxClass = elHeadBox.classList;
+//   (target >= offsetCheck) ? elHeadBoxClass.add(OPTION_FIX) : elHeadBoxClass.remove(OPTION_FIX);
+// });
+
+
+
 // viewBox ==============================
 var slideIndex = 0;
 
