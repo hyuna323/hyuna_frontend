@@ -388,7 +388,7 @@
   min-width: 1280px;
   height: 140px;
   box-sizing: border-box;
-  position: fixed;
+  /* position: fixed; */
   z-index: 999;
   background-color: #fff;
 }
@@ -520,215 +520,187 @@
     
 /* aboutBox ========================= */
 #aboutBox {
-  width: 100%; min-width: 1280px;
-  max-width: 1439px; 
-  height: auto;
-  padding: 0;
-  margin: auto; 
-  padding-top: 100px;
-  top: 0;
-  left: 0;
-  right: 0;
+  width: 100%; height: auto;
+  position: relative;
+  margin-top: 180px;
 }
-h2 {
-  width: 100%; min-width: 1280px;
-  height: 100px;
-  text-align: center;
-  padding: 30px 50px;
-  font-size: 28px;
-  text-transform: uppercase;
-}
-.about_part {
-  width: 100%; min-width: 1280px;
-  max-width: 1439px; 
-  height: 100%;
-  margin: auto;
-}
-.about_area {
-  width: 100%;
-  height: 100%;
-  margin: auto;
-  margin-top: 60px;
-}
-.about_intro {
-  width: 1100px;
-  height: 334px;
-  padding: 10px;
-  margin: auto;
-}
-.about_intro img {
-  width: 100%; height: 314px;
-  border-radius: 10px;
-}
-.about_inner01 {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: nowrap;
-  width: 100%;
-  height: auto;
-}
-.about_inner01 .about_img_inner01 {
-  width: auto; height: auto;
-}
-.about_inner01 .about_img_inner01 img {
-  width: 500px; height: auto;
-  margin: 60px;
-  border-radius: 10px;
-}
-.about_inner01 .about_text_inner01 {
-  width: 100%;
-  height: 100%;
-  margin: auto;
-}
-.about_text_inner01 .inner01_title {
-  width: 500px; height: 30px;
-  line-height: 30px;
-  text-align: left;
-  font-size: 22px;
-  font-weight: 500;
-}
-.about_text_inner01 ul li {
-  width: 500px;
-  margin-left: 90px;
-  font-size: 18px;
-}
-.about_inner_m {display: none;}
-.about_inner02 {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: nowrap;
-  width: 100%;
-  height: auto;
-  margin-bottom: 50px;
-}
-.about_inner02 .about_img_inner02 {
-  width: auto; height: auto;
-}
-.about_inner02 .about_img_inner02 img {
-  width: 500px; height: auto;
-  margin: 10px 60px;
-  border-radius: 10px;
-}
-.about_inner02 .about_text_inner02 {
-  width: 100%;
-  height: 100%;
-  margin: auto;
-}
-.about_text_inner02 .inner02_title {
-  width: 500px; height: 30px;
-  line-height: 30px;
-  text-align: left;
-  font-size: 22px;
-  font-weight: 500;
-}
-.about_text_inner02 ul li {
-  width: 500px;
-  margin: auto;
-  font-size: 18px;
-}
-.about_inner03 {display: none;}
-.about_inner04 {display: none;}
-/* .about_inner03 {
-  width: 100%;
-  height: auto;
-  margin: auto;
-}
-.about_img_inner03 .inner03_title {
-  width: 100%; height: 30px;
-  line-height: 30px;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 500;
-  margin-bottom: 60px;
-}
-.about_inner03 .about_img_inner03 {
-  width: auto; height: auto;
-}
-.about_inner03 .about_img_inner03 img {
-  width: 730px; height: auto;
-  margin: 10px 280px;
-  margin-bottom: 30px;
-}
-.about_text_inner03 ul li {
-  float: left;
-  width: 100%;
-  margin: auto;
-  margin-left: 110px;
-  font-size: 18px;
-  line-height: 50px;
-  margin-bottom: 60px;
-}
-
-.about_inner04 {
-  width: 100%;
-  height: auto;
-  margin: auto;
-}
-.about_inner04 ul li {
-  width: 100%; height: 30px;
-  line-height: 30px;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 500;
-  margin-bottom: 60px;
-}
-.about_inner04 img {
-  width: 730px; height: 460px;
-  margin: 10px 280px;
-  margin-bottom: 30px;
-}
-.about_text_inner04 ul li {
-  float: left;
-  width: 100%;
-  margin: auto;
-  margin-left: 110px;
-  font-size: 18px;
-  line-height: 50px;
-  margin-bottom: 60px;
-} */
-.about_inner05 {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: nowrap;
-  width: 100%;
-  height: auto;
-  margin-bottom: 50px;
-}
-.about_inner05 .about_img_inner05 {
-  width: auto; height: auto;
-}
-.about_inner05 .about_img_inner05 img {
-  width: 400px; height: auto;
-  margin: 10px 70px;
-  border-radius: 10px;
-}
-.about_inner05 .about_text_inner05 {
-  width: 100%;
-  height: 100%;
-  margin: auto;
-}
-.about_text_inner05 ul li {
-  width: 500px;
-  margin: auto;
-  font-size: 18px;
-}
-.inner05_title li {
-  width: 100%; height: 30px;
-  margin-bottom: 60px;
-  line-height: 30px;
-  text-align: center;
-  font-size: 24px;
-  font-weight: 500;
-}
-.inner05_title .cl_subtitle {
-  width: 100%;
-  margin: auto;
-  margin-left: 74px;
-  font-size: 20px;
-  text-align: left;
-  font-weight: 400;
-}
-
+#about_inner {
+    width: 100%; height: auto;
+    padding: 0 50px;
+  }
+    h2 {
+      width: 95%; height: 40px;
+      margin: auto;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 28px;
+    }
+    .intro {
+      width: 1100px; height: auto;
+      margin: auto;
+      padding: 50px 0;
+    }
+    .intro img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    #about_inner01 {
+      width: 1120px; height: auto;
+      margin: auto;
+    }
+    .about_txt01 {
+      display: flex;
+      width: 100%; height: 330px;
+    }
+    .about_txt_img_left {
+      /* float: left; */
+      width: 100%; height: 100%;
+      margin: auto;
+      padding-right: 30px;
+    }
+    .about_txt_img_left img {
+      width: 500px; height: 300px;
+      border-radius: 10px;  
+    }
+    .about_txt_left {
+      width: 100%; height: 100%;
+      margin: auto;
+      padding: 30px 10px;
+      font-size: 18px;
+      line-height: 30px;
+    }
+    .about_txt_left h3 {
+      font-size: 20px;
+    }
+    .about_txt02 {
+      display: flex;
+      width: 100%; height: 330px;
+      margin: 40px 0 0 30px;
+    }
+    .about_txt_right {
+      width: 100%; height: 100%;
+      margin: auto;
+      padding: 30px 10px;
+      font-size: 18px;
+    }
+    .about_txt_right h3 {
+      font-size: 20px;
+    }
+    .about_txt_img_right {
+      width: 100%; height: 100%;
+      margin: auto;
+      padding-left: 30px;
+      line-height: 30px;
+    }
+    .about_txt_img_right img {
+      width: 500px; height: 300px;
+      border-radius: 10px;
+    }
+    #about_inner02 {
+      width: 1120px; height: 600px;
+      margin: auto;
+      margin-top: 30px;
+    }
+    .philosophy {
+      width: 100%; height: 484px;
+      margin: auto;
+      margin: 40px;
+    }
+    #about_inner02 h3 {
+      width: 100%; height: auto;
+      text-align: center;
+      margin: auto;
+      /* margin: 50px 0; */
+    }
+    .phil_img01 {
+      float: left;
+      width: 33.3%; height: auto;
+      margin: auto;
+    }
+    .phil_img01 img {
+      width: 288px;
+    }
+    .phil_img02 {
+      float: left;
+      width: 33.3%; height: auto;
+      margin: auto;
+    }
+    .phil_img02 img {
+      width: 288px;
+    }
+    .phil_img03 {
+      float: left;
+      width: 33.3%; height: auto;
+      margin: auto;
+    }
+    .phil_img03 img {
+      width: 288px;
+    }
+    .phil_txt {
+      float: left;
+      width: 100%; height: auto;
+      margin: auto;
+      margin-top: 30px;
+    }
+    .phil_txt span {
+      width: 100%; height: 250px;
+      font-size: 18px;
+      line-height: 50px;
+    }
+    #about_inner03 {
+      width: 1120px; height: auto;
+      margin: auto;
+      margin-top: 30px;
+    }
+    #about_inner03 h3 {
+      width: 100%; height: auto;
+      text-align: center;
+    }
+    .value {
+      width: 100%; height: 590px;
+      margin: auto;
+      margin: 0 40px;
+    }
+    .value img {
+      width: 80%;
+      margin: auto;
+      margin: 50px 80px;
+    }
+      #about_inner04 {
+        width: 1120px; height: auto;
+        margin: auto;
+      }
+      #about_inner04 h3 {
+        width: 100%; height: auto;
+        text-align: center;
+        text-transform: uppercase;
+      }
+        .ediyaci {
+          display: flex;
+          width: 100%; height: 330px;
+          margin-top: 50px;
+        }
+        .ediyaci_img {
+          width: 100%; height: 100%;
+          margin: auto;
+          padding-right: 30px;
+        }
+        .ediyaci_img img {
+          width: 450px; height: 300px;
+          border-radius: 10px;
+        }
+          .ediyaci_txt {
+            width: 100%; height: 100%;
+            margin: auto;
+            padding: 30px 10px;
+            font-size: 18px;
+          }
+          .cl_subtitle {}
+          .ediyaci_txt span {
+            width: 100%; height: 250px;
+            font-size: 18px;
+            line-height: 30px;
+          }
 /* footer ========================= */
 #footBox {
   float: left;

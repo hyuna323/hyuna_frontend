@@ -6,7 +6,7 @@
   #headBox { 
     width:100%; height: 140px; 
     box-sizing:border-box;
-    position: fixed;
+    /* position: fixed; */
     z-index: 999;
     background-color: #fff;
   }
@@ -137,176 +137,189 @@
       .header_m {display: none;}
       /* background-color: #cca; */
     
-  .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 90px;}
-
-
-#aboutBox {
-  width: 100%;
-  height: auto;
-  padding-top: 130px;
-}
-  .about_intro {
-    width: 1100px;
-    height: 334px;
-    padding: 10px;
-    margin: auto;
-  }
-  .about_intro img {
-    width: 100%; height: 306px;
-    margin: auto;
-    border-radius: 10px;
-  }
-  .about_part {
-    width: 1180px;
-    margin: 40px 70px;
+  #aboutBox {
+    width: 100%; height: auto;
     position: relative;
+    margin-top: 180px;
   }
-  .about_part .about_txt {
-    width: 100%;
-  }
-  .about_part .about_txt li {
-    position: relative;
-  }
-  .about_part .about_txt li .about_img_left_m {display: none;}
+  #about_inner {
+      width: 100%; height: auto;
+      padding: 0 50px;
+    }
+      h2 {
+        width: 95%; height: 40px;
+        margin: auto;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 28px;
+      }
+      .intro {
+        width: 1100px; height: auto;
+        margin: auto;
+        padding: 50px 0;
+      }
+      .intro img {
+        width: 100%;
+        border-radius: 10px;
+      }
+      #about_inner01 {
+        width: 1120px; height: auto;
+        margin: auto;
+      }
+      .about_txt01 {
+        display: flex;
+        width: 100%; height: 330px;
+      }
+      .about_txt_img_left {
+        /* float: left; */
+        width: 100%; height: 100%;
+        margin: auto;
+        padding-right: 30px;
+      }
+      .about_txt_img_left img {
+        width: 500px; height: 300px;
+        border-radius: 10px;  
+      }
+      .about_txt_left {
+        width: 100%; height: 100%;
+        margin: auto;
+        padding: 30px 10px;
+        font-size: 18px;
+        line-height: 30px;
+      }
+      .about_txt_left h3 {
+        font-size: 20px;
+      }
+      .about_txt02 {
+        display: flex;
+        width: 100%; height: 330px;
+        margin: 40px 0 0 30px;
+      }
+      .about_txt_right {
+        width: 100%; height: 100%;
+        margin: auto;
+        padding: 30px 10px;
+        font-size: 18px;
+      }
+      .about_txt_right h3 {
+        font-size: 20px;
+      }
+      .about_txt_img_right {
+        width: 100%; height: 100%;
+        margin: auto;
+        padding-left: 30px;
+        line-height: 30px;
+      }
+      .about_txt_img_right img {
+        width: 500px; height: 300px;
+        border-radius: 10px;
+      }
+      #about_inner02 {
+        width: 1120px; height: 600px;
+        margin: auto;
+        margin-top: 30px;
+      }
+      .philosophy {
+        width: 100%; height: 484px;
+        margin: auto;
+        margin: 40px;
+      }
+      #about_inner02 h3 {
+        width: 100%; height: auto;
+        text-align: center;
+        margin: auto;
+        /* margin: 50px 0; */
+      }
+      .phil_img01 {
+        float: left;
+        width: 33.3%; height: auto;
+        margin: auto;
+      }
+      .phil_img01 img {
+        width: 288px;
+      }
+      .phil_img02 {
+        float: left;
+        width: 33.3%; height: auto;
+        margin: auto;
+      }
+      .phil_img02 img {
+        width: 288px;
+      }
+      .phil_img03 {
+        float: left;
+        width: 33.3%; height: auto;
+        margin: auto;
+      }
+      .phil_img03 img {
+        width: 288px;
+      }
+      .phil_txt {
+        float: left;
+        width: 100%; height: auto;
+        margin: auto;
+        margin-top: 30px;
+      }
+      .phil_txt span {
+        width: 100%; height: 250px;
+        font-size: 18px;
+        line-height: 50px;
+      }
+      #about_inner03 {
+        width: 1120px; height: auto;
+        margin: auto;
+        margin-top: 30px;
+      }
+      #about_inner03 h3 {
+        width: 100%; height: auto;
+        text-align: center;
+      }
+      .value {
+        width: 100%; height: 590px;
+        margin: auto;
+        margin: 0 40px;
+      }
+      .value img {
+        width: 80%;
+        margin: auto;
+        margin: 50px 80px;
+      }
+        #about_inner04 {
+          width: 1120px; height: auto;
+          margin: auto;
+        }
+        #about_inner04 h3 {
+          width: 100%; height: auto;
+          text-align: center;
+          text-transform: uppercase;
+        }
+          .ediyaci {
+            display: flex;
+            width: 100%; height: 330px;
+            margin-top: 50px;
+          }
+          .ediyaci_img {
+            width: 100%; height: 100%;
+            margin: auto;
+            padding-right: 30px;
+          }
+          .ediyaci_img img {
+            width: 450px; height: 300px;
+            border-radius: 10px;
+          }
+            .ediyaci_txt {
+              width: 100%; height: 100%;
+              margin: auto;
+              padding: 30px 10px;
+              font-size: 18px;
+            }
+            .cl_subtitle {}
+            .ediyaci_txt span {
+              width: 100%; height: 250px;
+              font-size: 18px;
+              line-height: 30px;
+            }
 
-  .about_part .about_txt li .about_img_left {
-    width: 500px;
-    margin-left: 0;
-    padding-left: 0;
-  }
-  .about_part .about_txt li .about_img_left img {
-    width: 100%;
-    border-radius: 10px;
-  }
-  .about_part .about_txt li .about_txt_left {
-    position: absolute;
-    margin: auto;
-    bottom: 100px;
-    right: 50px;
-    padding-right: 0;
-  }
-  .about_part .about_txt li .about_txt_left h4 {
-    font-size: 20px;
-    line-height: 30px;
-  }
-  .about_part .about_txt li .about_txt_left p {
-    width: 500px;
-    margin-top: 10px;
-    font-size: 16px;
-  }
-  .about_part .about_txt li .about_img_right_m {display: none;}
-  .about_part .about_txt li {
-    position: relative;
-  }
-  .about_part .about_txt li .about_txt_right {
-    position: absolute;
-    margin: auto;
-    bottom: 100px;
-    right: 50px;
-    padding-right: 0;
-  }
-  .about_part .about_txt li .about_txt_right h4 {
-    font-size: 20px;
-    line-height: 30px;
-  }
-  .about_part .about_txt li .about_txt_right p {
-    width: 500px;
-    margin-top: 10px;
-    font-size: 16px;
-  }
-  .about_part .about_txt li .about_img_right {
-    width: 500px;
-    margin-right: 0;
-    padding-right: 0;
-  }
-  .about_part .about_txt li .about_img_right img {
-    width: 100%;
-    border-radius: 10px;
-  }
-  .about_title02 {
-    text-align: center;
-    margin: 90px 0 30px 0;
-  }
-  .about_title02 h3 {
-    bottom: 30px;
-    font-size: 24px;
-  }
-  .about_philosophy {
-    width: 100%;
-    margin: auto;
-    padding-left: 100px;
-  }
-  .about_philosophy .phil01 {
-    float: left;
-    width: 33.3%;
-    margin-bottom: 0;
-  }
-  .about_philosophy .phil02 {
-    float: left;
-    width: 33.3%;
-    margin-bottom: 0;
-  }
-  .about_philosophy .phil03 {
-    float: left;
-    width: 33.3%;
-    margin-bottom: 30px;
-  }
-  .about_philosophy .philosophy_txt p {
-    width: 100%;
-    font-size: 18px;
-    line-height: 40px;
-  }
-
-  .about_value .val_img_m {display: none;}
-  .about_value .val_img {
-    width: 1000px;
-  }
-  .about_value .val_img img {
-    width: 100%;
-    margin: auto;
-    padding-left: 300px;
-  }
-
-  .about_img_left_m {display: none;}
-
-  .about_cl li {
-    width: 100%;
-    height: 30px;
-    margin-bottom: 60px;
-    line-height: 30px;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 500;
-  }
-  .about_cl .cl_subtitle {
-    width: 100%;
-    margin: auto;
-    padding-left: 74px;
-    font-size: 20px;
-    text-align: left;
-    font-weight: 400;
-  }
-  .about_img_left {
-    width: 500px;
-    margin-left: 0;
-    padding-left: 0;
-  }
-  .about_img_left img {
-    width: 100%; height: 300px;
-    border-radius: 10px;
-  }
-  .about_txt_left {
-    position: absolute;
-    margin: auto;
-    bottom: 100px;
-    right: 50px;
-    padding-right: 0;
-  }
-  .about_title02 .vaule_txt p {
-    width: 500px;
-    margin: auto;
-    font-size: 18px;
-  }
 
 
 }
