@@ -771,7 +771,7 @@
     }
     .foot_main .footsubmenu {
       width: 15.625%;
-      min-width: 310px; height: auto;
+      min-width: 330px; height: auto;
       display: flex;
       position: absolute;
       top: 10px;
@@ -840,11 +840,14 @@
       color: #ffffff;
     }
     .to_top {
-      display: block;
+      display: none;
       position: fixed;
       bottom: 15px;
       right: 2%;
       z-index: 1;
+    }
+    .to_top.on {
+      display: block;
     }
     .to_top span {
       display: inline-block;

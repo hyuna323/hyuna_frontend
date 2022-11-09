@@ -412,29 +412,35 @@
   }
 
   .unb {
+    display: flex;
     float: right;
-    width: 36.7188%; min-width: 470px; 
+    width: 35.156%; min-width: 450px; 
     height: 46px;
-  }
-  .unb ul {
-    width: 100%; min-width: 450px; 
-    height: auto;
-    /* padding: 5px 15px; */
-  }
-  .unb li {
-    float: right;
-    width: auto; height: 20px;
-    margin: 12px;
-    font-size: 16px;
-    text-align: center;
     text-transform: uppercase;
-    /* color: #fff; */
-    /* background-color: #fff; */
+    text-align: center;
   }
-  .unb .clearfix {
-    width: 32.0313%; min-width: 410px; height: auto;
+  .about_part {
+    width: 80px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 46px;
   }
-
+  .about_part a {
+    display: block;
+    width: auto;
+    height: 100%;
+  }
+  .login_part {
+    width: 80px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 46px;
+  }
+  .login_part a {
+    display: block;
+    width: auto;
+    height: 100%;
+  }
   /* .unb button {
     width: 80px; height: 25px; 
     border: 0; margin: 0; 
@@ -762,7 +768,7 @@
   }
   .foot_main .footsubmenu {
     width: 100%;
-    width: 240px;
+    width: 250px;
     display: flex;
     position: absolute;
     top: 10px;
@@ -835,7 +841,7 @@
     display: block;
     position: fixed;
     bottom: 15px;
-    right: 2%;
+    right: 4%;
     z-index: 1;
   }
   .to_top span {
@@ -1235,7 +1241,7 @@
   }
   .foot_main .footsubmenu {
     width: 100%;
-    width: 240px;
+    width: 250px;
     display: flex;
     position: absolute;
     top: 30px;
@@ -1306,7 +1312,7 @@
     display: block;
     position: fixed;
     bottom: 15px;
-    right: 2%;
+    right: 4%;
     z-index: 1;
   }
   .to_top span {
@@ -1706,7 +1712,7 @@
   }
   .foot_main .footsubmenu {
     width: 15.625%;
-    min-width: 310px; height: auto;
+    min-width: 320px; height: auto;
     display: flex;
     position: absolute;
     top: 10px;
@@ -1778,7 +1784,7 @@
     display: block;
     position: fixed;
     bottom: 15px;
-    right: 2%;
+    right: 4%;
     z-index: 1;
   }
   .to_top span {

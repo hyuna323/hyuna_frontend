@@ -43,12 +43,15 @@ BrandsiteBtn.addEventListener('click', e => {
 const ToTop = document.querySelector('.to_top');
 
 window.addEventListener('scroll',function () {
-  if(this.scrollY > 500) {
-    this.top.classList.add('on');
+  if(this.scrollY > 50) {
+    ToTop.classList.add('on');
   } else {
-    ToTop.addEventListener('click',function (e) {
-      e.preventDefault();
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    })
+    ToTop.classList.remove('on');
+    
   }
+})
+
+ToTop.addEventListener('click',function (e) {
+  e.preventDefault();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 })

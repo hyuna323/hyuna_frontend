@@ -32,6 +32,16 @@
         </h1>
         <nav class="unb">
           <h2 class="blind">유틸리티네비게이션</h2>
+          <div class="about_part">
+            <a href="../html/03_ediya_about.html">
+              <span onclick="about()">about</span>
+            </a>
+          </div>
+          <div class="login_part">
+            <a href="../html/02_ediya_login.html">
+              <span onclick="login()">login</span>
+            </a>
+          </div>
           <div class="search_part">
             <h3 class="blind">search navigation</h3>
             <form action="." method="GET">
@@ -43,14 +53,6 @@
               </fieldset>
             </form>
           </div>
-          <ul class="login">
-          <li onclick="login()">
-            <a href="../html/02_ediya_login.html">login</a>
-          </li>
-            <li onclick="about()">
-              <a href="../html/03_ediya_about.html">about</a>
-            </li>
-          </ul>
         </nav>
       </div>
       <div class="head_inner02">
@@ -202,7 +204,7 @@
               <li>TEL:02-543-6457</li>
               <li>FAX:02-543-7191</li>
             </ul>
-            <p>ⓒ 2017 EDIYA COFFEE COMPANY. ALL RIGHTS RESERVED</p>
+            <P>COPYRIGHTⓒ 2018 EDIYA COFFEE COMPANY. ALL RIGHTS RESERVED.</P>
           </div>
           <div class="footsubmenu">
             <div class="language_part">
@@ -211,16 +213,16 @@
               </button>
               <ul>
                 <li>
-                  <button type="button">korean</button>
+                  <a href="#"><button type="button">korean</button></a>
                 </li>
                 <li>
-                  <button type="button">english</button>
+                  <a href="#"><button type="button">english</button></a>
                 </li>
                 <li>
-                  <button type="button">chinese</button>
+                  <a href="#"><button type="button">chinese</button></a>
                 </li>
                 <li>
-                  <button type="button">japanese</button>
+                  <a href="#"><button type="button">japanese</button></a>
                 </li>
               </ul>
             </div>
@@ -230,18 +232,20 @@
               </button>
               <ul>
                 <li>
-                  <button type="button">기업사이트</button>
+                  <a href="#"><button type="button">기업사이트</button></a>
                 </li>
                 <li>
-                  <button type="button">창업안내</button>
+                  <a href="#"><button type="button">창업안내</button></a>
                 </li>
                 <li>
-                  <button type="button">채용안내</button>
+                  <a href="#"><button type="button">채용안내</button></a>
                 </li>
               </ul>
             </div>
           </div>
-        <div class="to_top"></div>
+          <div class="to_top">
+            <span></span>
+          </div>
       </div>
 
       <div class="footInner_m">
@@ -249,29 +253,26 @@
           <!-- <a href="./01_ediya_main.html" class="blind">EDIYA</a> -->
           <button onclick="home()"><img src="../img/ediyagray.png" alt="이디야로고"></button>
         </h2>
-        <ul>
-          <li>
-            서울특별시 강남구 논현로 636 이디야빌딩(서울특별시 강남구 논현동 221-17) &brvbar;
-            TEL : 02-543-6467 &brvbar; FAX : 02-543-7191 <br /> 
-            사업자등록번호 : 107-86-16302 &brvbar; 통신판매업 신고 : 강남 제 002519호 <br />
-            대표이사 : 문창기 <br />
-            COPYRIGHTⓒ 2018 THEBORN KOREA INC. ALL RIGHTS RESERVED
-          </li>
-        </ul>
+        <div class="company_info">
+          <ul>
+            <li>
+              (주)이디야커피
+            </li>
+            <li>사업자등록번호:107-86-16302</li>
+            <li>대표이사:문창기</li>
+          </ul>
+          <ul>
+            <li>서울특별시 강남구 논현로 636 이디야빌딩(서울특별시 강남구 논현동 221-17)</li>
+          </ul>
+          <ul>
+            <li>통신판매업 신고:강남 제 002519호</li>
+            <li>TEL:02-543-6457</li>
+            <li>FAX:02-543-7191</li>
+          </ul>
+          <P>COPYRIGHTⓒ 2018 EDIYA COFFEE COMPANY. ALL RIGHTS RESERVED.</P>
+        </div>
       </div>
     </footer>
-    <!-- <footer id="companyinfoBox">
-      <h2 class="blind">이디야 company info
-        <button onclick="home()"><img src="../img/ediyagray.png" alt="이디야로고"></button>
-      </h2>
-      <address>
-        <p>
-          서울특별시 강남구 논현로 636 이디야빌딩(서울특별시 강남구 논현동 221-17) &brvbar; TEL : 02-543-6467 &brvbar; FAX : 02-543-7191 <br /> 
-          사업자등록번호 : 107-86-16302 &brvbar; 통신판매업 신고 : 강남 제 002519호 &brvbar; 대표이사 : 문창기 <br />
-          COPYRIGHTⓒ 2018 THEBORN KOREA INC. ALL RIGHTS RESERVED
-        </p>
-      </address>
-    </footer> -->
   </div>
 
   <!-- script -->

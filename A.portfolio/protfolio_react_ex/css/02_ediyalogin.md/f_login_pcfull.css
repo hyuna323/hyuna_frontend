@@ -381,7 +381,7 @@
   }
   .foot_main .footsubmenu {
     width: 15.625%;
-    min-width: 310px; height: auto;
+    min-width: 320px; height: auto;
     display: flex;
     position: absolute;
     top: 10px;
@@ -449,6 +449,27 @@
     font-size: 20px;
     color: #ffffff;
   }
-
+  .to_top {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 4%;
+    z-index: 1;
+  }
+  .to_top.on {
+    display: block;
+  }
+  .to_top span {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background: url(../../img/to_top2color.svg)no-repeat center;
+    background-size: 60px;
+  }
+  .to_top span:hover {
+    background: url(../../img/to_top_fill.svg)no-repeat center;
+    background-size: 60px;
+  }
   .footInner_m {display: none;}
 } 

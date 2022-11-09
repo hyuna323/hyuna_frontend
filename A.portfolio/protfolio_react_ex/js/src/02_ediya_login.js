@@ -36,12 +36,17 @@ openButton.addEventListener("click", openModal);
 const elFootSubmenu = document.querySelector('.footsubmenu');
 const elLanguagePart = elFootSubmenu.querySelector('.language_part');
 const LanguageBtn = elLanguagePart.querySelector('.language_btn');
-const elUl = elLanguagePart.querySelector('ul');
+const LelUl = elLanguagePart.querySelector('ul');
 
 LanguageBtn.addEventListener('click', e => {
   e.preventDefault();
-  let check = elUl.classList.contains('on');
-  (check) ? elUl.classList.remove('on') : elUl.classList.add('on');
+  let check = LelUl.classList.contains('on');
+  (check) ? LelUl.classList.remove('on') : LelUl.classList.add('on');
+});
+
+elLanguagePart.addEventListener('mouseleave', e => {
+  e.preventDefault();
+  LelUl.classList.remove('on');
 });
 
 // 관계자 선택
@@ -49,10 +54,33 @@ LanguageBtn.addEventListener('click', e => {
 const elfootSubmenu = document.querySelector('.footsubmenu');
 const elBrandsitePart = elfootSubmenu.querySelector('.brandsite_part');
 const BrandsiteBtn = elBrandsitePart.querySelector('.brandsite_btn');
-const elul = elBrandsitePart.querySelector('ul');
+const Belul = elBrandsitePart.querySelector('ul');
 
 BrandsiteBtn.addEventListener('click', e => {
   e.preventDefault();
-  let check = elul.classList.contains('on');
-  (check) ? elul.classList.remove('on') : elul.classList.add('on');
+  let check = Belul.classList.contains('on');
+  (check) ? Belul.classList.remove('on') : Belul.classList.add('on');
 });
+
+elBrandsitePart.addEventListener('mouseleave', e => {
+  e.preventDefault();
+  Belul.classList.remove('on');
+});
+
+
+// Top 맨위로
+const ToTop = document.querySelector('.to_top');
+
+window.addEventListener('scroll',function () {
+  if(this.scrollY > 50) {
+    ToTop.classList.add('on');
+  } else {
+    ToTop.classList.remove('on');
+    
+  }
+})
+
+ToTop.addEventListener('click',function (e) {
+  e.preventDefault();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+})
