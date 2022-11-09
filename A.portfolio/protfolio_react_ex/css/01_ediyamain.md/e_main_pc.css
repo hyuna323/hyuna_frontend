@@ -137,22 +137,22 @@
   /* #viewBox ========================= */
   #viewBox {
     width: 100%; min-width: 1440px;
-    height: 700px;
+    height: 680px;
     box-sizing: border-box;
     z-index: 500;
     position: relative;
     /* background-color: #ccc; */
   }
     .view_outer {
-      width: 100%; min-width: 1440px; height: 700px;
+      width: 100%; min-width: 1440px; height: 680px;
       /* margin-top: -30px; */
     }
     .viewport {
-      width: 100%; min-width: 1440px; height: 650px;
+      width: 100%; min-width: 1440px; height: 630px;
     }
   
     .viewport > img {
-      width: 100%; min-width: 1440px; height: 700px;
+      width: 100%; min-width: 1440px; height: 680px;
     }
 
     /* .view_outer {
