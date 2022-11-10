@@ -1,0 +1,8 @@
+#wrap {
+  width: 960px; height: auto; min-height: 500px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+#headBox {width: 100%;}
+#viewBox {margin: auto;}
+#footBox {width: 100%;}
+/* 03_ediyaabout_base.css */
