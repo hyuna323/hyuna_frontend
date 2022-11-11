@@ -31,26 +31,34 @@
   }
 
   .unb {
+    display: flex;
     float: right;
-    width: 500px; height: 52px;      
-    margin-top: 2px;
-  }
-  .unb ul {
-    width: 500px; height: auto;
-    /* padding: 5px 15px; */
-  }
-  .unb li {
-    float: right;
-    width: auto; height: 20px;
-    margin: 12px;
-    font-size: 20px;
-    text-align: center;
+    width: 26.042%; min-width: 500px; 
+    height: 100%;
     text-transform: uppercase;
-    /* color: #fff; */
-    /* background-color: #fff; */
+    text-align: center;
   }
-  .unb .clearfix {
-    width: 410px; height: auto;
+  .about_part {
+    width: 100px;
+    height: 50px;
+    line-height: 54px;
+  }
+  .about_part a {
+    display: block;
+    width: auto;
+    font-size: 20px;
+    height: 100%;
+  }
+  .login_part {
+    width: 100px;
+    height: 50px;
+    line-height: 54px;
+  }
+  .login_part a {
+    display: block;
+    font-size: 20px;
+    width: auto;
+    height: 100%;
   }
 
   /* .unb button {
@@ -66,7 +74,7 @@
     width: auto;
     height: auto;
     margin: auto;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     margin-left: 18px;
   }
   .search_part > form {
@@ -80,8 +88,8 @@
     /* padding: 4px; */
   }
   #unbsearchInput {
-    width: 64%; min-width: 220px;
-    height: 48px;
+    width: 64%; min-width: 240px;
+    height: 50px;
     margin: auto;
     margin-right: 8px;
     padding-left: 10px;
@@ -92,7 +100,7 @@
   
   .search_btn {
     width: 24.666%; min-width: 80px;
-    height: 48px;
+    height: 50px;
     border-radius: 5px;
     border: 1px solid #fff;
     background-color: #243c84;
@@ -105,34 +113,63 @@
   .head_inner02 {
     width: 100%; height: 50%;
     background-color: #243c84;
-    margin: auto; padding-top: 24px; box-sizing: border-box;
+    margin: auto; 
+    /* padding-top: 24px;  */
+    box-sizing: border-box;
     /* border-top: 2px solid #333; */
   }
 
   .gnb {
-    width: auto; height: auto;
+    display: flex;
+    width: 1170px; height: 100%;
+    margin: auto;
   }
-  .gnb ul {
-    width:100%; height: auto;
-    padding: 0 15px;
-    margin:auto; text-align: center;
+  .submenu_part {
+    position: relative;
+    display: inline-block;
   }
-  .gnb li {
-    display: inline-block; width:auto; height: auto;
-    margin-left: 20px;
-    font-size: 22px;
+  .btn_part {
+    width: 172px;
+    height: 100%;
+    line-height: 48px;
+    border-radius : 4px;
+    font-weight: 300;
+    padding : 12px;
+    text-align: left;
+    cursor : pointer;
+    font-size : 22px;
+    text-align: center;
     color: #fff;
   }
-  .gnb li:first-child {
-    margin-left: 0;
+  .submenu_inner {
+    display : none;
+    position : absolute;
+    z-index : 1; /*다른 요소들보다 앞에 배치*/
+    /* font-size: 16px; */
+    font-weight: 300;
+    background-color: #fff;
+    width : 100%;
+    min-width: 172px;
+    text-align: center;
   }
-
-  .gnb li a {
-    padding: 20px 20px;
-    /* background-color: #cca; */
+  .submenu_inner a {
+    display : block;
+    text-decoration : none;
+    font-size: 16px;
+    padding : 12px 10px;
   }
-      .header_m {display: none;}
-      /* background-color: #cca; */
+  .submenu_inner a:hover {
+    font-weight: 500;
+    font-size: 17px;
+    color: #243c84;
+    width: auto;
+  }
+  .submenu_part:hover .submenu_inner {
+    display: block;
+    border: 1px solid #243c84;
+    justify-content: space-between;
+  }
+  .header_m {display: none;}
     
   .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 180px;}
 
@@ -141,200 +178,205 @@
   width: 100%; height: auto;
   position: relative;
   margin-top: 180px;
+  margin-bottom: 100px;
 }
 #about_inner {
     width: 100%; height: auto;
     padding: 0 50px;
   }
-    h2 {
-      width: 100%; height: 40px;
-      margin: auto;
-      margin: 0 10px;
-      text-align: center;
-      text-transform: uppercase;
-      font-size: 28px;
-    }
-    .intro {
-      width: 1100px; height: auto;
-      margin: auto;
-      padding: 50px 0;
-    }
-    .intro img {
-      width: 100%;
-      border-radius: 10px;
-    }
-    #about_inner01 {
-      width: 1120px; height: auto;
-      margin: auto;
-    }
-    .about_txt01 {
+  h2 {
+    width: 100%; height: 60px;
+    margin: auto;
+    margin: 0 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 32px;
+  }
+  .intro {
+    width: 1300px; height: auto;
+    margin: auto;
+    padding: 100px 0;
+  }
+  .intro img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  #about_inner01 {
+    width: 1400px; height: auto;
+    margin: auto;
+  }
+  .about_txt01 {
+    display: flex;
+    width: 100%; height: 430px;
+  }
+  .about_txt_img_left {
+    /* float: left; */
+    width: 100%; height: 100%;
+    margin: auto;
+    padding-right: 30px;
+  }
+  .about_txt_img_left img {
+    width: 630px; height: 390px;
+    border-radius: 10px;  
+  }
+  .about_txt_left {
+    width: 100%; height: 100%;
+    margin: auto;
+    padding: 50px 10px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .about_txt_left h4 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  .about_txt02 {
+    display: flex;
+    width: 100%; height: 430px;
+    margin: 40px 0;
+  }
+  .about_txt_right {
+    width: 100%; height: 100%;
+    margin: auto;
+    padding: 50px 10px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .about_txt_right h4 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  .about_txt_img_right {
+    width: 100%; height: 100%;
+    margin: auto;
+    padding-left: 30px;
+    line-height: 30px;
+  }
+  .about_txt_img_right img {
+    width: 630px; height: 390px;
+    border-radius: 10px;  
+  }
+  #about_inner02 {
+    width: 1440px; height: 700px;
+    margin: auto;
+    margin-top: 100px;
+  }
+  #about_inner02 h3 {
+    width: 100%; height: 60px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+  }
+  .philosophy {
+    width: 100%; height: 580px;
+    margin: auto;
+    /* margin: 20px 68px; */
+  }
+  .philosophy_img {
+    width: 1312px; height: 370px;
+    margin: 50px 68px;
+  }
+  .phil_img01 {
+    float: left;
+    width: 370px; height: auto;
+    margin: auto;
+    margin-right: 100px;
+  }
+  .phil_img01 img {
+    width: 100%;
+  }
+  .phil_img02 {
+    float: left;
+    width: 370px; height: auto;
+    margin: auto;
+    margin-right: 100px;
+  }
+  .phil_img02 img {
+    width: 100%;
+  }
+  .phil_img03 {
+    float: left;
+    width: 370px; height: auto;
+    margin: auto;
+    /* margin-right: 80px; */
+  }
+  .phil_img03 img {
+    width: 100%;
+  }
+  .phil_txt {
+    float: left;
+    width: 1350px; height: auto;
+    margin: auto;
+    margin: 10px 30px;
+  }
+  .phil_txt span {
+    width: 100%; height: 250px;
+    font-size: 22px;
+    line-height: 50px;
+  }
+  #about_inner03 {
+    width: 1350px; height: auto;
+    margin: auto;
+    margin-top: 100px;
+  }
+  #about_inner03 h3 {
+    width: 100%; height: 80px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+  }
+  .value {
+    width: 100%; height: 656px;
+    margin: auto;
+    margin: 50px 0;
+  }
+  .value img {
+    width: 100%;
+    margin: auto;
+  }
+  #about_inner04 {
+    width: 1400px; height: auto;
+    margin: auto;
+    margin-top: 100px;
+  }
+  #about_inner04 h3 {
+    width: 100%; height: 60px;
+    height: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+    .ediyaci {
       display: flex;
       width: 100%; height: 330px;
+      margin: 70px 0;
     }
-    .about_txt_img_left {
-      /* float: left; */
-      width: 100%; height: 100%;
+    .cl_subtitle {
+      width: auto; height: 50px;
+      margin: auto;
+      margin-left: 30px;
+      font-size: 26px;
+      font-weight: 400;
+    }
+    .ediyaci_img {
+      width: 500px; height: 330px;
       margin: auto;
       padding-right: 30px;
     }
-    .about_txt_img_left img {
-      width: 500px; height: 300px;
-      border-radius: 10px;  
+    .ediyaci_img img {
+      width: 470px; height: 100%;
     }
-    .about_txt_left {
-      width: 100%; height: 100%;
-      margin: auto;
-      padding: 30px 10px;
-      font-size: 18px;
-      line-height: 30px;
-    }
-    .about_txt_left h4 {
-      font-size: 20px;
-    }
-    .about_txt02 {
-      display: flex;
-      width: 100%; height: 330px;
-      margin: 40px 0 0 30px;
-    }
-    .about_txt_right {
-      width: 100%; height: 100%;
-      margin: auto;
-      padding: 30px 10px;
-      font-size: 18px;
-    }
-    .about_txt_right h4 {
-      font-size: 20px;
-    }
-    .about_txt_img_right {
-      width: 100%; height: 100%;
-      margin: auto;
-      padding-left: 30px;
-      line-height: 30px;
-    }
-    .about_txt_img_right img {
-      width: 500px; height: 300px;
-      border-radius: 10px;
-    }
-    #about_inner02 {
-      width: 1120px; height: 600px;
-      margin: auto;
-      margin-top: 50px;
-    }
-    #about_inner02 h3 {
-      width: 100%; height: 40px;
-      margin: auto;
-      text-align: center;
-      font-size: 24px;
-    }
-    .philosophy {
-      width: 100%; height: 490px;
-      margin: auto;
-      /* margin: 20px 68px; */
-    }
-    .philosophy_img {
-      width: 1000px; height: 300px;
-      margin: 50px 68px;
-    }
-    .phil_img01 {
-      float: left;
-      width: 280px; height: auto;
-      margin: auto;
-      margin-right: 80px;
-    }
-    .phil_img01 img {
-      width: 100%;
-    }
-    .phil_img02 {
-      float: left;
-      width: 280px; height: auto;
-      margin: auto;
-      margin-right: 80px;
-    }
-    .phil_img02 img {
-      width: 100%;
-    }
-    .phil_img03 {
-      float: left;
-      width: 280px; height: auto;
-      margin: auto;
-      /* margin-right: 80px; */
-    }
-    .phil_img03 img {
-      width: 100%;
-    }
-    .phil_txt {
-      float: left;
-      width: 1090px; height: auto;
-      margin: auto;
-      margin: 10px 30px;
-    }
-    .phil_txt span {
-      width: 100%; height: 250px;
-      font-size: 18px;
-      line-height: 50px;
-    }
-    #about_inner03 {
-      width: 1120px; height: auto;
-      margin: auto;
-      margin-top: 50px;
-    }
-    #about_inner03 h3 {
-      width: 100%; height: 40px;
-      margin: auto;
-      text-align: center;
-      font-size: 24px;
-    }
-    .value {
-      width: 100%; height: 590px;
-      margin: auto;
-      /* margin: 0 30px; */
-    }
-    .value img {
-      width: 80%;
-      margin: auto;
-      margin: 50px 110px;
-    }
-      #about_inner04 {
-        width: 1120px; height: auto;
+      .ediyaci_txt {
+        width: 100%; height: 100%;
         margin: auto;
+        padding: 40px 10px;
       }
-      #about_inner04 h3 {
-        width: 100%; height: auto;
-        margin-bottom: 50px;
-        text-align: center;
-        text-transform: uppercase;
+      .ediyaci_txt span {
+        width: 100%; height: 330px;
+        font-size: 22px;
+        line-height: 50px;
       }
-        .ediyaci {
-          display: flex;
-          width: 100%; height: 330px;
-          margin: 30px 0;
-        }
-        .cl_subtitle {
-          width: auto; height: 40px;
-          margin: auto;
-          margin-left: 20px;
-          font-size: 20px;
-          font-weight: 400;
-        }
-        .ediyaci_img {
-          width: 450px; height: 300px;
-          margin: auto;
-          padding-right: 30px;
-        }
-        .ediyaci_img img {
-          width: 358px; height: 100%;
-        }
-          .ediyaci_txt {
-            width: 100%; height: 100%;
-            margin: auto;
-            padding: 30px 10px;
-            font-size: 18px;
-          }
-          .ediyaci_txt span {
-            width: 100%; height: 250px;
-            font-size: 18px;
-            line-height: 30px;
-          }
 
 /* footer ========================= */
 #footBox {
@@ -346,7 +388,7 @@
 }
 
   .foot_inner {
-    width: 71.1458%; min-width: 1366px; height: auto;
+    width: 71.1458%; min-width: 1466px; height: auto;
     margin: 34px auto;
   }
   .foot_main {
@@ -356,10 +398,10 @@
   }
   .foot_main > h2 {
     width: auto;
-    margin-bottom: 28px;
+    margin-bottom: 32px;
   }
   .foot_main h2 button img {
-    width: 280px; height: 28px;
+    width: 300px; height: 30px;
     margin: auto;
     display: block;
   }
@@ -367,7 +409,7 @@
     width: 100%; height: auto;
   }
   .foot_main .company_info li {
-    font-size: 21px;
+    font-size: 23px;
     display: inline-block;
   }
   .foot_main .company_info li::after {
@@ -457,17 +499,20 @@
     right: 4%;
     z-index: 1;
   }
+  .to_top.on {
+    display: block;
+  }
   .to_top span {
     display: inline-block;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     cursor: pointer;
     background: url(../../img/to_top2color.svg)no-repeat center;
-    background-size: 60px;
+    background-size: 70px;
   }
   .to_top span:hover {
     background: url(../../img/to_top_fill.svg)no-repeat center;
-    background-size: 60px;
+    background-size: 70px;
   }
   
   .footInner_m {display: none;}

@@ -120,8 +120,8 @@
   
     .gnb {
       display: flex;
-      width: 980px; height: 100%;
-      margin: 0 150px;
+      width: 1134px; height: 100%;
+      margin: auto;
     }
     .submenu_part {
       position: relative;
@@ -132,7 +132,7 @@
       border-radius : 4px;
       font-weight: 300;
       padding : 12px;
-      width: 140px;
+      width: 162px;
       height: 100%;
       text-align: left;
       cursor : pointer;
@@ -148,14 +148,13 @@
       font-weight: 300;
       background-color: #fff;
       width : 100%;
-      min-width: 170px;
+      min-width: 162px;
       text-align: center;
-      right: -13px;
     }
     .submenu_inner a {
       display : block;
       text-decoration : none;
-      font-size: 16px;
+      font-size: 15px;
       padding : 12px 10px;
     }
     .submenu_inner a:hover {
@@ -487,11 +486,14 @@
       color: #ffffff;
     }
     .to_top {
-      display: block;
+      display: none;
       position: fixed;
       bottom: 15px;
       right: 4%;
       z-index: 1;
+    }
+    .to_top.on {
+      display: block;
     }
     .to_top span {
       display: inline-block;
