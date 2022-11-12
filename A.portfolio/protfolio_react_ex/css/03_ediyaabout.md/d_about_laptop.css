@@ -120,7 +120,7 @@
   
     .gnb {
       display: flex;
-      width: 1134px; height: 100%;
+      width: 1036px; height: 100%;
       margin: auto;
     }
     .submenu_part {
@@ -132,7 +132,7 @@
       border-radius : 4px;
       font-weight: 300;
       padding : 12px;
-      width: 162px;
+      width: 148px;
       height: 100%;
       text-align: left;
       cursor : pointer;
@@ -145,17 +145,18 @@
       position : absolute;
       z-index : 1; /*다른 요소들보다 앞에 배치*/
       /* font-size: 16px; */
-      font-weight: 300;
       background-color: #fff;
       width : 100%;
-      min-width: 162px;
+      min-width: 158px;
       text-align: center;
     }
     .submenu_inner a {
       display : block;
       text-decoration : none;
       font-size: 15px;
-      padding : 12px 10px;
+      font-weight: 300;
+      padding : 12px 8px;
+      text-transform: uppercase;
     }
     .submenu_inner a:hover {
       font-weight: 500;
@@ -177,6 +178,7 @@
     width: 100%; height: auto;
     position: relative;
     margin-top: 180px;
+    margin-bottom: 100px;
   }
   #about_inner {
       width: 100%; height: auto;

@@ -120,7 +120,7 @@
   
     .gnb {
       display: flex;
-      width: 980px; height: 100%;
+      width: 1176px; height: 100%;
       margin: auto;
     }
     .submenu_part {
@@ -132,7 +132,7 @@
       border-radius : 4px;
       font-weight: 300;
       padding : 12px;
-      width: 140px;
+      width: 168px;
       height: 100%;
       text-align: left;
       cursor : pointer;
@@ -148,15 +148,15 @@
       font-weight: 300;
       background-color: #fff;
       width : 100%;
-      min-width: 170px;
+      min-width: 168px;
       text-align: center;
-      right: -13px;
+      /* right: -13px; */
     }
     .submenu_inner a {
       display : block;
       text-decoration : none;
       font-size: 16px;
-      padding : 12px 10px;
+      padding : 12px 8px;
     }
     .submenu_inner a:hover {
       font-weight: 500;
@@ -179,18 +179,19 @@
     width: 100%; height: auto;
     position: relative;
     margin-top: 180px;
+    margin-bottom: 100px;
   }
   #about_inner {
       width: 100%; height: auto;
       padding: 0 50px;
     }
       h2 {
-        width: 100%; height: 40px;
+        width: 100%; height: 50px;
         margin: auto;
         margin: 0 10px;
         text-align: center;
         text-transform: uppercase;
-        font-size: 28px;
+        font-size: 30px;
       }
       .intro {
         width: 1100px; height: auto;
