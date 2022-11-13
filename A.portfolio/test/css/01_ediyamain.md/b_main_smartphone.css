@@ -1,351 +1,233 @@
 /* d_main_laptop.css */
 
 /* 1280px ~ 1439px */
-@media all and (min-width:1280px) and (max-width:1439px) {
-  #wrap {width: 100%; min-width: 1280px;}
-  #headBox { 
-    width:100%; height: 140px; 
-    box-sizing:border-box;
-    /* position: fixed; */
-    z-index: 999;
+@media all and (max-width:767px) {
+  #wrap { width: 100%; min-width: 320px; min-height: 600px;}
+  #headBox {
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    padding: 10px 12px 14px 12px;
+    position: fixed;
+    z-index: 1000;
     background-color: #fff;
   }
-  .head_inner {
-    width: 100%; max-width: 1600px; min-width: 1280px;
-    height: 50%;
-    margin: auto; box-sizing: border-box;
-    padding: 12px;
-    /* background-color: #243c84; */
-  }
-  h1 {
-    float: left;
-    width: 250px; height: 56px;
-    /* margin-left: 10px; */
-    margin: auto;
-  }
-  h1 > button > img {
-    width: 90%; height: 32px;
-    margin: 10px;
-  }
-
-  .unb {
-    float: right;
-    width: 470px; height: 46px;      
-  }
-  .unb ul {
-    width:450px; height: auto;
-    /* padding: 5px 15px; */
-  }
-  .unb li {
-    float: right;
-    width: auto; height: 20px;
-    margin: 12px;
-    font-size: 16px;
-    text-align: center;
-    text-transform: uppercase;
-    /* color: #fff; */
-    /* background-color: #fff; */
-  }
-  .unb .clearfix {
-    width: 410px; height: auto;
-  }
-
-  /* .unb button {
-    width: 80px; height: 25px; 
-    border: 0; margin: 0; 
-    background-color: #213C5D;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 5px;
-  } */
-  .search_part {
-    float: right;
-    width: auto;
-    height: auto;
-    margin: auto;
-    margin-top: 5px;
-    margin-left: 10px;
-  }
-  .search_part > form {
-    width: auto;
-    height: auto;
-  }
-  .search_part fieldset {
-    display: flex;
-    width: auto;
-    height: auto;
-    /* padding: 4px; */
-  }
-  #unbsearchInput {
-    width: 64%; min-width: 192px;
-    height: 40px;
-    margin-right: 8px;
-    padding-left: 5px;
-    border-radius: 4px;
-    border: 1px solid #aaaaaa;
-  }
-  
-  .search_btn {
-    width: 24.666%; min-width: 80px;
-    height: 40px;
-    border-radius: 5px;
-    border: 1px solid #fff;
-    background-color: #243c84;
-    color: #fff;
-    text-transform: capitalize;
-  }
-
-  /* ---------------------------------- */
-  .head_inner02 {
-    width: 100%; height: 50%;
-    background-color: #243c84;
-    margin: auto;
-    /* padding: 14px 10px;  */
-    box-sizing: border-box;
-  }
-
-  .gnb {
-    display: flex;
-    width: 980px; height: 100%;
-    margin: 0 150px;
-  }
-  .submenu_part {
-    position: relative;
-    display: inline-block;
-  }
-  .btn_part {
-    line-height: 48px;
-    /* border : 1px solid rgb(37, 37, 37); */
-    border-radius : 4px;
-    /* background-color: #f5f5f5; */
-    font-weight: 300;
-    color : rgb(37, 37, 37);
-    padding : 12px;
-    width: 140px;
-    height: 100%;
-    text-align: left;
-    cursor : pointer;
-    font-size : 18px;
-    text-align: center;
-    color: #fff;
-    
-  }
-  .submenu_inner {
-    display : none;
-    position : absolute;
-    z-index : 1; /*다른 요소들보다 앞에 배치*/
-    /* font-size: 16px; */
-    font-weight: 300;
-    background-color: #ddd;
-    width : 100%;
-    min-width: 168px;
-    text-align: center;
-    right: -13px;
-  }
-  .submenu_inner a {
-    display : block;
-    text-decoration : none;
-    color : rgb(37, 37, 37);
-    font-size: 16px;
-    padding : 12px 20px;
-  }
-  .submenu_inner a:hover {
-    background-color: #ddd;
-    font-weight: 500;
-    font-size: 17px;
-    color: #243c84;
-    width: auto;
-  }
-  .submenu_part:hover .submenu_inner {
-    display: block;
-    justify-content: space-between;
-  }
-
-      .header_m {display: none;}
-      /* background-color: #cca; */
-    
-  #aboutBox {
-    width: 100%; height: auto;
-    position: relative;
-    margin-top: 180px;
-  }
-  #about_inner {
-      width: 100%; height: auto;
-      padding: 0 50px;
+    .head_inner {
+      width: 100%; max-width: 767px; min-width: 320px;
+      margin: auto; box-sizing: border-box;
+      /* background-color: #ccc; */
     }
-      h2 {
-        width: 95%; height: 40px;
-        margin: auto;
-        text-align: center;
-        text-transform: uppercase;
-        font-size: 28px;
-      }
-      .intro {
-        width: 1100px; height: auto;
-        margin: auto;
-        padding: 50px 0;
-      }
-      .intro img {
-        width: 100%;
-        border-radius: 10px;
-      }
-      #about_inner01 {
-        width: 1120px; height: auto;
-        margin: auto;
-      }
-      .about_txt01 {
-        display: flex;
-        width: 100%; height: 330px;
-      }
-      .about_txt_img_left {
-        /* float: left; */
-        width: 100%; height: 100%;
-        margin: auto;
-        padding-right: 30px;
-      }
-      .about_txt_img_left img {
-        width: 500px; height: 300px;
-        border-radius: 10px;  
-      }
-      .about_txt_left {
-        width: 100%; height: 100%;
-        margin: auto;
-        padding: 30px 10px;
-        font-size: 18px;
-        line-height: 30px;
-      }
-      .about_txt_left h3 {
-        font-size: 20px;
-      }
-      .about_txt02 {
-        display: flex;
-        width: 100%; height: 330px;
-        margin: 40px 0 0 30px;
-      }
-      .about_txt_right {
-        width: 100%; height: 100%;
-        margin: auto;
-        padding: 30px 10px;
-        font-size: 18px;
-      }
-      .about_txt_right h3 {
-        font-size: 20px;
-      }
-      .about_txt_img_right {
-        width: 100%; height: 100%;
-        margin: auto;
-        padding-left: 30px;
-        line-height: 30px;
-      }
-      .about_txt_img_right img {
-        width: 500px; height: 300px;
-        border-radius: 10px;
-      }
-      #about_inner02 {
-        width: 1120px; height: 600px;
-        margin: auto;
-        margin-top: 30px;
-      }
-      .philosophy {
-        width: 100%; height: 484px;
-        margin: auto;
-        margin: 40px;
-      }
-      #about_inner02 h3 {
-        width: 100%; height: auto;
-        text-align: center;
-        margin: auto;
-        /* margin: 50px 0; */
-      }
-      .phil_img01 {
+      h1 {
         float: left;
-        width: 33.3%; height: auto;
-        margin: auto;
+        width: 33.75%; min-width: 108px; height: auto;
       }
-      .phil_img01 img {
-        width: 288px;
+      .head_inner > h1 > button > img {
+        width: 100%; min-width: 108px; height: 12px;
       }
-      .phil_img02 {
-        float: left;
-        width: 33.3%; height: auto;
-        margin: auto;
-      }
-      .phil_img02 img {
-        width: 288px;
-      }
-      .phil_img03 {
-        float: left;
-        width: 33.3%; height: auto;
-        margin: auto;
-      }
-      .phil_img03 img {
-        width: 288px;
-      }
-      .phil_txt {
-        float: left;
-        width: 100%; height: auto;
-        margin: auto;
-        margin-top: 30px;
-      }
-      .phil_txt span {
-        width: 100%; height: 250px;
-        font-size: 18px;
-        line-height: 50px;
-      }
-      #about_inner03 {
-        width: 1120px; height: auto;
-        margin: auto;
-        margin-top: 30px;
-      }
-      #about_inner03 h3 {
-        width: 100%; height: auto;
-        text-align: center;
-      }
-      .value {
-        width: 100%; height: 590px;
-        margin: auto;
-        margin: 0 40px;
-      }
-      .value img {
-        width: 80%;
-        margin: auto;
-        margin: 50px 80px;
-      }
-        #about_inner04 {
-          width: 1120px; height: auto;
-          margin: auto;
-        }
-        #about_inner04 h3 {
-          width: 100%; height: auto;
-          text-align: center;
-          text-transform: uppercase;
-        }
-          .ediyaci {
-            display: flex;
-            width: 100%; height: 330px;
-            margin-top: 50px;
-          }
-          .ediyaci_img {
-            width: 100%; height: 100%;
-            margin: auto;
-            padding-right: 30px;
-          }
-          .ediyaci_img img {
-            width: 450px; height: 300px;
-            border-radius: 10px;
-          }
-            .ediyaci_txt {
-              width: 100%; height: 100%;
-              margin: auto;
-              padding: 30px 10px;
-              font-size: 18px;
-            }
-            .cl_subtitle {}
-            .ediyaci_txt span {
-              width: 100%; height: 250px;
-              font-size: 18px;
-              line-height: 30px;
-            }
+    .unb {display: none;}
+    .gnb {display: none;}
+  #headBox .header_m {padding-left: 34.375%;}
+    .header_m {
+      float: right;
+      width: auto; height: 32px;
+      margin: auto;
+      margin-top: 8px;
+      box-sizing: border-box;
+      /* background-color: #ddd; */
+    }
+    #unbInner {width: 18.75%; min-width: 60px; padding: 0;}
+    
+    #check_box {
+      display: none;
+    }
+    
+    #check_box + label {
+      position: relative;
+      display: block;
+      width: 12.5%; min-width: 38px;
+      height: 24px;
+      cursor: pointer;
+      z-index: 100;
+      margin: auto;
+      /* position: relative; */
+    }
+    
+    #check_box + label > span {
+      position: absolute;
+      display: block;
+      width: 100%;
+      height: 5px;
+      background: black;
+      border-radius: 5px;
+      transition: all 300ms;
+    }
+    
+    #check_box:checked + label > span:nth-child(1) {
+      top: 50%;
+      transform: translate(0, -50%);
+      transform: rotate(45deg);
+    }
+    
+    #check_box + label > span:nth-child(2) {
+      top: 50%;
+      transform: translate(0, -50%);
+    }
+    
+    #check_box:checked + label > span:nth-child(2) {
+      opacity: 0;
+    }
+    
+    #check_box + label > span:nth-child(3) {
+      bottom: 0;
+    }
+    
+    #check_box:checked + label > span:nth-child(3) {
+      top: 50%;
+      transform: translate(0, -50%);
+      transform: rotate(-45deg);
+    }
+    .side_menu {
+      position: fixed;
+      width: 93.75%; min-width: 300px;
+      height: 100%;
+      background-color: rgba(36, 48, 90, 86%);
+      text-transform: uppercase;
+      left: 100%;
+      transition: all 300ms;
+      z-index: 1;
+      top: 0px;
+      padding: 60px 20px 20px 16px;
+      box-sizing: border-box;
+    }
+    
+    #check_box:checked + label + .side_menu {
+      /* float: right; */
+      left: 40px;
+    }
+    .side_menu ul {width: 100%; height: auto;}
+    .side_menu li {
+      width: 100%; height: auto; margin-bottom: 20px;
+      font-size: 15px; font-weight: 500;
+      color: #ddd;
+    }
+    .side_menu a {color: inherit;}
+    
+    .side_menu button img {
+      width: 8.666%; min-width: 26px; height: 26px;
+      margin-right: 5px;
+      color: #aaa;
+    }
+    .sidemenu_part {}
+    .side_btn {
+      flex-direction: column;
+      height: auto;
+    }
+    .side_btn li {
+      width: 100%;
+      height: auto;
+      min-height: 40px;
+      margin-right: 0;
+      padding: 8px;
+    }
+    .side_btn li a {
+      width: 100%;
+      min-height: 40px;
+    }
+    .sidemenu_inner {
+      height: 40px;
+    }
+    .sidemenu_inner button {
+      width: 100%;
+      text-align: left;
+    }
+    .side_submenu {
+      /* display: none; */
+      /* position: absolute; */
+      position: static;
+      left: 0;
+      top: calc(100% + 4px);
+      width: auto;
+      height: auto;
+      border: 1px solid #757575;
+      border-radius: 3px;
+      color: #333333;
+      white-space: nowrap;
+    }
+    .side_submenu li {
+      width: 100%;
+      height: auto;
+      margin-bottom: 8px;
+    }
+    .side_submenu li a {
+      /* display: block; */
+      width: 100%;
+      padding: 8px 20px;
+    }
+    .side_submenu.on {
+      display: block;
+    }
+    .side_menu ul {
+      width: 80px;
+      padding: 0;
+    }
+    /* .side_menu a {
+      display: none;
+    } */
+    .side_submenu.on {
+      display: block;
+    }
+    .sidemenu_inner {
+      height: 40px;
+    }
+
+    .search_part {
+      height: auto;
+    }
+    .search_part > form {
+      width: auto;
+      height: auto;
+    }
+    .search_part fieldset {
+      display: flex;
+      width: auto;
+      height: auto;
+      /* padding: 4px; */
+    }
+    #searchInput {
+      width: 57.333%; min-width: 172px;
+      height: 44px;
+      margin-right: 8px;
+      padding-left: 5px;
+      border-radius: 4px;
+      border: 1px solid #aaaaaa;
+    }
+    
+    .search_btn {
+      width: 23.333%; min-width: 70px;
+      border-radius: 4px;
+      border: 1px solid #fff;
+      color: #fff;
+      text-transform: capitalize;
+    }
+    /* #side_menu .aboutpoint {
+      width: 70px;
+      padding: 2px;
+      border-radius: 5px;
+      font-weight: 500;
+      text-align: center;
+      border: 1px solid #ddd;
+    } */
+  
+  .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 60px;}
+
+  #storefactory {display: none;}
+  #dreamfactoryBox_full {display: none;}
+  #storefindBox {display: none;}
+
+
+
+  /* #storyBox ========================= */
+  #shortcutBox {display: none;}
 
 
 

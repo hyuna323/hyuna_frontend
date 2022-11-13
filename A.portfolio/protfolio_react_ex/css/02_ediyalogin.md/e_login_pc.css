@@ -31,25 +31,36 @@
       }
 
       .unb {
+        display: flex;
         float: right;
-        width: 470px; height: 46px;      
-      }
-      .unb ul {
-        width: 450px; height: auto;
-        /* padding: 5px 15px; */
-      }
-      .unb li {
-        float: right;
-        width: auto; height: 20px;
-        margin: 12px;
-        font-size: 16px;
-        text-align: center;
+        width: 35.156%; min-width: 470px; 
+        height: 46px;
         text-transform: uppercase;
-        /* color: #fff; */
-        /* background-color: #fff; */
+        text-align: center;
       }
-      .unb .clearfix {
-        width: 410px; height: auto;
+      .about_part {
+        width: 80px;
+        height: 50px;
+        font-size: 16px;
+        line-height: 50px;
+      }
+      .about_part a {
+        display: block;
+        width: auto;
+        height: 100%;
+        text-decoration: none;
+      }
+      .login_part {
+        width: 90px;
+        height: 50px;
+        font-size: 16px;
+        line-height: 50px;
+      }
+      .login_part a {
+        display: block;
+        width: auto;
+        height: 100%;
+        text-decoration: none;
       }
     
       /* .unb button {
@@ -104,31 +115,61 @@
       .head_inner02 {
         width: 100%; height: 50%;
         background-color: #243c84;
-        margin: auto; padding-top: 14px; box-sizing: border-box;
+        margin: auto; 
+        box-sizing: border-box;
         /* border-top: 2px solid #333; */
       }
     
       .gnb {
-        width: auto; height: 45px;
+        display: flex;
+        width: 1176px; height: 100%;
+        margin: auto;
       }
-      .gnb ul {
-        width:100%; height: auto;
-        padding: 0 15px;
-        margin:auto; text-align: center;
+      .submenu_part {
+        position: relative;
+        display: inline-block;
       }
-      .gnb li {
-        display:inline-block; width:auto; height: auto;
-        margin-left: 20px;
-        font-size: 18px;
+      .btn_part {
+        line-height: 48px;
+        border-radius : 4px;
+        font-weight: 300;
+        padding : 12px;
+        width: 168px;
+        height: 100%;
+        text-align: left;
+        cursor : pointer;
+        font-size : 18px;
+        text-align: center;
         color: #fff;
       }
-      .gnb li:first-child {
-        margin-left: 0;
+      .submenu_inner {
+        display : none;
+        position : absolute;
+        z-index : 1; /*다른 요소들보다 앞에 배치*/
+        /* font-size: 16px; */
+        font-weight: 300;
+        background-color: #fff;
+        width : 100%;
+        min-width: 168px;
+        text-align: center;
+        /* right: -13px; */
       }
-    
-      .gnb li a {
-        padding: 5px 20px;
-        /* background-color: #cca; */
+      .submenu_inner a {
+        display : block;
+        text-decoration : none;
+        font-size: 16px;
+        padding : 12px 8px;
+      }
+      .submenu_inner a:hover {
+        font-weight: 500;
+        font-size: 17px;
+        color: #243c84;
+        width: auto;
+      }
+      .submenu_part:hover .submenu_inner {
+        display: block;
+        border: 1px solid #243c84;
+        justify-content: space-between;
       }
           .header_m {display: none;}
           /* background-color: #cca; */

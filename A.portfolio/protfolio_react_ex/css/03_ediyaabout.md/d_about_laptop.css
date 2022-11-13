@@ -49,6 +49,7 @@
       display: block;
       width: auto;
       height: 100%;
+      text-decoration: none;
     }
     .login_part {
       width: 80px;
@@ -60,6 +61,7 @@
       display: block;
       width: auto;
       height: 100%;
+      text-decoration: none;
     }
     /* .unb button {
       width: 80px; height: 25px; 
