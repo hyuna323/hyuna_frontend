@@ -99,124 +99,40 @@
       padding: 60px 20px 20px 16px;
       box-sizing: border-box;
     }
-    
-    #check_box:checked + label + .side_menu {
-      /* float: right; */
-      left: 40px;
-    }
-    .side_menu ul {width: 100%; height: auto;}
-    .side_menu li {
-      width: 100%; height: auto; margin-bottom: 20px;
-      font-size: 15px; font-weight: 500;
-      color: #ddd;
-    }
-    .side_menu a {color: inherit;}
-    
-    .side_menu button img {
-      width: 8.666%; min-width: 26px; height: 26px;
-      margin-right: 5px;
-      color: #aaa;
-    }
-    .sidemenu_part {}
-    .side_btn {
-      flex-direction: column;
-      height: auto;
-    }
-    .side_btn li {
-      width: 100%;
-      height: auto;
-      min-height: 40px;
-      margin-right: 0;
-      padding: 8px;
-    }
-    .side_btn li a {
-      width: 100%;
-      min-height: 40px;
+    .sidemenu_part {
+      align-items: center;
+      display:flex;
+      justify-content: center;
     }
     .sidemenu_inner {
-      height: 40px;
+      width: 300px;
     }
-    .sidemenu_inner button {
+    .sidemenu_inner li a {
+      display:block;
       width: 100%;
-      text-align: left;
+      text-align: center;
+      height:50px;
+      line-height: 50px;
+      border:1px solid #eee;
     }
-    .side_submenu {
-      /* display: none; */
-      /* position: absolute; */
-      position: static;
-      left: 0;
-      top: calc(100% + 4px);
-      width: auto;
-      height: auto;
-      border: 1px solid #757575;
-      border-radius: 3px;
-      color: #333333;
-      white-space: nowrap;
+    .sidemenu_inner .sidemenu_btn a {
+      background-color: #000;
+      color:#fff;
     }
-    .side_submenu li {
-      width: 100%;
-      height: auto;
-      margin-bottom: 8px;
+    .sidemenu_inner .sidemenu_btn.on {
+      background-color:red;
     }
-    .side_submenu li a {
-      /* display: block; */
-      width: 100%;
-      padding: 8px 20px;
-    }
-    .side_submenu.on {
-      display: block;
-    }
-    .side_menu ul {
-      width: 80px;
-      padding: 0;
-    }
-    /* .side_menu a {
+    .sidemenu_inner .side_submenu {
       display: none;
-    } */
-    .side_submenu.on {
-      display: block;
     }
-    .sidemenu_inner {
-      height: 40px;
+    .sidemenu_inner .side_submenu a {
+      background-color:#ccc;
+      color:blue;
+    }
+    .sidemenu_inner .side_submenu a:hover {
+      background-color:rgba(0, 0, 0, 0.500);
     }
 
-    .search_part {
-      height: auto;
-    }
-    .search_part > form {
-      width: auto;
-      height: auto;
-    }
-    .search_part fieldset {
-      display: flex;
-      width: auto;
-      height: auto;
-      /* padding: 4px; */
-    }
-    #searchInput {
-      width: 57.333%; min-width: 172px;
-      height: 44px;
-      margin-right: 8px;
-      padding-left: 5px;
-      border-radius: 4px;
-      border: 1px solid #aaaaaa;
-    }
-    
-    .search_btn {
-      width: 23.333%; min-width: 70px;
-      border-radius: 4px;
-      border: 1px solid #fff;
-      color: #fff;
-      text-transform: capitalize;
-    }
-    /* #side_menu .aboutpoint {
-      width: 70px;
-      padding: 2px;
-      border-radius: 5px;
-      font-weight: 500;
-      text-align: center;
-      border: 1px solid #ddd;
-    } */
   
   .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 60px;}
 
