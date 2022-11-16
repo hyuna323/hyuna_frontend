@@ -11,22 +11,35 @@
 //   (target >= offsetCheck) ? elHeadBoxClass.add(OPTION_FIX) : elHeadBoxClass.remove(OPTION_FIX);
 // });
 
-const buttons = document.querySelectorAll('.sidemenu_btn');
+const dropBtnSelector = document.querySelector('.slide_btn');
+const dropBtn = dropBtnSelector.querySelector('button');
+const subMenu = document.querySelector('.slide_submenu');
 
-buttons.forEach(function(button, index) {
-  button.addEventListener('click', function(e) {
-    e.preventDefault();
-    
-    this.parentNode.classList.toggle('on');
-    
-    buttons.forEach(function(button2, index2) {
-      if ( index !== index2 ) {
-        button2.parentNode.classList.remove('on');
+const subMenuStyle = getComputedStyle(subMenu);
+// console.log( subMenuStyle.display );
+
+
+const displayStateFn = function(selector){
+  // 선택자의 display 상태값을 가져오는데 기본 html문서에서 값을 가져오되 없다면, css기본값에서 가져오게
+    return selector.style.display || getComputedStyle(selector).display;
+    /*
+    const displayState;
+      if(!!selector.style.display){
+        displayState = selector.style.display
+      }else {
+        displayState = getComputedStyle(selector).display;
       }
-    });
-  });
-});
+    */
+};
 
+// 이벤트 ----------------------------------------------------
+dropBtn.addEventListener('click', function(event){
+  event.preventDefault();
+  // (subMenuStyle.display === 'none') ? subMenu.style.display = 'block' :  subMenu.style.display = 'none';
+  const state = displayStateFn(subMenu);
+  console.log( state );
+  (state === 'none') ? subMenu.style.display = 'block' :  subMenu.style.display = 'none';
+});
 
 // viewBox ==============================
 var slideIndex = 0;
