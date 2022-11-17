@@ -24,6 +24,7 @@
       .head_inner > h1 > button > img {
         width: 100%; min-width: 108px; height: 12px;
       }
+    .unb {display: none;}
     .gnb {display: none;}
   #headBox .header_m {padding-left: 34.375%;}
     .header_m {
@@ -43,10 +44,11 @@
     #check_box + label {
       position: relative;
       display: block;
-      width: 12.5%; min-width: 40px;
+      width: 12.5%; min-width: 38px;
       height: 24px;
       cursor: pointer;
       z-index: 100;
+      margin: auto;
       /* position: relative; */
     }
     
@@ -84,36 +86,68 @@
       transform: translate(0, -50%);
       transform: rotate(-45deg);
     }
-    #side_menu {
+    #check_box:checked + label + #slide_menu {
+      /* float: right; */
+      left: 40px;
+    }
+    #slide_menu {
       position: fixed;
-      width: 93.75%; min-width: 300px;
+      width: 87.75%; min-width: 281px;
       height: 100%;
       background-color: rgba(36, 48, 90, 86%);
+      text-transform: uppercase;
       left: 100%;
       transition: all 300ms;
       z-index: 1;
       top: 0px;
-      padding: 60px 20px 20px 16px;
+      padding: 60px 16px 20px 16px;
       box-sizing: border-box;
     }
     
-    #check_box:checked + label + #side_menu {
-      /* float: right; */
-      left: 40px;
+    input[id*="slide_btn"] {
+      display: none;
     }
-    #side_menu ul {width: 100%; height: auto;}
-    #side_menu li {
-      width: 100%; height: auto; margin-bottom: 20px;
-      font-size: 15px; font-weight: 500;
-      color: #ddd;
+    input[id*="slide_btn"] + label {
+      width: auto;
+      display: block;
+      padding: 10px;
+      border-bottom: 1px solid #fff;
+      /* border-bottom: 0; */
+      font-size: 18px;
+      color: #eee;
+      font-weight: 400;
+      /* background-color: #000; */
+      cursor: pointer;
+      position: relative;
     }
-    #side_menu a {color: inherit;}
-    
-    #side_menu button img {
-      width: 8.666%; min-width: 26px; height: 26px;
-      margin-right: 5px;
-      color: #aaa;
+    /* input[id*="answer"] + label em {
+      position: absolute;
+      top: 50px;
+      right: 10px;
+      width: 30px; height: 30px;
+      margin-top: -15px;
+      display: inline-block;
+      background: url("../../img/slide_openbtn.svg") 0 0 no-repeat;
+    } */
+    input[id*="slide_btn"] + label + div {
+      max-height: 0;
+      transition: all .35s;
+      overflow: hidden;
+      /* background-color: #ebf8ff; */
+      font-size: 16px;
+      font-weight: 300;
+      color: #fff;
     }
+    input[id*="slide_btn"] + label + div a {
+      display: inline-block;
+      padding: 10px;
+      display: flex;
+    }
+    input[id*="slide_btn"]:checked + label + div {
+      max-height: inherit;
+    }
+    /* input[id*="slide_btn"]:checked + label em {background-position: 0 -30px;} */
+
     .search_part {
       height: auto;
     }
@@ -142,6 +176,22 @@
       border: 1px solid #fff;
       color: #fff;
       text-transform: capitalize;
+    }
+
+
+    .sns_part ul {width: 100%; height: auto;}
+    .sns_part li {
+      width: 96%; height: auto;
+      font-size: 15px; font-weight: 500;
+      margin: 10px 5px  5px;
+      color: #ddd;
+    }
+    
+    .sns_part button img {
+      width: 8.666%; min-width: 26px; height: 26px;
+      /* margin: auto; */
+      margin-right: 5px;
+      color: #aaa;
     }
 
   .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 60px;}
@@ -395,34 +445,72 @@
     
 /* ===================================================== */
 #footBox {
-  width: 100%; min-width: 320px;
   float: left;
-  height: 110px;
-  background-color: #777;
+  width: 100%; min-width: 320px;
+  height: auto;
+  border-top: 3px solid #243c84;
   /* padding: 20px; */
 }
-.foot_inner {display: none;}
-
-.footInner_m {
-  width: 100%; min-width: 320px;
-  height: 106px;
-  padding-left: 3.125%;
-  /* padding-top: 0; */
+.foot_inner {
+  width: 93.75%; min-width: 300px; height: auto;
+  margin: 10px auto;
+  position: relative;
+}
+.foot_main {
+  color: #000;
+  text-align: center;
+  position: relative;
+}
+.foot_inner h2 {
+  width: auto;
+  margin: auto;
+  /* margin-bottom: 8px; */
+}  
+.foot_main h2 button img {
+  width: 80px; height: 20px;
+  margin: auto;
+  display: block;
+}
+.foot_main .company_info {
+  width: 100%; height: auto;
+}
+.foot_main .company_info li {
+  font-size: 14px;
+  /* display: inline-block; */
+}
+.foot_main p {
+  font-size: 12px;
+  margin-top: 8px;
+  font-weight: 400;
 }
 
-  .footInner_m > h2 {
-    /* width: 100%; height: 32px; */
-    margin-bottom: 1px;
-  }
-  
-  .footInner_m > h2 > button > img {
-    width: 100%; min-width: 80px; 
-    height: 10px;
-  }
+.foot_main .footsubmenu {display: none;}
+.foot_inner > ul > li {
+  /* font-size: 10px; */
+  font-weight: 300;
+  color: #ffffff;
+}
 
-  .footInner_m > ul > li {
-    width: 93.75%; min-width: 300px;
-    font-size: 10px;
-    color: #ffffff;
-  }
+.to_top {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 4%;
+  z-index: 1;
+}
+.to_top.on {
+  display: block;
+}
+.to_top span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background: url(../../img/to_top2color.svg)no-repeat center;
+  background-size: 30px;
+}
+.to_top span:hover {
+  background: url(../../img/to_top_fill.svg)no-repeat center;
+  background-size: 30px;
+}
 }

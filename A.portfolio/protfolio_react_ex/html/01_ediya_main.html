@@ -129,34 +129,89 @@
                 <span></span>
                 <span></span>
               </label>
-              <div id="side_menu">
-                <ul>
-                  <li><a href="#">메뉴</a></li>
-                  <li><a href="#">상품권</a></li>
-                  <li><a href="#">이디야멤버스</a></li>
-                  <li><a href="#">유통제품</a></li>
-                  <li><a href="#">사회공헌</a></li>
-                  <li><a href="#">공지사항</a></li>
-                  <li><a href="#">고객소리</a></li>
-                  <li>
-                    <button onclick="login()"><img src="../img/minilogin.svg" alt="로그인페이지로 이동"></button>
-                    <button onclick="sns_F()"><img src="../img/facebooklogo_color.png" alt="페이스북으로 이동"></button>
-                    <button onclick="sns_I()"><img src="../img/instagramlogo_color.png" alt="인스타그램으로 이동"></button>
-                    <button onclick="sns_N()"><img src="../img/NAVER_blog_icon_1.png" alt="네이버 블로그로 이동"></button>
-                  </li>
-                </ul>
-                  <div class="search_part">
-                    <h3 class="blind">search navigation</h3>
-                    <form action="." method="GET">
-                      <fieldset>
-                        <legend class="blind">search area</legend>
-                        <label for="searchInput" class="blind">가까운 매장을 찾아보세요</label>
-                        <input type="search" id="searchInput" name="search__Input" value="" placeholder="가까운 매장 찾기">
-                        <button type="button" class="search_btn">search</button>
-                      </fieldset>
-                    </form>
+              <div id="slide_menu">
+                <div class="slide_inner">
+                  <input type="checkbox" id="slide_btn01">
+                  <label for="slide_btn01">이디야</label>
+                  <div>
+                    <a href="../html/03_ediya_about.html">about</a>
                   </div>
+                  <input type="checkbox" id="slide_btn02">
+                  <label for="slide_btn02">메뉴</label>
+                  <div>
+                    <a href="#">음료</a>
+                    <a href="#">푸드</a>
+                    <a href="#">md</a>
+                  </div>
+                  <input type="checkbox" id="slide_btn03">
+                  <label for="slide_btn03">상품권</label>
+                  <div>
+                    <a href="#">기프트카드</a>
+                    <a href="#">모바일 상품권</a>
+                    <a href="#">단체 기업 구매</a>
+                  </div>
+                  <input type="checkbox" id="slide_btn04">
+                  <label for="slide_btn04">이디야멤버스</label>
+                  <div>
+                    <a href="#">멤버스 소개</a>
+                    <a href="#">이디야 카드</a>
+                    <a href="#">선물하기</a>
+                    <a href="#">이디야오더</a>
+                    <a href="#">자주하는 질문</a>
+                  </div>
+                  <input type="checkbox" id="slide_btn05">
+                  <label for="slide_btn05">유통제품</label>
+                  <div>
+                    <a href="#">스틱커피(비니스트)</a>
+                    <a href="#">커피믹스</a>
+                    <a href="#">캡슐커피</a>
+                    <a href="#">컵커피</a>
+                    <a href="#">수출입거래</a>
+                    <a href="#">b2b/특판/대리점 거래</a>
+                  </div>
+                  <input type="checkbox" id="slide_btn06">
+                  <label for="slide_btn06">사회공헌</label>
+                  <div>
+                    <a href="#">메이트 희망기금</a>
+                    <a href="#">캠퍼스 희망기금</a>
+                    <a href="#">식수위생 캠페인</a>
+                    <a href="#">이디야 동행</a>
+                    <a href="#">기타 활동</a>
+                  </div>
+                  <input type="radio" name="accordion" id="slide_btn07">
+                  <label for="slide_btn07">공지사항</label>
+                  <div>
+                    <a href="#">이디야 소식</a>
+                    <a href="#">이벤트</a>
+                    <a href="#">홈카페 레시피</a>
+                  </div>
+                  <input type="radio" name="accordion" id="slide_btn08">
+                  <label for="slide_btn08"><a href="#">고객소리</a></label>
               </div>
+              
+            <div class="sns_part">
+              <h3 class="blind">search navigation</h3>
+              <ul>
+                <li>
+                  <button onclick="login()"><img src="../img/minilogin.svg" alt="로그인페이지로 이동"></button>
+                  <button onclick="sns_F()"><img src="../img/facebooklogo_color.png" alt="페이스북으로 이동"></button>
+                  <button onclick="sns_I()"><img src="../img/instagramlogo_color.png" alt="인스타그램으로 이동"></button>
+                  <button onclick="sns_N()"><img src="../img/NAVER_blog_icon_1.png" alt="네이버 블로그로 이동"></button>
+                </li>
+              </ul>
+            </div>
+            <div class="search_part">
+              <h3 class="blind">search navigation</h3>
+              <form action="." method="GET">
+                <fieldset>
+                  <legend class="blind">search area</legend>
+                  <label for="searchInput" class="blind">가까운 매장을 찾아보세요</label>
+                  <input type="search" id="searchInput" name="search__Input" value="" placeholder="가까운 매장 찾기">
+                  <button type="button" class="search_btn">search</button>
+                </fieldset>
+              </form>
+            </div>
+          </div>
         </nav>
       </div>
     </header>
@@ -202,201 +257,196 @@
     </div>
 
       <!-- #storefindBox -->
-      <main id="content_box_wrap">
-        <div class="storefactory">
-          <aside id="dreamfactoryBox_full">
-            <div class="dreamfactory_inner">
-              <div class="dreamfactory">
-                <h2 class="blind">드림팩토리</h2>
-                <img class="dreamTxt" src="../img/dream_factory_txt.png" alt="드림팩토리">
-                <img class="dreamImg" src="../img/dream_factory.png" alt="드림팩토리 전경">
-                <ul>
-                  <li>
-                    최첨단 시설에서 탄생하는 고품질의 원두로 <br>
-                    최고의 커피맛을 고객들에게 제공합니다.
-                  </li>
-                </ul>
-                <div class="dreamfactory_btn">
-                  <button><span class="dream_fc">드림 팩토리</span></button>
-                  <button><span class="dream_lc">드림 물류센터</span></button>
-                </div>
-              <!-- <div class="dreamImg"> -->
+    <main id="content_box_wrap">
+      <div class="storefactory">
+        <aside id="dreamfactoryBox_full">
+          <div class="dreamfactory_inner">
+            <div class="dreamfactory">
+              <h2 class="blind">드림팩토리</h2>
+              <img class="dreamTxt" src="../img/dream_factory_txt.png" alt="드림팩토리">
+              <img class="dreamImg" src="../img/dream_factory.png" alt="드림팩토리 전경">
+              <ul>
+                <li>
+                  최첨단 시설에서 탄생하는 고품질의 원두로 <br>
+                  최고의 커피맛을 고객들에게 제공합니다.
+                </li>
+              </ul>
+              <div class="dreamfactory_btn">
+                <button><span class="dream_fc">드림 팩토리</span></button>
+                <button><span class="dream_lc">드림 물류센터</span></button>
+              </div>
+            <!-- <div class="dreamImg"> -->
+            </div>
+          </div>
+        </aside>
+      </div>
+        <h2 class="blind">매장찾기&이디야소식</h2>
+        <article id="storefindBox">
+          <div class="find_inner">
+            <div class="finder">
+              <h2 class="blind">매장찾기</h2>
+              <div class="storefind_TX">매장찾기</div>
+              <div class="search">
+                <input type="text" placeholder="매장 위치 입력">
+                <button><img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png" alt="매장위치 검색 창"></button>
               </div>
             </div>
-          </aside>
-        </div>
-          <h2 class="blind">매장찾기&이디야소식</h2>
-          <article id="storefindBox">
-            <div class="find_inner">
-              <div class="finder">
-                <h2 class="blind">매장찾기</h2>
-                <div class="storefind_TX">매장찾기</div>
-                <div class="search">
-                  <input type="text" placeholder="매장 위치 입력">
-                  <button><img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png" alt="매장위치 검색 창"></button>
-                </div>
-              </div>
-              <div class="noticeBox_full">
-                <!-- <div class="notice_inner"> -->
-                <div class="notice">
-                  <h2 class="blind">이디야 소식</h2>
-                  <div class="notice_TX">
-                    <ul>
-                      <li class="notice_h2">이디야 소식</li>
-                      <li class="notice_more"><a href="#">more</a></li>
-                    </ul>
-                  </div>
-                    <ul class="notice_letter">
-                      <li><a href="#">이디야 6월 소식</a><span>2022.06.01</span></li>
-                      <li><a href="#">이디야 6월 이벤트 공지</a><span>2022.06.02</span></li>
-                      <li><a href="#">이디야 6월 변경사항</a><span>2022.06.03</span></li>
-                      <li><a href="#">멤버십 혜택 안내</a><span>2022.06.04</span></li>
-                    </ul>
-                </div>
-              </div>
-            </div>
-            <!-- <div class="noticeBox"> -->
+            <div class="noticeBox_full">
               <!-- <div class="notice_inner"> -->
-              <!-- <div class="notice">
+              <div class="notice">
                 <h2 class="blind">이디야 소식</h2>
                 <div class="notice_TX">
                   <ul>
                     <li class="notice_h2">이디야 소식</li>
                     <li class="notice_more"><a href="#">more</a></li>
                   </ul>
+                </div>
                   <ul class="notice_letter">
                     <li><a href="#">이디야 6월 소식</a><span>2022.06.01</span></li>
                     <li><a href="#">이디야 6월 이벤트 공지</a><span>2022.06.02</span></li>
                     <li><a href="#">이디야 6월 변경사항</a><span>2022.06.03</span></li>
                     <li><a href="#">멤버십 혜택 안내</a><span>2022.06.04</span></li>
                   </ul>
-                </div>
-              </div>
-            </div> -->
-          </article>
-
-        <!-- css 해야함 -->
-        <aside id="shortcutBox">
-          <div class="shortcut">
-            <h2 class="blind">MENU</h2>
-            <div class="sc_title">menu</div>
-            <div class="shortcut_inner">
-              <div class="drinkInner">
-                <div class="drink_TX"><span>drink</span>
-                  <button class="left_more">자세히보기</button>
-                </div>
-              </div>
-              <div class="bakeryInner">
-                <div class="bk_TX"><span>bakery</span>
-                  <button class="right_more">자세히보기</button>
-                </div>
-                </div>
-              <div class="mdInner">
-                <div class="md_TX"><span>md</span>
-                  <button class="left_more">자세히보기</button>
-                </div>
-              </div>
-              <div class="bistroInner">
-                <div class="bst_TX"><span>bistro</span>
-                  <button class="right_more">자세히보기</button>
-                </div>
               </div>
             </div>
           </div>
-        </aside>
-
-        <section id="storyBox">
-          <div class="menu_inner">
-            <div class="menu">
-              <h2 class="blind">menu</h2>
-              <div class="menu_TX">menu</div>
-              <div class="menu_btn">
-                <button><span class="menu_dk">음료</span></button>
-                <button><span class="menu_fd">푸드</span></button>
-                <button><span class="menu_md">md</span></button>
-              </div>
-              <p class="menu_p">Always beside you, EDIYA COFFEE <br>
-                한 잔의 커피 그 이상의 감동을 경험하세요.</p>
-            </div>
-          </div>
-          <div class="brandStory_inner">
-            <div class="brandStory">
-              <h2 class="blind">bland Story</h2>
-              <div class="brandStory_TX">brand Story</div>
-              <div class="brandStory_btn">
-                <button><span class="brandStory_ey">이디야</span></button>
-                <button><span class="brandStory_ci">ceo 인사말</span></button>
-                <button><span class="brandStory_ht">연혁</span></button>
-                <button><span class="brandStory_m">오시는 길</span></button>
-                <button><span class="brandStory_aw">수상내역</span></button>
+          <!-- <div class="noticeBox"> -->
+            <!-- <div class="notice_inner"> -->
+            <!-- <div class="notice">
+              <h2 class="blind">이디야 소식</h2>
+              <div class="notice_TX">
+                <ul>
+                  <li class="notice_h2">이디야 소식</li>
+                  <li class="notice_more"><a href="#">more</a></li>
+                </ul>
+                <ul class="notice_letter">
+                  <li><a href="#">이디야 6월 소식</a><span>2022.06.01</span></li>
+                  <li><a href="#">이디야 6월 이벤트 공지</a><span>2022.06.02</span></li>
+                  <li><a href="#">이디야 6월 변경사항</a><span>2022.06.03</span></li>
+                  <li><a href="#">멤버십 혜택 안내</a><span>2022.06.04</span></li>
+                </ul>
               </div>
             </div>
-          </div>
-        </section>
-
-        <!-- #membershipBox -->
-        <aside id="dreamfactoryBox">
-          <!-- <div class="dreamfactory_inner"> -->
-          <div class="dreamfactory">
-            <h2 class="blind">드림팩토리</h2>
-            <img class="dreamTxt" src="../img/dream_factory_txt.png" alt="드림팩토리">
-            <img class="dreamImg" src="../img/dream_factory.png" alt="드림팩토리 전경">
-            <ul>
-              <li>
-                최첨단 시설에서 탄생하는 고품질의 원두로 <br>
-                최고의 커피맛을 고객들에게 제공합니다.
-              </li>
-            </ul>
-            <div class="dreamfactory_btn">
-              <button><span class="dream_fc">드림 팩토리</span></button>
-              <button><span class="dream_lc">드림 물류센터</span></button>
+          </div> -->
+        </article>
+      <!-- css 해야함 -->
+      <aside id="shortcutBox">
+        <div class="shortcut">
+          <h2 class="blind">MENU</h2>
+          <div class="sc_title">menu</div>
+          <div class="shortcut_inner">
+            <div class="drinkInner">
+              <div class="drink_TX"><span>drink</span>
+                <button class="left_more">자세히보기</button>
+              </div>
             </div>
-            <!-- <div class="dreamImg"> -->
+            <div class="bakeryInner">
+              <div class="bk_TX"><span>bakery</span>
+                <button class="right_more">자세히보기</button>
+              </div>
+              </div>
+            <div class="mdInner">
+              <div class="md_TX"><span>md</span>
+                <button class="left_more">자세히보기</button>
+              </div>
             </div>
-          <!-- </div> -->
-        </aside>
-
-        <!-- #companyaboutBox -->
-        <section id="companyabBox">
-          <div class="franchise_inner">
-            <div class="franchise">
-              <h2 class="blind">창업안내</h2>
-              <div class="franchise_TX">창업안내</div>
-              <div class="franchise_btn">
-                <!-- <p>해외에 로열티를 내지 않는 순수한 국내브랜드로 <br />
-                  품질좋고 맛있는 정직한 커피를 제공합니다.</p> -->
-                <button><span class="franchise_gd">창업안내</span></button>
-                <button><span class="franchise_pt">창업설명회</span></button>
+            <div class="bistroInner">
+              <div class="bst_TX"><span>bistro</span>
+                <button class="right_more">자세히보기</button>
               </div>
             </div>
           </div>
-          <div class="sns_inner">
-            <div class="sns">
-              <h2 class="blind">sns</h2>
-              <button onclick="sns()"><img class="snslatte" src="../img/snslatte.jpg" alt="인스타 라떼 사진"></button>
-              <button onclick="sns()"><img class="snsthree" src="../img/snsthree.jpg" alt="인스타 세명의 사람이 잔들고 있는 사진"></button>
-              <button onclick="sns()"><img class="snscoffee" src="../img/snscoffee.jpg" alt="인스타 커피 사진"></button>
-              <button onclick="sns()"><img class="snssoftkit" src="../img/snssoftkit.jpg" alt="인스타 md 키트 사진"></button>
-              <div class="snsmark">
-                <button onclick="sns_F()"><img class="Fmark" src="../img/facebooklogo_color.png" alt="facebook"><span>facebook</span></button>
-                <button onclick="sns_I()"><img class="Imark" src="../img/instagramlogo_color.png" alt="instargram"><span>instagram</span></button>
-                <button onclick="sns_N()"><img class="NBmark" src="../img/NAVER_blog_icon_1.png" alt="naverblog"><span>naverblog</span></button>
-                <button onclick="sns_Y()"><img class="Ymark" src="../img/youtubeLogo.png" alt="youtube"><span>youtube</span></button>
-              </div>
+        </div>
+      </aside>
+      <section id="storyBox">
+        <div class="menu_inner">
+          <div class="menu">
+            <h2 class="blind">menu</h2>
+            <div class="menu_TX">menu</div>
+            <div class="menu_btn">
+              <button><span class="menu_dk">음료</span></button>
+              <button><span class="menu_fd">푸드</span></button>
+              <button><span class="menu_md">md</span></button>
+            </div>
+            <p class="menu_p">Always beside you, EDIYA COFFEE <br>
+              한 잔의 커피 그 이상의 감동을 경험하세요.</p>
+          </div>
+        </div>
+        <div class="brandStory_inner">
+          <div class="brandStory">
+            <h2 class="blind">bland Story</h2>
+            <div class="brandStory_TX">brand Story</div>
+            <div class="brandStory_btn">
+              <button><span class="brandStory_ey">이디야</span></button>
+              <button><span class="brandStory_ci">ceo 인사말</span></button>
+              <button><span class="brandStory_ht">연혁</span></button>
+              <button><span class="brandStory_m">오시는 길</span></button>
+              <button><span class="brandStory_aw">수상내역</span></button>
             </div>
           </div>
-          <div class="ediyastory_inner">
-            <div class="ediyastory">
-              <h2 class="blind">ediyastory</h2>
-              <div class="ediyastory_TX">브랜드 스토리</div>
-              <div class="ediyastory_btn">
-                <button><span class="ediyastory_more">자세히보기</span></button>
-              </div>
+        </div>
+      </section>
+      <!-- #membershipBox -->
+      <aside id="dreamfactoryBox">
+        <!-- <div class="dreamfactory_inner"> -->
+        <div class="dreamfactory">
+          <h2 class="blind">드림팩토리</h2>
+          <img class="dreamTxt" src="../img/dream_factory_txt.png" alt="드림팩토리">
+          <img class="dreamImg" src="../img/dream_factory.png" alt="드림팩토리 전경">
+          <ul>
+            <li>
+              최첨단 시설에서 탄생하는 고품질의 원두로 <br>
+              최고의 커피맛을 고객들에게 제공합니다.
+            </li>
+          </ul>
+          <div class="dreamfactory_btn">
+            <button><span class="dream_fc">드림 팩토리</span></button>
+            <button><span class="dream_lc">드림 물류센터</span></button>
+          </div>
+          <!-- <div class="dreamImg"> -->
+          </div>
+        <!-- </div> -->
+      </aside>
+      <!-- #companyaboutBox -->
+      <section id="companyabBox">
+        <div class="franchise_inner">
+          <div class="franchise">
+            <h2 class="blind">창업안내</h2>
+            <div class="franchise_TX">창업안내</div>
+            <div class="franchise_btn">
+              <!-- <p>해외에 로열티를 내지 않는 순수한 국내브랜드로 <br />
+                품질좋고 맛있는 정직한 커피를 제공합니다.</p> -->
+              <button><span class="franchise_gd">창업안내</span></button>
+              <button><span class="franchise_pt">창업설명회</span></button>
             </div>
           </div>
-        </section>
-      </main>
-    </div>
+        </div>
+        <div class="sns_inner">
+          <div class="sns">
+            <h2 class="blind">sns</h2>
+            <button onclick="sns()"><img class="snslatte" src="../img/snslatte.jpg" alt="인스타 라떼 사진"></button>
+            <button onclick="sns()"><img class="snsthree" src="../img/snsthree.jpg" alt="인스타 세명의 사람이 잔들고 있는 사진"></button>
+            <button onclick="sns()"><img class="snscoffee" src="../img/snscoffee.jpg" alt="인스타 커피 사진"></button>
+            <button onclick="sns()"><img class="snssoftkit" src="../img/snssoftkit.jpg" alt="인스타 md 키트 사진"></button>
+            <div class="snsmark">
+              <button onclick="sns_F()"><img class="Fmark" src="../img/facebooklogo_color.png" alt="facebook"><span>facebook</span></button>
+              <button onclick="sns_I()"><img class="Imark" src="../img/instagramlogo_color.png" alt="instargram"><span>instagram</span></button>
+              <button onclick="sns_N()"><img class="NBmark" src="../img/NAVER_blog_icon_1.png" alt="naverblog"><span>naverblog</span></button>
+              <button onclick="sns_Y()"><img class="Ymark" src="../img/youtubeLogo.png" alt="youtube"><span>youtube</span></button>
+            </div>
+          </div>
+        </div>
+        <div class="ediyastory_inner">
+          <div class="ediyastory">
+            <h2 class="blind">ediyastory</h2>
+            <div class="ediyastory_TX">브랜드 스토리</div>
+            <div class="ediyastory_btn">
+              <button><span class="ediyastory_more">자세히보기</span></button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <!-- #footBox -->
     <footer id="footBox">
@@ -463,32 +513,8 @@
           <span></span>
         </div>
       </div>
-
-      <div class="footInner_m">
-        <h2>
-          <a href="./01_ediya_main.html" class="blind">EDIYA</a>
-          <button onclick="home()"><img src="../img/ediyagray.png" alt="이디야로고"></button>
-        </h2>
-        <div class="company_info">
-          <ul>
-            <li>
-              (주)이디야커피
-            </li>
-            <li>사업자등록번호:107-86-16302</li>
-            <li>대표이사:문창기</li>
-          </ul>
-          <ul>
-            <li>서울특별시 강남구 논현로 636 이디야빌딩(서울특별시 강남구 논현동 221-17)</li>
-          </ul>
-          <ul>
-            <li>통신판매업 신고:강남 제 002519호</li>
-            <li>TEL:02-543-6457</li>
-            <li>FAX:02-543-7191</li>
-          </ul>
-          <P>COPYRIGHTⓒ 2018 EDIYA COFFEE COMPANY. ALL RIGHTS RESERVED.</P>
-        </div>
-      </div>
     </footer>
+  </div>
 
 
     <!-- script -->
