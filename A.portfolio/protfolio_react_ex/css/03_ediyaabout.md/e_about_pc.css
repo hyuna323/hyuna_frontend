@@ -212,13 +212,13 @@
         display: flex;
         width: 100%; height: 330px;
       }
-      .about_txt_img_left {
+      .about_txtImg_left {
         /* float: left; */
         width: 100%; height: 100%;
         margin: auto;
         padding-right: 30px;
       }
-      .about_txt_img_left img {
+      .about_txtImg_left img {
         width: 500px; height: 300px;
         border-radius: 10px;  
       }
@@ -246,13 +246,13 @@
       .about_txt_right h4 {
         font-size: 20px;
       }
-      .about_txt_img_right {
+      .about_txtImg_right {
         width: 100%; height: 100%;
         margin: auto;
         padding-left: 30px;
         line-height: 30px;
       }
-      .about_txt_img_right img {
+      .about_txtImg_right img {
         width: 500px; height: 300px;
         border-radius: 10px;
       }

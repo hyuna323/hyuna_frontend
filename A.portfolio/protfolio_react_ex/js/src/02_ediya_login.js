@@ -1,9 +1,9 @@
 
 // page 이동 ---------------------------------------------
 // mainpage
-// 베르첼 배포시 url 바꾸기
 function home(){
-  let url = "http://127.0.0.1:5500/html/01_ediya_main.html";
+  // 베르첼 배포시 url 바꾸기
+  let url = "http://127.0.0.1:5502/html/01_ediya_main.html";
   window.location = url;
 }
 
