@@ -4,7 +4,8 @@
 @media all and (min-width:768px) and (max-width:1279px) {
   #wrap {width: 100%; min-width: 768px; min-height: 600px; }
   #headBox {
-    width: 100%; height: 70px;
+    width: 100%; min-width: 320px;
+    height: 70px;
     box-sizing: border-box;
     padding: 18px 20px;
     position: fixed;
@@ -18,7 +19,7 @@
     }
       h1 {
         float: left;
-        width: 13.4375%; min-width: 180px; height: auto;
+        width: 23.4375%; min-width: 180px; height: auto;
       }
 
       h1 > button > img {
@@ -29,172 +30,169 @@
     .unb {display: none;}
     .gnb {display: none;}
       /* background-color: #cca; */
-      #headBox .header_m {padding-left: 13.375%;}
-      .header_m {
-        float: right;
-        width: 17.531%; min-width: 150px; height: 50px;
-        margin: auto;
-        margin-top: 5px;
-        box-sizing: border-box;
-        /* background-color: #ddd; */
-      }
-      #unbInner {width: 7.8125%; min-width: 60px; padding: 0;}
-      
-      #check_box {
-        display: none;
-      }
-      
-      #check_box + label {
-        position: relative;
-        display: block;
-        width: 5.99%; min-width: 40px;
-        height: 24px;
-        cursor: pointer;
-        z-index: 100;
-        /* position: relative; */
-      }
-      
-      #check_box + label > span {
-        position: absolute;
-        display: block;
-        width: 100%;
-        height: 5px;
-        background: #000;
-        border-radius: 5px;
-        transition: all 300ms;
-      }
-      
-      #check_box:checked + label > span:nth-child(1) {
-        top: 50%;
-        transform: translate(0, -50%);
-        transform: rotate(45deg);
-      }
-      
-      #check_box + label > span:nth-child(2) {
-        top: 50%;
-        transform: translate(0, -50%);
-      }
-      
-      #check_box:checked + label > span:nth-child(2) {
-        opacity: 0;
-      }
-      
-      #check_box + label > span:nth-child(3) {
-        bottom: 0;
-      }
-      
-      #check_box:checked + label > span:nth-child(3) {
-        top: 50%;
-        transform: translate(0, -50%);
-        transform: rotate(-45deg);
-      }
-      #check_box:checked + label + #slide_menu {
-        /* float: right; */
-        left: 95px;
-      }
-      #slide_menu {
-        position: fixed;
-        width: 87.75%; min-width: 281px;
-        height: 100%;
-        background-color: rgba(36, 48, 90, 86%);
-        text-transform: uppercase;
-        left: 100%;
-        transition: all 300ms;
-        z-index: 1;
-        top: 0px;
-        padding: 60px 16px 20px 16px;
-        box-sizing: border-box;
-      }
-      
-      input[id*="slide_btn"] {
-        display: none;
-      }
-      input[id*="slide_btn"] + label {
-        width: auto;
-        display: block;
-        padding: 10px;
-        border-bottom: 1px solid #fff;
-        /* border-bottom: 0; */
-        font-size: 18px;
-        color: #eee;
-        font-weight: 400;
-        /* background-color: #000; */
-        cursor: pointer;
-        position: relative;
-      }
-      /* input[id*="answer"] + label em {
-        position: absolute;
-        top: 50px;
-        right: 10px;
-        width: 30px; height: 30px;
-        margin-top: -15px;
-        display: inline-block;
-        background: url("../../img/slide_openbtn.svg") 0 0 no-repeat;
-      } */
-      input[id*="slide_btn"] + label + div {
-        max-height: 0;
-        transition: all .35s;
-        overflow: hidden;
-        /* background-color: #ebf8ff; */
-        font-size: 16px;
-        font-weight: 300;
-        color: #fff;
-      }
-      input[id*="slide_btn"] + label + div a {
-        display: inline-block;
-        padding: 10px;
-        display: flex;
-      }
-      input[id*="slide_btn"]:checked + label + div {
-        max-height: inherit;
-      }
-      /* input[id*="slide_btn"]:checked + label em {background-position: 0 -30px;} */
+  #headBox .header_m {padding-left: 13.375%;}
+  .header_m {
+    float: right;
+    width: 19.531%; min-width: 150px; height: 22px;
+    margin: auto;
+    margin-top: 6px;
+    box-sizing: border-box;
+    /* background-color: #ddd; */
+  }
+  #unbInner {width: 7.8125%; min-width: 60px; padding: 0;}
   
-      .search_part {
-        height: auto;
-      }
-      .search_part > form {
-        width: auto;
-        height: auto;
-      }
-      .search_part fieldset {
-        display: flex;
-        width: auto;
-        height: auto;
-        /* padding: 4px; */
-      }
-      #searchInput {
-        width: 57.333%; min-width: 172px;
-        height: 50px;
-        margin-right: 10px;
-        padding-left: 10px;
-        border-radius: 5px;
-        border: 1px solid #aaaaaa;
-      }
-      
-      .search_btn {
-        width: 23.333%; min-width: 70px;
-        border-radius: 5px;
-        border: 1px solid #fff;
-        color: #fff;
-        text-transform: capitalize;
-      }
+  #check_box {
+    display: none;
+  }
   
+  #check_box + label {
+    position: relative;
+    display: block;
+    width: 5.21%; min-width: 40px;
+    height: 20px;
+    cursor: pointer;
+    z-index: 100;
+    /* position: relative; */
+  }
   
-      .sns_part ul {width: 100%; height: auto;}
-      .sns_part li {
-        width: 96%; height: auto;
-        font-size: 15px; font-weight: 500;
-        margin: 16px 5px 14px 5px;
-        color: #ddd;
-      }
-      
-      .sns_part button img {
-        width: 8.666%; min-width: 30px; height: 30px;
-        /* margin: auto; */
-        margin-right: 10px;
-        color: #aaa;
-      }
+  #check_box + label > span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #000;
+    border-radius: 5px;
+    transition: all 300ms;
+  }
+  
+  #check_box:checked + label > span:nth-child(1) {
+    top: 50%;
+    transform: translate(0, -50%);
+    transform: rotate(45deg);
+  }
+  
+  #check_box + label > span:nth-child(2) {
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+  
+  #check_box:checked + label > span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  #check_box + label > span:nth-child(3) {
+    bottom: 0;
+  }
+  
+  #check_box:checked + label > span:nth-child(3) {
+    top: 50%;
+    transform: translate(0, -50%);
+    transform: rotate(-45deg);
+  }
+  #check_box:checked + label + #slide_menu {
+    /* float: right; */
+    left: 95px;
+  }
+  #slide_menu {
+    position: fixed;
+    width: 100%; min-width: 281px;
+    height: 100%;
+    background-color: rgba(36, 48, 90, 86%);
+    text-transform: uppercase;
+    left: 100%;
+    transition: all 300ms;
+    z-index: 1;
+    top: 0px;
+    padding: 60px 16px 20px 16px;
+    box-sizing: border-box;
+  }
+  
+  input[id*="slide_btn"] {
+    display: none;
+  }
+  input[id*="slide_btn"] + label {
+    width: auto;
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    /* border-bottom: 0; */
+    font-size: 18px;
+    color: #eee;
+    font-weight: 400;
+    /* background-color: #000; */
+    cursor: pointer;
+    position: relative;
+  }
+  /* input[id*="answer"] + label em {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    width: 30px; height: 30px;
+    margin-top: -15px;
+    display: inline-block;
+    background: url("../../img/slide_openbtn.svg") 0 0 no-repeat;
+  } */
+  input[id*="slide_btn"] + label + div {
+    max-height: 0;
+    transition: all .35s;
+    overflow: hidden;
+    /* background-color: #ebf8ff; */
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+  }
+  input[id*="slide_btn"] + label + div a {
+    display: inline-block;
+    padding: 10px;
+    display: flex;
+  }
+  input[id*="slide_btn"]:checked + label + div {
+    max-height: inherit;
+  }
+  /* input[id*="slide_btn"]:checked + label em {background-position: 0 -30px;} */
+  .search_part {
+    height: auto;
+  }
+  .search_part > form {
+    width: auto;
+    height: auto;
+  }
+  .search_part fieldset {
+    display: flex;
+    width: auto;
+    height: auto;
+    /* padding: 4px; */
+  }
+  #searchInput {
+    width: 32.552%; min-width: 250px;
+    height: 40px;
+    margin-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #aaaaaa;
+  }
+  
+  .search_btn {
+    width: 13.021%; min-width: 100px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: capitalize;
+  }
+  .sns_part ul {width: 100%; height: auto;}
+  .sns_part li {
+    width: 96%; height: auto;
+    font-size: 15px; font-weight: 500;
+    margin: 16px 5px 14px 5px;
+    color: #ddd;
+  }
+  
+  .sns_part button img {
+    width: 30px; height: 30px;
+    /* margin: auto; */
+    margin-right: 10px;
+    color: #aaa;
+  }
 
   .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 70px;}
   
@@ -202,17 +200,17 @@
   /* #viewBox ========================= */
   #viewBox {
     width: 100%; min-width: 768px;
-    height: 330px;
+    height: auto;
     box-sizing: border-box;
     /* background-color: #ccc; */
   }
     .view_outer {
-      width: 100%; min-width: 768px; height: 330px;
+      width: 100%; min-width: 768px; height: auto;
     }
     .viewport {
-      width: 100%; min-width: 768px; height: 290px;
+      width: 100%; min-width: 768px; height: auto;
     }
-    .viewport > img {width: 100%; min-width: 768px; height: 330px; }
+    .viewport > img {width: 100%; min-width: 768px; height: auto; }
 
     /* .view_outer {
       background-color: #ddd;
@@ -230,6 +228,7 @@
     .dotBox {
       width: 100%; min-width: 768px; height: 35px;
       margin-bottom: 5px;
+      margin-top: -40px;
     }
     .dot {
       cursor: pointer;
@@ -309,7 +308,7 @@
     }
     .drinkInner {
       float: left;
-      width: 49.875%; min-width: 369px; height: 180px;
+      width: 49.875%; height: 180px;
       background-color: #ddd;
       background-image: url(../../img/drink.svg);
       background-size: 100%;
@@ -334,7 +333,7 @@
       }
     .bakeryInner {
       float: left;
-      width: 49.875%; min-width: 370px; height: 180px;
+      width: 49.875%; height: 180px;
       background-color: #aaa;
       background-image: url(../../img/bakery.svg);
       background-size: 100%;
@@ -360,7 +359,7 @@
       }
     .mdInner {
       float: left;
-      width: 49.875%; min-width: 370px; height: 180px;
+      width: 49.875%; height: 180px;
       background-color: #aaa;
       background-image: url(../../img/md.svg);
       background-size: 100%;
@@ -376,7 +375,7 @@
       }
     .bistroInner {
       float: left;
-      width: 49.875%; min-width: 370px; height: 180px;
+      width: 49.875%; height: 180px;
       /* background-color: #ddd; */
       background-image: url(../../img/bistro.svg);
       background-size: 100%;
@@ -407,7 +406,8 @@
     /* .dreamfactory_inner {} */
 
     .dreamfactory {
-      height: 230px;
+      width: auto; height: auto;
+      /* height: 230px; */
       padding-top: 4.55729167%;
       padding-left: 7.03125%;
     }
@@ -419,7 +419,7 @@
     .dreamfactory > ul > li {
       width: 37.7604%; min-width: 290px;
       text-align: left;
-      margin-top: 15px;
+      margin-top: 1.953%;
       font-size: 15px;
       font-weight: 300;
       color: #ffffff;
@@ -432,9 +432,9 @@
     }
 
     .dreamfactory_btn {
-      width: 266px;
-      height: 72px;
-      /* float: right; */
+      float: left;
+      width: 34.635%; min-width: 274px;
+      height: auto;
       margin-top: 25px;
       /* margin-right: 80px; */
     }
@@ -442,7 +442,7 @@
     .dream_fc{
       float: right;
       font-size: 14px;
-      width: 108px; 
+      width: 15.625%; min-width: 120px; 
       height: 34px;
       line-height: 34px;
       text-transform: uppercase;
@@ -455,7 +455,8 @@
     .dream_lc{
       float: right;
       font-size: 14px;
-      width: 108px; height: 34px;
+      width: 15.625%; min-width: 120px; 
+      height: 34px;
       line-height: 34px;
       text-transform: uppercase;
       border: 1px solid #151515;
@@ -469,7 +470,7 @@
   #companyabBox {
     float: left;
     width: 100%; min-width: 768px;
-    height: 324px;
+    height: auto;
     /* background-color: #aaa; */
   }
 
@@ -491,9 +492,9 @@
 
     .franchise_TX {
       float: right;
-      width: 16.9271%; min-width: 130px;
+      width: 75%; min-width: 130px;
       font-size: 18px;
-      text-align: center;
+      text-align: right;
       font-weight: 400;
       margin-right: 25%;
       padding-top: 30px;
@@ -501,10 +502,10 @@
 
     .franchise_btn {
       width: 17.1875%; min-width: 132px;
-      height: 78px;
-      float: left;
-      margin-top: 35px;
-      margin-left: 180px;
+      height: 84px;
+      float: right;
+      margin-top: 30px;
+      margin-right: 10px;
     }
 
     .franchise_gd{
@@ -553,19 +554,19 @@
     }
     .ediyastory_TX {
       float: right;
-      width: 16.9271%; min-width: 130px;
+      width: 75%; min-width: 130px;
       font-size: 18px;
-      text-align: center;
+      text-align: right;
       font-weight: 400;
       margin-right: 25%;
       padding-top: 30px;
     }
     .ediyastory_btn {
       width: 17.1875%; min-width: 132px;
-      height: 78px;
-      float: left;
-      margin-top: 35px;
-      margin-left: 180px;
+      height: 84px;
+      float: right;
+      margin-top: 30px;
+      margin-right: 10px;
     }
     .ediyastory_more {
       float: right;
@@ -591,7 +592,7 @@
     /* padding: 20px; */
   }
   .foot_inner {
-    width: 700px; height: auto;
+    width: 91.1458%; min-width: 700px; height: auto;
     margin: 20px auto;
     position: relative;
   }
@@ -606,12 +607,13 @@
     margin-bottom: 8px;
   }  
   .foot_main h2 button img {
-    width: 150px; height: 20px;
+    width: 19.5313%; min-width: 150px; height: 20px;
     margin: auto;
     display: block;
   }
   .foot_main .company_info {
-    width: 100%; height: auto;
+    width: 100%; min-width: 768px;
+    height: auto;
   }
   .foot_main .company_info li {
     font-size: 16px;
@@ -628,7 +630,7 @@
   }
   .foot_main .footsubmenu {
     /* width: 100%; */
-    width: 200px;
+    width: 26.0416%; min-width: 200px;
     display: flex;
     position: absolute;
     top: 0px;
