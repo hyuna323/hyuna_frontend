@@ -20,38 +20,40 @@
   }
   h1 {
     float: left;
-    width: 280px; height: 66px;
+    width: 14.583%; min-width: 280px; 
+    height: 66px;
     /* margin-left: 10px; */
     margin: auto;
   }
   h1 > button > img {
-    width: 100%; height: 30px;
+    width: 100%; min-width: 280px;
+    height: 30px;
     margin-top: 14px;
   }
 
   .unb {
+    width: 26.042%; min-width: 500px; 
+    height: auto;
     display: flex;
     float: right;
-    width: 26.042%; min-width: 500px; 
-    height: 100%;
     text-transform: uppercase;
     text-align: center;
   }
   .about_part {
-    width: 100px;
-    height: 50px;
+    width: 5.208%; min-width: 100px;
+    height: 54px;
     line-height: 54px;
   }
   .about_part a {
     display: block;
     width: auto;
-    font-size: 20px;
     height: 100%;
+    font-size: 20px;
     text-decoration: none;
   }
   .login_part {
     width: 100px;
-    height: 50px;
+    height: 54px;
     line-height: 54px;
   }
   .login_part a {
@@ -89,30 +91,31 @@
     /* padding: 4px; */
   }
   #unbsearchInput {
-    width: 64%; min-width: 220px;
+    width: 44%; min-width: 220px;
     height: 48px;
     margin: auto;
     margin-right: 8px;
     padding-left: 10px;
     border-radius: 4px;
-    font-size: 18px;
+    font-size: 19px;
     border: 1px solid #aaaaaa;
   }
   
   .search_btn {
-    width: 24.666%; min-width: 80px;
+    width: 16%; min-width: 80px;
     height: 48px;
     border-radius: 5px;
     border: 1px solid #fff;
     background-color: #243c84;
     color: #fff;
-    font-size: 18px;
+    font-size: 19px;
     text-transform: capitalize;
   }
 
   /* ---------------------------------- */
   .head_inner02 {
-    width: 100%; height: 50%;
+    width: 100%; min-width: 1920px;
+    height: 50%;
     background-color: #243c84;
     margin: auto;
     box-sizing: border-box;
@@ -121,7 +124,8 @@
 
   .gnb {
     display: flex;
-    width: 1204px; height: 100%;
+    width: 69.2188%; min-width: 1329px; 
+    height: 100%;
     margin: auto;
   }
   .submenu_part {
@@ -129,7 +133,7 @@
     display: inline-block;
   }
   .btn_part {
-    width: 172px;
+    width: 10%; min-width: 192px;
     height: 100%;
     line-height: 48px;
     border-radius : 4px;
@@ -142,20 +146,19 @@
     color: #fff;
   }
   .submenu_inner {
+    width : 100%; min-width: 172px;
     display : none;
     position : absolute;
     z-index : 1; /*다른 요소들보다 앞에 배치*/
     /* font-size: 16px; */
     font-weight: 300;
     background-color: #fff;
-    width : 100%;
-    min-width: 172px;
     text-align: center;
   }
   .submenu_inner a {
     display : block;
     text-decoration : none;
-    font-size: 16px;
+    font-size: 21px;
     padding : 12px 10px;
   }
   .submenu_inner a:hover {
@@ -176,21 +179,21 @@
   /* #viewBox ========================= */
   #viewBox {
     width: 100%; min-width: 1920px;
-    height: 720PX;
+    height: auto;
     box-sizing: border-box;
     z-index: 500;
     position: relative;
     /* background-color: #ccc; */
   }
     .view_outer {
-      width: 100%; min-width: 1920px; height: 720px;
+      width: 100%; min-width: 1920px; height: auto;
       /* margin-top: -30px; */
     }
     .viewport {
-      width: 100%; min-width: 1920px; height: 680px;
+      width: 100%; min-width: 1920px; height: auto;
     }
     .viewport > img {
-      width: 100%; min-width: 1920px; height: 720px;
+      width: 100%; min-width: 1920px; height: auto;
     }
   
     /* .view_outer {
@@ -206,11 +209,15 @@
   
     /* Slideshow container */
     /* The dots/bullets/indicators */
-    
+    .dotBox {
+      width: 100%; min-width: 1920px; height: 35px;
+      margin-bottom: 15px;
+      margin-top: -55px;
+    }
     .dot {
       cursor: pointer;
-      height: 15px;
-      width: 15px;
+      height: 25px;
+      width: 25px;
       margin: 0px 2px;
       background-color: #bbb;
       border-radius: 50%;
@@ -291,20 +298,20 @@
       }
     
       .dreamfactory_btn {
-        width: 449px;
+        width: 23.3854%; min-width: 449px;
         height: 70px;
-        /* float: right; */
         margin-top: 50px;
+        /* float: right; */
         /* margin-right: 80px; */
       }
     
       .dream_fc{
+        width: 9.375%; min-width: 180px;
+        height: 50px;
         float: right;
-        font-size: 18px;
-        width: 170px;
-        height: 47px;
+        font-size: 20px;
         margin-right: 10px;
-        line-height: 45px;
+        line-height: 50px;
         text-transform: uppercase;
         border: 1px solid #151515;
         background-color: #dddddd;
@@ -313,11 +320,11 @@
         cursor: pointer;
       }
       .dream_lc{
+        width: 9.375%; min-width: 180px;
+        height: 50px;
         float: right;
-        font-size: 18px;
-        width: 170px;
-        height: 47px;
-        line-height: 45px;
+        font-size: 20px;
+        line-height: 50px;
         text-transform: uppercase;
         border: 1px solid #151515;
         background-color: #dddddd;
@@ -345,7 +352,8 @@
     }
 
     .finder {
-      width: 524px; height: 190px;
+      width: 75.942%; min-width: 524px; 
+      height: 190px;
     }
   
     .storefind_TX {
@@ -354,9 +362,9 @@
     }
   
     .search {
-      position: relative;
-      width: 27.777%; min-width: 500px;
+      width: 26.0416%; min-width: 500px;
       height: 100px;
+      position: relative;
       top: 30px;
     }
   
@@ -373,9 +381,10 @@
       cursor: pointer;
     }
     .search > button > img {
+      width: 30px; 
+      height: 30px;
       position: absolute;
-      width: 30px; height: 30px;
-      top: 35px;
+      top: 40px;
       right: 40px;
       margin: 0;
     }
@@ -425,9 +434,9 @@
       font-weight: normal;
     }
     .notice_letter > li > a {
-      font-size: 20px;
-      width: 17.1875%; min-width: 330px;
       float: left;
+      width: 17.1875%; min-width: 330px;
+      font-size: 20px;
     }
     .notice_letter > li > span {
       float: right;
@@ -440,14 +449,16 @@
   /* #storyBox ========================= */
   #storyBox {
     float: left;
-    width: 100%; min-width: 1920px; height: 600px;
+    width: 100%; min-width: 1920px; 
+    height: 600px;
     /* padding: 0.521% 4.1666%; */
     /* background-color: #aaa; */
     }
   
     .menu_inner {
       float: left;
-      width: 40%; min-width: 768px; height: 477px;
+      width: 40%; min-width: 768px; 
+      height: 477px;
       margin: 2.969% 2.731% 3.331% 7.2%;
     }
   
@@ -463,14 +474,14 @@
     }
   
     .menu_TX {
-      width: 100%; min-width: 816px;
+      width: 100%; min-width: 768px;
       text-align: center;
       text-transform: uppercase;
       font-weight: 500;
     }
   
     .menu_btn {
-      width: 8.5938%; min-width: 165px;
+      width: 24.0885%; min-width: 185px;
       height: 200px;
       float: right;
       margin-top: 50px;
@@ -478,33 +489,33 @@
     }
     
     .menu_dk {
+      width: 19.5313%; min-width: 150px;
+      height: 50px;
       float: right;
-      font-size: 20px;
-      width: 86.061%; min-width: 142px;
-      height: 45px;
-      line-height: 45px;
+      font-size: 22px;
+      line-height: 50px;
       margin-bottom: 20px;
       border: 1px solid #cccccc;
       border-radius: 6px;
       cursor: pointer;
     }
     .menu_fd{
+      width: 19.5313%; min-width: 150px;
+      height: 50px;
       float: right;
-      font-size: 20px;
-      width: 86.061%; min-width: 142px;
-      height: 45px;
-      line-height: 45px;
+      font-size: 22px;
+      line-height: 50px;
       margin-bottom: 20px;
       border: 1px solid #cccccc;
       border-radius: 6px;
       cursor: pointer;
     }
     .menu_md{
+      width: 19.5313%; min-width: 150px;
+      height: 50px;
       float: right;
-      font-size: 20px;
-      width: 86.061%; min-width: 142px;
-      height: 45px;
-      line-height: 45px;
+      font-size: 22px;
+      line-height: 50px;
       text-transform: uppercase;
       border: 1px solid #cccccc;
       border-radius: 6px;
@@ -537,48 +548,48 @@
     }
   
     .brandStory_TX {
-      width: 100%; min-width: 524px;
+      width: 100%; min-width: 768px;
       text-align: center;
       text-transform: uppercase;
       font-weight: 500;
     }
   
     .brandStory_btn {
-      width: 7.8125%; min-width: 150px;
+      width: 24.0885%; min-width: 185px;
       height: 307px;
       float: right;
-      margin-top: 50px;
+      margin-top: 40px;
       margin-right: 80px;
     }
     
     .brandStory_ey {
+      width: 19.5313%; min-width: 150px;
+      height: 50px;
       float: right;
       font-size: 20px;
-      width: 94.667%; min-width: 142px;
-      height: 45px;
-      line-height: 45px;
+      line-height: 50px;
       margin-bottom: 10px;
       border: 1px solid #151515;
       border-radius: 6px;
       cursor: pointer;
     }
     .brandStory_ci{
+      width: 19.5313%; min-width: 150px;
+      height: 50px;
       float: right;
       font-size: 20px;
-      width: 94.667%; min-width: 142px;
-      height: 45px;
-      line-height: 45px;
+      line-height: 50px;
       margin-bottom: 10px;
       border: 1px solid #151515;
       border-radius: 6px;
       cursor: pointer;
     }
     .brandStory_ht{
+      width: 19.5313%; min-width: 150px;
+      height: 50px;
       float: right;
       font-size: 20px;
-      width: 94.667%; min-width: 142px;
-      height: 45px;
-      line-height: 45px;
+      line-height: 50px;
       margin-bottom: 10px;
       border: 1px solid #151515;
       border-radius: 6px;
@@ -586,22 +597,22 @@
     }
   
     .brandStory_m{
+      width: 19.5313%; min-width: 150px;
+      height: 50px;
       float: right;
       font-size: 20px;
-      width: 94.667%; min-width: 142px;
-      height: 45px;
-      line-height: 45px;
+      line-height: 50px;
       margin-bottom: 10px;
       border: 1px solid #151515;
       border-radius: 6px;
       cursor: pointer;
     }
     .brandStory_aw{
+      width: 19.5313%; min-width: 150px;
+      height: 50px;
       float: right;
       font-size: 20px;
-      width: 94.667%; min-width: 142px;
-      height: 45px;
-      line-height: 45px;
+      line-height: 50px;
       border: 1px solid #151515;
       border-radius: 6px;
       cursor: pointer;
@@ -615,20 +626,20 @@
   #companyabBox {
     float: left;
     width: 100%; min-width: 1920px;
-    height: 530px;
-    padding: 0 4.166%;
+    height: auto;
+    /* padding: 0 4.166%; */
     /* background-color: #aaa; */
   }
   
     .franchise_inner {
       float: left;
-      width: 39.583%; min-width: 760px; height: 384px;
-      margin: 3.021%;
+      width: 40%; min-width: 768px; height: 477px;
+      margin: 2.969% 5.731% 3.331% 7.2%;
     }
   
     .franchise {
       float: left;
-      width: 100%; min-width: 760px; height: 384px;
+      width: 100%; min-width: 768px; height: 477px;
       background-image: url(../../img/franchise.png);
       background-repeat: no-repeat;
       background-size: 100% 477px;
@@ -637,8 +648,8 @@
     }
   
     .franchise_TX {
-      width: 100%; min-width: 524px;
-      font-size: 20px;
+      width: 100%; min-width: 768px;
+      font-size: 24px;
       text-align: center;
       font-weight: 500;
       /* padding-right: 110px; */
@@ -646,7 +657,7 @@
     }
   
     .franchise_btn {
-      width: 10.3125%; min-width: 198px;
+      width: 10.9375%; min-width: 210px;
       height: 121px;
       float: right;
       margin-top: 80px;
@@ -654,11 +665,11 @@
     }
   
     .franchise_gd{
+      width: 10.4167%; min-width: 200px;
+      height: 55px;
       float: right;
-      font-size: 20px;
-      width: 10%; min-width: 192px;
-      height: 45px;
-      line-height: 45px;
+      font-size: 22px;
+      line-height: 55px;
       margin-bottom: 10px;
       text-transform: uppercase;
       border: 1px solid #151515;
@@ -668,11 +679,11 @@
       cursor: pointer;
     }
     .franchise_pt{
+      width: 10.4167%; min-width: 200px;
+      height: 55px;
       float: right;
-      font-size: 20px;
-      width: 10%; min-width: 192px;
-      height: 45px;
-      line-height: 45px;
+      font-size: 22px;
+      line-height: 55px;
       text-transform: uppercase;
       border: 1px solid #151515;
       background-color: #dddddd;
@@ -682,14 +693,16 @@
     }
   
     .sns_inner {
-      float: left;
-      width: 39.583%; min-width: 760px; height: 384px;
-      margin: 3.021%;
+      display: flex;
+      width: 40%; min-width: 768px; 
+      height: 477px;
+      margin: 2.969% 7.2% 3.331% 2.731%;
     }
-  
+    
     .sns {
-      float: left;
-      width: 39.583%; min-width: 760px; height: 384px;
+      display: flex;
+      flex-wrap: wrap;
+      width: 40%; min-width: 550px; height: 477px;
       /* margin-left: 40px; */
       /* background-repeat: no-repeat; */
       /* background-size: 524px 422px; */
@@ -697,70 +710,71 @@
     }
   
     .snslatte {
-      float: left;
-      width: 100%; min-width: 250px; height: 190px;
+      /* float: left; */
+      width: 100%; min-width: 274px; height: 220px;
     }
   
     .snsthree {
-      float: left;
-      width: 100%; min-width: 250px; height: 190px;
+      /* float: left; */
+      width: 100%; min-width: 274px; height: 220px;
     }
   
     .snscoffee {
-      float: left;
-      width: 100%; min-width: 250px; height: 190px;
+      /* float: left; */
+      width: 100%; min-width: 274px; height: 220px;
     }
   
     .snssoftkit {
-      float: left;
-      width: 100%; min-width: 250px; height: 190px;
+      /* float: left; */
+      width: 100%; min-width: 274px; height: 220px;
     }
   
     .snsmark {
-      float: right;
-      width: 9.271%; min-width: 178px; height: 384px;
-      margin-top: -200px;
+      display: flex;
+      flex-direction: column;
+      width: 29.1667%; min-width: 224px; height: 477px;
       /* background-color: #243c84; */
     }
     .snsmark > button {
-      width: auto; height: 20px;
+      width: auto; height: 120px;
     }
     .snsmark > button > span {
       float: right;
+      width: auto;
       height: 25px;
       margin-left: 28px;
       font-size: 25px;
       line-height: 25px;
-      margin-top: 10px;
-      margin-bottom: 70px;
+      /* margin-top: 10px; */
+      /* margin-bottom: 70px; */
       /* color: #ffffff; */
     }
   
     .snsmark > button > img {
-      margin-top: 8.4712%;
-      margin-left: 10px;
+      /* margin-top: 8.4712%; */
+      margin-left: 25px;
     }
   
-    .snsmark > button:last-child {
+    /* .snsmark > button:last-child {
       margin-bottom: -80px;
-    }
+    } */
   
       .Fmark {
         float: left;
-        width: 23px; height: 23px;
+        width: 32px; height: 32px;
         /* margin: -0px; */
       }
       .Imark {
         float: left;
-        width: 23px; height: 23px;
+        width: 32px; height: 32px;
       }
       .NBmark {
         float: left;
-        width: 23px; height: 23px;
+        width: 32px; height: 32px;
       }
       .Ymark {
         float: left;
-        width: 23px; height: 23px;
+        width: 32px; height: 32px;
       }
     .ediyastory_inner {display: none;}
     
@@ -774,7 +788,7 @@
   }
   
     .foot_inner {
-      width: 71.1458%; min-width: 1366px; height: auto;
+      width: 76.3542%; min-width: 1466px; height: auto;
       margin: 34px auto;
     }
     .foot_main {
@@ -787,7 +801,8 @@
       margin-bottom: 28px;
     }
     .foot_main h2 button img {
-      width: 280px; height: 28px;
+      width: 14.5833%; min-width: 280px; 
+      height: 38px;
       margin: auto;
       display: block;
     }
@@ -795,7 +810,7 @@
       width: 100%; height: auto;
     }
     .foot_main .company_info li {
-      font-size: 21px;
+      font-size: 22px;
       display: inline-block;
     }
     .foot_main .company_info li::after {
@@ -809,8 +824,8 @@
       font-weight: 400;
     }
     .foot_main .footsubmenu {
-      width: 15.625%;
-      min-width: 330px; height: auto;
+      width: 15.625%; min-width: 330px; 
+      height: auto;
       display: flex;
       position: absolute;
       top: 10px;
@@ -890,15 +905,15 @@
     }
     .to_top span {
       display: inline-block;
-      width: 60px;
-      height: 60px;
+      width: 70px;
+      height: 70px;
       cursor: pointer;
       background: url(../../img/to_top2color.svg)no-repeat center;
-      background-size: 60px;
+      background-size: 70px;
     }
     .to_top span:hover {
       background: url(../../img/to_top_fill.svg)no-repeat center;
-      background-size: 60px;
+      background-size: 70px;
     }
     
     .footInner_m {display: none;}
