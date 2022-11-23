@@ -2,9 +2,10 @@
 
 /* (디자인기준: 320px) ~ 767px */
 @media all and (max-width:767px) {
-  #wrap { width: 100%; min-width: 320px; min-height: 600px;}
+  #wrap {width: 100%; min-width: 320px; min-height: 600px;}
   #headBox {
-    width: 100%; min-width: 320px;
+    width: 100%;
+    min-width: 320px;
     height: 60px;
     box-sizing: border-box;
     padding: 10px 12px 14px 12px;
@@ -35,11 +36,9 @@
     box-sizing: border-box;
     /* background-color: #ddd; */
   }
-    #unbInner {width: 18.75%; min-width: 60px; padding: 0;}
+    #unbInner {width: 13.75%; min-width: 44px; padding: 0;}
     
-    #check_box {
-      display: none;
-    }
+    #check_box {display: none;}
     
     #check_box + label {
       position: relative;
@@ -104,9 +103,7 @@
       box-sizing: border-box;
     }
     
-    input[id*="slide_btn"] {
-      display: none;
-    }
+    input[id*="slide_btn"] {display: none;}
     input[id*="slide_btn"] + label {
       width: auto;
       display: block;
@@ -617,7 +614,7 @@
     display: block;
   }
   .foot_main .company_info {
-    width: 100%; min-width: 320px; height: auto;
+    width: 100%; min-width: 300px; height: auto;
   }
   .foot_main .company_info li {
     font-size: 14px;

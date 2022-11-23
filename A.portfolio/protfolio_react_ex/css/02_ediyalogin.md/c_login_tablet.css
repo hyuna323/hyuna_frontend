@@ -203,7 +203,7 @@
   #loginBox {
     width: 100%; min-width: 768px;
     max-width: 1279px;
-    height: 1000px;
+    height: auto;
     padding: 0;
     margin: auto;
     background-image: url(../../img/loginbackground768.svg);
@@ -212,8 +212,8 @@
   }
   .login_area {
     width: 100%; min-width: 768px;
-    height: 1000px;
-    padding: 140px 120px 100px 120px;
+    height: auto;
+    padding: 100px 120px 160px 120px;
   }
   .logintext {
     width: 46.0938%; min-width: 354px;
@@ -234,7 +234,12 @@
     color: #fff;
   }
   .loginmain {
-    width: auto; height: auto;
+    width: 481px;
+    height: 350px;
+    margin: auto;
+  }
+  .login_inner {
+    width: 100%; height: 172px;
     margin: auto;
   }
   /* .loginmain form {
@@ -242,10 +247,11 @@
     margin: auto;
   } */
   .privite {
-    width: 65.104%; min-width: 500px;
+    width: 61.9792%;
+    min-width: 470px;
     height: 180px;
     border: none;
-    padding: 0;
+    /* padding: 10px; */
     margin: auto;
     margin-top: 30px;
   }
@@ -255,18 +261,18 @@
     font-size: 20px; font-weight: 500;
   } */
   #userId {
-    float: left;
-    width: 100%; min-width: 498px;
-    height: 80px;
+    /* float: left; */
+    width: 100%; min-width: 450px;
+    height: 72px;
     border-radius: 5px;
     font-size: 16px;
     /* padding: 12px 8px; */
     /* width: calc(100% - 19px); height: 42px; */
   }
   #userPw {
-    float: left;
-    width: 100%; min-width: 498px;
-    height: 80px;
+    /* float: left; */
+    width: 100%; min-width: 450px;
+    height: 72px;
     border-radius: 5px;
     font-size: 16px;
     margin-top: 10px;
@@ -279,68 +285,64 @@
     font-size: 18px;
   } */
 
-    .check {
-      width: 65%; min-width: 498px;
-      height: 50px;
-      margin: auto;
-      /* margin-left: 7.231%; */
-      padding-top: 5px;
-      border: none;
-    }
-    .check input {
+  .checkbox_inner {
+    display: flex;
+    width: 500px;
+    height: 40px;
+    /* position: fixed; */
+    margin: auto;
+    margin-left: 10px;
+    padding-top: 15px;
+    border: none;
+  }
+    .checkbox_inner input {
       width: 20px;
       height: 20px;
-      float: left;
-      margin-left: 20px;
+      /* margin-left: -50px; */
       border: 1px solid #ededed;
     }
-    .check label {
-      width: 19.531%; min-width: 150px;
-      height: 100%;
-      line-height: 35px;
-      /* padding: 5px; */
-      float:left;
-      cursor: pointer;
-    }
-    .check label span {
-      width: 33.593%; min-width: 258px;
-      height: 46px;
-      line-height: 35px;
+
+    .checkbox_inner span {
+      width: auto;
+      min-width: 208px;
+      height: 30px;
+      /* line-height: 30px; */
       /* padding: 5px; */
       margin: auto;
       margin-left: 10px;
-      margin-top: -8px;
-      float:left;
+      /* margin-top: -8px; */
+      float: left;
       cursor: pointer;
       color: #fff;
       font-size: 15px;
     }
     .login_btn {
-      width: 64.322%; min-width: 494px; height: 60px;
+      width: 58.5938%; min-width: 470px; height: 60px;
       border-radius: 5px;
       background-color: #24305A;
       text-align: center;
       margin: auto;
+      margin-top: 20px;
     }
     .login {
       width: 100%; height: 60px;
+      line-height: 50px;
     }
     .login > button {
       color: #fff;
       font-size: 18px;
       font-weight: 500;
-      line-height: 60px;
     }
     .etc_area {
-      width: 64.844%; min-width: 498px; height: 60px;
-      padding: 20px;
+      width: 100%; min-width: 480px; height: 62px;
+      padding-top: 30px;
       margin: auto;
       /* line-height: 1px; */
       /* float: left; */
       /* margin-top: 22px; */
     }
     .etc_area ul {
-      width: 100%; min-width: 498px; height: 60px;
+      width: 100%; min-width: 480px; height: 60px;
       margin: auto;
       text-align: center;
     }
@@ -357,13 +359,13 @@
     }
 
     .membership_area {
-      width: 58.594%; min-width: 450px; height: 50px;
+      width: 54.6875%; min-width: 420px; height: 130px;
       margin: auto;
     }
     .membership_area > i {display: none;}
     
     #open {
-      width: 100%; min-width: 450px; height: 50px;
+      width: 100%; min-width: 420px; height: 50px;
       margin: auto;
       margin-top: 80px;
       font-size: 16px;
