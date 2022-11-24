@@ -257,7 +257,7 @@
 
   .checkbox_inner {
     display: flex;
-    width: 598px;
+    width: 509px;
     height: 45px;
     line-height: 20px;
     /* margin-left: 370px; */
@@ -272,6 +272,10 @@
     /* float: left; */
     /* margin-left: 20px; */
     border: 1px solid #ededed;
+  }
+  .id_check_inner {
+    width: auto; height: auto;
+    margin-top: -10px;
   }
   .id_check_inner span {
     width: auto; height: 35px;
