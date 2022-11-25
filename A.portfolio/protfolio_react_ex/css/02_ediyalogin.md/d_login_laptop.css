@@ -4,7 +4,8 @@
 @media all and (min-width:1280px) and (max-width:1439px) {
   #wrap {width: 100%; min-width: 1280px; min-height: 600px; }
   #headBox { 
-    width:100%; height: 140px; 
+    width:100%; min-width: 1280px;
+    height: 140px; 
     box-sizing:border-box;
     position: fixed;
     z-index: 999;
@@ -19,13 +20,14 @@
   }
   h1 {
     float: left;
-    width: 240px; height: 56px;
+    width: 14.7656%; min-width: 189px; 
+    height: 42px;
     /* margin-left: 10px; */
     margin: auto;
   }
   h1 > button > img {
     width: 100%; height: 20px;
-    margin-top: 12px;
+    margin-top: 14px;
   }
 
   .unb {
@@ -37,7 +39,7 @@
     text-align: center;    
   }
   .about_part {
-    width: 80px;
+    width: 17.777%; min-width: 80px;
     height: 50px;
     font-size: 16px;
     line-height: 46px;
@@ -49,7 +51,7 @@
     text-decoration: none;
   }
   .login_part {
-    width: 80px;
+    width: 17.777%; min-width: 80px;
     height: 50px;
     font-size: 16px;
     line-height: 46px;
@@ -88,7 +90,7 @@
     /* padding: 4px; */
   }
   #unbsearchInput {
-    width: 64%; min-width: 192px;
+    width: 42.666%; min-width: 192px;
     height: 40px;
     margin: auto;
     margin-right: 8px;
@@ -99,10 +101,10 @@
   }
   
   .search_btn {
-    width: 24.666%; min-width: 80px;
+    width: 17.777%; min-width: 80px;
     height: 40px;
     border-radius: 5px;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     background-color: #243c84;
     color: #fff;
     font-size: 16px;
@@ -111,7 +113,8 @@
 
   /* ---------------------------------- */
   .head_inner02 {
-    width: 100%; height: 50%;
+    width: 100%; min-width: 1280px;
+    height: 50%;
     background-color: #243c84;
     margin: auto;
     /* padding: 14px 10px;  */
@@ -120,20 +123,21 @@
 
   .gnb {
     display: flex;
-    width: 980px; height: 100%;
-    margin: 0 150px;
+    width: 84.5313%; min-width: 1082px;
+    height: 100%;
+    margin: auto;
   }
   .submenu_part {
     position: relative;
     display: inline-block;
   }
   .btn_part {
+    width: 17.3469%; min-width: 170px;
+    height: 100%;
     line-height: 48px;
     border-radius : 4px;
     font-weight: 300;
     padding : 12px;
-    width: 140px;
-    height: 100%;
     text-align: left;
     cursor : pointer;
     font-size : 18px;
@@ -142,22 +146,21 @@
     
   }
   .submenu_inner {
+    width : 100%; min-width: 170px;
     display : none;
     position : absolute;
     z-index : 1; /*다른 요소들보다 앞에 배치*/
     /* font-size: 16px; */
     font-weight: 300;
     background-color: #fff;
-    width : 100%;
-    min-width: 170px;
     text-align: center;
-    right: -13px;
+    /* right: -13px; */
   }
   .submenu_inner a {
     display : block;
     text-decoration : none;
     font-size: 16px;
-    padding : 12px 10px;
+    padding : 12px 0px;
   }
   .submenu_inner a:hover {
     font-weight: 500;
@@ -170,8 +173,8 @@
     border: 1px solid #243c84;
     justify-content: space-between;
   }
-      .header_m {display: none;}
-      /* background-color: #cca; */
+  .header_m {display: none;}
+  /* background-color: #cca; */
     
   .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 140px;}
 
@@ -213,11 +216,13 @@
     color: #fff;
   }
   .loginmain {
-    width: 510px; height: auto;
+    width: 39.8438%; min-width: 510px; 
+    height: auto;
     margin: auto;
   }
   .login_inner {
-    width: 100%; height: 170px;
+    width: 100%; min-width: 510px;
+    height: 170px;
     margin: auto;
   }
   .privite {
@@ -234,7 +239,7 @@
     font-size: 20px; font-weight: 500;
   } */
   #userId {
-    width: 100%; min-width: 498px;
+    width: 100%;
     height: 80px;
     border-radius: 5px;
     font-size: 18px;
@@ -242,7 +247,7 @@
     /* width: calc(100% - 19px); height: 42px; */
   }
   #userPw {
-    width: 100%; min-width: 498px;
+    width: 100%;
     height: 80px;
     border-radius: 5px;
     font-size: 18px;
@@ -259,8 +264,9 @@
 
   .checkbox_inner {
     display: flex;
-    width: 498px;
+    width: auto;
     height: 40px;
+    margin: auto;
     /* margin-left: 22.65625%; */
     padding-top: 15px;
     margin-top: 10px;
@@ -274,7 +280,7 @@
     }
     .id_check_inner {
       width: auto; height: auto;
-      margin-top: -10px;
+      margin-top: -9px;
     }
     .id_check_inner span {
       width: auto; height: 25px;
@@ -324,7 +330,7 @@
       font-weight: 500;
     }
     .etc_area {
-      width: 100%; min-width: 498px; height: 81px;
+      width: 97.6471%; min-width: 498px; height: 81px;
       padding-top: 40px;
       margin: auto;
       /* line-height: 1px; */
@@ -399,12 +405,14 @@
     margin-bottom: 28px;
   }
   .foot_main h2 button img {
-    width: 260px; height: 26px;
+    width: 16.3934%; min-width: 180px; 
+    height: 26px;
     margin: auto;
     display: block;
   }
   .foot_main .company_info {
-    width: 100%; height: auto;
+    width: 100%; min-width: 1098px;
+    height: auto;
   }
   .foot_main .company_info li {
     font-size: 18px;
@@ -420,8 +428,7 @@
     font-weight: 400;
   }
   .foot_main .footsubmenu {
-    width: 100%;
-    width: 250px;
+    width: 22.7687%; min-width: 250px;
     display: flex;
     position: absolute;
     top: 10px;
@@ -433,10 +440,10 @@
   }
   .language_btn {
     width: 100%; height: 42px;
-    margin-top: 2px;
+    margin-top: 4px;
   }
   .language_btn img {
-    width: 30px; height: 30px;
+    width: 35px; height: 35px;
   }
   .language_part ul {
     display: none;
