@@ -163,10 +163,10 @@
     padding : 12px 0px;
   }
   .submenu_inner a:hover {
+    width: auto;
     font-weight: 500;
     font-size: 17px;
     color: #243c84;
-    width: auto;
   }
   .submenu_part:hover .submenu_inner {
     display: block;

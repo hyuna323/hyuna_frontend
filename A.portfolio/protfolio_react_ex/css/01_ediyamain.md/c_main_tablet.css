@@ -3,6 +3,8 @@
 /* 768px ~ 1279px */
 @media all and (min-width:768px) and (max-width:1279px) {
   #wrap {width: 100%; min-width: 768px; min-height: 600px; }
+
+  /* headBox ========================= */
   #headBox {
     width: 100%; min-width: 320px;
     height: 70px;
