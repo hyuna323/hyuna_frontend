@@ -124,6 +124,7 @@
 
   .gnb {
     display: flex;
+    justify-content: space-between;
     width: 69.2188%; min-width: 1329px; 
     height: 100%;
     margin: auto;

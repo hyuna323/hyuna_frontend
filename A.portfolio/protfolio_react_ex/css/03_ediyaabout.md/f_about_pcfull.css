@@ -123,6 +123,7 @@
 
   .gnb {
     display: flex;
+    justify-content: space-between;
     width: 1204px; height: 100%;
     margin: auto;
   }
