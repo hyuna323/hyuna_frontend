@@ -114,7 +114,7 @@
 
   /* ---------------------------------- */
   .head_inner02 {
-    width: 100%; min-width: 320px;
+    width: 100%; min-width: 1280px;
     height: 50%;
     background-color: #243c84;
     margin: auto;
@@ -125,7 +125,7 @@
   .gnb {
     display: flex;
     justify-content: space-between;
-    width: 68.1%; min-width: 872px; 
+    width: 77.109%; min-width: 987px; 
     height: 100%;
     margin: auto;
   }
@@ -610,22 +610,22 @@
   
     .snslatte {
       /* float: left; */
-      width: 100%; min-width: 180px; height: 189px;
+      width: 182px; height: 189px;
     }
   
     .snsthree {
       /* float: left; */
-      width: 100%; min-width: 180px; height: 189px;
+      width: 182px; height: 189px;
     }
   
     .snscoffee {
       /* float: left; */
-      width: 100%; min-width: 180px; height: 189px;
+      width: 182px; height: 189px;
     }
   
     .snssoftkit {
       /* float: left; */
-      width: 100%; min-width: 180px; height: 189px;
+      width: 182px; height: 189px;
     }
   
     .snsmark {
@@ -665,22 +665,22 @@
     } */
     
     .Fmark {
-        float: left;
-        width: 23px; height: 23px;
-        /* margin: -0px; */
-      }
-      .Imark {
-        float: left;
-        width: 23px; height: 23px;
-      }
-      .NBmark {
-        float: left;
-        width: 23px; height: 23px;
-      }
-      .Ymark {
-        float: left;
-        width: 23px; height: 23px;
-      }
+      float: left;
+      width: 23px; height: 23px;
+      /* margin: -0px; */
+    }
+    .Imark {
+      float: left;
+      width: 23px; height: 23px;
+    }
+    .NBmark {
+      float: left;
+      width: 23px; height: 23px;
+    }
+    .Ymark {
+      float: left;
+      width: 23px; height: 23px;
+    }
     .ediyastory_inner {display: none;}
   
 /* #footBox ========================= */

@@ -415,7 +415,7 @@
       height: 100%;
       margin: auto;
       padding: 30px 10px;
-      font-size: 18px;
+      /* font-size: 18px; */
     }
     .ediyaci_txt span {
       width: 100%; 

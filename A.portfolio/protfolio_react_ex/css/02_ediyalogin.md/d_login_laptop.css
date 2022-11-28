@@ -2,10 +2,10 @@
 
 /* 1280px ~ 1439px */
 @media all and (min-width:1280px) and (max-width:1439px) {
-  #wrap {width: 100%; min-width: 1280px; min-height: 600px; }
+  #wrap {width: 100%; min-width: 1280px;}
   #headBox { 
     width:100%; min-width: 1280px;
-    height: 140px; 
+    height: 140px;
     box-sizing:border-box;
     position: fixed;
     z-index: 999;
@@ -15,19 +15,19 @@
     width: 100%; max-width: 1439px; min-width: 1280px;
     height: 50%;
     margin: auto; box-sizing: border-box;
-    padding: 12px 40px;
+    padding: 13px 40px;
     /* background-color: #243c84; */
   }
   h1 {
     float: left;
-    width: 14.7656%; min-width: 189px; 
-    height: 42px;
+    width: 18.75%; min-width: 240px; 
+    height: 56px;
     /* margin-left: 10px; */
     margin: auto;
   }
   h1 > button > img {
-    width: 100%; height: 20px;
-    margin-top: 14px;
+    width: 100%; min-width: 190px; height: 20px;
+    margin-top: 12px;
   }
 
   .unb {
@@ -36,10 +36,10 @@
     width: 35.156%; min-width: 450px; 
     height: 46px;
     text-transform: uppercase;
-    text-align: center;    
+    text-align: center;
   }
   .about_part {
-    width: 17.777%; min-width: 80px;
+    width: 6.25%; min-width: 80px;
     height: 50px;
     font-size: 16px;
     line-height: 46px;
@@ -51,7 +51,7 @@
     text-decoration: none;
   }
   .login_part {
-    width: 17.777%; min-width: 80px;
+    width: 6.25%; min-width: 80px;
     height: 50px;
     font-size: 16px;
     line-height: 46px;
@@ -62,6 +62,7 @@
     height: 100%;
     text-decoration: none;
   }
+
 
   /* .unb button {
     width: 80px; height: 25px; 
@@ -76,7 +77,7 @@
     width: auto;
     height: auto;
     margin: auto;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     margin-left: 10px;
   }
   .search_part > form {
@@ -90,7 +91,7 @@
     /* padding: 4px; */
   }
   #unbsearchInput {
-    width: 42.666%; min-width: 192px;
+    width: 68.571%; min-width: 192px;
     height: 40px;
     margin: auto;
     margin-right: 8px;
@@ -101,10 +102,10 @@
   }
   
   .search_btn {
-    width: 17.777%; min-width: 80px;
+    width: 28.571%; min-width: 80px;
     height: 40px;
     border-radius: 5px;
-    /* border: 1px solid #fff; */
+    border: 1px solid #fff;
     background-color: #243c84;
     color: #fff;
     font-size: 16px;
@@ -124,7 +125,7 @@
   .gnb {
     display: flex;
     justify-content: space-between;
-    width: 84.5313%; min-width: 1082px;
+    width: 77.109%; min-width: 987px; 
     height: 100%;
     margin: auto;
   }
@@ -133,7 +134,7 @@
     display: inline-block;
   }
   .btn_part {
-    width: 17.3469%; min-width: 170px;
+    width: 16.055%; min-width: 140px;
     height: 100%;
     line-height: 48px;
     border-radius : 4px;
@@ -141,7 +142,7 @@
     padding : 12px;
     text-align: left;
     cursor : pointer;
-    font-size : 18px;
+    font-size : 20px;
     text-align: center;
     color: #fff;
     
@@ -155,19 +156,19 @@
     font-weight: 300;
     background-color: #fff;
     text-align: center;
-    /* right: -13px; */
+    right: -13px;
   }
   .submenu_inner a {
     display : block;
     text-decoration : none;
     font-size: 16px;
-    padding : 12px 0px;
+    padding : 12px 10px;
   }
   .submenu_inner a:hover {
-    width: auto;
     font-weight: 500;
     font-size: 17px;
     color: #243c84;
+    width: auto;
   }
   .submenu_part:hover .submenu_inner {
     display: block;
@@ -178,9 +179,6 @@
   /* background-color: #cca; */
     
   .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 140px;}
-
-
-      
 
 /* #loginBox ============================ */
   #loginBox {

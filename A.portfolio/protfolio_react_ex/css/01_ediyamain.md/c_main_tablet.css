@@ -614,7 +614,7 @@
     display: block;
   }
   .foot_main .company_info {
-    width: 100%; min-width: 768px;
+    width: 100%; min-width: 700px;
     height: auto;
   }
   .foot_main .company_info li {

@@ -264,18 +264,19 @@
   #dreamfactoryBox_full {
     float: left;
     width: 64.0625%; min-width: 1230px;
-    height: 580px;
-    padding: 4.065% 1.845% 1.845% 1.845%;
+    height: 100%;
+    padding: 4.065% 1.845% 0 1.845%;
   }
   
   .dreamfactory_inner {
-    width: 60.416%; min-width: 1160px; 
+    width: 100%; min-width: 1160px; 
     height: 470px;
     background-color: #243c84;
   }
   
     .dreamfactory {
-      height: 470px;
+      width: 100%; min-width: 1164px;
+      height: 100%;
       padding-top: 4.31%;
       padding-left: 7.758%;
       }
@@ -283,19 +284,22 @@
       .dreamTxt {
         width: 43.6458%; min-width: 838px; height: 80px;
       }
-    
+      .dreamfactory > ul {
+        width: 40.3780%; min-width: 470px;
+        text-align: left;
+      }
       .dreamfactory > ul > li {
         width: 24.479%; min-width: 470px;
-        text-align: left;
         margin-top: 50px;
         font-size: 20px;
         color: #ffffff;
       }
     
       .dreamImg {
-        width: 35.9375%; min-width: 690px; height: 285px;
+        width: 35.9375%; min-width: 690px; 
+        height: auto;
         float: right;
-        margin-top: 45px;
+        /* margin-top: -11.2%; */
       }
     
       .dreamfactory_btn {
