@@ -15,14 +15,15 @@
     .head_inner {
       width: 100%; max-width: 1919px; min-width: 1440px;
       height: 50%;
+      display: flex;
       margin: auto; box-sizing: border-box;
       padding: 12px 40px;
       /* background-color: #ccc; */
     }
       h1 {
-        float: left;
-        width: 13.888%; min-width: 200px; 
-        height: 34px;
+        /* float: left; */
+        width: 100%; min-width: 890px; 
+        height: auto;
         margin: auto;
       }
       

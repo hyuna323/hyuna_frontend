@@ -3,6 +3,8 @@
 /* 1280px ~ 1439px */
 @media all and (min-width:1280px) and (max-width:1439px) {
   #wrap {width: 100%; min-width: 1280px;}
+
+/* #headBox ========================= */
   #headBox { 
     width:100%; min-width: 1280px;
     height: 140px;
@@ -14,22 +16,19 @@
   .head_inner {
     width: 100%; max-width: 1439px; min-width: 1280px;
     height: 50%;
+    display: flex;
     margin: auto; box-sizing: border-box;
     padding: 13px 40px;
-    /* background-color: #243c84; */
   }
   h1 {
-    float: left;
-    width: 18.75%; min-width: 240px; 
-    height: 56px;
-    /* margin-left: 10px; */
+    width: 100%; min-width: 750px; 
+    height: auto;
     margin: auto;
   }
   h1 > button > img {
     width: 100%; min-width: 190px; height: 20px;
     margin-top: 12px;
   }
-
   .unb {
     display: flex;
     float: right;
@@ -62,22 +61,11 @@
     height: 100%;
     text-decoration: none;
   }
-
-
-  /* .unb button {
-    width: 80px; height: 25px; 
-    border: 0; margin: 0; 
-    background-color: #213C5D;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 5px;
-  } */
   .search_part {
     float: right;
     width: auto;
     height: auto;
     margin: auto;
-    /* margin-top: 5px; */
     margin-left: 10px;
   }
   .search_part > form {
@@ -88,7 +76,6 @@
     display: flex;
     width: auto;
     height: auto;
-    /* padding: 4px; */
   }
   #unbsearchInput {
     width: 68.571%; min-width: 192px;
@@ -100,7 +87,6 @@
     font-size: 16px;
     border: 1px solid #aaaaaa;
   }
-  
   .search_btn {
     width: 28.571%; min-width: 80px;
     height: 40px;
@@ -118,10 +104,8 @@
     height: 50%;
     background-color: #243c84;
     margin: auto;
-    /* padding: 14px 10px;  */
     box-sizing: border-box;
   }
-
   .gnb {
     display: flex;
     justify-content: space-between;
@@ -145,14 +129,12 @@
     font-size : 20px;
     text-align: center;
     color: #fff;
-    
   }
   .submenu_inner {
     width : 100%; min-width: 170px;
     display : none;
     position : absolute;
-    z-index : 1; /*다른 요소들보다 앞에 배치*/
-    /* font-size: 16px; */
+    z-index : 1;
     font-weight: 300;
     background-color: #fff;
     text-align: center;
@@ -176,7 +158,6 @@
     justify-content: space-between;
   }
   .header_m {display: none;}
-  /* background-color: #cca; */
     
   .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 140px;}
 
@@ -228,22 +209,15 @@
     width: 39.84375%; min-width: 510px;
     height: 170px;
     border: none;
-    /* padding: 0; */
     margin: auto;
     margin-top: 50px;
   }
-  /* .login_area button {
-    width: 204px; height: 40px;
-    text-align: center; line-height: 130px;
-    font-size: 20px; font-weight: 500;
-  } */
   #userId {
     width: 100%;
     height: 80px;
     border-radius: 5px;
     font-size: 18px;
     padding: 12px;
-    /* width: calc(100% - 19px); height: 42px; */
   }
   #userPw {
     width: 100%;
@@ -253,20 +227,11 @@
     padding: 12px;
     margin-top: 10px;
   }
-  /* .privite ul > li > input {
-    /* width: 206px; height: 42px; */
-    /* float: left;
-    width:calc(100% - 19px); height: 42px;
-    padding: 12px 8px;
-    font-size: 18px;
-  } */
-
   .checkbox_inner {
     display: flex;
     width: auto;
     height: 40px;
     margin: auto;
-    /* margin-left: 22.65625%; */
     padding-top: 15px;
     margin-top: 10px;
     border: none;
@@ -274,7 +239,6 @@
     .checkbox_inner input {
       width: 22px;
       height: 22px;
-      /* margin-left: 20px; */
       border: 1px solid #ededed;
     }
     .id_check_inner {
@@ -283,34 +247,12 @@
     }
     .id_check_inner span {
       width: auto; height: 25px;
-      /* line-height: 35px; */
-      /* padding: 5px; */
       margin: auto;
       margin-left: 15px;
       cursor: pointer;
       color: #fff;
       font-size: 17px;
     }
-    /* .check label i { 
-      width: 18px; height: 18px;
-      margin-right: 0.3rem; margin-top:0.35rem;
-      float:left;
-      border:1px solid #fff;
-    }
-    #idcheck:checked + label > i { 
-      position: relative; 
-      background-color: #24305A;
-      border-color:transparent;
-    }
-    #logincheck:checked + label > i { 
-      position: relative; 
-      background-color: #24305A;
-      border-color:transparent;
-    } */
-    /* .check span {
-      width: 100px;
-      padding: 10px;
-    } */
     .login_btn {
       width: 38.594%; min-width: 494px; height: 65px;
       border-radius: 5px;
@@ -332,9 +274,6 @@
       width: 97.6471%; min-width: 498px; height: 81px;
       padding-top: 40px;
       margin: auto;
-      /* line-height: 1px; */
-      /* float: left; */
-      /* margin-top: 22px; */
     }
     .etc_area ul {
       width: 100%; height: 41px;
@@ -351,7 +290,6 @@
       background-color: #eee;
       margin-right: 5px;
       border-radius: 5px;
-      /* background-color: #ddd; */
     }
     .membership_area {
       width: 42.969%; min-width: 550px; height: 250px;
@@ -366,6 +304,7 @@
       width: 46.094%; min-width: 590px; height: 226px;
       font-size: 15px;
     }
+
     #open {
       width: 81.818%; min-width: 450px; height: 50px;
       margin: auto;
@@ -378,16 +317,14 @@
       background-color: rgba(36, 48, 90, 94%);
       border-radius: 7px;
     }
-    
     .modal {display: none;}
 
-/* ===================================================== */
+/* #footBox ============================================== */
 #footBox {
   float: left;
   width: 100%; min-width: 1280px;
   height: auto;
   border-top: 3px solid #243c84;
-  /* padding: 20px; */
 }
   .foot_inner {
     width: 85.7813%; min-width: 1098px; height: auto;
@@ -432,7 +369,6 @@
     position: absolute;
     top: 10px;
     right: 0;
-    /* font-size: 0.75rem; */
   }
   .language_part {
     width: 50%;
@@ -449,7 +385,6 @@
     width: 100%;
     margin-top: 10px;
     padding: 10px 8px;
-    /* margin-bottom: 25px; */
     border: 1px solid #262626;
     position: relative;
     cursor: pointer;
@@ -481,7 +416,6 @@
     width: 100%; height: auto;
     margin-top: 10px;
     padding: 5px 8px;
-    /* margin-bottom: 25px; */
     border: 1px solid #262626;
     position: relative;
     cursor: pointer;

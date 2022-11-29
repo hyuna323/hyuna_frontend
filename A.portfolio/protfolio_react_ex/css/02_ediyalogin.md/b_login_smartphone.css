@@ -3,6 +3,8 @@
 /* (디자인기준: 320px) ~ 767px */
 @media all and (max-width:767px) {
   #wrap { width: 100%; min-width: 320px; min-height: 600px;}
+
+  /* #headBox ========================= */
   #headBox {
     width: 100%; min-width: 320px;
     height: 60px;
@@ -15,7 +17,6 @@
   .head_inner {
     width: 100%; max-width: 767px; min-width: 320px;
     margin: auto; box-sizing: border-box;
-    /* background-color: #ccc; */
   }
   h1 {
     float: left;
@@ -33,7 +34,6 @@
     margin: auto;
     margin-top: 10px;
     box-sizing: border-box;
-    /* background-color: #ddd; */
   }
   #unbInner {width: 18.75%; min-width: 60px; padding: 0;}    
   #check_box {display: none;}
@@ -45,7 +45,6 @@
     cursor: pointer;
     z-index: 100;
     margin: auto;
-    /* position: relative; */
   }
   #check_box + label > span {
     position: absolute;
@@ -61,27 +60,22 @@
     transform: translate(0, -50%);
     transform: rotate(45deg);
   }
-  
   #check_box + label > span:nth-child(2) {
     top: 50%;
     transform: translate(0, -50%);
   }
-  
   #check_box:checked + label > span:nth-child(2) {
     opacity: 0;
   }
-  
   #check_box + label > span:nth-child(3) {
     bottom: 0;
   }
-  
   #check_box:checked + label > span:nth-child(3) {
     top: 50%;
     transform: translate(0, -50%);
     transform: rotate(-45deg);
   }
   #check_box:checked + label + #slide_menu {
-    /* float: right; */
     left: 40px;
   }
   #slide_menu {
@@ -103,28 +97,16 @@
     display: block;
     padding: 10px;
     border-bottom: 1px solid #fff;
-    /* border-bottom: 0; */
     font-size: 18px;
     color: #eee;
     font-weight: 400;
-    /* background-color: #000; */
     cursor: pointer;
     position: relative;
   }
-    /* input[id*="answer"] + label em {
-      position: absolute;
-      top: 50px;
-      right: 10px;
-      width: 30px; height: 30px;
-      margin-top: -15px;
-      display: inline-block;
-      background: url("../../img/slide_openbtn.svg") 0 0 no-repeat;
-    } */
     input[id*="slide_btn"] + label + div {
       max-height: 0;
       transition: all .35s;
       overflow: hidden;
-      /* background-color: #ebf8ff; */
       font-size: 16px;
       font-weight: 300;
       color: #fff;
@@ -137,8 +119,6 @@
     input[id*="slide_btn"]:checked + label + div {
       max-height: inherit;
     }
-    /* input[id*="slide_btn"]:checked + label em {background-position: 0 -30px;} */
-
     .search_part {
       height: auto;
     }
@@ -150,7 +130,6 @@
       display: flex;
       width: auto;
       height: auto;
-      /* padding: 4px; */
     }
     #searchInput {
       width: 53.75%; min-width: 172px;
@@ -160,7 +139,6 @@
       border-radius: 4px;
       border: 1px solid #aaaaaa;
     }
-    
     .search_btn {
       width: 21.875%; min-width: 70px;
       border-radius: 4px;
@@ -176,10 +154,8 @@
       margin: 10px 5px 5px;
       color: #ddd;
     }
-    
     .sns_part button img {
       width: 26px; height: 26px;
-      /* margin: auto; */
       margin-right: 5px;
       color: #aaa;
     }
@@ -238,19 +214,11 @@
     margin: auto;
     margin-top: 20px;
   }
-  /* .login_area button {
-    width: 204px; height: 40px;
-    text-align: center; line-height: 130px;
-    font-size: 20px; font-weight: 500;
-  } */
   #userId {
-    /* float: left; */
     width: 100%;
     height: 46px;
     border-radius: 5px;
     font-size: 14px;
-    /* padding: 12px 8px; */
-    /* width: calc(100% - 19px); height: 42px; */
   }
   #userPw {
     float: left;
@@ -260,13 +228,6 @@
     font-size: 14px;
     margin-top: 10px;
   }
-  /* .privite ul > li > input {
-    /* width: 206px; height: 42px; */
-    /* float: left;
-    width:calc(100% - 19px); height: 42px;
-    padding: 12px 8px;
-    font-size: 18px;
-  } */
   .checkbox_inner {
     display: flex;
     width: auto;
@@ -276,36 +237,14 @@
     padding-top: 8px;
     border: none;
   }
-    /* .check {
-      width: 65%; min-width: 208px;
-      height: 50px;
-      margin: auto;
-      margin-left: 19.231%;
-      padding-top: 5px;
-      border: none;
-    } */
     .checkbox_inner input {
       width: 20px;
       height: 20px;
-      /* float: left; */
-      /* margin-left: 20px; */
       border: 1px solid #ededed;
     }
-    /* .check label {
-      width: 150px; height: 100%;
-      line-height: 35px;
-      float:left;
-      cursor: pointer;
-    } */
-    /* .id_check_inner {
-      width: auto; height: auto;
-      margin-top: -20px;
-    } */
-
     .id_check_inner span {
       width: auto; height: 35px;
       line-height: 35px;
-      /* padding: 5px; */
       margin: auto;
       margin-left: 10px;
       margin-top: -8px;
@@ -314,26 +253,6 @@
       color: #fff;
       font-size: 14px;
     }
-    /* .check label i { 
-      width: 15px; height: 15px;
-      margin-right: 0.3rem; margin-top:0.35rem;
-      float:left;
-      border: 1px solid #fff; 
-    }
-    #idcheck:checked + label > i { 
-      position: relative; 
-      background-color: #24305A;
-      border-color:transparent;
-    }
-    #logincheck:checked + label > i { 
-      position: relative; 
-      background-color: #24305A;
-      border-color:transparent;
-    } */
-    /* .check span {
-      width: 100px;
-      padding: 10px;
-    } */
     .login_btn {
       width: 59.375%; min-width: 190px;
       height: 40px;
@@ -357,9 +276,6 @@
       height: 40px;
       padding-top: 2px;
       margin: auto;
-      /* line-height: 1px; */
-      /* float: left; */
-      /* margin-top: 46px; */
     }
     .etc_area ul {
       width: 100%; min-width: 255px; 
@@ -377,9 +293,7 @@
       background-color: #eee;
       margin-right: 3px;
       border-radius: 5px;
-      /* background-color: #ddd; */
     }
-
     .membership_area {
       width: 52.5%; min-width: 168px; 
       height: 40px;
@@ -397,7 +311,6 @@
       line-height: 40px;
       background-color: rgba(36, 48, 90, 86%);
       border-radius: 7px;
-      
     }
     .modal {
       position: fixed;
@@ -427,7 +340,6 @@
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     }
     .modalHeader h1 {
-      /* text-align: center; */
       float: right;
       width: 100%;
       height: 24px;
@@ -435,13 +347,11 @@
       top: 0;
       margin: 0;
       padding-left: 20px;
-      /* line-height: 10%; */
     }
     .modalHeader button {
       top: 0;
       float: right;
       margin-top: -30px;
-      /* text-align: right; */
       padding-left: 10px;
     }
     .modalHeader button img {
@@ -454,83 +364,74 @@
       width: 100%;
       height: 100%;
       font-size: 11px;
-      /* line-height: 12px; */
     }
     .on {
       display: none;
     }
-
-
     
 /* #footBox ========================= */
-#footBox {
-  float: left;
-  width: 100%; min-width: 320px;
-  height: auto;
-  border-top: 3px solid #243c84;
-  /* padding: 20px; */
-}
-.foot_inner {
-  width: 93.75%; min-width: 300px; height: auto;
-  margin: 10px auto;
-  position: relative;
-}
-.foot_main {
-  color: #000;
-  text-align: center;
-  position: relative;
-}
-.foot_inner h2 {
-  width: 100%; min-width: 300px;
-  height: auto;
-  margin: auto;
-  /* margin-bottom: 8px; */
-}  
-.foot_main h2 button img {
-  width: 28.125%; min-width: 90px; height: 18px;
-  margin: auto;
-  display: block;
-}
-.foot_main .company_info {
-  width: 100%; min-width: 300px; height: auto;
-}
-.foot_main .company_info li {
-  font-size: 14px;
-  /* display: inline-block; */
-}
-.foot_main p {
-  font-size: 12px;
-  margin-top: 2.5%;
-  font-weight: 400;
-}
-
-.foot_main .footsubmenu {display: none;}
-.foot_inner > ul > li {
-  /* font-size: 10px; */
-  font-weight: 300;
-  color: #ffffff;
-}
-
-.to_top {
-  display: none;
-  position: fixed;
-  bottom: 15px;
-  right: 4%;
-  z-index: 1;
-}
-.to_top.on {
-  display: block;
-}
-.to_top span {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-  background: url(../../img/to_top2color.svg)no-repeat center;
-  background-size: 30px;
-}
-.to_top span:hover {
-  background: url(../../img/to_top_fill.svg)no-repeat center;
-  background-size: 30px;
-}
+  #footBox {
+    float: left;
+    width: 100%; min-width: 320px;
+    height: auto;
+    border-top: 3px solid #243c84;
+  }
+  .foot_inner {
+    width: 93.75%; min-width: 300px; height: auto;
+    margin: 10px auto;
+    position: relative;
+  }
+  .foot_main {
+    color: #000;
+    text-align: center;
+    position: relative;
+  }
+  .foot_inner h2 {
+    width: 100%; min-width: 300px;
+    height: auto;
+    margin: auto;
+  }  
+  .foot_main h2 button img {
+    width: 28.125%; min-width: 90px; height: 18px;
+    margin: auto;
+    display: block;
+  }
+  .foot_main .company_info {
+    width: 100%; min-width: 300px; height: auto;
+  }
+  .foot_main .company_info li {
+    font-size: 14px;
+  }
+  .foot_main p {
+    font-size: 12px;
+    margin-top: 2.5%;
+    font-weight: 400;
+  }
+  .foot_main .footsubmenu {display: none;}
+  .foot_inner > ul > li {
+    font-weight: 300;
+    color: #ffffff;
+  }
+  .to_top {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 4%;
+    z-index: 1;
+  }
+  .to_top.on {
+    display: block;
+  }
+  .to_top span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: url(../../img/to_top2color.svg)no-repeat center;
+    background-size: 30px;
+  }
+  .to_top span:hover {
+    background: url(../../img/to_top_fill.svg)no-repeat center;
+    background-size: 30px;
+  }
 }

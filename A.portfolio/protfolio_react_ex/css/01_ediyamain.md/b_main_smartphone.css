@@ -16,7 +16,6 @@
     .head_inner {
       width: 100%; max-width: 767px; min-width: 320px;
       margin: auto; box-sizing: border-box;
-      /* background-color: #ccc; */
     }
       h1 {
         float: left;
@@ -34,7 +33,6 @@
     margin: auto;
     margin-top: 10px;
     box-sizing: border-box;
-    /* background-color: #ddd; */
   }
     #unbInner {width: 13.75%; min-width: 44px; padding: 0;}
     
@@ -48,7 +46,6 @@
       cursor: pointer;
       z-index: 100;
       margin: auto;
-      /* position: relative; */
     }
     
     #check_box + label > span {
@@ -86,7 +83,6 @@
       transform: rotate(-45deg);
     }
     #check_box:checked + label + #slide_menu {
-      /* float: right; */
       left: 40px;
     }
     #slide_menu {
@@ -109,28 +105,16 @@
       display: block;
       padding: 10px;
       border-bottom: 1px solid #fff;
-      /* border-bottom: 0; */
       font-size: 18px;
       color: #eee;
       font-weight: 400;
-      /* background-color: #000; */
       cursor: pointer;
       position: relative;
     }
-    /* input[id*="answer"] + label em {
-      position: absolute;
-      top: 50px;
-      right: 10px;
-      width: 30px; height: 30px;
-      margin-top: -15px;
-      display: inline-block;
-      background: url("../../img/slide_openbtn.svg") 0 0 no-repeat;
-    } */
     input[id*="slide_btn"] + label + div {
       max-height: 0;
       transition: all .35s;
       overflow: hidden;
-      /* background-color: #ebf8ff; */
       font-size: 16px;
       font-weight: 300;
       color: #fff;
@@ -143,7 +127,6 @@
     input[id*="slide_btn"]:checked + label + div {
       max-height: inherit;
     }
-    /* input[id*="slide_btn"]:checked + label em {background-position: 0 -30px;} */
 
     .search_part {
       height: auto;
@@ -156,7 +139,6 @@
       display: flex;
       width: auto;
       height: auto;
-      /* padding: 4px; */
     }
     #searchInput {
       width: 53.75%; min-width: 172px;
@@ -187,7 +169,6 @@
     
     .sns_part button img {
       width: 26px; height: 26px;
-      /* margin: auto; */
       margin-right: 5px;
       color: #aaa;
     }
@@ -200,19 +181,10 @@
     width: 100%; min-width: 320px;
     height: auto;
     box-sizing: border-box;
-    /* background-color: #ccc; */
   }
     .view_outer {
       width: 100%; min-width: 320px; height: auto;
     }
-    /* .dotal {
-      width: 100%; min-width: 320px; height: auto;
-      margin: auto; */
-      /* max-width: 767px; */
-      /* height: 20px; */
-      /* margin: -10.9230769% 0% 0% 0.1069231%; */
-      /* transform: translate3d(0,0,0); */
-    /* } */
     .dotBox {width: auto; height: auto; margin-top: -40px;}
       .dot {
         cursor: pointer;
@@ -254,13 +226,6 @@
       animation-duration: 1.5s;
     }
 
-
-
-  /* On smaller screens, decrease text size */
-  /* @media only screen and (max-width: 300px) {
-    .text {font-size: 11px}
-  } */
-
   /* #storefindBox ========================= */
   #storefactory {display: none;}
   #dreamfactoryBox_full {display: none;}
@@ -274,11 +239,9 @@
     max-width: 767px;
     height: 236px;
     box-sizing: border-box;
-    /* float: left; */
   }
     .shortcut {
       width: 100%; min-width: 320px; 
-      /* max-width: 767px; */
       height: 236px;
       margin: auto; box-sizing: border-box;
     }
@@ -338,17 +301,6 @@
         text-align: right;
         text-transform: uppercase;
       }
-
-      /* .right_more {
-        width: 20.3125%; min-width: 65px;
-        padding: 2px;
-        margin: auto;
-        margin: 10px;
-        margin: 0 0 0 107.692308%;
-        font-size: 14px;
-        float: right;
-        outline: solid 1px;
-      } */
       .right_more {
         width: 18.75%; min-width: 60px;
         padding: 1.07692308%;
@@ -358,13 +310,6 @@
         border-radius: 3px;
         outline: solid 1px;
       }
-
-      /* .right_more span {
-        width: 65px; height: 20px;
-        font-size: 14px;
-        text-align: center;
-        top: -10px;
-      } */
     .mdInner {
       float: left;
       width: 49.875%; height: 90px;
@@ -384,7 +329,6 @@
     .bistroInner {
       float: left;
       width: 49.875%; height: 90px;
-      /* background-color: #ddd; */
       background-image: url(../../img/bistro.svg);
       background-size: 100%;
       background-repeat: no-repeat;
@@ -408,20 +352,15 @@
     float: left;
     background-color: #243c84;
   }
-
-    /* .dreamfactory_inner {} */
-
     .dreamfactory {
       width: auto; height: auto;
       padding-top: 0.3125%;
       padding-left: 4.275%;
     }
-
     .dreamTxt {
       width: 55.625%; min-width: 178px; height: auto;
       margin-top: 5%;
     }
-
     .dreamfactory > ul > li {
       width: 55.3125%; min-width: 177px;
       height: auto;
@@ -430,21 +369,16 @@
       font-size: 10px;
       color: #ffffff;
     }
-
     .dreamImg {
       width: 40%; min-width: 128px; height: auto;
       float: right;
       margin-top: 19.9375%;
     }
-
     .dreamfactory_btn {
       float: left;
       width: 45.3125%; min-width: 145px;
       height: auto;
-      /* margin-top: 10px; */
-      /* margin-right: 80px; */
     }
-    
     .dream_fc{
       float: right;
       font-size: 10px;
@@ -475,15 +409,12 @@
     float: left;
     width: 100%; min-width: 320px;
     height: auto;
-    /* background-color: #aaa; */
   }
-
     .franchise_inner {
       float: left;
       width: 40.625%; min-width: 130px; height: 114px;
       margin: 5.3846154% 2.84615385% 5.3846154% 5.1307692%;
     }
-
     .franchise {
       float: left;
       width: 100%; min-width: 130px; height: 114px;
@@ -493,7 +424,6 @@
       background-position: 50% 50%;
       color: #ffffff;
     }
-
     .franchise_TX {
       float: right;
       width: 17.5%; min-width: 56px;
@@ -503,7 +433,6 @@
       padding-right: 10px;
       padding-top: 10px;
     }
-
     .franchise_btn {
       width: 17.1875%; min-width: 55px;
       height: 12px;
@@ -511,13 +440,11 @@
       margin-top: 30px;
       margin-right: -40px;
     }
-
     .franchise_gd{
       float: right;
       font-size: 11px;
       width: 28.75%; min-width: 60px; height: 16px;
       line-height: 16px;
-      /* margin-bottom: 5px; */
       text-transform: uppercase;
       border: 1px solid #151515;
       background-color: #dddddd;
@@ -538,7 +465,6 @@
       border-radius: 3px;
       cursor: pointer;
     }
-
     .sns_inner {display: none;}
     .ediyastory_inner {
       float: right;
@@ -576,7 +502,6 @@
       font-size: 11px;
       width: 100%; min-width: 60px; height: 16px;
       line-height: 16px;
-      /* margin-bottom: 5px; */
       text-transform: uppercase;
       border: 1px solid #151515;
       background-color: #dddddd;
@@ -591,7 +516,6 @@
     width: 100%; min-width: 320px;
     height: auto;
     border-top: 3px solid #243c84;
-    /* padding: 20px; */
   }
   .foot_inner {
     width: 93.75%; min-width: 300px; height: auto;
@@ -606,7 +530,6 @@
   .foot_inner h2 {
     width: 100%; min-width: 300px;
     margin: auto;
-    /* margin-bottom: 8px; */
   }  
   .foot_main h2 button img {
     width: 28.125%; min-width: 90px; height: 18px;
@@ -618,7 +541,6 @@
   }
   .foot_main .company_info li {
     font-size: 14px;
-    /* display: inline-block; */
   }
   .foot_main p {
     font-size: 12px;
@@ -628,7 +550,6 @@
   
   .foot_main .footsubmenu {display: none;}
   .foot_inner > ul > li {
-    /* font-size: 10px; */
     font-weight: 300;
     color: #ffffff;
   }

@@ -3,6 +3,7 @@
 /* 1920px ~ */
 @media all and (min-width:1920px) {
   #wrap {width: 100%; min-width: 1920px; }
+
   /* #headBox ========================= */
   #headBox { 
     width:100%; height: 180px; 
@@ -14,15 +15,13 @@
   .head_inner {
     width: 100%; min-width: 1920px;
     height: 50%;
+    display: flex;
     margin: auto; box-sizing: border-box;
     padding: 16px 40px;
-    /* background-color: #243c84; */
   }
   h1 {
-    float: left;
-    width: 14.583%; min-width: 280px; 
-    height: 66px;
-    /* margin-left: 10px; */
+    width: 100%; min-width: 1340px; 
+    height: auto;
     margin: auto;
   }
   h1 > button > img {
@@ -30,7 +29,6 @@
     height: 30px;
     margin-top: 14px;
   }
-
   .unb {
     width: 26.042%; min-width: 500px; 
     height: auto;
@@ -63,15 +61,6 @@
     height: 100%;
     text-decoration: none;
   }
-
-  /* .unb button {
-    width: 80px; height: 25px; 
-    border: 0; margin: 0; 
-    background-color: #213C5D;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 5px;
-  } */
   .search_part {
     float: right;
     width: auto;
@@ -88,7 +77,6 @@
     display: flex;
     width: auto;
     height: auto;
-    /* padding: 4px; */
   }
   #unbsearchInput {
     width: 44%; min-width: 220px;
@@ -119,9 +107,7 @@
     background-color: #243c84;
     margin: auto;
     box-sizing: border-box;
-    /* border-top: 2px solid #333; */
   }
-
   .gnb {
     display: flex;
     justify-content: space-between;
@@ -150,8 +136,7 @@
     width : 100%; min-width: 172px;
     display : none;
     position : absolute;
-    z-index : 1; /*다른 요소들보다 앞에 배치*/
-    /* font-size: 16px; */
+    z-index : 1;
     font-weight: 300;
     background-color: #fff;
     text-align: center;
@@ -184,11 +169,9 @@
     box-sizing: border-box;
     z-index: 500;
     position: relative;
-    /* background-color: #ccc; */
   }
     .view_outer {
       width: 100%; min-width: 1920px; height: auto;
-      /* margin-top: -30px; */
     }
     .viewport {
       width: 100%; min-width: 1920px; height: auto;
@@ -196,20 +179,6 @@
     .viewport > img {
       width: 100%; min-width: 1920px; height: auto;
     }
-  
-    /* .view_outer {
-      background-color: #ddd;
-      width: 100%; height: 525px;
-      margin: auto;
-    } */
-  
-    /* * {box-sizing: border-box;}
-    body {font-family: 'Noto Sans KR', sans-serif;}
-    .mySlides {display: none;}
-    img {vertical-align: middle;} */
-  
-    /* Slideshow container */
-    /* The dots/bullets/indicators */
     .dotBox {
       width: 100%; min-width: 1920px; height: 35px;
       margin-bottom: 15px;
@@ -225,21 +194,17 @@
       display: inline-block;
       transition: 0.6s ease;
     }
-  
     @-webkit-keyframes fade {
       from {opacity: .4} 
       to {opacity: 1}
     }
-  
     @keyframes fade {
       from {opacity: .4} 
       to {opacity: 1}
     }
-  
     .active {
       background-color: #717171;
     }
-  
     /* Fading animation */
     .fade {
       -webkit-animation-name: fade;
@@ -248,39 +213,29 @@
       animation-duration: 1.5s;
     }
   
-  
-  
-  /* On smaller screens, decrease text size
-  @media only screen and (max-width: 300px) {
-    .text {font-size: 11px}
-  } */
-  
   /* #storefindBox ========================= */
-  .content_box_wrap{
-    width: 100%; min-width: 1920px; height: auto;
+  #content_box_wrap{
+    width: 100%; min-width: 1920px; 
+    height: auto;
   }
-
-  /* .storefactory{width: 1230px; height: 580px;} */
   #dreamfactoryBox_full {
     float: left;
     width: 64.0625%; min-width: 1230px;
     height: 100%;
     padding: 4.065% 1.845% 0 1.845%;
   }
-  
   .dreamfactory_inner {
     width: 100%; min-width: 1160px; 
     height: 470px;
     background-color: #243c84;
   }
-  
     .dreamfactory {
       width: 100%; min-width: 1164px;
       height: 100%;
       padding-top: 4.31%;
       padding-left: 7.758%;
+      overflow: hidden;
       }
-
       .dreamTxt {
         width: 43.6458%; min-width: 838px; height: 80px;
       }
@@ -294,22 +249,17 @@
         font-size: 20px;
         color: #ffffff;
       }
-    
       .dreamImg {
         width: 35.9375%; min-width: 690px; 
         height: auto;
         float: right;
-        /* margin-top: -11.2%; */
       }
     
       .dreamfactory_btn {
         width: 23.3854%; min-width: 449px;
         height: 70px;
         margin-top: 50px;
-        /* float: right; */
-        /* margin-right: 80px; */
       }
-    
       .dream_fc{
         width: 9.375%; min-width: 180px;
         height: 50px;
@@ -337,110 +287,98 @@
         border-radius: 6px;
         cursor: pointer;
       }
-  
   #storefindBox {
     float: left;
     width: 35.9375%; min-width: 690px;
-    height: 570px;
-    /* ????? */
-    /* margin-top: 45px; */
-    /* position: relative; */
-    /* margin: 0 0px; */
-    /* background-color: #ddd; */
-    padding: 3.855% 0 1% 0;
+    height: auto;
+    margin-top: 77px;
   }
-  
     .find_inner {
-      float: left;
-      width: 31.042%; min-width: 596px; height: auto;
-      margin: 0 6.3758%;
+      width: 100%; min-width: 596px; 
+      height: auto;
     }
-
     .finder {
-      width: 75.942%; min-width: 524px; 
+      width: 100%; 
+      min-width: 596px; 
       height: 190px;
     }
-  
     .storefind_TX {
+      width: auto;
+      height: auto;
+      margin: auto;
       margin-left: 38px;
       font-weight: 500;
     }
-  
     .search {
-      width: 26.0416%; min-width: 500px;
-      height: 100px;
+      width: 83.8926%; min-width: 580px;
+      height: auto;
       position: relative;
+      margin: auto;
       top: 30px;
     }
-  
     input {
-      margin-top: 20px; margin-left: 48px;
-      width: 432px; height: 72px;
+      width: 100%; min-width: 580px;
+      margin-top: 20px;
+      position: relative;
+      height: 72px;
       border: 1px solid #bbb;
       border-radius: 5px;
       padding: 10px 12px;
       font-size: 25px;
     }
-  
     .search > button {
       cursor: pointer;
     }
     .search > button > img {
-      width: 30px; 
-      height: 30px;
+      width: 5.0334%; 
+      height: auto;
       position: absolute;
       top: 40px;
-      right: 40px;
+      right: 4%;
       margin: 0;
     }
     .noticeBox_full {
-      float: right;
-      width: 26.25%; min-width: 504px; height: auto;
-      margin: 13.476% 15.476% 0 0;
+      width: 90%;
+      height: auto;
+      margin: auto;
+      margin-top: 4.476%;
     }
-  
     .noticeBox {display: none;}
-  
-    /* .notice_inner {
-      float: left;
-      width: 524px; height: 232px;
-      margin: 58px;
-    } */
-  
     .notice {
-      width: 28.385%; min-width: 545px; height: auto;
+      width: auto;
+      height: 200px;
     }
-  
     .notice_TX {
-      width: 28.385%; min-width: 545px; height: 50px;
-      margin-left: 38px;
+      width: auto;
+      height: auto;
+      margin: auto;
+      margin-left: 8px;
       font-weight: 500;
     }
-  
-  
     .notice_more {
+      width: 50px;
       margin-top: -25PX;
-      margin-right: 80PX;
+      margin-right: 6.2%;
       float: right;
       font-weight: normal;
       font-size: 18px;
     }
-
-  
     .notice_letter{
-      width: 25.521%; min-width: 490px; height: auto;
+      float: left;
+      width: 93.5484%; min-width: 580px;
+      height: 120px;
       display: block;
-      /* position: fixed; */
-      /* padding: 10px; */
+      position: relative;
+      margin: auto;
       margin-top: 20px;
-      Padding-left: 50px;
+      Padding-left: 24px;
     }
     .notice_letter > li{
       font-weight: normal;
     }
     .notice_letter > li > a {
       float: left;
-      width: 17.1875%; min-width: 330px;
+      width: 56.8966%; min-width: 330px;
       font-size: 20px;
     }
     .notice_letter > li > span {
@@ -456,17 +394,13 @@
     float: left;
     width: 100%; min-width: 1920px; 
     height: 600px;
-    /* padding: 0.521% 4.1666%; */
-    /* background-color: #aaa; */
     }
-  
     .menu_inner {
       float: left;
       width: 40%; min-width: 768px; 
       height: 477px;
       margin: 2.969% 2.731% 3.331% 7.2%;
     }
-  
     .menu {
       float: left;
       width: 100%; min-width: 768px; height: 477px;
@@ -477,24 +411,21 @@
       background-position: 50% 50%;
       color: #ffffff;
     }
-  
     .menu_TX {
       width: 100%; min-width: 768px;
       text-align: center;
       text-transform: uppercase;
       font-weight: 500;
     }
-  
     .menu_btn {
-      width: 24.0885%; min-width: 185px;
-      height: 200px;
+      width: 185px;
+      height: auto;
       float: right;
       margin-top: 50px;
       margin-right: 100px;
     }
-    
     .menu_dk {
-      width: 19.5313%; min-width: 150px;
+      width: 150px;
       height: 50px;
       float: right;
       font-size: 22px;
@@ -505,7 +436,7 @@
       cursor: pointer;
     }
     .menu_fd{
-      width: 19.5313%; min-width: 150px;
+      width: 150px;
       height: 50px;
       float: right;
       font-size: 22px;
@@ -516,7 +447,7 @@
       cursor: pointer;
     }
     .menu_md{
-      width: 19.5313%; min-width: 150px;
+      width: 150px;
       height: 50px;
       float: right;
       font-size: 22px;
@@ -526,22 +457,18 @@
       border-radius: 6px;
       cursor: pointer;
     }
-  
     .menu_p {
       margin: 300px 0 0 0;
-      /* height: 524px; */
       text-align: center;
       font-size: 20px;
       font-weight: 400;
       color: white;
     }
-  
     .brandStory_inner {
       float: left;
       width: 40%; min-width: 768px; height: 477px;
       margin: 2.969% 7.2% 3.331% 2.731%;
     }
-  
     .brandStory {
       float: left;
       width: 100%; min-width: 768px; height: 477px;
@@ -551,24 +478,21 @@
       background-size: 100% 477px;
       background-position: 50% 50%;
     }
-  
     .brandStory_TX {
       width: 100%; min-width: 768px;
       text-align: center;
       text-transform: uppercase;
       font-weight: 500;
     }
-  
     .brandStory_btn {
-      width: 24.0885%; min-width: 185px;
-      height: 307px;
+      width: 185px;
+      height: auto;
       float: right;
       margin-top: 40px;
       margin-right: 80px;
     }
-    
     .brandStory_ey {
-      width: 19.5313%; min-width: 150px;
+      width: 150px;
       height: 50px;
       float: right;
       font-size: 20px;
@@ -579,7 +503,7 @@
       cursor: pointer;
     }
     .brandStory_ci{
-      width: 19.5313%; min-width: 150px;
+      width: 150px;
       height: 50px;
       float: right;
       font-size: 20px;
@@ -590,7 +514,7 @@
       cursor: pointer;
     }
     .brandStory_ht{
-      width: 19.5313%; min-width: 150px;
+      width: 150px;
       height: 50px;
       float: right;
       font-size: 20px;
@@ -632,16 +556,12 @@
     float: left;
     width: 100%; min-width: 1920px;
     height: auto;
-    /* padding: 0 4.166%; */
-    /* background-color: #aaa; */
   }
-  
     .franchise_inner {
       float: left;
       width: 40%; min-width: 768px; height: 477px;
       margin: 2.969% 5.731% 3.331% 7.2%;
     }
-  
     .franchise {
       float: left;
       width: 100%; min-width: 768px; height: 477px;
@@ -651,16 +571,13 @@
       background-position: 50% 50%;
       color: #ffffff;
     }
-  
     .franchise_TX {
       width: 100%; min-width: 768px;
       font-size: 24px;
       text-align: center;
       font-weight: 500;
-      /* padding-right: 110px; */
       padding-top: 30px;
     }
-  
     .franchise_btn {
       width: 10.9375%; min-width: 210px;
       height: 121px;
@@ -668,7 +585,6 @@
       margin-top: 80px;
       margin-right: 40px;
     }
-  
     .franchise_gd{
       width: 10.4167%; min-width: 200px;
       height: 55px;
@@ -708,37 +624,23 @@
       display: flex;
       flex-wrap: wrap;
       width: 40%; min-width: 550px; height: 477px;
-      /* margin-left: 40px; */
-      /* background-repeat: no-repeat; */
-      /* background-size: 524px 422px; */
-      /* background-position: 50% 50%; */
     }
-  
     .snslatte {
-      /* float: left; */
       width: 100%; min-width: 274px; height: 220px;
     }
-  
     .snsthree {
-      /* float: left; */
       width: 100%; min-width: 274px; height: 220px;
     }
-  
     .snscoffee {
-      /* float: left; */
       width: 100%; min-width: 274px; height: 220px;
     }
-  
     .snssoftkit {
-      /* float: left; */
       width: 100%; min-width: 274px; height: 220px;
     }
-  
     .snsmark {
       display: flex;
       flex-direction: column;
       width: 29.1667%; min-width: 224px; height: 477px;
-      /* background-color: #243c84; */
     }
     .snsmark > button {
       width: auto; height: 120px;
@@ -750,24 +652,13 @@
       margin-left: 28px;
       font-size: 25px;
       line-height: 25px;
-      /* margin-top: 10px; */
-      /* margin-bottom: 70px; */
-      /* color: #ffffff; */
     }
-  
     .snsmark > button > img {
-      /* margin-top: 8.4712%; */
       margin-left: 25px;
     }
-  
-    /* .snsmark > button:last-child {
-      margin-bottom: -80px;
-    } */
-  
       .Fmark {
         float: left;
         width: 32px; height: 32px;
-        /* margin: -0px; */
       }
       .Imark {
         float: left;
@@ -789,9 +680,7 @@
     width: 100%; min-width: 1920px;
     height: auto;
     border-top: 3px solid #243c84;
-    /* padding: 20px; */
   }
-  
     .foot_inner {
       width: 76.3542%; min-width: 1466px; height: auto;
       margin: 34px auto;
@@ -822,7 +711,6 @@
       padding: 0 14px;
       content: 'l';
     }
-    /* .foot_main .company_info li:last-child:after{display:none;} */
     .foot_main p {
       font-size: 20px;
       margin-top: 26px;
@@ -835,7 +723,6 @@
       position: absolute;
       top: 10px;
       right: 0;
-      /* font-size: 0.75rem; */
     }
     .language_part {
       width: 50%;
@@ -852,7 +739,6 @@
       width: 100%;
       margin-top: 10px;
       padding: 10px 8px;
-      /* margin-bottom: 25px; */
       border: 1px solid #262626;
       position: relative;
       cursor: pointer;
@@ -877,7 +763,6 @@
       margin-top: 10px;
       padding: 5px 8px;
       border: 1px solid #262626;
-      /* margin-bottom: 25px; */
       position: relative;
       cursor: pointer;
       text-align: center;

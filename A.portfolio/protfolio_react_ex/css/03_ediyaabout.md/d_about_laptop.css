@@ -14,14 +14,15 @@
   .head_inner {
     width: 100%; max-width: 1439px; min-width: 1280px;
     height: 50%;
+    display: flex;
     margin: auto; box-sizing: border-box;
     padding: 13px 40px;
     /* background-color: #243c84; */
   }
   h1 {
-    float: left;
-    width: 18.75%; min-width: 240px; 
-    height: 56px;
+    /* float: left; */
+    width: 100%; min-width: 750px; 
+    height: auto;
     /* margin-left: 10px; */
     margin: auto;
   }

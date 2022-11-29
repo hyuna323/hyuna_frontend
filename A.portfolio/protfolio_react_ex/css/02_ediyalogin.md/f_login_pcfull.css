@@ -3,6 +3,7 @@
 /* 1920px ~ */
 @media all and (min-width:1920px) {
   #wrap {width: 100%; min-width: 1920px; }
+
   /* #headBox ========================= */
   #headBox { 
     width:100%; min-width: 1920px;
@@ -15,15 +16,13 @@
   .head_inner {
     width: 100%; min-width: 1920px;
     height: 50%;
+    display: flex;
     margin: auto; box-sizing: border-box;
     padding: 16px 40px;
-    /* background-color: #243c84; */
   }
   h1 {
-    float: left;
-    width: 12.5%; min-width: 240px; 
-    height: 56px;
-    /* margin-left: 10px; */
+    width: 100%; min-width: 1340px; 
+    height: auto;
     margin: auto;
   }
   h1 > button > img {
@@ -31,7 +30,6 @@
     height: 30px;
     margin-top: 14px;
   }
-
   .unb {
     display: flex;
     float: right;
@@ -64,15 +62,6 @@
     font-size: 20px;
     text-decoration: none;
   }
-
-  /* .unb button {
-    width: 80px; height: 25px; 
-    border: 0; margin: 0; 
-    background-color: #213C5D;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 5px;
-  } */
   .search_part {
     float: right;
     width: auto;
@@ -89,7 +78,6 @@
     display: flex;
     width: auto;
     height: auto;
-    /* padding: 4px; */
   }
   #unbsearchInput {
     width: 44%; min-width: 220px;
@@ -101,12 +89,10 @@
     font-size: 18px;
     border: 1px solid #aaaaaa;
   }
-  
   .search_btn {
     width: 18%; min-width: 90px;
     height: 48px;
     border-radius: 5px;
-    /* border: 1px solid #fff; */
     background-color: #243c84;
     color: #fff;
     font-size: 18px;
@@ -120,9 +106,7 @@
     background-color: #243c84;
     margin: auto;
     box-sizing: border-box;
-    /* border-top: 2px solid #333; */
   }
-
   .gnb {
     display: flex;
     justify-content: space-between;
@@ -151,8 +135,7 @@
     width : 100%; min-width: 172px;
     display : none;
     position : absolute;
-    z-index : 1; /*다른 요소들보다 앞에 배치*/
-    /* font-size: 16px; */
+    z-index : 1;
     font-weight: 300;
     background-color: #fff;
     text-align: center;
@@ -174,11 +157,9 @@
     border: 1px solid #243c84;
     justify-content: space-between;
   }
-      .header_m {display: none;}
-      /* background-color: #cca; */
+  .header_m {display: none;}
     
   .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 180px;}
-
     
 /* #loginBox ============================ */
   #loginBox {
@@ -231,18 +212,12 @@
     margin: auto;
     margin-top: 50px;
   }
-  /* .login_area button {
-    width: 204px; height: 40px;
-    text-align: center; line-height: 130px;
-    font-size: 20px; font-weight: 500;
-  } */
   #userId {
     width: 100%; min-width: 600px;
     height: 90px;
     border-radius: 5px;
     font-size: 20px;
     padding: 14px;
-    /* width: calc(100% - 19px); height: 42px; */
   }
   #userPw {
     width: 100%; min-width: 600px;
@@ -252,21 +227,11 @@
     padding: 14px;
     margin-top: 10px;
   }
-  /* .privite ul > li > input {
-    /* width: 206px; height: 42px; */
-    /* float: left;
-    width:calc(100% - 19px); height: 42px;
-    padding: 12px 8px;
-    font-size: 18px;
-  } */
-
     .checkbox_inner {
       display: flex;
       width: 99.666%; min-width: 598px;
       height: 40px;
       line-height: 30px;
-      /* margin-left: 560px; */
-      /* margin: auto; */
       margin-top: 20px;
       padding-top: 10px;
       border: none;
@@ -274,44 +239,20 @@
     .checkbox_inner input {
       width: 60px;
       height: 30px;
-      /* float: left; */
-      /* margin-left: 20px; */
       border: 1px solid #ededed;
     }
     .id_check_inner {
       width: auto; height: auto;
-      /* margin-top: -5px; */
     }
     .id_check_inner span {
       width: auto; 
       height: 35px;
-      /* padding: 5px; */
       margin: auto;
       margin-left: 10px;
       cursor: pointer;  
       color: #fff;
       font-size: 22px;
     }
-    /* .check label i { 
-      width: 20px; height: 20px;
-      margin-right: 0.3rem; margin-top:0.35rem;
-      float:left;
-      border:1px solid #fff;
-    }
-    #idcheck:checked + label > i { 
-      position: relative; 
-      background-color: #24305A;
-      border-color:transparent;
-    }
-    #logincheck:checked + label > i { 
-      position: relative; 
-      background-color: #24305A;
-      border-color:transparent;
-    } */
-    /* .check span {
-      width: 100px;
-      padding: 10px;
-    } */
     .login_btn {
       width: 31.25%; min-width: 600px; height: 75px;
       border-radius: 5px;
@@ -335,8 +276,6 @@
       height: 70px;
       padding: 20px;
       margin: auto;
-      /* line-height: 1px; */
-      /* float: left; */
       margin-top: 22px;
     }
     .etc_area ul {
@@ -353,7 +292,6 @@
       background-color: #eee;
       margin-right: 5px;
       border-radius: 5px;
-      /* background-color: #ddd; */
     }
     .membership_area {
       width: 35.416%; min-width: 680px; height: 280px;
@@ -368,6 +306,7 @@
       width: 31.25%; min-width: 600px; height: 236px;
       font-size: 19px;
     }
+
     #open {
       width: 66.176%; min-width: 450px; height: 60px;
       margin: auto;
@@ -380,9 +319,7 @@
       background-color: rgba(36, 48, 90, 94%);
       border-radius: 7px;
     }
-
     .modal {display: none;}
-
     
 /* ===================================================== */
 #footBox {
@@ -390,9 +327,7 @@
   width: 100%; min-width: 1920px;
   height: auto;
   border-top: 3px solid #243c84;
-  /* padding: 20px; */
 }
-
   .foot_inner {
     width: 71.1458%; min-width: 1366px; height: auto;
     margin: 34px auto;
@@ -436,7 +371,6 @@
     position: absolute;
     top: 10px;
     right: 0;
-    /* font-size: 0.75rem; */
   }
   .language_part {
     width: 50%;
@@ -454,7 +388,6 @@
     width: 100%;
     margin-top: 10px;
     padding: 10px 8px;
-    /* margin-bottom: 25px; */
     border: 1px solid #262626;
     position: relative;
     cursor: pointer;
