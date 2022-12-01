@@ -90,7 +90,7 @@
     margin-right: 8px;
     padding-left: 10px;
     border-radius: 4px;
-    font-size: 19px;
+    font-size: 18px;
     border: 1px solid #aaaaaa;
   }
   .search_btn {
@@ -126,7 +126,7 @@
     display: inline-block;
   }
   .btn_part {
-    width: 10%; min-width: 192px;
+    width: 100%; min-width: 192px;
     height: 100%;
     line-height: 48px;
     border-radius : 4px;
@@ -151,15 +151,17 @@
     display : block;
     text-decoration : none;
     font-size: 21px;
-    padding : 12px 10px;
+    padding : 12px 6px;
   }
   .submenu_inner a:hover {
     font-weight: 500;
-    font-size: 17px;
+    font-size: 22px;
     color: #243c84;
     width: auto;
   }
   .submenu_part:hover .submenu_inner {
+    margin-left: -14px;
+    width: 220px;
     display: block;
     border: 1px solid #243c84;
     justify-content: space-between;
@@ -230,8 +232,11 @@
     width: 100%; min-width: 1920px; 
     height: auto;
   }
-  
+  .storefactory {
+    display: flex;
+  }
   #dreamfactoryBox_full {
+    /* display: flex; */
     float: left;
     width: 64.0625%; min-width: 1230px;
     height: 100%;
@@ -256,7 +261,7 @@
     width: 40.3780%; min-width: 470px;
     text-align: left;
   }
-  .dreamfactory > ul > li {
+  .dreamfactory ul li {
     width: 24.479%; min-width: 470px;
     margin-top: 50px;
     font-size: 20px;
@@ -301,6 +306,8 @@
   }
   
   #storefindBox {
+    display: flex;
+    flex-wrap: wrap;
     float: left;
     width: 35.9375%; min-width: 690px;
     height: auto;
@@ -310,13 +317,14 @@
   .find_inner {
     width: 100%; min-width: 596px; 
     height: auto;
+    margin-top: 4.476%;
   }
   .finder {
     width: 100%; 
     min-width: 596px; 
     height: 190px;
   }
-  .storefind_TX {
+  .finder h2 {
     width: auto;
     height: auto;
     margin: auto;
@@ -339,7 +347,7 @@
     border: 1px solid #bbb;
     border-radius: 5px;
     padding: 10px 12px;
-    font-size: 25px;
+    font-size: 22px;
   }
   .search button {
     cursor: pointer;
@@ -354,15 +362,22 @@
   }
 
   .noticeBox_full {
-    width: 90%;
+    width: 100%;
     height: auto;
     margin: auto;
     margin-top: 4.476%;
   }
   .noticeBox {display: none;}
   .notice {
-    width: auto;
+    width: 100%;
     height: 200px;
+  }
+  .notice h2 {
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-left: 38px;
+    font-weight: 500;
   }
   .notice_TX {
     width: auto;
@@ -381,13 +396,13 @@
   }
   .notice_letter{
     float: left;
-    width: 93.5484%; min-width: 580px;
+    width: 91.5942%; min-width: 632px;
     height: 120px;
     display: block;
     position: relative;
     margin: auto;
     margin-top: 20px;
-    Padding-left: 24px;
+    Padding-left: 46px;
   }
   .notice_letter li{
     font-weight: normal;
@@ -395,11 +410,11 @@
   .notice_letter li a {
     float: left;
     width: 56.8966%; min-width: 330px;
-    font-size: 20px;
+    font-size: 18px;
   }
   .notice_letter li span {
     float: right;
-    font-size: 17px;
+    font-size: 16px;
   }
   
   /* #shortcutBox ====================== */
@@ -416,7 +431,7 @@
     float: left;
     width: 40%; min-width: 768px; 
     height: 477px;
-    margin: 2.969% 2.731% 3.331% 7.2%;
+    margin: 3.969% 2.731% 2.331% 7.2%;
   }
   .menu {
     float: left;
@@ -485,7 +500,7 @@
   .brandStory_inner {
     float: left;
     width: 40%; min-width: 768px; height: 477px;
-    margin: 2.969% 7.2% 3.331% 2.731%;
+    margin: 3.969% 7.2% 2.331% 2.731%;
   }
   .brandStory {
     float: left;
@@ -662,15 +677,14 @@
     width: auto; height: 120px;
   }
   .snsmark button span {
-    float: right;
+    float: left;
     width: auto;
     height: 25px;
-    margin-left: 28px;
     font-size: 25px;
     line-height: 25px;
   }
   .snsmark button img {
-    margin-left: 25px;
+    margin: 0 40px;
   }
   .Fmark {
     float: left;
@@ -732,7 +746,7 @@
     content: 'l';
   }
   .foot_main p {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 26px;
     font-weight: 400;
   }
@@ -751,7 +765,7 @@
   .language_btn {
     width: 100%; 
     height: 60px;
-    margin-top: 6px;
+    /* margin-top: 6px; */
   }
   .language_btn img {
     width: 45px; height: 45px;
@@ -771,14 +785,25 @@
     width: 100%; height: auto;
   }
   .language_part li {
-    width: auto; height: 30px;
-    line-height: 20px;
+    width: auto; height: 35px;
+    line-height: 25px;
   }
-  .language_part li button { text-transform: uppercase; }
+  .language_part li button { 
+    font-size: 19px;
+    text-transform: uppercase; 
+  }
 
   .brandsite_part {
     width: 50%;
     margin-left: 5px;
+  }
+  .brandsite_part li {
+    width: auto; height: 35px;
+    line-height: 25px;
+  }
+  .brandsite_part li button {
+    font-size: 19px;
+    text-transform: uppercase; 
   }
   .brandsite_btn {
     width: 100%; height: 60px;

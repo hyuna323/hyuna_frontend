@@ -89,7 +89,7 @@
     margin-right: 8px;
     padding-left: 10px;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 14px;
     border: 1px solid #aaaaaa;
   }
   .search_btn {
@@ -99,7 +99,7 @@
     border: 1px solid #fff;
     background-color: #243c84;
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
     text-transform: capitalize;
   }
 
@@ -133,7 +133,7 @@
     padding : 12px;
     text-align: left;
     cursor : pointer;
-    font-size : 20px;
+    font-size : 17px;
     text-align: center;
     color: #fff;
   }
@@ -150,12 +150,12 @@
   .submenu_inner a {
     display : block;
     text-decoration : none;
-    font-size: 16px;
-    padding : 12px 10px;
+    font-size: 15px;
+    padding : 12px 8px;
   }
   .submenu_inner a:hover {
     font-weight: 500;
-    font-size: 17px;
+    font-size: 16px;
     color: #243c84;
     width: auto;
   }
@@ -259,7 +259,7 @@
     width: 100%; min-width: 514px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 500;
   }
   .menu_btn {
@@ -273,7 +273,7 @@
     width: 26.9388%; min-width: 132px;
     height: 45px;
     float: right;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 45px;
     margin-bottom: 10px;
     border: 1px solid #cccccc;
@@ -284,7 +284,7 @@
     width: 26.9388%; min-width: 132px;
     height: 45px;
     float: right;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 45px;
     margin-bottom: 10px;
     border: 1px solid #cccccc;
@@ -293,7 +293,7 @@
   }
   .menu_md{
     float: right;
-    font-size: 18px;
+    font-size: 17px;
     width: 26.9388%; min-width: 132px;
     height: 45px;
     line-height: 45px;
@@ -306,7 +306,7 @@
   .menu_p {
     margin: 270px 76px 0 0;
     text-align: right;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 300;
     color: white;
   }
@@ -329,7 +329,7 @@
     width: 100%; min-width: 514px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 500;
   }
   .brandStory_btn {
@@ -343,7 +343,7 @@
     width: 26.9388%; min-width: 132px;
     height: 45px;
     float: right;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 45px;
     margin-bottom: 5px;
     border: 1px solid #151515;
@@ -354,7 +354,7 @@
     width: 26.9388%; min-width: 132px;
     height: 45px;
     float: right;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 45px;
     margin-bottom: 5px;
     border: 1px solid #151515;
@@ -366,7 +366,7 @@
     width: 26.9388%; min-width: 132px;
     height: 45px;
     float: right;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 45px;
     margin-bottom: 5px;
     border: 1px solid #151515;
@@ -375,7 +375,7 @@
   }
   .brandStory_m{
     float: right;
-    font-size: 18px;
+    font-size: 17px;
     width: 88%; min-width: 132px;
     height: 45px;
     line-height: 45px;
@@ -388,7 +388,7 @@
     width: 26.9388%; min-width: 132px;
     height: 45px;
     float: right;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 45px;
     border: 1px solid #151515;
     border-radius: 6px;
@@ -414,7 +414,7 @@
     width: 36.7188%; min-width: 470px;
     text-align: left;
     margin-top: 50px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 300;
     color: #ffffff;
   }
@@ -433,7 +433,7 @@
     width: 10.9375%; min-width: 140px;
     height: 45px;
     float: right;
-    font-size: 18px;
+    font-size: 16px;
     margin-right: 10px;
     line-height: 45px;
     text-transform: uppercase;
@@ -447,7 +447,7 @@
     width: 10.9375%; min-width: 140px;
     height: 45px;
     float: right;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 45px;
     text-transform: uppercase;
     border: 1px solid #151515;
@@ -479,7 +479,7 @@
   }
   .franchise_TX {
     width: 100%; min-width: 516px;
-    font-size: 20px;
+    font-size: 19px;
     text-align: right;
     font-weight: 500;
     padding-right: 110px;
@@ -496,7 +496,7 @@
     width: 29.457%; min-width: 152px;
     height: 45px;
     float: right;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 45px;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -510,7 +510,7 @@
     width: 29.457%; min-width: 152px;
     height: 45px;
     float: right;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 45px;
     text-transform: uppercase;
     border: 1px solid #151515;
@@ -549,17 +549,16 @@
   }
   .snsmark button {
     width: auto; height: 96px;
+    text-align: left;
   }
   .snsmark button span {
-    float: right;
-    width: auto;
+    width: 80px;
     height: 25px;
-    margin-left: 18px;
     font-size: 22px;
     line-height: 25px;
   }
   .snsmark button img {
-    margin-left: 20px;
+    margin: 0 26px;
   } 
   .Fmark {
     float: left;
@@ -594,7 +593,6 @@
   }
   
   .foot_main {
-    font-size: 16px;
     font-weight: 300;
     color: #000;
     text-align: center;
@@ -615,7 +613,7 @@
     height: auto;
   }
   .foot_main .company_info li {
-    font-size: 18px;
+    font-size: 17px;
     display: inline-block;
   }
   .foot_main .company_info li::after {
@@ -623,7 +621,7 @@
     content: 'l';
   }
   .foot_main p {
-    font-size: 17px;
+    font-size: 15px;
     margin-top: 26px;
     font-weight: 400;
   }
@@ -660,14 +658,27 @@
     width: 100%; height: auto;
   }
   .language_part li {
-    width: auto; height: 30px;
+    width: auto; 
+    height: 30px;
     line-height: 20px;
   }
-  .language_part li button { text-transform: uppercase;}
+  .language_part li button { 
+    font-size: 16px;
+    text-transform: uppercase;
+  }
 
   .brandsite_part {
     width: 50%;
     margin-left: 5px;
+  }
+  .brandsite_part li {
+    width: auto;
+    height: 35px;
+    line-height: 25px;
+  }
+  .brandsite_part li button {
+    font-size: 16px;
+    text-transform: uppercase;
   }
   .brandsite_btn {
     width: 100%; height: 42px;
@@ -704,15 +715,15 @@
   }
   .to_top span {
     display: inline-block;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
     background: url(../../img/to_top2color.svg)no-repeat center;
-    background-size: 60px;
+    background-size: 50px;
   }
   .to_top span:hover {
     background: url(../../img/to_top_fill.svg)no-repeat center;
-    background-size: 60px;
+    background-size: 50px;
   }
   .footInner_m {display: none;}
 } /* 1280px ~ 1439px ============================================== */

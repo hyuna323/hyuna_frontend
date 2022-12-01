@@ -104,7 +104,7 @@
     display: block;
     padding: 10px;
     border-bottom: 1px solid #fff;
-    font-size: 18px;
+    font-size: 16px;
     color: #eee;
     font-weight: 400;
     cursor: pointer;
@@ -159,7 +159,6 @@
   .sns_part li {
     width: 96.25%; min-width: 308px;
     height: auto;
-    font-size: 15px; font-weight: 500;
     margin: 10px 5px 5px;
     color: #ddd;
   }
@@ -272,7 +271,7 @@
   .drink_TX span {
     width: 86.875%; min-width: 139px;
     padding: 3.33333333% 3.66666667%;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     float: left;
     text-transform: uppercase;
@@ -298,7 +297,7 @@
   .bk_TX span {
     width: 86.875%; min-width: 139px;
     padding: 2.33333333% 6.66666667%;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     float: right;
     text-align: right;
@@ -325,7 +324,7 @@
   .md_TX span {
     width: 86.875%; min-width: 139px;
     padding: 3.33333333% 6.66666667%;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     float: left;
     text-transform: uppercase;
@@ -341,7 +340,7 @@
   .bst_TX span {
     width: 86.875%; min-width: 139px;
     padding: 2.33333333% 6.66666667%;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     float: right;
     text-align: right;
@@ -367,7 +366,7 @@
     width: 55.625%; min-width: 178px; height: auto;
     margin-top: 5%;
   }
-  .dreamfactory > ul > li {
+  .dreamfactory ul li {
     width: 55.3125%; min-width: 177px;
     height: auto;
     text-align: left;
@@ -551,10 +550,10 @@
     width: 100%; min-width: 300px; height: auto;
   }
   .foot_main .company_info li {
-    font-size: 14px;
+    font-size: 11px;
   }
   .foot_main p {
-    font-size: 12px;
+    font-size: 10px;
     margin-top: 2.5%;
     font-weight: 400;
   }
