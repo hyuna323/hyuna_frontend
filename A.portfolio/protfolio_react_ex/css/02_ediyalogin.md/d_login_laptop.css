@@ -4,7 +4,7 @@
 @media all and (min-width:1280px) and (max-width:1439px) {
   #wrap {width: 100%; min-width: 1280px;}
 
-/* #headBox ========================= */
+  /* #headBox ========================= */
   #headBox { 
     width:100%; min-width: 1280px;
     height: 140px;
@@ -20,6 +20,7 @@
     margin: auto; box-sizing: border-box;
     padding: 13px 40px;
   }
+
   h1 {
     width: 100%; min-width: 750px; 
     height: auto;
@@ -29,6 +30,7 @@
     width: 100%; min-width: 190px; height: 20px;
     margin-top: 12px;
   }
+
   .unb {
     display: flex;
     float: right;
@@ -37,6 +39,7 @@
     text-transform: uppercase;
     text-align: center;
   }
+
   .about_part {
     width: 6.25%; min-width: 80px;
     height: 50px;
@@ -49,6 +52,7 @@
     height: 100%;
     text-decoration: none;
   }
+
   .login_part {
     width: 6.25%; min-width: 80px;
     height: 50px;
@@ -61,6 +65,7 @@
     height: 100%;
     text-decoration: none;
   }
+
   .search_part {
     float: right;
     width: auto;
@@ -68,7 +73,7 @@
     margin: auto;
     margin-left: 10px;
   }
-  .search_part > form {
+  .search_part form {
     width: auto;
     height: auto;
   }
@@ -106,6 +111,7 @@
     margin: auto;
     box-sizing: border-box;
   }
+
   .gnb {
     display: flex;
     justify-content: space-between;
@@ -113,6 +119,7 @@
     height: 100%;
     margin: auto;
   }
+  
   .submenu_part {
     position: relative;
     display: inline-block;
@@ -157,6 +164,7 @@
     border: 1px solid #243c84;
     justify-content: space-between;
   }
+
   .header_m {display: none;}
     
   .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 140px;}
@@ -177,6 +185,7 @@
     height: auto;
     padding: 140px 120px 180px 120px;
   }
+
   .logintext {
     width: 46.094%; min-width: 590px;
     height: 104px;
@@ -186,6 +195,7 @@
     text-align: center;
     font-size: 22px;
   }
+
   .welcometext li {
     width: 60.781%; min-width: 778px;
     height: 72px;
@@ -195,6 +205,7 @@
     padding: 20px 0;
     color: #fff;
   }
+
   .loginmain {
     width: 39.8438%; min-width: 510px; 
     height: auto;
@@ -205,6 +216,7 @@
     height: 170px;
     margin: auto;
   }
+
   .privite {
     width: 39.84375%; min-width: 510px;
     height: 170px;
@@ -227,6 +239,7 @@
     padding: 12px;
     margin-top: 10px;
   }
+
   .checkbox_inner {
     display: flex;
     width: auto;
@@ -236,107 +249,113 @@
     margin-top: 10px;
     border: none;
   }
-    .checkbox_inner input {
-      width: 22px;
-      height: 22px;
-      border: 1px solid #ededed;
-    }
-    .id_check_inner {
-      width: auto; height: auto;
-      margin-top: -9px;
-    }
-    .id_check_inner span {
-      width: auto; height: 25px;
-      margin: auto;
-      margin-left: 15px;
-      cursor: pointer;
-      color: #fff;
-      font-size: 17px;
-    }
-    .login_btn {
-      width: 38.594%; min-width: 494px; height: 65px;
-      border-radius: 5px;
-      background-color: #24305A;
-      text-align: center;
-      margin: auto;
-      margin-top: 20px;
-    }
-    .login {
-      width: 100%; height: 65px;
-      line-height: 55px;
-    }
-    .login > button {
-      color: #fff;
-      font-size: 20px;
-      font-weight: 500;
-    }
-    .etc_area {
-      width: 97.6471%; min-width: 498px; height: 81px;
-      padding-top: 40px;
-      margin: auto;
-    }
-    .etc_area ul {
-      width: 100%; height: 41px;
-      margin: auto;
-      text-align: center;
-    }
-    .etc_area li {
-      display: inline-block;
-      width: 28.916%; min-width: 144px; height: 40px;
-      line-height: 40px;
-      font-size: 16px;
-      font-weight: 400;
-      text-align: center;
-      background-color: #eee;
-      margin-right: 5px;
-      border-radius: 5px;
-    }
-    .membership_area {
-      width: 42.969%; min-width: 550px; height: 250px;
-      margin: auto;
-      margin-top: 110px;
-      padding-top: 10px;
-      text-align: center;
-      background-color:  rgba(238, 238, 238, 75%);
-      border-radius: 5px;
-    }
-    .membership_area > i {
-      width: 46.094%; min-width: 590px; height: 226px;
-      font-size: 15px;
-    }
+  .checkbox_inner input {
+    width: 22px;
+    height: 22px;
+    border: 1px solid #ededed;
+  }
+  .id_check_inner {
+    width: auto; height: auto;
+    margin-top: -9px;
+  }
+  .id_check_inner span {
+    width: auto; height: 25px;
+    margin: auto;
+    margin-left: 15px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+  }
 
-    #open {
-      width: 81.818%; min-width: 450px; height: 50px;
-      margin: auto;
-      margin-top: 30px;
-      font-size: 16px;
-      font-weight: 400;
-      color: #fff;
-      text-align: center;
-      line-height: 50px;
-      background-color: rgba(36, 48, 90, 94%);
-      border-radius: 7px;
-    }
-    .modal {display: none;}
+  .login_btn {
+    width: 38.594%; min-width: 494px; height: 65px;
+    border-radius: 5px;
+    background-color: #24305A;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .login {
+    width: 100%; height: 65px;
+    line-height: 65px;
+  }
+  .login button {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+  }
 
-/* #footBox ============================================== */
-#footBox {
-  float: left;
-  width: 100%; min-width: 1280px;
-  height: auto;
-  border-top: 3px solid #243c84;
-}
+  .etc_area {
+    width: 97.6471%; min-width: 498px; height: 81px;
+    padding-top: 40px;
+    margin: auto;
+  }
+  .etc_area ul {
+    width: 100%; height: 41px;
+    margin: auto;
+    text-align: center;
+  }
+  .etc_area li {
+    display: inline-block;
+    width: 28.916%; min-width: 144px; height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    background-color: #eee;
+    margin-right: 5px;
+    border-radius: 5px;
+  }
+
+  .membership_area {
+    width: 42.969%; min-width: 550px; height: 250px;
+    margin: auto;
+    margin-top: 110px;
+    padding-top: 10px;
+    text-align: center;
+    background-color:  rgba(238, 238, 238, 75%);
+    border-radius: 5px;
+  }
+  .membership_area > i {
+    width: 46.094%; min-width: 590px; height: 226px;
+    font-size: 15px;
+  }
+  
+  #open {
+    width: 81.818%; min-width: 450px; height: 50px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgba(36, 48, 90, 94%);
+    border-radius: 7px;
+  }
+  .modal {display: none;}
+
+  /* #footBox ============================================== */
+  #footBox {
+    float: left;
+    width: 100%; min-width: 1280px;
+    height: auto;
+    border-top: 3px solid #243c84;
+  }
   .foot_inner {
     width: 85.7813%; min-width: 1098px; height: auto;
     margin: 30px auto;
     position: relative;
   }
+  
   .foot_main {
+    font-size: 16px;
+    font-weight: 300;
     color: #000;
     text-align: center;
     position: relative;
   }
-  .foot_inner > h2 {
+  .foot_main h2 {
     width: auto;
     margin-bottom: 28px;
   }
@@ -370,6 +389,7 @@
     top: 10px;
     right: 0;
   }
+
   .language_part {
     width: 50%;
   }
@@ -398,7 +418,8 @@
     width: auto; height: 30px;
     line-height: 20px;
   }
-  .language_part li button { text-transform: uppercase; }
+  .language_part li button { text-transform: uppercase;}
+
   .brandsite_part {
     width: 50%;
     margin-left: 5px;
@@ -425,11 +446,7 @@
     display: block;
     width: 100%; height: auto;
   }
-  .foot_inner > ul > li {
-    font-size: 16px;
-    font-weight: 300;
-    color: #ffffff;
-  }
+
   .to_top {
     display: none;
     position: fixed;
@@ -453,4 +470,5 @@
     background-size: 60px;
   }
   .footInner_m {display: none;}
-}
+
+} /* 1280px ~ 1439px ============================================== */

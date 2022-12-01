@@ -20,6 +20,7 @@
     margin: auto; box-sizing: border-box;
     padding: 16px 40px;
   }
+
   h1 {
     width: 100%; min-width: 1340px; 
     height: auto;
@@ -30,6 +31,7 @@
     height: 30px;
     margin-top: 14px;
   }
+
   .unb {
     display: flex;
     float: right;
@@ -38,6 +40,7 @@
     text-transform: uppercase;
     text-align: center;
   }
+
   .about_part {
     width: 100px;
     height: 50px;
@@ -50,6 +53,7 @@
     height: 100%;
     text-decoration: none;
   }
+
   .login_part {
     width: 20%; min-width: 100px;
     height: 50px;
@@ -62,6 +66,7 @@
     font-size: 20px;
     text-decoration: none;
   }
+
   .search_part {
     float: right;
     width: auto;
@@ -70,7 +75,7 @@
     margin-top: 5px;
     margin-left: 18px;
   }
-  .search_part > form {
+  .search_part form {
     width: auto;
     height: auto;
   }
@@ -107,6 +112,7 @@
     margin: auto;
     box-sizing: border-box;
   }
+
   .gnb {
     display: flex;
     justify-content: space-between;
@@ -114,6 +120,7 @@
     height: 100%;
     margin: auto;
   }
+
   .submenu_part {
     position: relative;
     display: inline-block;
@@ -176,6 +183,7 @@
     height: auto;
     padding: 220px 120px 80px 120px;
   }
+
   .logintext {
     width: 32.292%; min-width: 620px;
     height: 114px;
@@ -185,6 +193,7 @@
     text-align: center;
     font-size: 26px;
   }
+
   .welcometext li {
     width: 40.521%; min-width: 778px;
     height: 72px;
@@ -194,6 +203,7 @@
     padding: 20px 0;
     color: #fff;
   }
+
   .loginmain {
     width: 600px; 
     height: auto;
@@ -204,6 +214,7 @@
     height: 190px;
     margin: auto;
   }
+
   .privite {
     width: 31.146%; min-width: 600px;
     height: 190px;
@@ -227,117 +238,123 @@
     padding: 14px;
     margin-top: 10px;
   }
-    .checkbox_inner {
-      display: flex;
-      width: 99.666%; min-width: 598px;
-      height: 40px;
-      line-height: 30px;
-      margin-top: 20px;
-      padding-top: 10px;
-      border: none;
-    }
-    .checkbox_inner input {
-      width: 60px;
-      height: 30px;
-      border: 1px solid #ededed;
-    }
-    .id_check_inner {
-      width: auto; height: auto;
-    }
-    .id_check_inner span {
-      width: auto; 
-      height: 35px;
-      margin: auto;
-      margin-left: 10px;
-      cursor: pointer;  
-      color: #fff;
-      font-size: 22px;
-    }
-    .login_btn {
-      width: 31.25%; min-width: 600px; height: 75px;
-      border-radius: 5px;
-      background-color: #24305A;
-      text-align: center;
-      margin: auto;
-      margin-top: 30px;
-    }
-    .login {
-      width: 100%; 
-      height: 75px;
-    }
-    .login > button {
-      color: #fff;
-      font-size: 22px;
-      font-weight: 500;
-      line-height: 75px;
-    }
-    .etc_area {
-      width: 100%; min-width: 600px; 
-      height: 70px;
-      padding: 20px;
-      margin: auto;
-      margin-top: 22px;
-    }
-    .etc_area ul {
-      width: 100%; height: 70px;
-      margin: auto;
-      text-align: center;
-    }
-    .etc_area li {
-      display: inline-block;
-      width: 29.5%; min-width: 177px; height: 50px;
-      line-height: 50px;
-      font-size: 18px;
-      text-align: center;
-      background-color: #eee;
-      margin-right: 5px;
-      border-radius: 5px;
-    }
-    .membership_area {
-      width: 35.416%; min-width: 680px; height: 280px;
-      margin: auto;
-      margin-top: 120px;
-      padding-top: 25px;
-      text-align: center;
-      background-color:  rgba(238, 238, 238, 75%);
-      border-radius: 10px;
-    }
-    .membership_area > i {
-      width: 31.25%; min-width: 600px; height: 236px;
-      font-size: 19px;
-    }
 
-    #open {
-      width: 66.176%; min-width: 450px; height: 60px;
-      margin: auto;
-      margin-top: 30px;
-      font-size: 20px;
-      font-weight: 400;
-      color: #fff;
-      text-align: center;
-      line-height: 50px;
-      background-color: rgba(36, 48, 90, 94%);
-      border-radius: 7px;
-    }
-    .modal {display: none;}
-    
-/* ===================================================== */
-#footBox {
-  float: left;
-  width: 100%; min-width: 1920px;
-  height: auto;
-  border-top: 3px solid #243c84;
-}
+  .checkbox_inner {
+    display: flex;
+    width: 99.666%; min-width: 598px;
+    height: 40px;
+    line-height: 30px;
+    margin-top: 20px;
+    padding-top: 10px;
+    border: none;
+  }
+  .checkbox_inner input {
+    width: 60px;
+    height: 30px;
+    border: 1px solid #ededed;
+  }
+  .id_check_inner {
+    width: auto; height: auto;
+  }
+  .id_check_inner span {
+    width: auto; 
+    height: 35px;
+    margin: auto;
+    margin-left: 10px;
+    cursor: pointer;  
+    color: #fff;
+    font-size: 22px;
+  }
+
+  .login_btn {
+    width: 31.25%; min-width: 600px; height: 75px;
+    border-radius: 5px;
+    background-color: #24305A;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .login {
+    width: 100%; 
+    height: 75px;
+    line-height: 75px;
+  }
+  .login button {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .etc_area {
+    width: 100%; min-width: 600px; 
+    height: 70px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 22px;
+  }
+  .etc_area ul {
+    width: 100%; height: 70px;
+    margin: auto;
+    text-align: center;
+  }
+  .etc_area li {
+    display: inline-block;
+    width: 29.5%; min-width: 177px; height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #eee;
+    margin-right: 5px;
+    border-radius: 5px;
+  }
+
+  .membership_area {
+    width: 35.416%; min-width: 680px; height: 280px;
+    margin: auto;
+    margin-top: 120px;
+    padding-top: 25px;
+    text-align: center;
+    background-color:  rgba(238, 238, 238, 75%);
+    border-radius: 10px;
+  }
+  .membership_area > i {
+    width: 31.25%; min-width: 600px; height: 236px;
+    font-size: 19px;
+  }
+  
+  #open {
+    width: 66.176%; min-width: 450px; height: 60px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgba(36, 48, 90, 94%);
+    border-radius: 7px;
+  }
+  .modal {display: none;}
+  
+  /* #footBox =========================================== */
+  #footBox {
+    float: left;
+    width: 100%; min-width: 1920px;
+    height: auto;
+    border-top: 3px solid #243c84;
+  }
   .foot_inner {
     width: 71.1458%; min-width: 1366px; height: auto;
     margin: 34px auto;
   }
+
   .foot_main {
+    font-size: 20px;
     color: #000;
     text-align: center;
     position: relative;
   }
-  .foot_main > h2 {
+  .foot_main h2 {
     width: auto;
     margin-bottom: 28px;
   }
@@ -372,6 +389,7 @@
     top: 10px;
     right: 0;
   }
+
   .language_part {
     width: 50%;
   }
@@ -402,6 +420,7 @@
     line-height: 20px;
   }
   .language_part li button { text-transform: uppercase; }
+
   .brandsite_part {
     width: 50%;
     margin-left: 5px;
@@ -429,10 +448,7 @@
     display: block;
     width: 100%; height: auto;
   }
-  .foot_inner > ul > li {
-    font-size: 20px;
-    color: #ffffff;
-  }
+
   .to_top {
     display: none;
     position: fixed;
@@ -456,4 +472,4 @@
     background-size: 60px;
   }
   .footInner_m {display: none;}
-} 
+} /* 1920px ~ =========================================== */

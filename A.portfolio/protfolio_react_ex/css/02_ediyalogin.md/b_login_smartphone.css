@@ -18,6 +18,7 @@
     width: 100%; max-width: 767px; min-width: 320px;
     margin: auto; box-sizing: border-box;
   }
+
   h1 {
     float: left;
     width: 33.75%; min-width: 108px; height: auto;
@@ -25,8 +26,10 @@
   .head_inner > h1 > button > img {
     width: 100%; min-width: 108px; height: 12px;
   }
+
   .unb {display: none;}
   .gnb {display: none;}
+
   #headBox .header_m {padding-left: 34.375%;}
   .header_m {
     float: right;
@@ -35,7 +38,9 @@
     margin-top: 10px;
     box-sizing: border-box;
   }
+
   #unbInner {width: 18.75%; min-width: 60px; padding: 0;}    
+
   #check_box {display: none;}
   #check_box + label {
     position: relative;
@@ -91,6 +96,7 @@
     padding: 60px 16px 20px 16px;
     box-sizing: border-box;
   }
+
   input[id*="slide_btn"] {display: none;}
   input[id*="slide_btn"] + label {
     width: auto;
@@ -103,65 +109,66 @@
     cursor: pointer;
     position: relative;
   }
-    input[id*="slide_btn"] + label + div {
-      max-height: 0;
-      transition: all .35s;
-      overflow: hidden;
-      font-size: 16px;
-      font-weight: 300;
-      color: #fff;
-    }
-    input[id*="slide_btn"] + label + div a {
-      display: inline-block;
-      padding: 10px;
-      display: flex;
-    }
-    input[id*="slide_btn"]:checked + label + div {
-      max-height: inherit;
-    }
-    .search_part {
-      height: auto;
-    }
-    .search_part > form {
-      width: auto;
-      height: auto;
-    }
-    .search_part fieldset {
-      display: flex;
-      width: auto;
-      height: auto;
-    }
-    #searchInput {
-      width: 53.75%; min-width: 172px;
-      height: 44px;
-      margin-right: 8px;
-      padding-left: 5px;
-      border-radius: 4px;
-      border: 1px solid #aaaaaa;
-    }
-    .search_btn {
-      width: 21.875%; min-width: 70px;
-      border-radius: 4px;
-      border: 1px solid #fff;
-      color: #fff;
-      text-transform: capitalize;
-    }
-    .sns_part ul {width: 100%; height: auto;}
-    .sns_part li {
-      width: 96.25%; min-width: 308px;
-      height: auto;
-      font-size: 15px; font-weight: 500;
-      margin: 10px 5px 5px;
-      color: #ddd;
-    }
-    .sns_part button img {
-      width: 26px; height: 26px;
-      margin-right: 5px;
-      color: #aaa;
-    }
+  input[id*="slide_btn"] + label + div {
+    max-height: 0;
+    transition: all .35s;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+  }
+  input[id*="slide_btn"] + label + div a {
+    display: inline-block;
+    padding: 10px;
+    display: flex;
+  }
+  input[id*="slide_btn"]:checked + label + div {
+    max-height: inherit;
+  }
+  
+  .search_part {
+    height: auto;
+  }
+  .search_part form {
+    width: auto;
+    height: auto;
+  }
+  .search_part fieldset {
+    display: flex;
+    width: auto;
+    height: auto;
+  }
+  #searchInput {
+    width: 53.75%; min-width: 172px;
+    height: 44px;
+    margin-right: 8px;
+    padding-left: 5px;
+    border-radius: 4px;
+    border: 1px solid #aaaaaa;
+  }
+  .search_btn {
+    width: 21.875%; min-width: 70px;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: capitalize;
+  }
+
+  .sns_part ul {width: 100%; height: auto;}
+  .sns_part li {
+    width: 96.25%; min-width: 308px;
+    height: auto;
+    font-size: 15px; font-weight: 500;
+    margin: 10px 5px 5px;
+    color: #ddd;
+  }
+  .sns_part button img {
+    width: 26px; height: 26px;
+    margin-right: 5px;
+    color: #aaa;
+  }
+
   .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 60px;}
-
-
 
 /* #loginBox ============================ */
   #loginBox {
@@ -179,6 +186,7 @@
     height: auto;
     padding: 75px 23px 60px 23px;
   }
+
   .logintext {
     width: 46.25%; min-width: 148px; 
     height: 50px;
@@ -188,6 +196,7 @@
     text-align: center;
     font-size: 18px;
   }
+
   .welcometext li {
     width: 60.9375%; min-width: 195px;
     height: 30px;
@@ -197,6 +206,7 @@
     padding: 5px 0;
     color: #fff;
   }
+
   .loginmain {
     width: auto; height: 250px;
     margin: auto;
@@ -206,6 +216,7 @@
     height: 120px;
     margin: auto;
   }
+
   .privite {
     width: 59.375%; min-width: 190px;
     height: 124px;
@@ -228,6 +239,7 @@
     font-size: 14px;
     margin-top: 10px;
   }
+
   .checkbox_inner {
     display: flex;
     width: auto;
@@ -237,138 +249,142 @@
     padding-top: 8px;
     border: none;
   }
-    .checkbox_inner input {
-      width: 20px;
-      height: 20px;
-      border: 1px solid #ededed;
-    }
-    .id_check_inner span {
-      width: auto; height: 35px;
-      line-height: 35px;
-      margin: auto;
-      margin-left: 10px;
-      margin-top: -8px;
-      float:left;
-      cursor: pointer;
-      color: #fff;
-      font-size: 14px;
-    }
-    .login_btn {
-      width: 59.375%; min-width: 190px;
-      height: 40px;
-      border-radius: 5px;
-      background-color: #24305A;
-      text-align: center;
-      margin: auto;
-      margin-top: 10px;
-    }
-    .login {
-      width: 100%; height: 40px;
-      line-height: 30px;
-    }
-    .login > button {
-      color: #fff;
-      font-size: 18px;
-      font-weight: 500;
-    }
-    .etc_area {
-      width: 79.6875%; min-width: 255px; 
-      height: 40px;
-      padding-top: 2px;
-      margin: auto;
-    }
-    .etc_area ul {
-      width: 100%; min-width: 255px; 
-      height: 40px;
-      margin: auto;
-      text-align: center;
-    }
-    .etc_area li {
-      display: inline-block;
-      width: 29.411%; min-width: 75px; 
-      height: 25px;
-      line-height: 25px;
-      font-size: 10px;
-      text-align: center;
-      background-color: #eee;
-      margin-right: 3px;
-      border-radius: 5px;
-    }
-    .membership_area {
-      width: 52.5%; min-width: 168px; 
-      height: 40px;
-      margin: auto;
-      margin-top: 30px;
-    }
-    .membership_area i {display: none;}
-    #open {
-      width: 100%; min-width: 168px; 
-      height: 40px;
-      margin: auto;
-      font-size: 12px;
-      color: #fff;
-      text-align: center;
-      line-height: 40px;
-      background-color: rgba(36, 48, 90, 86%);
-      border-radius: 7px;
-    }
-    .modal {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .modal_overlay {
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      background-color: rgba(0, 0, 0, 0.6);
-    }
-    .modal_content {
-      width: 98%;
-      float: right;
-      background-color: #fff;
-      padding: 10px 5px;
-      text-align: center;
-      position: relative;
-      border-radius: 10px;
-      line-height: 14px;
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    }
-    .modalHeader h1 {
-      float: right;
-      width: 100%;
-      height: 24px;
-      font-size: 12px;
-      top: 0;
-      margin: 0;
-      padding-left: 20px;
-    }
-    .modalHeader button {
-      top: 0;
-      float: right;
-      margin-top: -30px;
-      padding-left: 10px;
-    }
-    .modalHeader button img {
-      top: 0;
-      width: 24px;
-      height: 24px;
-      cursor: pointer;
-    }
-    .modal_content i {
-      width: 100%;
-      height: 100%;
-      font-size: 11px;
-    }
-    .on {
-      display: none;
-    }
-    
+  .checkbox_inner input {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ededed;
+  }
+  .id_check_inner span {
+    width: auto; height: 35px;
+    line-height: 35px;
+    margin: auto;
+    margin-left: 10px;
+    margin-top: -8px;
+    float:left;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .login_btn {
+    width: 59.375%; min-width: 190px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #24305A;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .login {
+    width: 100%; height: 40px;
+    line-height: 30px;
+  }
+  .login button {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .etc_area {
+    width: 79.6875%; min-width: 255px; 
+    height: 40px;
+    padding-top: 2px;
+    margin: auto;
+  }
+  .etc_area ul {
+    width: 100%; min-width: 255px; 
+    height: 40px;
+    margin: auto;
+    text-align: center;
+  }
+  .etc_area li {
+    display: inline-block;
+    width: 29.411%; min-width: 75px; 
+    height: 25px;
+    line-height: 25px;
+    font-size: 10px;
+    text-align: center;
+    background-color: #eee;
+    margin-right: 3px;
+    border-radius: 5px;
+  }
+
+  .membership_area {
+    width: 52.5%; min-width: 168px; 
+    height: 40px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .membership_area i {display: none;}
+
+  #open {
+    width: 100%; min-width: 168px; 
+    height: 40px;
+    margin: auto;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgba(36, 48, 90, 86%);
+    border-radius: 7px;
+  }
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .modal_overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .modal_content {
+    width: 98%;
+    float: right;
+    background-color: #fff;
+    padding: 10px 5px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    line-height: 14px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+  .modalHeader h1 {
+    float: right;
+    width: 100%;
+    height: 24px;
+    font-size: 12px;
+    top: 0;
+    margin: 0;
+    padding-left: 20px;
+  }
+  .modalHeader button {
+    top: 0;
+    float: right;
+    margin-top: -30px;
+    padding-left: 10px;
+  }
+  .modalHeader button img {
+    top: 0;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  .modal_content i {
+    width: 100%;
+    height: 100%;
+    font-size: 11px;
+  }
+  .on {
+    display: none;
+  }
+  
 /* #footBox ========================= */
   #footBox {
     float: left;
@@ -381,12 +397,14 @@
     margin: 10px auto;
     position: relative;
   }
+
   .foot_main {
     color: #000;
+    font-weight: 300;
     text-align: center;
     position: relative;
   }
-  .foot_inner h2 {
+  .foot_main h2 {
     width: 100%; min-width: 300px;
     height: auto;
     margin: auto;
@@ -408,10 +426,7 @@
     font-weight: 400;
   }
   .foot_main .footsubmenu {display: none;}
-  .foot_inner > ul > li {
-    font-weight: 300;
-    color: #ffffff;
-  }
+
   .to_top {
     display: none;
     position: fixed;
@@ -434,4 +449,4 @@
     background: url(../../img/to_top_fill.svg)no-repeat center;
     background-size: 30px;
   }
-}
+} /* (디자인기준: 320px) ~ 767px ==================================== */

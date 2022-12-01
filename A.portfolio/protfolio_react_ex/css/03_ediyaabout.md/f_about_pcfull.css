@@ -3,6 +3,7 @@
 /* 1920px ~ */
 @media all and (min-width:1920px) {
   #wrap {width: 100%; min-width: 1920px; }
+
   /* #headBox ========================= */
   #headBox { 
     width:100%; height: 180px; 
@@ -17,13 +18,11 @@
     display: flex;
     margin: auto; box-sizing: border-box;
     padding: 16px 40px;
-    /* background-color: #243c84; */
   }
+
   h1 {
-    /* float: left; */
     width: 100%; min-width: 1340px; 
     height: auto;
-    /* margin-left: 10px; */
     margin: auto;
   }
   h1 > button > img {
@@ -40,6 +39,7 @@
     text-transform: uppercase;
     text-align: center;
   }
+
   .about_part {
     width: 5.208%; min-width: 100px;
     height: 54px;
@@ -52,6 +52,7 @@
     font-size: 20px;
     text-decoration: none;
   }
+
   .login_part {
     width: 100px;
     height: 54px;
@@ -65,14 +66,6 @@
     text-decoration: none;
   }
 
-  /* .unb button {
-    width: 80px; height: 25px; 
-    border: 0; margin: 0; 
-    background-color: #213C5D;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 5px;
-  } */
   .search_part {
     float: right;
     width: auto;
@@ -81,7 +74,7 @@
     margin-top: 5px;
     margin-left: 18px;
   }
-  .search_part > form {
+  .search_part form {
     width: auto;
     height: auto;
   }
@@ -89,7 +82,6 @@
     display: flex;
     width: auto;
     height: auto;
-    /* padding: 4px; */
   }
   #unbsearchInput {
     width: 44%; min-width: 220px;
@@ -101,7 +93,6 @@
     font-size: 19px;
     border: 1px solid #aaaaaa;
   }
-  
   .search_btn {
     width: 16%; min-width: 80px;
     height: 48px;
@@ -120,7 +111,6 @@
     background-color: #243c84;
     margin: auto;
     box-sizing: border-box;
-    /* border-top: 2px solid #333; */
   }
 
   .gnb {
@@ -130,6 +120,7 @@
     height: 100%;
     margin: auto;
   }
+
   .submenu_part {
     position: relative;
     display: inline-block;
@@ -151,8 +142,7 @@
     width : 100%; min-width: 172px;
     display : none;
     position : absolute;
-    z-index : 1; /*다른 요소들보다 앞에 배치*/
-    /* font-size: 16px; */
+    z-index : 1;
     font-weight: 300;
     background-color: #fff;
     text-align: center;
@@ -174,32 +164,33 @@
     border: 1px solid #243c84;
     justify-content: space-between;
   }
+
   .header_m {display: none;}
     
   .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 180px;}
 
 /* aboutBox ========================= */
-#aboutBox {
-  width: 100%; min-width: 1920px;
-  height: auto;
-  position: relative;
-  margin-top: 180px;
-  margin-bottom: 100px;
-}
-#about_inner {
+  #aboutBox {
     width: 100%; min-width: 1920px;
     height: auto;
-    /* padding: 0 50px; */
+    position: relative;
+    margin-top: 180px;
+    margin-bottom: 100px;
   }
+  #about_inner {
+    width: 100%; min-width: 1920px;
+    height: auto;
+  }
+
   h2 {
     width: 75%; min-width: 1440px;
     height: 60px;
     margin: auto;
-    /* margin: 0 10px; */
     text-align: center;
     text-transform: uppercase;
     font-size: 32px;
   }
+
   .intro {
     width: 67.7083%; min-width: 1300px; 
     height: auto;
@@ -210,6 +201,7 @@
     width: 100%; min-width: 1300px;
     border-radius: 10px;
   }
+
   #about_inner01 {
     width: 75%; min-width: 1440px; 
     height: auto;
@@ -226,7 +218,6 @@
     margin-bottom: 50px;
   }
   .about_txtImg_left {
-    /* float: left; */
     width: 90%; 
     height: 100%;
     margin: auto;
@@ -267,7 +258,6 @@
     width: 90%; 
     height: 100%;
     margin: auto;
-    /* padding-left: 30px; */
     line-height: 30px;
   }
   .about_txtImg_right img {
@@ -276,6 +266,7 @@
     height: 100%;
     border-radius: 10px;  
   }
+
   #about_inner02 {
     width: 43.75%; min-width: 1440px; 
     height: 700px;
@@ -295,13 +286,10 @@
     height: 100%;
     margin: auto;
     margin-top: 20px;
-    /* margin: 20px 68px; */
   }
   .philosophy_img {
     width: 100%; min-width: 1440px; 
     height: auto;
-    /* margin: auto; */
-    /* margin: 50px 68px; */
   }
   .phil_img01 {
     float: left;
@@ -345,6 +333,7 @@
     font-size: 22px;
     line-height: 50px;
   }
+
   #about_inner03 {
     width: 75%; min-width: 1440px; 
     height: 100%;
@@ -365,12 +354,12 @@
     min-width: 1440px;
     height: 100%;
     margin: auto;
-    /* margin: 50px 0; */
   }
   .value img {
     width: 100%;
     margin: auto;
   }
+
   #about_inner04 {
     width: 75%; min-width: 1400px; 
     height: auto;
@@ -384,7 +373,6 @@
     text-align: center;
     margin-bottom: 50px;
     text-transform: uppercase;
-    /* font-size: 30px; */
   }
   .cl_subtitle {
     width: auto; 
@@ -394,96 +382,96 @@
     font-size: 26px;
     font-weight: 400;
   }
-    .ediyaci {
-      display: flex;
-      width: 100%; min-width: 1440px;
-      height: 330px;
-      margin: 70px 0;
-    }
-    .ediyaci_img {
-      width: 34.722%; min-width: 500px; 
-      height: 330px;
-      margin: auto;
-      padding-right: 30px;
-    }
-    .ediyaci_img img {
-      width: 94%; min-width: 470px; 
-      height: 100%;
-    }
-      .ediyaci_txt {
-        width: 100%; 
-        height: 100%;
-        margin: auto;
-        padding: 40px 10px;
-        /* font-size: 20px; */
-      }
-      .ediyaci_txt span {
-        width: 100%; 
-        height: 330px;
-        font-size: 22px;
-        line-height: 50px;
-      }
+  .ediyaci {
+    display: flex;
+    width: 100%; min-width: 1440px;
+    height: 330px;
+    margin: 70px 0;
+  }
+  .ediyaci_img {
+    width: 34.722%; min-width: 500px; 
+    height: 330px;
+    margin: auto;
+    padding-right: 30px;
+  }
+  .ediyaci_img img {
+    width: 94%; min-width: 470px; 
+    height: 100%;
+  }
+  .ediyaci_txt {
+    width: 100%; 
+    height: 100%;
+    margin: auto;
+    padding: 40px 10px;
+  }
+  .ediyaci_txt span {
+    width: 100%; 
+    height: 330px;
+    font-size: 22px;
+    line-height: 50px;
+  }
 
-/* footer ========================= */
-#footBox {
-  float: left;
-  width: 100%; min-width: 1920px;
-  height: auto;
-  border-top: 3px solid #243c84;
-  /* padding: 20px; */
-}
-
+  /* footer ========================= */
+  #footBox {
+    float: left;
+    width: 100%; min-width: 1920px;
+    height: auto;
+    border-top: 3px solid #243c84;
+  }
   .foot_inner {
-    width: 76.3542%; min-width: 1466px; height: auto;
+    width: 71.1458%; min-width: 1366px; height: auto;
     margin: 34px auto;
   }
+
   .foot_main {
+    font-size: 20px;
     color: #000;
     text-align: center;
     position: relative;
   }
-  .foot_main > h2 {
-    width: 100%; min-width: 1466px;
+  .foot_main h2 {
+    width: auto;
     margin-bottom: 28px;
   }
   .foot_main h2 button img {
     width: 14.5833%; min-width: 280px; 
-    height: 38px;
+    height: 28px;
     margin: auto;
     display: block;
   }
   .foot_main .company_info {
-    width: 100%; height: auto;
+    width: 100%; min-width: 1366px;
+    height: auto;
   }
   .foot_main .company_info li {
-    font-size: 22px;
+    font-size: 21px;
     display: inline-block;
   }
   .foot_main .company_info li::after {
     padding: 0 14px;
     content: 'l';
   }
-  /* .foot_main .company_info li:last-child:after{display:none;} */
   .foot_main p {
     font-size: 20px;
     margin-top: 26px;
     font-weight: 400;
   }
   .foot_main .footsubmenu {
-    width: 15.625%; min-width: 330px; 
+    width: 14.583%; min-width: 320px; 
     height: auto;
     display: flex;
     position: absolute;
     top: 10px;
     right: 0;
-    /* font-size: 0.75rem; */
   }
+
   .language_part {
     width: 50%;
   }
   .language_btn {
-    width: 100%; height: 60px;
-    margin-top: 2px;
+    width: 100%; 
+    height: 60px;
+    margin-top: 6px;
   }
   .language_btn img {
     width: 45px; height: 45px;
@@ -493,7 +481,6 @@
     width: 100%;
     margin-top: 10px;
     padding: 10px 8px;
-    /* margin-bottom: 25px; */
     border: 1px solid #262626;
     position: relative;
     cursor: pointer;
@@ -508,24 +495,10 @@
     line-height: 20px;
   }
   .language_part li button { text-transform: uppercase; }
+
   .brandsite_part {
     width: 50%;
     margin-left: 5px;
-  }
-  .brandsite_part ul {
-    display: none;
-    width: 100%; height: auto;
-    margin-top: 10px;
-    padding: 5px 8px;
-    border: 1px solid #262626;
-    /* margin-bottom: 25px; */
-    position: relative;
-    cursor: pointer;
-    text-align: center;
-  }
-  .brandsite_part ul.on {
-    display: block;
-    width: 100%; height: auto;
   }
   .brandsite_btn {
     width: 100%; height: 60px;
@@ -535,15 +508,27 @@
     color: #fff;
     font-size: 17px;
   }
-  .foot_inner > ul > li {
-    font-size: 20px;
-    color: #ffffff;
+  .brandsite_part ul {
+    display: none;
+    width: 100%; height: auto;
+    margin-top: 10px;
+    padding: 5px 8px;
+    /* margin-bottom: 25px; */
+    border: 1px solid #262626;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
   }
+  .brandsite_part ul.on {
+    display: block;
+    width: 100%; height: auto;
+  }
+
   .to_top {
     display: none;
     position: fixed;
     bottom: 15px;
-    right: 2%;
+    right: 4%;
     z-index: 1;
   }
   .to_top.on {
@@ -551,16 +536,16 @@
   }
   .to_top span {
     display: inline-block;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     cursor: pointer;
     background: url(../../img/to_top2color.svg)no-repeat center;
-    background-size: 70px;
+    background-size: 60px;
   }
   .to_top span:hover {
     background: url(../../img/to_top_fill.svg)no-repeat center;
-    background-size: 70px;
+    background-size: 60px;
   }
-  
   .footInner_m {display: none;}
-}
+
+} /* 1920px ~ =========================================== */

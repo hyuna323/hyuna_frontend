@@ -4,7 +4,7 @@
 @media all and (min-width:1440px) and (max-width:1919px) {
   #wrap {width: 100%; min-width: 1440px; min-height: 600px; }
 
-/* #headBox ========================= */
+  /* #headBox ========================= */
   #headBox {
     width: 100%; min-width: 1440px;
     height: 140px;
@@ -14,153 +14,161 @@
     background-color: #fff;
     transition: .3s ease;
   }
-    .head_inner {
-      width: 100%; max-width: 1919px; min-width: 1440px;
-      height: 50%;
-      display: flex;
-      margin: auto; box-sizing: border-box;
-      padding: 12px 40px;
-    }
-      h1 {
-        width: 100%; min-width: 890px; 
-        height: auto;
-        margin: auto;
-      }
-      h1 > button > img { 
-        width: 100%; min-width: 200px;
-        height: 22px;
-        margin-top: 13px;
-      }
-      .unb {
-        display: flex;
-        float: right;
-        width: 33.055%; min-width: 476px; 
-        height: 46px;
-        text-transform: uppercase;
-        text-align: center;
-      }
-      .about_part {
-        width: 18.9076%; min-width: 90px;
-        height: 50px;
-        font-size: 16px;
-        line-height: 50px;
-      }
-      .about_part a {
-        display: block;
-        width: auto;
-        height: 100%;
-        text-decoration: none;
-      }
-      .login_part {
-        width: 18.9076%; min-width: 90px;
-        height: 50px;
-        line-height: 50px;
-      }
-      .login_part a {
-        display: block;
-        width: auto;
-        height: 100%;
-        font-size: 16px;
-        text-decoration: none;
-      }
-      .search_part {
-        width: auto;
-        height: auto;
-        margin: auto;
-        margin-top: 5px;
-        margin-left: 10px;
-      }
-      .search_part > form {
-        width: auto;
-        height: auto;
-      }
-      .search_part fieldset {
-        display: flex;
-        width: auto;
-        height: auto;
-      }
-      #unbsearchInput {
-        width: 40.3361%; min-width: 192px;
-        height: 40px;
-        margin: auto;
-        margin-right: 8px;
-        padding-left: 10px;
-        border-radius: 4px;
-        font-size: 16px;
-        border: 1px solid #aaaaaa;
-      }
-      .search_btn {
-        width: 16.8067%; min-width: 80px;
-        height: 40px;
-        border-radius: 5px;
-        /* border: 1px solid #fff; */
-        background-color: #243c84;
-        color: #fff;
-        font-size: 16px;
-        text-transform: capitalize;
-      }
+  .head_inner {
+    width: 100%; max-width: 1919px; min-width: 1440px;
+    height: 50%;
+    display: flex;
+    margin: auto; box-sizing: border-box;
+    padding: 12px 40px;
+  }
+
+  h1 {
+    width: 100%; min-width: 890px; 
+    height: auto;
+    margin: auto;
+  }
+  h1 > button > img { 
+    width: 100%; min-width: 200px;
+    height: 22px;
+    margin-top: 13px;
+  }
+
+  .unb {
+    display: flex;
+    float: right;
+    width: 33.055%; min-width: 476px; 
+    height: 46px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .about_part {
+    width: 18.9076%; min-width: 90px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+  }
+  .about_part a {
+    display: block;
+    width: auto;
+    height: 100%;
+    text-decoration: none;
+  }
+
+  .login_part {
+    width: 18.9076%; min-width: 90px;
+    height: 50px;
+    line-height: 50px;
+  }
+  .login_part a {
+    display: block;
+    width: auto;
+    height: 100%;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .search_part {
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  .search_part form {
+    width: auto;
+    height: auto;
+  }
+  .search_part fieldset {
+    display: flex;
+    width: auto;
+    height: auto;
+  }
+  #unbsearchInput {
+    width: 40.3361%; min-width: 192px;
+    height: 40px;
+    margin: auto;
+    margin-right: 8px;
+    padding-left: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 1px solid #aaaaaa;
+  }
+  .search_btn {
+    width: 16.8067%; min-width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    /* border: 1px solid #fff; */
+    background-color: #243c84;
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+
+  /* ---------------------------------- */
+  .head_inner02 {
+    width: 100%; min-width: 1440px;
+    height: 50%;
+    background-color: #243c84;
+    margin: auto; 
+    box-sizing: border-box;
+  }
+
+  .gnb {
+    display: flex;
+    justify-content: space-between;
+    width: 71.6666%; min-width: 1032px; 
+    height: 100%;
+    margin: auto;
+  }
+
+  .submenu_part {
+    position: relative;
+    display: inline-block;
+  }
+  .btn_part {
+    width: 16.2791%; min-width: 168px;
+    height: 100%;
+    line-height: 48px;
+    border-radius : 4px;
+    font-weight: 300;
+    padding : 12px;
+    text-align: left;
+    cursor : pointer;
+    font-size : 20px;
+    text-align: center;
+    color: #fff;
+  }
+  .submenu_inner {
+    width : 100%; min-width: 168px;
+    display : none;
+    position : absolute;
+    z-index : 1;
+    font-weight: 300;
+    background-color: #fff;
+    text-align: center;
+  }
+  .submenu_inner a {
+    display : block;
+    text-decoration : none;
+    font-size: 16px;
+    padding : 12px 8px;
+  }
+  .submenu_inner a:hover {
+    width: auto;
+    font-weight: 500;
+    font-size: 17px;
+    color: #243c84;
+  }
+  .submenu_part:hover .submenu_inner {
+    display: block;
+    border: 1px solid #243c84;
+    justify-content: space-between;
+  }
+
+  .header_m {display: none;}
     
-      /* ---------------------------------- */
-      .head_inner02 {
-        width: 100%; min-width: 1440px;
-        height: 50%;
-        background-color: #243c84;
-        margin: auto; 
-        box-sizing: border-box;
-      }
-      .gnb {
-        display: flex;
-        justify-content: space-between;
-        width: 71.6666%; min-width: 1032px; 
-        height: 100%;
-        margin: auto;
-      }
-      .submenu_part {
-        position: relative;
-        display: inline-block;
-      }
-      .btn_part {
-        width: 16.2791%; min-width: 168px;
-        height: 100%;
-        line-height: 48px;
-        border-radius : 4px;
-        font-weight: 300;
-        padding : 12px;
-        text-align: left;
-        cursor : pointer;
-        font-size : 20px;
-        text-align: center;
-        color: #fff;
-      }
-      .submenu_inner {
-        width : 100%; min-width: 168px;
-        display : none;
-        position : absolute;
-        z-index : 1;
-        font-weight: 300;
-        background-color: #fff;
-        text-align: center;
-      }
-      .submenu_inner a {
-        display : block;
-        text-decoration : none;
-        font-size: 16px;
-        padding : 12px 8px;
-      }
-      .submenu_inner a:hover {
-        width: auto;
-        font-weight: 500;
-        font-size: 17px;
-        color: #243c84;
-      }
-      .submenu_part:hover .submenu_inner {
-        display: block;
-        border: 1px solid #243c84;
-        justify-content: space-between;
-      }
-      .header_m {display: none;}
-        
-      .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 140px;}
+  .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 140px;}
 
 /* #loginBox ============================ */
   #loginBox {
@@ -178,6 +186,7 @@
     height: auto;
     padding: 160px 120px 200px 120px;
   }
+
   .logintext {
     width: 40.972%; min-width: 590px;
     height: 104px;
@@ -187,6 +196,7 @@
     text-align: center;
     font-size: 24px;
   }
+
   .welcometext li {
     width: 54.027%; min-width: 778px;
     height: 72px;
@@ -196,6 +206,7 @@
     padding: 20px 0;
     color: #fff;
   }
+
   .loginmain {
     width: 520px; 
     height: auto;
@@ -206,6 +217,7 @@
     height: 190px;
     margin: auto;
   }
+
   .privite {
     width: 36.111%; min-width: 520px;
     height: 190px;
@@ -229,6 +241,7 @@
     padding: 12px;
     margin-top: 10px;
   }
+
   .checkbox_inner {
     display: flex;
     width: 97.8846%; min-width: 509px;
@@ -257,91 +270,96 @@
     color: #fff;
     font-size: 17px;
   }
-    .login_btn {
-      width: 36.111%; min-width: 520px; height: 65px;
-      border-radius: 5px;
-      background-color: #24305A;
-      text-align: center;
-      margin: auto;
-      margin-top: 10px;
-    }
-    .login {
-      width: 100%; 
-      height: 65px;
-    }
-    .login > button {
-      color: #fff;
-      font-size: 20px;
-      font-weight: 500;
-      line-height: 55px;
-    }
-    .etc_area {
-      width: 100%; min-width: 520px; 
-      height: 62px;
-      padding-top: 20px;
-      margin: auto;
-    }
-    .etc_area ul {
-      width: 100%; height: 41px;
-      margin: auto;
-      text-align: center;
-    }
-    .etc_area li {
-      display: inline-block;
-      width: 31.5385%; min-width: 164px; height: 40px;
-      line-height: 40px;
-      font-size: 16px;
-      text-align: center;
-      background-color: #eee;
-      margin-right: 5px;
-      border-radius: 5px;
-    }
-    .membership_area {
-      width: 39.583%; min-width: 570px; height: 250px;
-      margin: auto;
-      margin-top: 120px;
-      padding-top: 10px;
-      text-align: center;
-      background-color:  rgba(238, 238, 238, 75%);
-      border-radius: 5px;
-    }
-    .membership_area > i {
-      width: 40.972%; min-width: 590px; height: 226px;
-      font-size: 16px;
-    }
-    #open {
-      width: 76.2712%; min-width: 450px; height: 50px;
-      margin: auto;
-      margin-top: 35px;
-      font-size: 17px;
-      font-weight: 400;
-      color: #fff;
-      text-align: center;
-      line-height: 50px;
-      background-color: rgba(36, 48, 90, 94%);
-      border-radius: 7px;
-    }
-    .modal {display: none;}
 
-/* ===================================================== */
-#footBox {
-  float: left;
-  width: 100%; min-width: 1440px;
-  height: auto;
-  border-top: 3px solid #243c84;
-}
+  .login_btn {
+    width: 36.111%; min-width: 520px; height: 65px;
+    border-radius: 5px;
+    background-color: #24305A;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .login {
+    width: 100%; 
+    height: 65px;
+    line-height: 65px;
+  }
+  .login button {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+  }
 
-.foot_inner {
-  width: 79.1666%; min-width: 1140px; height: auto;
-  margin: 28px auto;
-  position: relative;
-}
+  .etc_area {
+    width: 100%; min-width: 520px; 
+    height: 62px;
+    padding-top: 20px;
+    margin: auto;
+  }
+  .etc_area ul {
+    width: 100%; height: 41px;
+    margin: auto;
+    text-align: center;
+  }
+  .etc_area li {
+    display: inline-block;
+    width: 31.5385%; min-width: 164px; height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #eee;
+    margin-right: 5px;
+    border-radius: 5px;
+  }
+
+  .membership_area {
+    width: 39.583%; min-width: 570px; height: 250px;
+    margin: auto;
+    margin-top: 120px;
+    padding-top: 10px;
+    text-align: center;
+    background-color:  rgba(238, 238, 238, 75%);
+    border-radius: 5px;
+  }
+  .membership_area > i {
+    width: 40.972%; min-width: 590px; height: 226px;
+    font-size: 16px;
+  }
+
+  #open {
+    width: 76.2712%; min-width: 450px; height: 50px;
+    margin: auto;
+    margin-top: 35px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgba(36, 48, 90, 94%);
+    border-radius: 7px;
+  }
+  .modal {display: none;}
+
+/* footBox ============================================= */
+  #footBox {
+    float: left;
+    width: 100%; min-width: 1440px;
+    height: auto;
+    border-top: 3px solid #243c84;
+  }
+  .foot_inner {
+    width: 79.1666%; min-width: 1140px; height: auto;
+    margin: 28px auto;
+    position: relative;
+  }
+  
   .foot_main {
+    font-size: 18px;
     color: #000;
     text-align: center;
     position: relative;
   }
-  .foot_main > h2 {
+  .foot_main h2 {
     width: auto;
     margin-bottom: 28px;
   }
@@ -375,6 +393,7 @@
     top: 30px;
     right: 0;
   }
+  
   .language_part {
     width: 50%;
   }
@@ -404,6 +423,7 @@
     line-height: 20px;
   }
   .language_part li button { text-transform: uppercase; }
+
   .brandsite_part {
     width: 50%;
     margin-left: 5px;
@@ -430,10 +450,7 @@
     display: block;
     width: 100%; height: auto;
   }
-  .foot_inner > ul > li {
-    font-size: 18px;
-    color: #ffffff;
-  }
+
   .to_top {
     display: none;
     position: fixed;
@@ -457,4 +474,4 @@
     background-size: 60px;
   }
   .footInner_m {display: none;}
-}
+} /* 1440px ~ 1919px ========================================== */
