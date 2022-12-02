@@ -531,7 +531,6 @@
   }
 
   .foot_main {
-    font-weight: 300;
     color: #000;
     text-align: center;
     position: relative;
@@ -547,7 +546,8 @@
     display: block;
   }
   .foot_main .company_info {
-    width: 100%; min-width: 300px; height: auto;
+    width: 100%; min-width: 300px; 
+    height: auto;
   }
   .foot_main .company_info li {
     font-size: 11px;

@@ -556,7 +556,6 @@
     float: left;
     width: auto;
     height: 25px;
-    /* margin-left: 18px; */
     font-size: 24px;
     line-height: 25px;
   }
@@ -664,7 +663,6 @@
     line-height: 20px;
   }
   .language_part li button { 
-    font-size: 17px;
     text-transform: uppercase; 
   }
 
