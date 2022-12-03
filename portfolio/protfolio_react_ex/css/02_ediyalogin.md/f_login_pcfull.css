@@ -6,8 +6,7 @@
 
   /* #headBox ========================= */
   #headBox { 
-    width:100%; min-width: 1920px;
-    height: 180px; 
+    width:100%; height: 180px; 
     box-sizing:border-box;
     position: fixed;
     z-index: 999;
@@ -27,43 +26,43 @@
     margin: auto;
   }
   h1 > button > img {
-    width: 100%; min-width: 240px;
+    width: 100%; min-width: 280px;
     height: 30px;
     margin-top: 14px;
   }
 
   .unb {
+    width: 26.042%; min-width: 500px; 
+    height: auto;
     display: flex;
     float: right;
-    width: 26.042%; min-width: 500px; 
-    height: 100%;
     text-transform: uppercase;
     text-align: center;
   }
 
   .about_part {
-    width: 100px;
-    height: 50px;
+    width: 5.208%; min-width: 100px;
+    height: 54px;
     line-height: 54px;
   }
   .about_part a {
     display: block;
     width: auto;
-    font-size: 20px;
     height: 100%;
+    font-size: 20px;
     text-decoration: none;
   }
 
   .login_part {
-    width: 20%; min-width: 100px;
-    height: 50px;
-    line-height: 50px;
+    width: 100px;
+    height: 54px;
+    line-height: 54px;
   }
   .login_part a {
     display: block;
+    font-size: 20px;
     width: auto;
     height: 100%;
-    font-size: 20px;
     text-decoration: none;
   }
 
@@ -95,9 +94,10 @@
     border: 1px solid #aaaaaa;
   }
   .search_btn {
-    width: 18%; min-width: 90px;
+    width: 16%; min-width: 80px;
     height: 48px;
     border-radius: 5px;
+    border: 1px solid #fff;
     background-color: #243c84;
     color: #fff;
     font-size: 19px;
@@ -126,7 +126,7 @@
     display: inline-block;
   }
   .btn_part {
-    width: 100%; min-width: 172px;
+    width: 14.5148%; min-width: 172px;
     height: 100%;
     line-height: 48px;
     border-radius : 4px;
@@ -161,10 +161,13 @@
     width: auto;
   }
   .submenu_part:hover .submenu_inner {
+    margin-left: -14px;
+    width: 220px;
     display: block;
     border: 1px solid #243c84;
     justify-content: space-between;
   }
+  
   .header_m {display: none;}
     
   .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 180px;}

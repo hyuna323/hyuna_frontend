@@ -20,7 +20,7 @@
     margin: auto; box-sizing: border-box;
     padding: 12px 40px;
   }
-
+  
   h1 {
     width: 100%; min-width: 890px; 
     height: auto;
@@ -31,7 +31,7 @@
     height: 20px;
     margin-top: 14px;
   }
-
+  
   .unb {
     width: auto; min-width: 470px; 
     height: 46px;
@@ -40,7 +40,7 @@
     text-transform: uppercase;
     text-align: center;
   }
-
+  
   .about_part {
     width: 6.25%; min-width: 90px;
     height: 50px;
@@ -53,7 +53,7 @@
     font-size: 16px;
     text-decoration: none;
   }
-
+  
   .login_part {
     width: 6.25%; min-width: 90px;
     height: 50px;
@@ -66,7 +66,7 @@
     height: 100%;
     text-decoration: none;
   }
-
+  
   .search_part {
     float: right;
     width: auto;
@@ -75,7 +75,7 @@
     margin-top: 5px;
     margin-left: 10px;
   }
-  .search_part form {
+  .search_part > form {
     width: auto;
     height: auto;
   }
@@ -105,7 +105,7 @@
     text-transform: capitalize;
   }
 
-  /* ---------------------------------- */
+/* ---------------------------------- */
   .head_inner02 {
     width: 100%; min-width: 1440px;
     height: 50%;
@@ -151,8 +151,8 @@
   .submenu_inner a {
     display : block;
     text-decoration : none;
-    font-size: 17px;
-    padding : 12px 8px;
+    font-size: 16px;
+    padding : 12px 6px;
   }
   .submenu_inner a:hover {
     font-weight: 500;
@@ -165,8 +165,9 @@
     border: 1px solid #243c84;
     justify-content: space-between;
   }
+  
   .header_m {display: none;}
-    
+  
   .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 140px;}
 
   /* aboutBox ========================= */

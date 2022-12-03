@@ -4,7 +4,7 @@
 @media all and (min-width:1280px) and (max-width:1439px) {
   #wrap {width: 100%; min-width: 1280px;}
 
-  /* #headBox ========================= */
+  /* #headBox =================================== */
   #headBox { 
     width:100%; min-width: 1280px;
     height: 140px;
@@ -20,7 +20,7 @@
     margin: auto; box-sizing: border-box;
     padding: 13px 40px;
   }
-
+  
   h1 {
     width: 100%; min-width: 750px; 
     height: auto;
@@ -119,7 +119,7 @@
     height: 100%;
     margin: auto;
   }
-  
+
   .submenu_part {
     position: relative;
     display: inline-block;

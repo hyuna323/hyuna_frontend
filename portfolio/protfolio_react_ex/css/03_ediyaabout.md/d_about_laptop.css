@@ -4,7 +4,7 @@
 @media all and (min-width:1280px) and (max-width:1439px) {
   #wrap {width: 100%; min-width: 1280px;}
 
-  /* #headBox ========================= */
+  /* #headBox =================================== */
   #headBox { 
     width:100%; min-width: 1280px;
     height: 140px;
@@ -20,7 +20,7 @@
     margin: auto; box-sizing: border-box;
     padding: 13px 40px;
   }
-
+  
   h1 {
     width: 100%; min-width: 750px; 
     height: auto;
@@ -137,7 +137,7 @@
     color: #fff;
   }
   .submenu_inner {
-    width : 100%; min-width: 170px;
+    width : 100%; min-width: 178px;
     display : none;
     position : absolute;
     z-index : 1;
@@ -150,7 +150,7 @@
     display : block;
     text-decoration : none;
     font-size: 16px;
-    padding : 12px 10px;
+    padding : 12px 8px;
   }
   .submenu_inner a:hover {
     font-weight: 500;
@@ -163,6 +163,7 @@
     border: 1px solid #243c84;
     justify-content: space-between;
   }
+
   .header_m {display: none;}
     
   .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 140px;}
