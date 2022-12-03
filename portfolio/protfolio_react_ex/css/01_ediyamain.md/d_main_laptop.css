@@ -73,7 +73,7 @@
     margin: auto;
     margin-left: 10px;
   }
-  .search_part > form {
+  .search_part form {
     width: auto;
     height: auto;
   }
@@ -592,7 +592,6 @@
   }
   
   .foot_main {
-    font-weight: 300;
     color: #000;
     text-align: center;
     position: relative;
