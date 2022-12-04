@@ -3,22 +3,24 @@
 /* (width:1280px ~ 1439px) / design 기준 :1280px */
 @media all and (min-width:1280px) and (max-width:1439px) {
   #wrap {width: 100%; min-width: 1280px;}
+
+  /* #headBox =================================== */
   #headBox { 
-    width:100%; height: 140px; 
+    width: 100%; min-width: 1280px;
+    height: 140px; 
     box-sizing:border-box;
-    /* background-color: #eee; */
   }
   .head_inner {
     width: 100%; max-width: 1600px; min-width: 1280px;
     height: 50%;
     margin: auto; box-sizing: border-box;
     padding: 12px;
-    background-color: #EAE1D8;
+    display: flex;
+    background-color: #fff;
   }
   h1 {
-    float: left;
-    width: 526px; height: auto;;
-    /* margin-left: 10px; */
+    width: 100%; min-width: 750px; 
+    height: auto;
     margin: auto;
   }
   h1 > button > img {
@@ -27,6 +29,7 @@
   }
 
   .unb {
+    display: flex;
     float:right;
     width:auto; height:auto;      
   }
