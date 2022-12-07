@@ -35,14 +35,40 @@
         </h1>
         <nav class="unb">
           <h2 class="blind">유틸리티네비게이션</h2>
-          <ul class="login">
+          <div class="shopping_part">
+            <a href="#">
+              <span onclick="about()">장바구니</span>
+            </a>
+          </div>
+          <div class="login_part">
+            <a href="../html/02_prototype_1280_loginPage.html">
+              <span onclick="about()">로그인</span>
+            </a>
+          </div>
+          <div class="join_part">
+            <a href="#">
+              <span onclick="about()">회원가입</span>
+            </a>
+          </div>
+          <div class="search_part">
+            <h3 class="blind">search navigation</h3>
+            <form action="." method="GET">
+              <fieldset>
+                <legend class="blind">search area</legend>
+                <label for="searchInput" class="blind">원하시는 상품을 검색하세요.</label>
+                <input type="search" id="unbsearchInput" name="search__Input" value="" placeholder="원하시는 상품을 검색하세요.">
+                <button type="button" class="search_btn">search</button>
+              </fieldset>
+            </form>
+          </div>
+          <!-- <ul class="login">
             <li>검색</li>
             <li>장바구니</li>
             <li onclick="login()"><a href="../html/02_prototype_1280_loginPage.html">로그인</a>
             </li>
             <li>회원가입</li>
             <li><button>글쓰기</button></li>
-          </ul>
+          </ul> -->
         </nav>
       </div>
       <div class="head_inner02">
@@ -317,6 +343,31 @@
       </aside>
       <footer id="footBox">
         <div class="foot_inner">
+          <div class="foot_main">
+            <h2>
+              <button onclick="home()"><img src="../img/base/ohoulogo.png" alt="오늘의집 로고"></button>
+            </h2>
+            <div class="company_info">
+              <ul>
+                <li>(주)버킷플레이스</li>
+                <li>이메일: (고객문의) cs@bucketplace.net (제휴문의) contact@bucketplace.net</li>
+                <li>대표이사: 이승재</li>
+              </ul>
+              <ul>
+                <li>서울 서초구 서초대로74길 4 삼성생명서초타워 25, 27층</li>
+              </ul>
+              <ul>
+                <li>사업자등록번호: 119-86-91245</li>
+                <li>통신판매업: 신고번호제2018-서울서초-0580호 사업자정보확인</li>
+                <li>(주)버킷플레이스는 통신판매중개자로 거래 당사자가 아니므로, 판매자가 등록한 상품정보 및 거래 등에 대해 책임을 지지 않습니다. 단, (주)버킷플레이스가 판매자로 등록 판매한 상품은 판매자로서 책임을 부담합니다.</li>
+              </ul>
+              <P>Copyright 2014. bucketplace, Co. Ltd. All rights reserved</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- <footer id="footBox">
+        <div class="foot_inner">
           <h2>사이트정보</h2>
           <ul>
             <li>
@@ -334,7 +385,7 @@
             </li>
           </ul>
         </div>
-      </footer>
+      </footer> -->
     </div>
 
     <!-- script -->
