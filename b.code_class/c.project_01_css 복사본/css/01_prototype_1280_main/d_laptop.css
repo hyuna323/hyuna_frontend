@@ -183,30 +183,123 @@
 
   #shortcutBox {
     width: 1100px;
-    height: 380px;
+    height: auto;
     box-sizing: border-box;
-    /* padding: 30px 100px; */
     background-color: #fff;
-    margin: 70px 90px;
+    margin: auto;
+    margin-top: 70px;
   }
   .shortcut_outer {
-    width: 100%; height: 380px;
+    width: 100%; height: auto;
     margin: auto;
     /* background-color: #9cf; */
   }
-  
-  .scimg {
+  .shortcut01 {
+    display: flex;
+    width: 1100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .scimg01 {
     float: left;
     width: 200px; height: 200px;
-    margin: auto;
     margin: 0 10px;
   }
-  .scimg img {
-    width: 200px; height: 180px;
+  .scimg01 img {
+    width: 200px; height: 200px;
+    vertical-align: middle;
+  }
+  .scimg02 {
+    float: left;
+    width: 200px; height: 200px;
+    margin: 0 10px;
+  }
+  .scimg02 img {
+    width: 200px; height: 200px;
+    vertical-align: middle;
+  }
+  .scimg03 {
+    float: left;
+    width: 200px; height: 200px;
+    margin: 0 10px;
+  }
+  .scimg03 img {
+    width: 200px; height: 200px;
+    vertical-align: middle;
+  }
+  .scimg04 {
+    float: left;
+    width: 200px; height: 200px;
+    margin: 0 10px;
+  }
+  .scimg04 img {
+    width: 200px; height: 200px;
+    vertical-align: middle;
+  }
+  .scimg05 {
+    float: left;
+    width: 200px; height: 200px;
+    margin-left: 10px;
+  }
+  .scimg05 img {
+    width: 200px; height: 200px;
+    vertical-align: middle;
+  }
+
+  .shortcut02 {
+    display: flex;
+    width: 1100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .scimg06 {
+    float: left;
+    width: 200px; height: 200px;
+    margin: 0 10px;
+  }
+  .scimg06 img {
+    width: 200px; height: 200px;
+    vertical-align: middle;
+  }
+  .scimg07 {
+    float: left;
+    width: 200px; height: 200px;
+    margin: 0 10px;
+  }
+  .scimg07 img {
+    width: 200px; height: 200px;
+    vertical-align: middle;
+  }
+  .scimg08 {
+    float: left;
+    width: 200px; height: 200px;
+    margin: 0 10px;
+  }
+  .scimg08 img {
+    width: 200px; height: 200px;
+    vertical-align: middle;
+  }
+  .scimg09 {
+    float: left;
+    width: 200px; height: 200px;
+    margin: 0 10px;
+  }
+  .scimg09 img {
+    width: 200px; height: 200px;
+    vertical-align: middle;
+  }
+  .scimg10 {
+    float: left;
+    width: 200px; height: 200px;
+    margin-left: 10px;
+  }
+  .scimg10 img {
+    width: 200px; height: 200px;
     vertical-align: middle;
   }
   .sctext {
-    width: 180px; height: auto;
+    width: 200px; height: 200px;
+    line-height: 200px;
     text-align: center;
     margin: auto;
     /* margin-top: 10px; */
@@ -216,7 +309,6 @@
     box-sizing: border-box;
     text-align: center;
     position: absolute;
-    margin: 70px 10px;
     /* top: 50%; */
     /* left: 50%; */
   }
@@ -388,31 +480,39 @@
 
   /* #bestBox============================== */
   #bestBox {
+    width: 1100px;
     height: 603px;
     box-sizing: border-box;
     background-color: #fff;
-    padding: 50px 100px;
+    margin: auto;
+    /* padding: 50px 100px; */
   }
-    .area_title {
-      width: 1080px; height: 20px;
-      margin: auto;
+    #bestBox h2 {
+      width: 1100px; height: auto;
       text-align: center;
+      margin: auto;
     }
     .best_inner {
+      width: 1100px; height: auto;
       float: left;
-      width: 1040px; height: 35px;
-
-      padding: 0 20px;
+      /* padding: 0 20px; */
       /* background-color: #eee; */
     }
-    .best_inner ul {
-      width: 1040px; height: auto;
-      padding: 10px 0 10px 25px;
+    .best_scroll ul {
+      display: flex;
+      width: 1100px; height: auto;
+      /* padding: 10px 0 10px 25px; */
     }
-    .best_inner li {
-      float: left;
-      width: 87px;
+    .best_scroll ul li {
+      /* float: left; */
+      width: 100px;
+      height: 50px;
+      line-height: 50px;
       text-align: center;
+    }
+    .best_scroll ul li button {
+      width: auto;
+      font-size: 19px;
     }
     .bestimg1 {
       float: left;
