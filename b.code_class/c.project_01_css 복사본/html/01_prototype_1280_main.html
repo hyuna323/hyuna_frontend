@@ -56,7 +56,7 @@
               <fieldset>
                 <legend class="blind">search area</legend>
                 <label for="searchInput" class="blind">원하시는 상품을 검색하세요.</label>
-                <input type="search" id="unbsearchInput" name="search__Input" value="" placeholder="원하시는 상품을 검색하세요.">
+                <input type="search" id="searchInput" name="search__Input" value="" placeholder="원하시는 상품을 검색하세요.">
                 <button type="button" class="search_btn">search</button>
               </fieldset>
             </form>
@@ -251,7 +251,7 @@
         <div class="bestbox_inner">
           <div class="bestbox_list">
             <ul>
-              <a href="#"></a><li><button>전체</button></li></a>
+              <li><button>전체</button></li>
               <li><button>가구</button></li>
               <li><button>패브릭</button></li>
               <li><button>조명</button></li>
@@ -306,103 +306,87 @@
             <div class="slide_list">
               <ul class="slide_item">
                 <li>
+                  <label for="slide03" class="left"></label>
+                  <label for="slide02" class="right"></label>
                   <a href="#">
                     <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/deals/166849488260285915.jpeg?gif=1&w=1280&h=1280&c=c&webp=1" alt="최신 W10pro & L10sUltra 드리미 로봇청소기 2종 (A/S무상1년)">
+                    <div class="textbox">
+                      <p><span>최신</span> W10pro & L10sUltra</p>
+                      <p>드리미 로봇청소기 2종 (A/S무상1년)</p>
+                    </div>
                   </a>
-                  <div class="textbox">
-                    <p><span>최신</span> W10pro & L10sUltra</p>
-                    <p>드리미 로봇청소기 2종 (A/S무상1년)</p>
-                  </div>
                 </li>
                 <li>
+                  <label for="slide01" class="left"></label>
+                  <label for="slide03" class="right"></label>
                   <a href="#">
                     <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/163514986043717333.jpg?gif=1&w=1280&h=1280&c=c&webp=1" alt="프롬비 인기모델! 온도설정 가능한 히터팬 전기 온풍기 온열기">
+                    <div class="textbox">
+                      <p><span>프롬비 인기모델!</span> 온도설정 가능한</p>
+                      <p>히터팬 전기 온풍기 온열기</p>
+                    </div>
                   </a>
-                  <div class="textbox">
-                    <p><span>프롬비 인기모델!</span> 온도설정 가능한</p>
-                    <p>히터팬 전기 온풍기 온열기</p>
-                  </div>
                 </li> 
                 <li>
+                  <label for="slide02" class="left"></label>
+                  <label for="slide01" class="right"></label>
                   <a href="#">
                     <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/165284165498526876.jpg?gif=1&w=1280&h=1280&c=c&webp=1" alt="[빠른배송] 자작나무 행거 옷걸이 이동식 화이트 메탈블랙 옷걸이행거 스탠드옷걸이">
+                    <div class="textbox">
+                      <p><span>[빠른배송] </span>자작나무 행거 옷걸이</p>
+                      <p>이동식 화이트 메탈블랙 옷걸이행거 스탠드옷걸이</p>
+                    </div>
                   </a>
-                  <div class="textbox">
-                    <p><span>[빠른배송] </span>자작나무 행거 옷걸이</p>
-                    <p>이동식 화이트 메탈블랙 옷걸이행거 스탠드옷걸이</p>
-                  </div>
                 </li>
-                <div class="slide_control">
-                  <div class="control01">
-                    <label for="slide04" class="left"></label>
-                    <label for="slide02" class="right"></label>
-                  </div>
-                  <div class="control02">
-                    <label for="slide01" class="left"></label>
-                    <label for="slide03" class="right"></label>
-                  </div>
-                  <div class="control03">
-                    <label for="slide02" class="left"></label>
-                    <label for="slide01" class="right"></label>
-                  </div>
-                </div>
               </ul>
             </div>
           </div>
         </div>
-        <!-- <div class="planning">
+        <div class="planning">
           <h2>오늘의 기획전</h2>
-          <div class="planingimg">
-            <input type="radio" name="slide" id="planing_slide01" checked>
-            <input type="radio" name="slide" id="planing_slide02">
-            <input type="radio" name="slide" id="planing_slide03">
-            <div class="slide_list">
-              <ul class="slide_item">
+          <div class="planing_img">
+            <input type="radio" name="plan_slide" id="plan_slide01" checked>
+            <input type="radio" name="plan_slide" id="plan_slide02">
+            <input type="radio" name="plan_slide" id="plan_slide03">
+            <div class="planslide_list">
+              <ul class="planslide_item">
                 <li>
-                  <a href="#">
-                    <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/exhibitions/cover_image/164153308831547514.png?gif=1&w=850&h=567&c=c" alt="">
+                  <label for="plan_slide03" class="plan_left"></label>
+                  <label for="plan_slide02" class="plan_right"></label>
+                  <a href="">
+                    <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/exhibitions/cover_image/167055832305924506.jpg?w=640&h=360&c=c" alt="">
+                    <div class="plantext">
+                      <p>겨울 인기템 역대급 쇼핑찬스</p>
+                      <p><span>WINTER SEASON OFF ~86%</span></p>
+                    </div>
                   </a>
-                  <div class="textbox">
-                    <p><span>최신</span> W10pro & L10sUltra</p>
-                    <p>드리미 로봇청소기 2종 (A/S무상1년)</p>
-                  </div>
                 </li>
                 <li>
-                  <a href="#">
-                    <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/exhibitions/cover_image/164155099059333166.png?gif=1&w=850&h=567&c=c" alt="">
+                  <label for="plan_slide01" class="plan_left"></label>
+                  <label for="plan_slide03" class="plan_right"></label>
+                  <a href="">
+                    <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/exhibitions/cover_image/167057563797815474.png?w=640&h=360&c=c" alt="">
+                    <div class="plantext">
+                      <p>인기 브랜드 40여개 동시세일</p>
+                      <p><span>가구 END SALE ~85%</span></p>
+                    </div>
                   </a>
-                  <div class="textbox">
-                    <p><span>프롬비 인기모델!</span> 온도설정 가능한</p>
-                    <p>히터팬 전기 온풍기 온열기</p>
-                  </div>
-                </li> 
-                <li>
-                  <a href="#">
-                    <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/exhibitions/cover_image/164147531594404790.jpg?gif=1&w=850&h=567&c=c" alt="">
-                  </a>
-                  <div class="textbox">
-                    <p><span>[빠른배송] </span>자작나무 행거 옷걸이</p>
-                    <p>이동식 화이트 메탈블랙 옷걸이행거 스탠드옷걸이</p>
-                  </div>
                 </li>
-                <div class="slide_control">
-                  <div class="control01">
-                    <label for="slide03" class="left"></label>
-                    <label for="slide02" class="right"></label>
-                  </div>
-                  <div class="control02">
-                    <label for="slide01" class="left"></label>
-                    <label for="slide03" class="right"></label>
-                  </div>
-                  <div class="control03">
-                    <label for="slide02" class="left"></label>
-                    <label for="slide01" class="right"></label>
-                  </div>
-                </div>
+                <li>
+                  <label for="plan_slide02" class="plan_left"></label>
+                  <label for="plan_slide01" class="plan_right"></label>
+                  <a href="">
+                    <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/exhibitions/cover_image/167080784741516780.jpg?w=480&h=360&c=c" alt="">
+                    <div class="plantext">
+                      <p>인기 브랜드 결산 세일</p>
+                      <p><span>가전 END SALE ~73%</span></p>
+                    </div>
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
-        </div> -->
+        </div>
       </div>
     </aside>
     <footer id="footBox">
@@ -411,6 +395,23 @@
           <h2>
             <button onclick="home()"><img src="../img/base/ohoulogo.png" alt="오늘의집 로고"></button>
           </h2>
+          <div class="cs_box">
+            <div class="cs_part">
+              <h3><button>고객센터</button></h3>
+              <div class="tel_part">
+                <address>
+                  <a href="tel:010.6481.5231">1670-0876</a>
+                </address>
+                <span>09:00 ~ 18:00</span>
+              </div>
+              <div class="inquiry_time">
+                <ul>
+                  <li>평일: 전체 문의 상담 가능</li>
+                  <li>주말, 공휴일: 오늘의집 직접배송, 이사/시공/수리 문의 상담 가능</li>
+                </ul>
+              </div>
+            </div>
+          </div>
           <div class="company_info">
             <ul>
               <li>(주)버킷플레이스</li>
@@ -428,9 +429,54 @@
             <P>Copyright 2014. bucketplace, Co. Ltd. All rights reserved</p>
           </div>
         </div>
+        <div class="footsubmenu">
+          <div class="brandsite_part">
+            <button type="button" class="brandsite_btn">
+              <span>관련사이트</span>
+            </button>
+            <ul>
+              <li>
+                <button type="button">회사소개</button>
+              </li>
+              <li>
+                <button type="button">채용정보</button>
+              </li>
+              <li>
+                <button type="button">이용약관</button>
+              </li>
+              <li>
+                <button type="button">공지사항</button>
+              </li>
+              <li>
+                <button type="button">안전거래센터</button>
+              </li>
+              <li>
+                <button type="button">입점신청</button>
+              </li>
+              <li>
+                <button type="button">제휴/광고문의</button>
+              </li>
+              <li>
+                <button type="button">사업자 구매 회원</button>
+              </li>
+              <li>
+                <button type="button">시공파트너 안내</button>
+              </li>
+              <li>
+                <button type="button">상품광고 소개</button>
+              </li>
+              <li>
+                <button type="button">고객의 소리</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="to_top">
+          <span></span>
+        </div>
       </div>
     </footer>
-    </div>
+  </div>
 
     <!-- script -->
     <script src="../js/src/01_prototype_1280_main.js"></script>

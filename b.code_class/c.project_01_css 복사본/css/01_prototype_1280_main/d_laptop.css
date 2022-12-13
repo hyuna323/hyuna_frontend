@@ -49,7 +49,7 @@
     width: auto;
     height: auto;
   }
-  #unbsearchInput {
+  #searchInput {
     width: 68.571%; min-width: 192px;
     height: 38px;
     margin: auto;
@@ -119,7 +119,8 @@
     width: auto; height: 45px;
   }
   .gnb ul {
-    width:100%; height: auto;
+    width:100%; 
+    height: auto;
     padding: 5px 15px;
     margin:auto; text-align: center;
   }
@@ -600,23 +601,20 @@
   }
   .mini_inner{
     display: flex;
-    width: 1080px; height: auto;
+    width: 1100px; height: auto;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
   }
   .deal {
     /* float: left; */
-    width: 540px; height: 100%;
+    width: 550px; height: 100%;
   }
   .deal h2 {
     width: 500px;
     text-align: center;
     margin: auto;
     margin-bottom: 50px;
-  }
-  .dealimg input[id="slide"]{
-    display: none;
   }
   .dealimg {
     /* float: left; */
@@ -628,6 +626,9 @@
   .dealimg img {
     width: 100%;
     height: 250px;
+  }
+  .dealimg input[id="slide"]{
+    display: none;
   }
   .dealimg input {display: none;}
   .slide_list {
@@ -698,13 +699,13 @@
   .dealimg [id="slide02"]:checked ~ .slide_list .slide_item li {transform: translateX(-100%);}
   .dealimg [id="slide03"]:checked ~ .slide_list .slide_item li {transform: translateX(-202%);}
   
-  .dealimg .slide_control [class*="control"] {display: none;}
+  /* .dealimg .slide_control [class*="control"] {display: none;}
   .dealimg [id="slide01"]:checked ~ .slide_list .control01 {display: block;}
   .dealimg [id="slide02"]:checked ~ .slide_list .control02 {display: block;}
-  .dealimg [id="slide03"]:checked ~ .slide_list .control03 {display: block;}
+  .dealimg [id="slide03"]:checked ~ .slide_list .control03 {display: block;} */
   
-  /* .planning {
-    width: 540px; height: 100%;
+  .planning {
+    width: 550px; height: 100%;
   }
   .planning h2 {
     width: 500px;
@@ -712,22 +713,88 @@
     margin: auto;
     margin-bottom: 50px;
   }
-  .planingimg input[id="slide"]{
-    display: none;
-  }
-  .planingimg {
+  .planing_img {
     width: 500px; 
     height: auto;
     margin: auto;
     border-radius: 10px;
   }
-  .planingimg img {
+  .planing_img img {
     width: 100%;
     height: 250px;
   }
-  .planingimg input {display: none;} */
-  
-
+  .planing_img input {display: none;}
+  .planing_img input [id="slide"]{
+    display: none;
+  }
+  .planslide_list {
+    white-space: nowrap;
+    font-size: 0;
+    overflow: hidden;
+  }
+  .planslide_item {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    transition: all .35s;
+  }
+  .planslide_item li {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    transition: all .5s;
+  }
+  .plantext {
+    width: 100%;
+    text-align: center;
+    transition:all .5s;
+    color:#000;
+  }
+  .plantext span {
+    /* text-align: center; */
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .plantext p {
+    font-size: 16px;
+    width: auto;
+    height: auto;
+  }
+  .planslide_item li a {
+    display: block;
+    position: relative;
+  }
+  .planslide_item label {
+    position: absolute;
+    z-index: 1;
+    /* top: 50%; */
+    transform: translateY(-50%);
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .plan_left {
+    left: 20px;
+    top: 130px;
+    background-color: #5f5f5f;
+    background-image: url('../../img/base/left.png');
+    background-position: center center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+  .plan_right {
+    right: 20px;
+    top: 130px;
+    background-color: #5f5f5f;
+    background-image: url('../../img/base/right.png');
+    background-position: center center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+  .planing_img [id="plan_slide01"]:checked ~ .planslide_list .planslide_item li {transform: translateX(0);}
+  .planing_img [id="plan_slide02"]:checked ~ .planslide_list .planslide_item li {transform: translateX(-100%);}
+  .planing_img [id="plan_slide03"]:checked ~ .planslide_list .planslide_item li {transform: translateX(-202%);}
 
 
   #footBox {
@@ -757,6 +824,40 @@
     margin: auto;
     display: block;
   }
+  .cs_box {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .cs_part {
+    display: flex;
+    width: 1100px;
+  }
+  .cs_part h3 {
+    width: 154px;
+    height: auto;
+  }
+  .cs_part button {
+    width: 100px;
+    height: auto;
+    text-align: left;
+  }
+  .tel_part {
+    width: 310px;
+    font-size: 18px;
+  }
+  .tel_part address {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .inquiry_time {
+    width: 638px;
+  }
+  .inquiry_time li {
+    font-size: 18px;
+  }
+
+
   .foot_main .company_info {
     width: 100%; min-width: 1098px;
     height: auto;
@@ -774,5 +875,62 @@
     margin-top: 26px;
     font-weight: 400;
     text-transform: uppercase;
+  }
+  .footsubmenu {
+    width: 180px;
+    /* display: flex; */
+    position: absolute;
+    top: 10px;
+    right: 0;
+  }
+  .brandsite_part {
+    width: 100%;
+    margin-left: 5px;
+  }
+  .brandsite_btn {
+    width: 100%; height: 42px;
+    line-height: 42px;
+    background-color: #243c84;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+  }
+  .brandsite_part ul {
+    display: none;
+    width: 100%; height: auto;
+    margin-top: 10px;
+    padding: 5px 8px;
+    border: 1px solid #262626;
+    background-color: #fff;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+  }
+  .brandsite_part ul.on {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  .to_top {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 4%;
+    z-index: 1;
+  }
+  .to_top.on {
+    display: block;
+  }
+  .to_top span {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background: url(../../img/to_top2color.svg)no-repeat center;
+    background-size: 60px;
+  }
+  .to_top span:hover {
+    background: url(../../img/to_top_fill.svg)no-repeat center;
+    background-size: 60px;
   }
 }
