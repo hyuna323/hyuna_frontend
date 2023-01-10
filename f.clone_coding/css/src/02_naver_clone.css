@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* 02_naver_clone.css */
+
+html,body {width: 100%; height: 100%;}
+#wrap {
+  width: 100%; height: auto; min-height: 100%;
+}
+#headBox {
+  width: 155px;
+  margin: auto;
+}
+.logo {
+  display: inline-block;
+  margin-top: 60px;
+  vertical-align: top;
+  background-position: 0 -51px;
+  background-repeat: no-repeat;
+  width: 155px;
+  height: 30px;
+  background-image: url(../../img/naver_iogo.png);
+  background-size: 240px 107px;
+}
+#joinBox {
+  width: 460px;
+  height: auto;
+  margin: auto;
+  margin-top: 60px;
+  border-radius: 8px;
+  background-color: #ddd;
+}
