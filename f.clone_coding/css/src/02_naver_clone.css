@@ -1,7 +1,11 @@
 @charset "UTF-8";
 /* 02_naver_clone.css */
 
-html,body {width: 100%; height: 100%;}
+html,body {
+  width: 100%;
+  height: 100%;
+  background: #f5f6f7;
+}
 #wrap {
   width: 100%; height: auto; min-height: 100%;
 }
@@ -25,6 +29,333 @@ html,body {width: 100%; height: 100%;}
   height: auto;
   margin: auto;
   margin-top: 60px;
+  padding: 20px;
   border-radius: 8px;
-  background-color: #ddd;
+  /* background-color: #eee; */
+}
+.idpart_inner {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.idpart_inner label {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+}
+.id_inner {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 51px;
+  border: solid 1px #dadada;
+  padding: 10px 110px 10px 14px;
+  background: #fff;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+.id_inner input {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.id_email {
+  position: absolute;
+  top: 16px;
+  right: 13px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #8e8e8e;
+}
+.pwpart_inner {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  display: block;
+}
+.pwpart_inner::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 45%;
+  right: 45px;
+  width: 24px;
+  height: 24px;
+  margin-top: -12px;
+  background-image: url(https://static.nid.naver.com/images/ui/join/m_icon_pw_step.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 125px 75px;
+  cursor: pointer;
+}
+.pwpart_inner label {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+}
+.pwpart_inner input {
+  width: 100%;
+  height: 51px;
+  border: solid 1px #dadada;
+  display: block;
+}
+.pwcheck_inner {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  display: block;
+}
+.pwcheck_inner::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 58.5%;
+  right: 40px;
+  width: 34px;
+  height: 24px;
+  margin-top: -12px;
+  background-image: url(https://static.nid.naver.com/images/ui/join/m_icon_pw_step.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-position-x: calc(100% - -70px);
+  background-size: 125px 75px;
+  cursor: pointer;
+}
+.pwcheck_inner label {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+}
+.pwcheck_inner input {
+  width: 100%;
+  height: 51px;
+  border: solid 1px #dadada;
+  display: block;
+}
+.namepart_inner {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  display: block;
+}
+.namepart_inner label {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  font-size: 18px;
+  font-weight: 400;
+}
+.namepart_inner input {
+  width: 100%;
+  height: 51px;
+  border: solid 1px #dadada;
+  display: block;
+}
+.agepart_inner {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  display: block;
+}
+.agepart_inner label {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+}
+.age_wrap {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.age_yy {
+  width: 135px;
+}
+.age_yy input {
+  width: 100%;
+  height: 51px;
+  border: solid 1px #dadada;
+  display: block;
+}
+.age_mm {
+  width: 135px;
+  margin-left: 10px;
+}
+.age_mm select {
+  width: 100%;
+  height: 51px;
+  padding: 10px;
+  border: solid 1px #dadada;
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+}
+.age_mm select option {
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+  font-weight: normal;
+  display: block;
+  white-space: nowrap;
+}
+.age_dd {
+  width: 130px;
+  margin-left: 10px;
+}
+.age_dd input {
+  width: 100%;
+  height: 51px;
+  border: solid 1px #dadada;
+  display: block;
+}
+.genderpart_inner {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  display: block;
+}
+.genderpart_inner label {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+}
+.genderpart_inner input {
+  width: 100%;
+  height: 51px;
+  border: solid 1px #dadada;
+  display: block;
+}
+.emailpart_inner {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  display: block;
+}
+.emailpart_inner label {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+}
+.terms_choice {
+  margin-left: 5px;
+  font-size: 14px;
+  line-height: 40px;
+  color: #8e8e8e;
+}
+.emailpart_inner input {
+  width: 100%;
+  height: 51px;
+  border: solid 1px #dadada;
+  display: block;
+}
+.phonenopart_inner {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  display: block;
+}
+.phonenopart_inner label {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+}
+.phonenopart_inner input {
+  width: 100%;
+  height: 51px;
+  border: solid 1px #dadada;
+  display: block;
+}
+/* .county_code {} */
+.county_code select {
+  width: 100%;
+  height: 51px;
+  padding: 10px;
+  border: solid 1px #dadada;
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+}
+.county_code select option {
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+  font-weight: normal;
+  display: block;
+  white-space: nowrap;
+}
+.phone_member {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  display: flex;
+}
+.phone_member input {
+  width: 295px;
+  height: 51px;
+  padding: 10px;
+  border: solid 1px #dadada;
+  display: block;
+}
+.nosend {
+  width: 115px;
+  height: 51px;
+  margin-left: 10px;
+  padding: 10px;
+  line-height: 1px;
+  text-align: center;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: #03c75a;
+}
+.nosend span {
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+}
+.autno_box {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  display: block;
+}
+.autno_box input {
+  width: 100%;
+  height: 51px;
+  padding: 10px;
+  border: solid 1px #dadada;
+  display: block;
+}
+.btn_area {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #03c75a;
+}
+/* .btn_area button {} */
+.btn_type {
+  width: 100%;
+}
+.btn_type span {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
 }
