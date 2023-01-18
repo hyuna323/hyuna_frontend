@@ -1,0 +1,159 @@
+/* 03_google_clone.css */
+
+html,body {
+  width: 100%;
+  height: 100%;
+  margin-top: 60px;
+}
+
+#wrap {
+  width: 448px;
+  height: 500px;
+  border: 1px solid #ddd;
+  border-radius: 1.5%;
+}
+#headBox {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+}
+.logo {
+  width: 70px;
+  height: 24px;
+  margin: auto;
+  margin-top: 60px;
+  display: inline-block;
+  background-image: url(../../img/google_logo.png);
+  background-repeat: no-repeat;
+  background-size: 70px 24px;
+}
+
+#loginBox {
+  width: 368px;
+  height: 382px;
+  margin: auto;
+}
+h2, h3 {
+  text-align: center;
+  font-weight: 400;
+}
+h2 {
+  width: 368px;
+  height: 48px;
+  padding-top: 16px;
+  font-size: 24px;
+}
+h3 {
+  font-size: 16px;
+  text-transform: capitalize;
+  padding-top: 8px;
+}
+
+#loginBox ul {
+  width: 100%; height: auto;
+}
+.more_content {
+  width: 100%; height: auto;
+  margin-top: 32px;
+  line-height: 1.4286;
+  font-size: 15px;
+  color: #5f6368;
+}
+#loginBox input {
+  width: 366px; height: 54px;
+  margin: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 400;
+}
+.email_finder {
+  width: 100%; height: 33px;
+  padding-top: 9px;
+  line-height: 1.4286;
+  font-size: 15px;
+}
+.email_finder a {
+  width: 135px; height: 18px;
+  position: absolute;
+  line-height: 18px;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: .25px;
+  color: #1a73e8;
+}
+.email_finder a {
+  width: 135px; height: 18px;
+  line-height: 18px;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: .25px;
+  color: #1a73e8;
+}
+.more_content a {
+  width: 135px; height: 18px;
+  line-height: 18px;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: .25px;
+  color: #1a73e8;
+}
+.bottom {
+  width: 100%;
+  margin-top: 26px;
+  display: flex;
+}
+.bottom a {
+  width: 295px; height: 48px;
+  line-height: 48px;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: .25px;
+  color: #1a73e8;
+}
+.bottom button {
+  width: 72px; height: 36px;
+  margin: auto;
+  background-color: #1a73e8;
+  border-radius: 10%;
+  font-size: 15px;
+  color: #fff;
+}
+.join {
+  width: auto;
+}
+.next_btn {
+  width: auto; height: auto;
+}
+
+#footBox {
+  width: 448px; height: auto;
+  margin: auto;
+  margin-top: 24px;
+  display: flex;
+}
+#lang {
+  width: 55px;
+  font-size: 12px;
+}
+#lang option {
+  width: 100%;
+}
+
+.bottom_right {
+  display: flex;
+  margin-left: auto;
+}
+.bottom_right a {
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #757575;
+  display: inline-block;
+  padding: 6px 16px;
+  font-size: 12px;
+  font-weight: 500;
+}

@@ -14,13 +14,13 @@ html,body {
   margin: auto;
 }
 .logo {
-  display: inline-block;
+  width: 155px;
+  height: 30px;
   margin-top: 60px;
+  display: inline-block;
   vertical-align: top;
   background-position: 0 -51px;
   background-repeat: no-repeat;
-  width: 155px;
-  height: 30px;
   background-image: url(../../img/naver_iogo.png);
   background-size: 240px 107px;
 }
