@@ -80,8 +80,8 @@ html,body {
   content: '';
   display: inline-block;
   position: absolute;
-  top: 45%;
-  right: 45px;
+  top: 40.5%;
+  right: 36%;
   width: 24px;
   height: 24px;
   margin-top: -12px;
@@ -115,8 +115,8 @@ html,body {
   content: '';
   display: inline-block;
   position: absolute;
-  top: 58.5%;
-  right: 40px;
+  top: 52.5%;
+  right: 36%;
   width: 34px;
   height: 24px;
   margin-top: -12px;
