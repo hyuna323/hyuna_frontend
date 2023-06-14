@@ -1,19 +1,17 @@
-/* b_03_scss_mixin_function.css */
-#wrap {
-  background-image: url(../../img/main/file.png);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: initial;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 3 | @import "../common/mixin";
+ *   |         ^^^^^^^^^^^^^^^^^
+ *   '
+ *   scss/src/b_03_scss_mixin_function.scss 3:9  root stylesheet */
 
-p {
-  width: 100px;
-  width: 6.25rem;
-  height: 3.125rem;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 3 \2502  @import \"../common/mixin\";\a   \2502          ^^^^^^^^^^^^^^^^^\a   \2575 \a   scss/src/b_03_scss_mixin_function.scss 3:9  root stylesheet";
 }
-
-.div1 {
-  width: 5.2083333333vw;
-}
-
-/*# sourceMappingURL=b_03_scss_mixin_function.css.map */

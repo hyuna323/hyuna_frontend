@@ -37,8 +37,7 @@
   background-color: #00f;
   margin: auto;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .area_latte {
@@ -47,8 +46,7 @@
   background-color: #0af;
   margin: auto;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .area_choco {
@@ -57,8 +55,7 @@
   background-color: #0df;
   margin: auto;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .area_vanila {
@@ -67,8 +64,7 @@
   background-color: #7af;
   margin: auto;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .area_other {
@@ -77,8 +73,7 @@
   background-color: #adf;
   margin: auto;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 #viewBox {

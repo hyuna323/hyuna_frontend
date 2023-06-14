@@ -38,9 +38,7 @@
   width: 300px;
   width: 18.75rem;
   height: 500px;
-  height: 83.3333333333vw;
+  height: 83.33333vw;
   min-height: 500px;
   min-height: 31.25rem;
 }
-
-/*# sourceMappingURL=b_03_scss_mixin_function2.css.map */
